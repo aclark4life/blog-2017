@@ -1,45 +1,28 @@
-A LAMP buildout for Wordpress and other PHP apps
+A LAMP Buildout for Wordpress and Other PHP Apps
 ================================================
 
-:date: 2009-04-21 00:23
-:tags: Plone
+.. post:: April 21, 2015
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
-A buildout for PHP?
+A Buildout for PHP?
 -------------------
 
-Having been a Plone Consultant for many years now, I find it very
-painful to deal with non-Python-based technologies and I often will go
-to great lengths to avoid it. I recently had to deploy a new PHP
-application on an older Linux server (RHEL3) and could not bring myself
-to compile the packages, search for RPMs, or do any of the mundane,
-boring tasks required; so I began to look for an alternative. Enter: the
-`LAMP buildout`_. I created and used this to deploy my client's PHP
-application. I hope others find it useful, both as an alternative way to
-deploy PHP apps, and as an example of the wide variety of things
+Having been a Plone Consultant for many years now, I find it very painful to deal with non-Python-based technologies and I often will go to great lengths to avoid it. I recently had to deploy a new PHP application on an older Linux server (RHEL3) and could not bring myself to compile the packages, search for RPMs, or do any of the mundane, boring tasks required; so I began to look for an alternative. Enter: the `LAMP buildout`_. I created and used this to deploy my client's PHP application. I hope others find it useful, both as an alternative way to deploy PHP apps, and as an example of the wide variety of things
 buildout can be used to do.
 
-It's just that simple?
+It's Just That Simple?
 ----------------------
 
-Unfortunately, this was not the blissful experience I had hoped for.
-There were some non-obvious configuration parameters that had to be
-dealt with. This was tedious and sometimes painful, but achieving the
-end result was a uniquely rewarding experience I can assure you! In
-fact, most of the problems had to do with the individual software
-components and not buildout itself, which was a pleasure to work with
-and one of the main reasons I am writing this blog entry. In a Plone
-buildout for example, in most cases, the tedious parts are handled for
-you and you just need to `add the Plone egg, run buildout, and start
-your site`_.
+Unfortunately, this was not the blissful experience I had hoped for.  There were some non-obvious configuration parameters that had to be dealt with. This was tedious and sometimes painful, but achieving the end result was a uniquely rewarding experience I can assure you! In fact, most of the problems had to do with the individual software components and not buildout itself, which was a pleasure to work with and one of the main reasons I am writing this blog entry. In a Plone buildout for example, in most cases, the tedious parts are handled for you and you just need to `add the Plone egg, run buildout, and start your site`_.
 
-Break it down
+Break It Down
 -------------
 
-Now, on to the buildout! It was developed and tested on Mac OS X 10.5
-then deployed to RHEL3. I had a small problem on RHEL3 with the GD
-imaging library so I removed it (and installed it by hand in
-/usr/local). Other than that, things went smoothly and I deployed
-several PHP apps with it just for kicks, including:
+Now, on to the Buildout. It was developed and tested on Mac OS X 10.5 then deployed to RHEL3. I had a small problem on RHEL3 with the GD imaging library so I removed it (and installed it by hand in /usr/local). Other than that, things went smoothly and I deployed several PHP apps with it just for kicks, including:
 
 -  Phorum
 -  SugarCRM
@@ -72,10 +55,7 @@ to contribute to the end result.
     #    phorum
         wordpress    supervisor
 
-Now that the parts are listed, the rest of the buildout must define
-those parts.
-
-First, we add some utilities required by this buildout.
+Now that the parts are listed, the rest of the buildout must define those parts. First, we add some utilities required by this buildout.
 
 ::
 
@@ -111,8 +91,7 @@ Next, we build the core components.
       --with-mysql=${mysql:location} 
       --enable-mbstring
 
-After that, some configuration. Read the comments below for more
-information.
+After that, some configuration. Read the comments below for more information.
 
 ::
 
@@ -197,11 +176,7 @@ And the supervisor that will control everything.
         20 apache ${apache:location}/bin/httpd [ -c "ErrorLog /dev/stdout" -DFOREGROUND 
                                                  -f ${buildout:directory}/etc/httpd.conf ]
 
-If you are interested in trying this yourself, please see:
-
-`http://svn.aclark.net/svn/public/buildout/lamp/trunk/`_
-
-and let me know how it goes!
+If you are interested in trying this yourself, please see: `http://svn.aclark.net/svn/public/buildout/lamp/trunk/`_ and let me know how it goes.
 
 .. _LAMP buildout: http://svn.aclark.net/svn/public/buildout/lamp/trunk/
 .. _add the Plone egg, run buildout, and start your site: getting-excited-about-plone-3-2
