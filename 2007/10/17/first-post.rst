@@ -1,20 +1,20 @@
 First Post
 ==========
 
-:date: 2007-10-17 08:55
-:tags: Plone
+.. post:: October 17, 2007
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
-Why? Because I can (read: `Plone`_ allows me to do so.) But also:
+Why? Because Plone allows me to do so with ease. But also:
 
--  I have been reading a lot of `Plone blogs`_ lately and they have inspired me to write my own.
+-  I have been reading a lot of Plone blogs lately and they have inspired me to write my own.
 -  I want to interact with other Plonistas.
 -  I want to get my web 2.0 **ON**.
 
-To that end, this post is about my `build tools`_ and how I love them.
-
-.. Note::
-
-    There are much better ways to accomplish what I'm doing here. I'm reminding myself this as much as the reader. So why do I continue to use them? Good question! I'll save the answer for another post, but for now you should be aware of these much better alternatives:
+To that end, this post is about my `build tools`_ and how I love them. There are much better ways to accomplish what I'm doing here. I'm reminding myself this, as much as the reader. So why do I continue to use them? Good question. I'll save the answer for another post, but for now you should be aware of these much better alternatives:
 
 -  `Buildout`_
 -  `Buildit`_
@@ -26,7 +26,7 @@ I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and really enj
 
     $ newzope test-site ProductA ProductB ProductC
 
-and having a working instance a few seconds later with Product{A,B,C} installed! Of course this requires I have a working Zope already... and that I edit Zope's skel/etc/zope.conf... but hey nothing is perfect and old habits die hard.
+and having a working instance a few seconds later with Product{A,B,C} installed. Of course this requires I have a working Zope already... and that I edit Zope's ``skel/etc/zope.conf``... but nothing is perfect and old habits die hard.
 
 .. _Plone: http://plone.org/
 .. _Plone blogs: http://planet.plone.org/
