@@ -1,8 +1,12 @@
 Plone.org upgrade update!
 ================================================================================
 
-:date: 2008-05-01 11:53
-:tags: Plone
+.. post:: 2008/05/01
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Thanks again to everyone who contributed to my travel fund. I really appreciate it and being able to work closely with Tarek Ziadé and Matthew Wilkes on PloneSoftwareCenter and PloneOrg was amazing, productive, and fun. Of course being in the company of all the sprinters was a pleasure, and thank you Christophe for the hospitality! The sprint was "successful" in that we got a lot done. See:
 

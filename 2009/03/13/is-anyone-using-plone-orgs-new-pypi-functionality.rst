@@ -1,8 +1,12 @@
 Is anyone using Plone.org&#039;s new PyPI functionality?
 ================================================================================
 
-:date: 2009-03-13 11:09
-:tags: Plone
+.. post:: 2009/03/13
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Lots of exciting things are happening with Plone.org!
 

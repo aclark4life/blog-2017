@@ -1,7 +1,7 @@
 A LAMP Buildout for Wordpress and Other PHP Apps
 ================================================
 
-.. post:: April 21, 2015
+.. post:: 2009/04/21
    :tags: plone, python
    :category: python
    :author: me

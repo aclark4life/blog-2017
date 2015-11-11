@@ -1,8 +1,12 @@
 Review of Veda Williams&#039; Plone 3 Theming
 ================================================================================
 
-:date: 2009-09-22 16:17
-:tags: Plone
+.. post:: 2009/09/22
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 First things first, I can't overstate enough how much I personally appreciate Veda's efforts to bring the (currently-and-unfortunately, but-not-for-long) complex world of Plone theming to the masses. It's an acquired taste, but once you get the hang of it you can use your powerful skills to create some very impressive sites – and make the world a better place like Veda and the crew at `Groundwire`_ are doing (formerly ONE/Northwest).
 

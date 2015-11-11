@@ -1,8 +1,12 @@
 Products.todo 0.1
 ================================================================================
 
-:date: 2008-11-13 08:07
-:tags: Plone
+.. post:: 2008/11/13
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 I needed a project to jump start my return to Plone after spending months organizing `Plone Conference 2008`_, and I had the idea that I wanted to, very quickly, see a product's development cycle through from start to finish, including:
 

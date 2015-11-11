@@ -1,8 +1,8 @@
 Technorati Post Claim, Please Ignore.
 ================================================================================
 
-:date: 2007-10-10 19:47
-:tags: Plone
+.. post:: 2007/10/10
+   :category: plone, python
 
 `Technorati Profile`_
 

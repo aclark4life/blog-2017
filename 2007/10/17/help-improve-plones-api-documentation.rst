@@ -1,8 +1,12 @@
 Help improve Plone API documentation
 ================================================================================
 
-:date: 2007-10-17 09:19
-:tags: Plone
+.. post:: 2007/10/17
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 I'm travelling from Washington, DC, USA to Mountain View, CA, USA June 26 - 29 to participate in the 2007 `Plone Doccomm Sprint`_. My main focus will be updating Plone's online API documentation (available at `http://api.plone.org`_). If you are interested in seeing this done and would like to help, please consider making a donation to help offset the cost of my airfare. In return, I will create and upload API documentation for:
 

@@ -1,8 +1,12 @@
 RE: collective.recipe.supervisor: Thank you!
 ================================================================================
 
-:date: 2008-08-10 05:24
-:tags: Plone
+.. post:: 2008/08/10
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Since I `last wrote about supervisor`_ it's become even more easy and more fun to add it to your buildout with `collective.recipe.supervisor`_. I **really** appreciate what this recipe allows me to do (because it makes my job/life so much easier) and I want to publicly thank `Mustapha Benali, Author & Hanno Schlichting, Contributor`_.
 

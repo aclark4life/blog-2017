@@ -1,8 +1,12 @@
 NASA story slashdotted!
 ================================================================================
 
-:date: 2008-04-12 06:43
-:tags: Plone
+.. post:: 2015/06/01
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Hi all,
 

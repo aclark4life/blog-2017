@@ -1,8 +1,12 @@
 Getting excited about Plone as eggs
 ================================================================================
 
-:date: 2008-12-15 12:17
-:tags: Plone
+.. post:: 2008/12/15
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Updated for 4.x
 

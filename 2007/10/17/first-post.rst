@@ -1,14 +1,14 @@
 First Post
 ==========
 
-.. post:: October 17, 2007
+.. post:: 2007/10/17
    :tags: plone, python
    :category: python
    :author: me
    :location: DC
    :language: en
 
-Why? Because Plone allows me to do so with ease. But also:
+Why? Because Plone allows me to do so. But also:
 
 -  I have been reading a lot of Plone blogs lately and they have inspired me to write my own.
 -  I want to interact with other Plonistas.

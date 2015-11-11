@@ -1,8 +1,12 @@
 ZPUGDC Meeting Tonight
 ================================================================================
 
-:date: 2008-12-02 07:22
-:tags: Plone
+.. post:: 2008/12/02
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Reblog:
 

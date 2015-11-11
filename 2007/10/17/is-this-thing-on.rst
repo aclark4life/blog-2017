@@ -1,8 +1,13 @@
 Is this thing on?
 ================================================================================
 
-:date: 2007-10-17 09:48
-:tags: Plone
+.. post:: 2007/10/17
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
+
 
 ... because it is showing up on `planet`_! Sorry about the duplicates. I have recreated my blog using Just Plone ™ (and I didn't realize syndication was turned on already ;-)) In any event, here it is!
 

@@ -1,8 +1,12 @@
 Usergroup-a-palooza
 ================================================================================
 
-:date: 2007-11-20 16:51
-:tags: Plone
+.. post:: 2007/11/20
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Today at the behest of `Tres Seaver`_ and `ZUG-SIG`_ , I updated `http://www.zope.org/Resources/UserGroups`_. Most of the information came from\ `Chris Calloway`_, I just converted it to structured text. Now it's `better than the old one`_ and should be easier for "humans" to maintain. As Chris would say, "Yay us." What I continue to find amazing is:
 

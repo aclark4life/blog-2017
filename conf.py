@@ -91,7 +91,8 @@ blog_authors = {
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
 html_sidebars = {
-    '**': [ 'about.html',
+    '**': [ 
+            'about.html',
             'postcard.html', 'navigation.html',
             'recentposts.html', 'tagcloud.html',
             'categories.html',  'archives.html',
@@ -336,5 +337,3 @@ html_static_path = ['_static']
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'AlexClarksBlogdoc'
-
-
