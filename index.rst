@@ -7,7 +7,7 @@ Welcome to Alex Clark's Blog
 ============================
 
 .. postlist::
-   :date: %m/%d/%Y
+   :date: %Y/%m/%d
 
 .. `toctree` directive, below, contains list of non-post `.rst` files.
    This is how they appear in Navigation sidebar. Note that directive
