@@ -1,8 +1,12 @@
 Plone Secrets Episode 1 Site Actions Contact Link
 =================================================
 
-:date: 2011-06-20 12:31
-:tags: Plone
+.. post:: 2011/06/20
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Today I am introducing a new category of blog entry called **Plone secrets**.
 
@@ -23,7 +27,7 @@ It "only" required the following:
 Step 1
 ------
 
--  Get the personal tools menu to show up in my site. This was accomplished via the following Diazo rule:
+- Get the personal tools menu to show up in my site. This was accomplished via the following Diazo rule:
 
 ::
 
@@ -34,8 +38,8 @@ Note also that I am using the early-supported XPath syntax, but the more friendl
 
 For the full set of Diazo rules for this site, see here:
 
--  Plone: https://github.com/ACLARKNET/aclark_net_website/blob/master/src/plonetheme.aclarknet/plonetheme/aclarknet/theme/aclarknet/rules.xml
--  Wordpress: https://github.com/ACLARKNET/aclark_net_website/blob/master/theme/blog.xml
+- Plone: https://github.com/ACLARKNET/aclark_net_website/blob/master/src/plonetheme.aclarknet/plonetheme/aclarknet/theme/aclarknet/rules.xml
+- Wordpress: https://github.com/ACLARKNET/aclark_net_website/blob/master/theme/blog.xml
 
 Step 2
 ------

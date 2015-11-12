@@ -1,8 +1,12 @@
 Adam Yauch has passed
 =====================
 
-:date: 2012-05-11 09:58
-:tags: Mozilla, Plone, Python
+.. post:: 2012/05/11
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *And why it matters to tech people, like me*
 

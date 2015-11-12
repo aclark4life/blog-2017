@@ -1,9 +1,12 @@
-
 Plone Secrets 5: The Community
 ==============================
 
-:date: 2012-10-23 11:30
-:tags: Plone
+.. post:: 2012/10/23
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 This is a **non-technical** post on the Plone community, why it's so great, how it functions, and some details that may help one understand it from the outside looking in (AKA The "secrets")
 

@@ -1,8 +1,12 @@
-
 Diazo themes revisited
 ======================
-:date: 2012-09-24 12:15
-:tags: Plone
+
+.. post:: 2012/09/24
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 With Diazo theming on the rise (going in to 4.3 core) I'd like to take a look at the Diazo theming ecosystem again. For that matter, since I know that some folks will never commit to Diazo, I'd like to take a look at the entire Plone theming ecosystem.
 

@@ -2,8 +2,12 @@
 Review of Aspeli's Professional Plone 4 Development
 ===================================================
 
-:date: 2012-10-20 19:15
-:tags: Plone
+.. post:: 2012/10/20
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *I owe PACKT a review of this book, so here it is.*
 

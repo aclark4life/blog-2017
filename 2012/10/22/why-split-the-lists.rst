@@ -1,7 +1,12 @@
 Why Split The Lists
 ===================
 
-:date: 2012-10-22 01:00
+.. post:: 2012/10/22
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Background
 ----------

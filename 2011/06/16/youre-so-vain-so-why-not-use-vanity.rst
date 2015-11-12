@@ -1,8 +1,12 @@
 You're so vain, so why not use Vanity?
 ======================================
 
-:date: 2011-06-16 12:01
-:tags: Plone, Python
+.. post:: 2011/06/16
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 A few months ago I created a package called **Vanity**\ [0] that provides easy access to package download statistics from **PyPI**. You can find the source code here: `https://github.com/aclark4life/vanity`_.
 

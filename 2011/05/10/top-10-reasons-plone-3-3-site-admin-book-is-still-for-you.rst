@@ -1,8 +1,12 @@
 Top 10 reasons Plone 3.3 Site Admin book is still for you
-================================================================================
+=========================================================
 
-:date: 2011-05-10 13:34
-:tags: Plone, Python
+.. post:: 2011/05/10
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 About a year ago, I was frantically trying to finish `Plone 3.3 Site Administration`_ in time to teach it at Plone Symposium East 2010 at Penn State University as well as publish it. I remember staying up all night to finish & submit the final drafts then driving 4 hours to Penn State, then teaching for 8 hours before I was finally able to crash (but not before consuming a large and delicious cheeseburger and a Yuengling from the `Nittany Lion Inn`_ room service, yum).
 

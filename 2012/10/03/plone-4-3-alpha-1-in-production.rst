@@ -1,7 +1,12 @@
 Plone 4-3 Alpha 1 In Production
 ===============================
-:tags: Plone
-:date: 2012-10-03 13:00
+
+.. post:: 2012/10/03
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 I love upgrading Plone. Given the choice between an afternoon in the sun and upgrading Plone… OK I'd probably pick the sun, but it'd be close.
 

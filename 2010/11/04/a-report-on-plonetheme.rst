@@ -1,7 +1,7 @@
 A report on plonetheme.*
 ========================
 
-.. post:: November 4, 2010
+.. post:: 2010/11/04
    :tags: plone, python
    :category: python
    :author: me

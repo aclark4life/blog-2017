@@ -1,5 +1,5 @@
-Review of Veda Williams&#039; Plone 3 Theming
-================================================================================
+Review of Veda Williams' Plone 3 Theming
+========================================
 
 .. post:: 2009/09/22
    :tags: plone, python

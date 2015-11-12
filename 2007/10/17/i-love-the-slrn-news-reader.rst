@@ -1,5 +1,5 @@
-I love the slrn news reader
-================================================================================
+I Love the SLRN News Reader
+===========================
 
 .. post:: 2007/10/17
    :tags: plone, python

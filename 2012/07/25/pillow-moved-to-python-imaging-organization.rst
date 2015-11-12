@@ -1,11 +1,14 @@
 Pillow moved to python-imaging organization
-================================================================================
+===========================================
 
-:date: 2012-07-25 02:19
-:tags: Plone, Python
+.. post:: 2012/07/25
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
-On 7/30/2010 Pillow, the "friendly" PIL fork, was released. Since then,
-there have been a number of releases:
+On 7/30/2010 Pillow, the "friendly" PIL fork, was released. Since then, there have been a number of releases:
 
 ::
 

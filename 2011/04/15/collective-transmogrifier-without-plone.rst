@@ -1,8 +1,12 @@
 collective.transmogrifier without Plone?
-================================================================================
+========================================
 
-:date: 2011-04-15 20:31
-:tags: Plone
+.. post:: 2011/04/15
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Yes!
 

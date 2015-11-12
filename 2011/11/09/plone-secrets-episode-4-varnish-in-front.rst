@@ -1,8 +1,12 @@
 Plone secrets: Episode 4 - Varnish in front
-================================================================================
+===========================================
 
-:date: 2011-11-09 12:50
-:tags: Plone
+.. post:: 2011/11/09
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *This just in from the production department: use Varnish. (And please forgive the heavily meme-laden approach to describing these techniques :-).)*
 

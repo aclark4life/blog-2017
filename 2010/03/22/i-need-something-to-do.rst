@@ -1,8 +1,12 @@
 I need something to do
-================================================================================
+======================
 
-:date: 2010-03-22 17:06
-:tags: Plone
+.. post:: 2010/03/22
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 I would like to think I have done `my`_ `share`_ for Plone over the past few years. In return, I know that Plone has done its share for me. I have learned a lot, made a good living, and met a lot of amazing folks who have really inspired me to be the best I can be.
 

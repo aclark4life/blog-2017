@@ -1,8 +1,12 @@
 Vagrant, Puppet and Mozilla, oh my!
-================================================================================
+===================================
 
-:date: 2011-10-03 17:25
-:tags: Mozilla, Plone, Python
+.. post:: 2011/10/03
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *Warning: This post is only loosely Python related and not at all Plone related, but I thought folks might enjoy hearing about Vagrant and Puppet because these tools may help you do your Plone and Python jobs better.*
 

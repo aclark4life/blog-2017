@@ -1,8 +1,12 @@
 Mozilla and PyPI
-================================================================================
+================
 
-:date: 2011-09-22 12:03
-:tags: Plone, Python
+.. post:: 2011/09/22
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 The `last time I wrote about PyPI`_ some folks mistook the subject to be `PyPy`_, so let me be clear: this article is about the `Python Packaging Index`_.
 

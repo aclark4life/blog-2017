@@ -1,8 +1,12 @@
 New Year's Python Meme 2011
-================================================================================
+===========================
 
-:date: 2011-12-21 13:11
-:tags: Mozilla, Plone, Python
+.. post:: 2011/11/21
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 My response to `http://blog.ziade.org/2011/12/20/new-year039s-python-meme-2011/`_.
 

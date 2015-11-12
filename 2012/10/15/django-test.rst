@@ -1,8 +1,12 @@
 Hello, Django!
 ==============
 
-:date: 2012-10-15 18:40
-:tags: Django
+.. post:: 2012/10/15
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Test post
 ---------

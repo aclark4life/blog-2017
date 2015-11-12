@@ -1,8 +1,12 @@
 Pillow 1-7-8
 ============
 
-:date: 2012-11-02 11:00
-:tags: Python
+.. post:: 2012/11/02
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *Pillow is the "friendly" PIL fork. Initially just a packaging fork, now considering image code bug fixes and Python 3 support. To be friendly, we attempt to track changes against upstream tickets in PIL.*
 

@@ -1,8 +1,12 @@
 "New" Plone theming has arrived
-================================================================================
+===============================
 
-:date: 2011-05-27 17:00
-:tags: Plone
+.. post:: 2011/05/27
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 **Edit2:**\ Enfold/Ploud.net looking for theme developers, see Alan Runyan's comment below.
 

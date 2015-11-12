@@ -1,30 +1,21 @@
 Plone Conference 2008 (!) is a wrap
-================================================================================
+===================================
 
-:date: 2011-05-03 20:00
-:tags: Plone
+.. post:: 2011/05/03
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
-Embarrassingly, I have yet to finish my obligations to the life-changing
-`Plone Conference 2008`_ until NOW: approximately 2 years, 6 months, and
-23 days after the end of the post-conference sprint.
+Embarrassingly, I have yet to finish my obligations to the life-changing `Plone Conference 2008`_ until NOW: approximately 2 years, 6 months, and 23 days after the end of the post-conference sprint.
 
 The story
 ---------
 
-We had some trouble with the video company and I had to hunt them down
-to get copies of missing talks. We still didn't get everything, but this
-is the last of what we did get. I got these missing DVDs about a year
-ago, and since then I've been trying to find the time to upload them to
-`blip.tv`_. Invariably, I got stuck on some aspect of the conversion
-process so I decided to "give up" and just upload the ripped copies to
-`dist.plone.org`_.
+We had some trouble with the video company and I had to hunt them down to get copies of missing talks. We still didn't get everything, but this is the last of what we did get. I got these missing DVDs about a year ago, and since then I've been trying to find the time to upload them to `blip.tv`_. Invariably, I got stuck on some aspect of the conversion process so I decided to "give up" and just upload the ripped copies to `dist.plone.org`_.
 
-As such, if anyone in the community has the time and expertise to
-convert these to Quicktime format, I would greatly appreciate it, and I
-would be happy to upload the results to blip.tv (this is how we did it
-the first time if I recall correctly.) Until then, they have at least
-reached their final resting place, and folks can get access to them if
-they are interested, here:
+As such, if anyone in the community has the time and expertise to convert these to Quicktime format, I would greatly appreciate it, and I would be happy to upload the results to blip.tv (this is how we did it the first time if I recall correctly.) Until then, they have at least reached their final resting place, and folks can get access to them if they are interested, here:
 
 -  `WebLion: Bringing Open Sources Practices to the Educational
    Enterprise`_
@@ -36,16 +27,11 @@ they are interested, here:
 -  `Relational database applications with Plone and SQLAlchemy`_
 -  `Reaching Deployment Nirvana Using Buildout`_
 
-Remarkably, some of these newly added videos are *still* relevant
-**and** enjoyable to watch, as are many of the ones already available in
-the easily browsable `archive`_.
+Remarkably, some of these newly added videos are *still* relevant **and** enjoyable to watch, as are many of the ones already available in the easily browsable `archive`_.
 
-My sincerest apologies to the community and especially to those whose
-videos were amongst this group for the delay, you should not have had to
-wait 2 days let alone over 2 years!
+My sincerest apologies to the community and especially to those whose videos were amongst this group for the delay, you should not have had to wait 2 days let alone over 2 years!
 
-Thus, I now declare `Plone Conference 2008`_ to be wrapped. Thanks to
-Sean Kelly for the `help transferring the video`_ to plone.org.
+Thus, I now declare `Plone Conference 2008`_ to be wrapped. Thanks to Sean Kelly for the `help transferring the video`_ to plone.org.
 
 .. _Plone Conference 2008: http://plone.org/2008
 .. _blip.tv: http://zpugdc.blip.tv/

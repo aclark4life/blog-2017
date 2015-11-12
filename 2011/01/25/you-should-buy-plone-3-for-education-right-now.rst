@@ -1,8 +1,12 @@
-You should buy &quot;Plone 3 for Education&quot; right now
-================================================================================
+You should buy "Plone 3 for Education" right now
+================================================
 
-:date: 2011-01-25 13:11
-:tags: Plone
+.. post:: 2011/01/25
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *With what must be the fifth or sixth round of apologies to both Erik Rose and PACKT publishing for the delay (very sorry guys), here is my review! Better late than never.*
 

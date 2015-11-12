@@ -1,8 +1,12 @@
 Introducing pythonpackages.com
-================================================================================
+==============================
 
-:date: 2011-11-29 02:24
-:tags: Python
+.. post:: 2011/11/29
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 The website for Python egoists™
 -------------------------------

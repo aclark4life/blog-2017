@@ -1,8 +1,12 @@
 New vanity release
-================================================================================
+==================
 
-:date: 2012-01-30 09:52
-:tags: Plone, Python
+.. post:: 2012/01/30
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 With all the Python `stats`_ `goodness`_ going on recently, I got inspired to make a new `vanity`_ release. This release features the ability to display per package download statistics via the \`-v\` or \`--verbose\` command line argument.
 

@@ -1,5 +1,5 @@
-Help improve Plone API documentation
-================================================================================
+Help Improve Plone API Documentation
+====================================
 
 .. post:: 2007/10/17
    :tags: plone, python

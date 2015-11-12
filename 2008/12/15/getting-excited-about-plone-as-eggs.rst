@@ -1,5 +1,5 @@
-Getting excited about Plone as eggs
-================================================================================
+Getting Excited About Plone as Eggs
+===================================
 
 .. post:: 2008/12/15
    :tags: plone, python

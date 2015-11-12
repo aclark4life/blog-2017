@@ -1,8 +1,12 @@
 The Zen of Zope, by Alex Clark
 ==============================
 
-:date: 2012-12-09 18:00
-:tags: Plone, Python
+.. post:: 2012/12/09
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 ::
 

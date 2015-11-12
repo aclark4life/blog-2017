@@ -1,7 +1,12 @@
 Looking for projects
 ====================
-:date: 2012-10-04 10:30
-:tags: Plone, Python, Mozilla
+
+.. post:: 2012/10/04
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/use_python.jpg
     :alt: alternate text

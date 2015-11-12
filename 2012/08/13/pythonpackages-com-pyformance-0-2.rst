@@ -1,11 +1,14 @@
 pythonpackages.com: pyformance 0.2
-================================================================================
+==================================
 
-:date: 2012-08-13 13:15
-:tags: Python
+.. post:: 2012/08/13
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
-*pythonpackages.com helps Python programmers package and release their
-software with just a few clicks.*
+*pythonpackages.com helps Python programmers package and release their software with just a few clicks.*
 
 pyformance 0.2
 --------------------------------------------------------------------------------

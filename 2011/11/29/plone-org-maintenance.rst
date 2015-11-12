@@ -1,8 +1,12 @@
 Plone.org maintenance
-================================================================================
+=====================
 
-:date: 2011-11-29 00:54
-:tags: Plone
+.. post:: 2011/11/29
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Plans
 -----

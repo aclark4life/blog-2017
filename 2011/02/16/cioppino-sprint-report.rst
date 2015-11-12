@@ -1,8 +1,12 @@
 Cioppino Sprint Report
-================================================================================
+======================
 
-:date: 2011-02-16 09:04
-:tags: Plone
+.. post:: 2011/02/16
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 The `Cioppino Sprint`_ was recently held in Bodega Bay, CA. It was a `beautiful location`_ for a gathering of awesome Plone folks; and much was accomplished. Unfortunately on the second morning of the sprint, we were all deeply saddened to hear about the passing of Dorneles Treméa.
 

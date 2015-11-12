@@ -1,8 +1,12 @@
 Plone Guide
 ===========
 
-:date: 2012-11-23 8:30
-:tags: Plone, Python
+.. post:: 2012/11/23
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Who
 ---

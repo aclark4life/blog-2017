@@ -1,8 +1,12 @@
 New Year's Python Meme 2012
-================================================================================
+===========================
 
-:date: 2012-12-29 15:30
-:tags: Django, Mozilla, Plone, Python
+.. post:: 2012/12/29
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/tarek-meme-reminder.png
     :alt: alternate text

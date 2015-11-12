@@ -1,8 +1,12 @@
 Building Windows Installers In The Cloud
-================================================================================
+========================================
 
-:date: 2012-08-01 22:19
-:tags: Mozilla, Plone, Python
+.. post:: 2012/08/01
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 With pythonpackages.com, I want to solve real problems for people today. So here's a proof of concept for building Windows installers quickly and easily "in the cloud" (i.e. without a Windows machine local). This article is mostly about the back end, as the front end is `already documented`_. 
 

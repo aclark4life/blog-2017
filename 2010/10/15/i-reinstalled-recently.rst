@@ -1,8 +1,12 @@
 I reinstalled recently
-================================================================================
+======================
 
-:date: 2010-10-15 11:42
-:tags: Plone
+.. post:: 2010/10/15
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 And for whatever it is worth to anyone, here are the notes I took (for
 the first time ever, when doing a reinstall):
