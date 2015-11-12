@@ -82,7 +82,9 @@ You should see something like:
 
     [aclark@alex-clarks-macbook-pro]~/Developer/plone% bin/paster serve etc/zope2.ini
     2009-06-18 22:52:24 INFO Marshall libxml2-python not available. Unable to register libxml2 based marshallers.
-    2009-06-18 22:52:27 WARNING ZODB.FileStorage Ignoring index for /Users/aclark/Developer/p3-repoze-2/var/Data.fsDeprecationWarning: zope.app.annotation has moved to zope.annotation. Import of zope.app.annotation will become
+    2009-06-18 22:52:27 WARNING ZODB.FileStorage Ignoring index for
+    /Users/aclark/Developer/p3-repoze-2/var/Data.fsDeprecationWarning: zope.app.annotation has moved to
+    zope.annotation. Import of zope.app.annotation will become
     unsupported in Zope 3.5
     /Users/aclark/Developer/plone/eggs/zopelib-2.10.7.0-py2.4-macosx-10.5-i386.egg/zope/configuration/xmlconfig.py:323:
       __import__(arguments[0])

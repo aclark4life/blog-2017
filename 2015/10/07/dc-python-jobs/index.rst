@@ -51,7 +51,8 @@ Instructions
 
     Hi DC Python,
 
-    My name is Alex Clark and I am the President of ACLARK.NET, LLC: the most awesome Python shop in Washington, DC, USA. I am interested in hiring a Python web developer to fill an awesome position working directly for me:
+    My name is Alex Clark and I am the President of ACLARK.NET, LLC: the most awesome Python shop in Washington, DC, USA.
+    I am interested in hiring a Python web developer to fill an awesome position working directly for me:
 
         - http://www.meetup.com/DCPython/messages/boards/thread/41146492
 
