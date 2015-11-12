@@ -2,16 +2,8 @@ Blood, sweat, tears… and a new Plone book!
 ================================================================================
 
 .. post:: 2010/03/30
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
-Well, no blood yet. But certainly sweat and tears! If `Plone Conference
-2006`_ was my inspiration for `Plone Conference 2008`_, then
-`Professional Plone Development`_ was my inspiration for this book:
-`Plone 3.3 Site Administration`_.
+Well, no blood yet. But certainly sweat and tears! If `Plone Conference 2006`_ was my inspiration for `Plone Conference 2008`_, then `Professional Plone Development`_ was my inspiration for this book: `Plone 3.3 Site Administration`_.
 
 For the past 14 months or so, I have been writing a book aimed at end users of Plone; folks that have little knowledge of how to do much more than add content. It is intended to make them feel more comfortable performing various site administrator tasks. Topics like theming, maintenance, and optimization are covered.
 

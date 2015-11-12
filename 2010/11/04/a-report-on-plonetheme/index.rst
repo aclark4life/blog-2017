@@ -2,11 +2,6 @@ A report on plonetheme.*
 ========================
 
 .. post:: 2010/11/04
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 By now, most of us are familiar with XDV and how awesome it is for theming Plone (or any website). You should also be aware that XDV has been renamed to **Diazo**, and collective.xdv is now called **plone.app.theming**. But let us not forget the humble "old style" theme just yet! Sometimes they come in very handy, and may even be preferable in some cases depending on what you are trying to accomplish. I just gave **plonetheme**.\* a quick spin and thought I'd share the process and results with anyone that might find it useful.
 

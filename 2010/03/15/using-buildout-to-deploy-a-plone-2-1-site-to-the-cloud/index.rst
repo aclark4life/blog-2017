@@ -2,11 +2,6 @@ Using Buildout to deploy a Plone 2.1 site to the cloud
 ======================================================
 
 .. post:: 2010/03/15
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Believe it or not, there are still Plone 2.1 sites in production. (And 1.0 sites too, for that matter. Just look for the tell-tale '/help' sign, e.g. `http://www.zope.org/help`_, if you suspect Plone 1).
 
