@@ -84,8 +84,9 @@ blog_authors = {'Alex Clark': ('Alex Clark', None), }
 html_sidebars = {
     '**': [
         'postcard.html', 
-        'recentposts.html', 'tagcloud.html',
-        'categories.html',  'archives.html',
+        'recentposts.html',
+        'categories.html',
+        'archives.html',
         'searchbox.html',
     ],
 }
