@@ -343,7 +343,7 @@ html_theme_options = {
     # 'navbar_title': "Demo",
 
     # Tab name for entire site. (Default: "Site")
-    'navbar_site_name': "Sitemap",
+    'navbar_site_name': "Pages",
 
     # A list of tuples containing pages or urls to link to.
     # Valid tuples should be in the following forms:
@@ -353,8 +353,7 @@ html_theme_options = {
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        #    ("Examples", "examples"),
-        #    ("Link", "http://example.com", True),
+        ("RSS", "/blog/atom.xml"),
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
