@@ -14,7 +14,17 @@ Normally, this bit of code returns the section id for whatever section you are i
 
 ::
 
-    # Courtesy of jonb at onenw.org# getSectionFromURLcontentPath = context.portal_url.getRelativeContentPath(context)if not contentPath:    return Noneelse:    s = ''    sectionId = ''    for pathItem in contentPath:        sectionId += pathItem + '-'        s += 'section-' + sectionId[:-1] + ' '    return s[:-1]
+    # Courtesy of jonb at onenw.org
+    # getSectionFromURLcontentPath = context.portal_url.getRelativeContentPath(context)
+    if not contentPath:
+        return None
+    else:
+        s = ''
+        sectionId = ''
+        for pathItem in contentPath:
+            sectionId += pathItem + '-'
+            s += 'section-' + sectionId[:-1] + ' '
+            return s[:-1]
 
 2. Override plone.logo (navigate to /portal\_view\_customizations/zope.interface.interface-plone.logo and customize)
 --------------------------------------------------------------------------------------------------------------------
