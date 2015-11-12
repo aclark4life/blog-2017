@@ -41,13 +41,14 @@ Plone ships with:
 
 ::
 
-    <a metal:define-macro="portal_logo"   id="portal-logo"   accesskey="1"   tal:attributes="href view/navigation_root_url"   i18n:domain="plone">    <img src="logo.jpg" alt=""         tal:replace="structure view/logo_tag" /></a>
+    <a metal:define-macro="portal_logo" id="portal-logo" accesskey="1" tal:attributes="href view/navigation_root_url" i18n:domain="plone">
+        <img src="logo.jpg" alt="" tal:replace="structure view/logo_tag" /></a>
 
 Replace that with:
 
 ::
 
-    <div metal:define-macro="portal_logo" id="portal-logo">    <a accesskey="1"       tal:attributes="href view/navigation_root_url"       i18n:domain="plone"></a></div>
+    <div metal:define-macro="portal_logo" id="portal-logo"><a accesskey="1" tal:attributes="href view/navigation_root_url" i18n:domain="plone"></a></div>
 
 3. Add CSS (Navigate to /portal\_skins/plone\_styles/ploneCustom.css and customize)
 -----------------------------------------------------------------------------------
