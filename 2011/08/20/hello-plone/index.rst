@@ -2,11 +2,6 @@ Hello Plone
 ===========
 
 .. post:: 2011/08/20
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 This is a Plone "Hello, World!" style tutorial/application for Python programmers. See https://github.com/aclark4life/hello_plone for more.
 

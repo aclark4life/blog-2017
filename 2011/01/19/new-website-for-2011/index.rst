@@ -2,11 +2,6 @@ New website for 2011!
 =====================
 
 .. post:: 2011/01/19
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Edit: In addition to "cool overlays", I added a couple Plone-core todo items (that I may like to PLIP/implement)
 

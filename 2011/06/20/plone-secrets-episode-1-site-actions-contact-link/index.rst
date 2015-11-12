@@ -2,11 +2,6 @@ Plone Secrets Episode 1 Site Actions Contact Link
 =================================================
 
 .. post:: 2011/06/20
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Today I am introducing a new category of blog entry called **Plone secrets**.
 

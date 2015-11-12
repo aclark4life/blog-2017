@@ -2,11 +2,6 @@
 ===============================
 
 .. post:: 2011/05/27
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 **Edit2:**\ Enfold/Ploud.net looking for theme developers, see Alan Runyan's comment below.
 

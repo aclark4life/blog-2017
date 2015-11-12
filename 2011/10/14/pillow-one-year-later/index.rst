@@ -2,11 +2,6 @@ Pillow: one year later
 ======================
 
 .. post:: 2011/10/14
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *For anyone unfamiliar with Pillow, it is the "friendly PIL fork": a fork of PIL that aims to remain a good citizen in the PIL community through its actions.*
 

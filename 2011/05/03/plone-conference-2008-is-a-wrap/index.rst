@@ -2,11 +2,6 @@ Plone Conference 2008 (!) is a wrap
 ===================================
 
 .. post:: 2011/05/03
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Embarrassingly, I have yet to finish my obligations to the life-changing `Plone Conference 2008`_ until NOW: approximately 2 years, 6 months, and 23 days after the end of the post-conference sprint.
 

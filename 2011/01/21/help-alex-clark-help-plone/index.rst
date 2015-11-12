@@ -2,11 +2,6 @@ Help Alex Clark help Plone
 ==========================
 
 .. post:: 2011/01/21
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 It's been a few years since I last attended a Plone sprint. And that is by no means for lack of desire. I fantasize about spending a year attending every Plone (and Python) related event on the planet, but I've got a ways to go before I can make that dream a reality.
 

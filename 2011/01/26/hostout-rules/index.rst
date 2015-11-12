@@ -2,11 +2,6 @@ Hostout rules
 =============
 
 .. post:: 2011/01/26
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *As in "dominates", not a "list of rules" :-)*
 
