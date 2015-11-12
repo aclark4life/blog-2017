@@ -1,8 +1,12 @@
 Pillow 2.2.1 Released
 =====================
 
-:date: 2013-10-03 08:00
-:tags: Django, Python, Plone
+.. post:: 2013/10/03
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *Pillow is the "friendly" PIL fork. PIL is the Python Imaging Library.*
 

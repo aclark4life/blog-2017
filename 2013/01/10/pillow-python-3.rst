@@ -1,8 +1,12 @@
 Pillow Python 3
 ===============
 
-:date: 2013-1-10 12:15
-:tags: Python
+.. post:: 2013/01/10
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 PIL is on its way to **Python 3** via Pillow. Support from Brian Crowell and others has been merged into master here:
 

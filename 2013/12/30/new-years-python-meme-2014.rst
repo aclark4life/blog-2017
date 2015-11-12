@@ -1,8 +1,12 @@
 New Year's Python Meme 2014
 ===========================
 
-:date: 2013-12-30 14:30
-:tags: Django, Mozilla, Plone, Python
+.. post:: 2013/12/30
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 **Tarek Ziadé's New Year's Python Meme**
 

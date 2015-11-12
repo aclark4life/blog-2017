@@ -1,8 +1,12 @@
 Please Help Me Do Open Source Work
 ==================================
 
-:date: 2013-01-31 13:00
-:tags: Django, Mozilla, Plone, Python
+.. post:: 2013/01/31
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *From my 'mid-life-crisis' series of blog entries :-)*
 

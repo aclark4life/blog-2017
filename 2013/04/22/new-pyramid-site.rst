@@ -1,8 +1,12 @@
 New Pyramid Site
 ================
 
-:date: 2013-04-22 12:00
-:tags: Django, Mozilla, Plone, Python
+.. post:: 2013/04/22
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 .. image:: https://raw.github.com/ACLARKNET/aclarknet/master/screenshot.png
     :width: 98%

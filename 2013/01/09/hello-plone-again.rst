@@ -1,8 +1,12 @@
 Hello Plone Again
 =================
 
-:date: 2013-01-09 15:30
-:tags: Plone
+.. post:: 2013/01/09
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Regarding my recent "Goodbye Plone" post:
 

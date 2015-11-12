@@ -1,8 +1,12 @@
 What's new as of Plock 0-1-2?
 =============================
 
-:date: 2013-07-29 22:00
-:tags: Plone, Python
+.. post:: 2013/07/29
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *Plock is a Plone Installer for the Pip-Loving Crowd*
 

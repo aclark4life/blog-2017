@@ -1,8 +1,12 @@
 Python 3 Porting
 ================
 
-:date: 2013-01-10 19:15
-:tags: Django, Mozilla, Plone, Python
+.. post:: 2013/01/10
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *The 3 in 2013 is for Python 3*
 
