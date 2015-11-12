@@ -343,7 +343,7 @@ Customize templates
 
 As you may have noticed above I use ``z3c.jbot`` to customize various Plone templates.
 
-.. image:: images/custom-templates.png
+.. image:: /images/custom-templates.png
     :alt: alternate text
 
 Add content
