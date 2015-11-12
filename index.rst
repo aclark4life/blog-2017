@@ -3,6 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Welcome to Alex Clark's Blog
+============================
+
 .. postlist::
 
 .. `toctree` directive, below, contains list of non-post `.rst` files.
