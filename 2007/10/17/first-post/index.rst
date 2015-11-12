@@ -3,6 +3,8 @@ First Post
 
 .. post:: 2007/10/17
 
+**I have decided to start a blog!**
+
 Why? Because Plone allows me to do so. But also:
 
 -  I have been reading a lot of Plone blogs lately and they have inspired me to write my own.
