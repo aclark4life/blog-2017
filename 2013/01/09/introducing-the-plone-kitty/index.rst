@@ -16,6 +16,7 @@ Enter: Plone. Both the web and Plone have changed drastically since The Plone Ki
 
 From the `Plone Kitty website <http://plone-1-fun.herokuapp.com>`_ (now running on Heroku!)::
 
-    If you used Plone "back in the day" (early 2000s), please add a comment below about your experiences then. If you are new to Plone or just curious about it now, please add a comment below about your initial impressions.
+    If you used Plone "back in the day" (early 2000s), please add a comment below about your experiences then. If you are new to Plone or just curious
+    about it now, please add a comment below about your initial impressions.
 
 So if you'd like to add **your bit of nostalgia**, or first impressions of Plone, `please do so here <http://plone-1-fun.herokuapp.com/#disqus>`_. I appreciate any and all comments.
