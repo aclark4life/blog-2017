@@ -38,7 +38,7 @@ One of the biggest attractions to using Plone is all the work on your new web pr
 
     $ plock -l
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/plock-list-addons.png
+.. image:: /images/plock-list-addons.png
     :alt: alternate text
     :width: 95%
     :align: center
