@@ -343,7 +343,7 @@ html_theme_options = {
     # 'navbar_title': "Demo",
 
     # Tab name for entire site. (Default: "Site")
-    # 'navbar_site_name': "Site",
+    'navbar_site_name': "Sitemap",
 
     # A list of tuples containing pages or urls to link to.
     # Valid tuples should be in the following forms:
@@ -389,7 +389,7 @@ html_theme_options = {
 
     # Location of link to source.
     # Options are "nav" (default), "footer" or anything else to exclude.
-    'source_link_position': "nav",
+    'source_link_position': "footer",
 
     # Bootswatch (http://bootswatch.com/) theme.
     #
