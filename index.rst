@@ -9,7 +9,9 @@ Welcome to Alex Clark's Blog
 Recent Posts
 ------------
 
-.. postlist:: 3
+.. postlist::
+    :excerpts:
+    :list-style: circle
 
 .. `toctree` directive, below, contains list of non-post `.rst` files.
    This is how they appear in Navigation sidebar. Note that directive
