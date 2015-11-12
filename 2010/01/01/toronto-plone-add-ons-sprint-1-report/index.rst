@@ -2,11 +2,6 @@ Toronto Plone Add-ons Sprint #1 Report
 ======================================
 
 .. post:: 2010/01/01
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Last month, members of the `Toronto Plone user's group`_ helped with Plone.org maintenance. Here is the sprint "report out" from Jordan Baker:
 
