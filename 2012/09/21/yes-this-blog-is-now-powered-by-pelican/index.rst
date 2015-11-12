@@ -1,5 +1,5 @@
-Yes, this blog is now powered by Pelican
-================================================================================
+Yup, this blog is now powered by Pelican
+========================================
 
 .. post:: 2012/09/21
 
