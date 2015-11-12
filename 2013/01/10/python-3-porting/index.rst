@@ -2,11 +2,6 @@ Python 3 Porting
 ================
 
 .. post:: 2013/01/10
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *The 3 in 2013 is for Python 3*
 

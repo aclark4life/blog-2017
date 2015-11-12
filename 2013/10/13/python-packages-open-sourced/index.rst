@@ -2,11 +2,6 @@ Python Packages Open Sourced
 ============================
 
 .. post:: 2013/10/13
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Today I am open sourcing the code that ran pythonpackages.com from late 2011 to late 2012. You can find it here:
 

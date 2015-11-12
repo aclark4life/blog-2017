@@ -2,11 +2,6 @@ The Story of Pillow
 ===================
 
 .. post:: 2013/03/15
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 On March 4, 2013 I got an email from the Python Software Foundation (PSF):
 

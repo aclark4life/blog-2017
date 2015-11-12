@@ -2,11 +2,6 @@ Built with Plone, Powered by GitHub Pages
 =========================================
 
 .. post:: 2013/02/23
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Is Plone the next great static website generator? Probably not, but it definitely could be
 

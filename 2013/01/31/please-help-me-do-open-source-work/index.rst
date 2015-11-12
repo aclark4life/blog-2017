@@ -2,11 +2,6 @@ Please Help Me Do Open Source Work
 ==================================
 
 .. post:: 2013/01/31
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *From my 'mid-life-crisis' series of blog entries :-)*
 

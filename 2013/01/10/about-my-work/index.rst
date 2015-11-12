@@ -2,11 +2,6 @@ About My Work
 =============
 
 .. post:: 2013/01/10
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Regarding some of the criticism or objection to some of the content of my blog entries, etc., here are my thoughts:
 

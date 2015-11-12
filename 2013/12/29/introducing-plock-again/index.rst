@@ -2,11 +2,6 @@ Introducing Plock Again
 =======================
 
 .. post:: 2013/12/29
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 A few months ago I introduced **Plock: the Plone-installer for the Pip-loving crowd**. Then I got sidetracked with the next version of Plock lingering unreleased in master. With the holidays underway I had a chance to revisit Plock and discovered a few things:
 

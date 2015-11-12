@@ -2,11 +2,6 @@ Introducing The Plone Kitty
 ===========================
 
 .. post:: 2013/01/09
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *Actually: re-introducing the Plone Kitty from Plone 1!*
 

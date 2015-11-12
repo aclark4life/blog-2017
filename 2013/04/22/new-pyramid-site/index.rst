@@ -2,11 +2,6 @@ New Pyramid Site
 ================
 
 .. post:: 2013/04/22
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: https://raw.github.com/ACLARKNET/aclarknet/master/screenshot.png
     :width: 98%

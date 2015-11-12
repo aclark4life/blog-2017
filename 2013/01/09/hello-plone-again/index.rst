@@ -2,11 +2,6 @@ Hello Plone Again
 =================
 
 .. post:: 2013/01/09
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Regarding my recent "Goodbye Plone" post:
 

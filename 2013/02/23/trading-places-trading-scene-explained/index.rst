@@ -2,11 +2,6 @@ Trading Places Trading Scene Explained
 ======================================
 
 .. post:: 2013/02/23
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Every time I watch the movie `Trading Places <http://www.imdb.com/title/tt0086465>`_, I have to search the internet for an explanation of the climactic commodities trading scene. It usually takes me about 20 minutes to (re-)understand it, then another 10 minutes to explain it to my wife. Although there are `plenty <http://www.wisebread.com/explaining-the-climax-scene-of-trading-places>`_ `of <http://www.popmodal.com/video/1277/Trading-Places-Final-Exchange-Scene-amp-Explanation>`_ `great <http://www.dangerouslogic.com/trading_places.html>`_ `answers <http://justurbanism.com/2011/03/26/how_the_trading_places_final_scene_works/>`_ available, none of them really "speak" to me; so I decided to write my own. The goal for me is to be able to (re-)read my explanation and understand it enough to explain to someone else in less than 5 minutes.
 

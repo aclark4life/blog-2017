@@ -2,11 +2,6 @@ I love checkoutmanager and dotfiles
 ===================================
 
 .. post:: 2013/02/08
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *An ode to my OS X development workstation setup* [1]_
 
