@@ -1,8 +1,12 @@
 Pillow 2-9-0 Is Almost Out
 ==========================
 
-:date: Sun Jun 28 20:01:47 EDT 2015
-:tags: Mozilla, Plone, Python
+.. post:: 2015/06/28
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *Pillow 2.9.0 will be released on July 1, 2015.*
 

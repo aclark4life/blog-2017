@@ -1,8 +1,12 @@
 Plone on Heroku
 ===============
 
-:date: Sat Jun 27 19:09:24 EDT 2015
-:tags: Plone, Python
+.. post:: 2015/06/27
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *Dear Plone, welcome to 2015*
 

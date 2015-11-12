@@ -1,8 +1,12 @@
 DC Python Jobs 
 ==============
 
-:date: Wed Oct  7 16:55:36 EDT 2015
-:tags: python
+.. post:: 2015/10/07
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *This information may eventually live within the DC Python corpus, but for now I prefer to post-it-now-move-it-later.*
 

@@ -1,8 +1,12 @@
 Plock 0-5-0 is out
 ==================
 
-:date: Sat Oct 10 07:57:05 EDT 2015
-:tags: plone, python
+.. post:: 2015/10/10
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 *Pip installs Plock. Plock installs Plone.*
 

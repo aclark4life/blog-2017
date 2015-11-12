@@ -1,7 +1,7 @@
 Plone Add-On Development For Command-Line Savvy Developers
 ==========================================================
 
-.. post:: Jun  1, 2015
+.. post:: 2015/06/01
    :tags: plone, python
    :category: python
    :author: me

@@ -1,8 +1,12 @@
 Don't sudo pip install
 ======================
 
-:date: Sat Feb 28 18:09:39 EST 2015
-:tags: Plone, Python
+.. post:: 2015/10/05
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 How many times have you seen this?
 
