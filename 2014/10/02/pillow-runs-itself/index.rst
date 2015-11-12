@@ -2,11 +2,6 @@ Pillow Runs Itself!
 ===================
 
 .. post:: 2014/10/02
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 **As of Pillow 2.6.0, the Pillow project almost completely runs itself!**
 

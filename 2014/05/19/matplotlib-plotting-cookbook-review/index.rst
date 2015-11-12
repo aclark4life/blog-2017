@@ -2,11 +2,6 @@ Matplotlib Plotting Cookbook Review
 ===================================
 
 .. post:: 2014/05/19
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *I was given a copy of* `Matplotlib Plotting Cookbook by Alexandre Devert <http://www.packtpub.com/matplotlib-plotting-cookbook/book>`_ *and asked to review it. Thanks PACKT!* *Here is my review.*
 

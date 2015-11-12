@@ -2,11 +2,6 @@ Introducing Plock Pins
 ======================
 
 .. post:: 2014/03/20
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: /images/buildout-all-the-plones.jpg
     :alt: alternate text

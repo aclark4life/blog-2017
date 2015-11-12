@@ -2,11 +2,6 @@ Bro, do you even Pillow?
 ========================
 
 .. post:: 2014/04/07
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: /images/bro-do-you-even-pillow.jpg
     :alt: alternate text

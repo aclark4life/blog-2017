@@ -2,11 +2,6 @@ We Pioneer
 ==========
 
 .. post:: 2014/05/03
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: /images/we-pioneer.jpg
     :alt: alternate text

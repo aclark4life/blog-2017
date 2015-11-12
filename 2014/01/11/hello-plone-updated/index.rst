@@ -2,11 +2,6 @@ Hello Plone Updated
 ===================
 
 .. post:: 2014/01/11
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: images/hello-plone-updated.jpg
     :alt: alternate text

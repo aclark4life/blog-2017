@@ -2,11 +2,6 @@ Plone 5 Alpha 2 is here!
 ========================
 
 .. post:: 2014/06/18
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *This post is long overdue since Plone 5 alpha 2 was released on 2014-04-20! It is also too short. I may do a followup blog entry to review more features, depending on how well this one is received. I also want to talk more about Plock.*
 

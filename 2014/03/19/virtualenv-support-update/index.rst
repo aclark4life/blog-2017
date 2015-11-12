@@ -2,11 +2,6 @@ Virtualenv Support Update
 =========================
 
 .. post:: 2014/03/19
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: /images/virtualenv-support-update.jpg
     :alt: alternate text
