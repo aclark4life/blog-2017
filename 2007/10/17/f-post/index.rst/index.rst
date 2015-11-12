@@ -2,8 +2,8 @@ First Post
 ==========
 
 .. post:: 2007/10/17
-   :tags: plone, python
-   :category: plone
+   :tags: plone
+   :category: python
    :author: me
    :location: DC
    :language: en
