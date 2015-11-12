@@ -7,8 +7,6 @@ Post List
 =========
 
 .. postlist::
-    :excerpts:
-    :list-style: square
 
 .. `toctree` directive, below, contains list of non-post `.rst` files.
    This is how they appear in Navigation sidebar. Note that directive
