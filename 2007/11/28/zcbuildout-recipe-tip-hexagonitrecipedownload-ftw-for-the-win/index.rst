@@ -1,5 +1,5 @@
-zc.buildout recipe tip: hexagonit.recipe.download FTW! (For the win)
-====================================================================
+Buildout Recipe Tip: ``hexagonit.recipe.download`` FTW!
+=======================================================
 
 .. post:: 2007/11/28
 
