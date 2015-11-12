@@ -2,11 +2,6 @@ pythonpackages.com: Using PyPI's OAuth1 support to register and upload packages
 ===============================================================================
 
 .. post:: 2012/08/07
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 ***TL;DR** PyPI has OAuth1 support; pythonpackages.com uses it to send your GitHub repos to PyPI.* Thanks in very large part to `Richard Jones`_, the Python Package Index now has support for registering and uploading packages via OAuth1. And using his `sample code`_ I was able to take advantage of it on pythonpackages.com. The result is a fairly **elegant approach to releasing packages** sans dirty hacks (I had been asking users for their username and password, then storing them in an encrypted session cookies so I could send them to PyPI.) Here's how it works now.
 

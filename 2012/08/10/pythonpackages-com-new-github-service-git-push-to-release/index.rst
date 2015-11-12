@@ -2,11 +2,6 @@ pythonpackages.com: New GitHub Service "push to release"
 ========================================================
 
 .. post:: 2012/08/10
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *pythonpackages.com helps Python programmers package and release their software with just a few clicks.*
 

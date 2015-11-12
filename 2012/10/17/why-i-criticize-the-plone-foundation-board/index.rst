@@ -2,11 +2,6 @@ Why I Criticize The Plone Foundation Board
 ==========================================
 
 .. post:: 2012/10/17
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/aclark-conf.jpg
     :alt: alternate text

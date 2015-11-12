@@ -2,11 +2,6 @@ Bootstrapping a Buildout 1-6 release
 ====================================
 
 .. post:: 2012/08/13
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 A lot of work has been done on Buildout lately, most notably:
 

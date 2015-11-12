@@ -2,11 +2,6 @@ Zope2 Bootstrap
 ===============
 
 .. post:: 2012/06/12
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *Bootstrap all the things, including Zope2.*
 

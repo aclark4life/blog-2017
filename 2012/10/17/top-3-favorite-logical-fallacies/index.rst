@@ -2,11 +2,6 @@ Top 3 "favorite" logical fallacies
 ==================================
 
 .. post:: 2012/10/17
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/y-u-no-agree.jpg
     :alt: alternate text

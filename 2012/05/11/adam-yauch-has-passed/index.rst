@@ -2,11 +2,6 @@ Adam Yauch has passed
 =====================
 
 .. post:: 2012/05/11
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *And why it matters to tech people, like me*
 

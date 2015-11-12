@@ -2,11 +2,6 @@ pythonpackages-com one year later
 =================================
 
 .. post:: 2012/09/28
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 We are rolling up on the **one year anniversary** of pythonpackages.com (in October). This is an exciting milestone (for me at least) because I've had a tremendous amount of fun building the site, not to mention how much I learned about GitHub, PyPI, Pyramid, Stripe, Redis, Bootstrap, and more.
 

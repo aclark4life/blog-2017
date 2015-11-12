@@ -2,11 +2,6 @@ The Plones Templer
 ==================
 
 .. post:: 2012/07/12
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 (c.f. Knights Templar) I think we have a situation that could use the
 help of the Plone and Python communities at large. It goes something
