@@ -29,7 +29,32 @@ Here's how to do it:
 
 ::
 
-    [inet_http_server]port=127.0.0.1:9999#username=admin#password=admin[supervisord]logfile=%(here)s/../var/log/supervisord.loglogfile_maxbytes=50MBlogfile_backups=10loglevel=infopidfile=%(here)s/../var/supervisord.pidnodaemon=false[rpcinterface:supervisor]supervisor.rpcinterface_factory =     supervisor.rpcinterface:make_main_rpcinterface[supervisorctl]serverurl=http://127.0.0.1:9999[program:zeo]command = %(here)s/../parts/zeo/bin/runzeopriority = 10[program:zope]command = %(here)s/../parts/instance/bin/runzopepriority = 20redirect_stderr = true
+    [inet_http_server]
+    port=127.0.0.1:9999
+    #username=admin
+    #password=admin
+
+    [supervisord]
+    logfile=%(here)s/../var/log/supervisord.log
+    logfile_maxbytes=50MB
+    logfile_backups=10
+    loglevel=info
+    pidfile=%(here)s/../var/supervisord.pidnodaemon=false
+
+    [rpcinterface:supervisor]
+    supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
+
+    [supervisorctl]
+    serverurl=http://127.0.0.1:9999
+
+    [program:zeo]
+    command = %(here)s/../parts/zeo/bin/runzeo
+    priority = 10
+
+    [program:zope]
+    command = %(here)s/../parts/instance/bin/runzope
+    priority = 20
+    redirect_stderr = true
 
 (Uncomment the admin lines if you want to password protect your supervisor.)
 
