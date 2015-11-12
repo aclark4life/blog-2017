@@ -81,15 +81,16 @@ blog_authors = {'Alex Clark': ('Alex Clark', None), }
 # a link to a archive pages generated for each tag, category, and year.
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
-# html_sidebars = {
-#    '**': [
-#            'about.html',
-#            'postcard.html', 'navigation.html',
-#            'recentposts.html', 'tagcloud.html',
-#            'categories.html',  'archives.html',
-#            'searchbox.html',
-#            ],
-#    }
+html_sidebars = {
+    '**': [
+        #'about.html',
+                    'postcard.html', 
+        #'navigation.html',
+        #            'recentposts.html', 'tagcloud.html',
+        #            'categories.html',  'archives.html',
+        #            'searchbox.html',
+    ],
+}
 
 # -- Blog Feed Options --------------------------------------------------------
 
