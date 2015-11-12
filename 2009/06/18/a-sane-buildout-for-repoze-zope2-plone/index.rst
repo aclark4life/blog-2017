@@ -2,11 +2,6 @@ A sane buildout for repoze.zope2 + Plone?
 =========================================
 
 .. post:: 2009/06/18
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 (This is also a follow-up of sorts to `Martin Aspeli's excellent
 introduction to repoze and Plone from last year`_.)

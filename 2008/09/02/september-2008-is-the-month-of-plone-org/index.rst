@@ -2,11 +2,6 @@ September 2008 is the month of Plone.org
 ========================================
 
 .. post:: 2008/09/02
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 `Plone Conference 2008`_ is fast approaching and in order to avoid
 embarrassment, disappointment, and a huge public outcry, I'd like to

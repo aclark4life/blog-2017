@@ -2,11 +2,6 @@ My Plone Days (October 2007)
 ============================
 
 .. post:: 2007/10/18
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 My focus will be `PloneSoftwareCenter (PSC)`_. That's right! You heard it here first. After a little prodding on IRC from Martin Aspeli, Steve McMahon, and Geir Bækholt I am declaring myself the "owner" of `PSC`_ (read: responsible for releases). I'll spend my first two days (16 hours next Tuesday and Thursday, 9-5 EDT) working on `PSC`_ and getting it ready to ship (with Plone 3 compatibility).
 

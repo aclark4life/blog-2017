@@ -2,11 +2,6 @@ Plone Conference 2008: Please register for an early bird admission today
 ========================================================================
 
 .. post:: 2008/07/01
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 `http://ploneconf2008.eventbrite.com/`_
 

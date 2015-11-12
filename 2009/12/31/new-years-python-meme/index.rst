@@ -2,11 +2,6 @@ New Year’s Python Meme
 ======================
 
 .. post:: 2009/12/31
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/lenin_packaging.png 
     :width: 100%

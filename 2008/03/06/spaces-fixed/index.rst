@@ -2,11 +2,6 @@ Spaces fixed!
 =============
 
 .. post:: 2008/03/06
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 For those of you using Spaces in Mac OS X, I'd like to follow up my `previous post`_ with some exciting news regarding Spaces in Mac OS X 10.5.2. It's "fixed"! Thousands of former FVWM users can now rejoice as they enjoy sane desktop pager functionality. As you know, I've been tracking the development of the "Spaces... Spaces... Spaces..." hack (read: waiting for it to support 10.5.2) and I just noticed that the issue has actually been resolved by Apple, yay! See this post on macosxhints.com for more information: `http://www.macosxhints.com/article.php?story=2008021122525348`_
 

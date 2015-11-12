@@ -2,11 +2,6 @@ zc.buildout recipe tip: hexagonit.recipe.download FTW! (For the win)
 ====================================================================
 
 .. post:: 2007/11/28
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Sometimes an "old style" product is distributed as foo.tar.gz and extracts to foo/, but the product is actually called Bar! This can be a problem when using the **plone.recipe.productdistros** recipe because when 'Bar' is extracted to parts/productdistros/foo, it will not work.
 

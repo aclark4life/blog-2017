@@ -2,11 +2,6 @@ Help esteele go to Baarn!
 =========================
 
 .. post:: 2009/01/23
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 A few years back, I was `invited to the Baarn UI Sprint 2007.`_ This was a huge turning point for me and Plone. Having just attended the `annual conference in Seattle`_, I was raring to contribute. And in getting invited, I felt like a Catholic getting invited to the Vatican to hang out with the Pope (well 1/2 the Pope at least, aka `Limi`_ ;-)). You cannot beat the awesomeness of the Plone community and the fact that if you give something to it, you will get it back ten-fold in:
 

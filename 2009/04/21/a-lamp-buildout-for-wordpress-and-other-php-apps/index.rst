@@ -2,11 +2,6 @@ A LAMP Buildout for Wordpress and Other PHP Apps
 ================================================
 
 .. post:: 2009/04/21
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 A Buildout for PHP?
 -------------------

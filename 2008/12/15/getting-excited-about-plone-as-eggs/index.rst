@@ -2,11 +2,6 @@ Getting Excited About Plone as Eggs
 ===================================
 
 .. post:: 2008/12/15
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Updated for 4.x
 

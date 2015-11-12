@@ -2,11 +2,6 @@ repoze.bfg tonight FTW!
 =======================
 
 .. post:: 2008/09/02
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Tonight ex-Zope Corporation luminary **Chris McDonough** unveils his `BFG`_ (Big \*\*\*\*ing Gun) which:
 

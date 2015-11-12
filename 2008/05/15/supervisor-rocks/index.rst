@@ -2,11 +2,6 @@ Supervisor rocks!
 =================
 
 .. post:: 2008/05/15
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 (This is essentially a reiteration of `Carlos' previous blog entry`_. :-))
 

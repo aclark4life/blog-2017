@@ -2,13 +2,6 @@ NASA story slashdotted!
 =======================
 
 .. post:: 2008/04/12
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
-
-Hi all,
 
 I just noticed that my submission to slashdot was posted (sorry, NASA ;-). Please use your mod points and/or add comments (or do whatever slashdot people do) to promote Plone. I've sent an email asking that the link to plone.org be restored (it was removed by the editor, probably because I made it too big :-).
 

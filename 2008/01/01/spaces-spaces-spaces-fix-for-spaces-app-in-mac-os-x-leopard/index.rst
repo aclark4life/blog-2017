@@ -2,11 +2,6 @@ Spaces.. Spaces.. Spaces.. fix for Spaces.app in Mac OS X Leopard
 =================================================================
 
 .. post:: 2008/01/01
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Like many `Plone`_ developers, I primarily develop on Mac OS X. Also, like many Plone developers I salivate over, and immediately install any updates to Mac OS X that are released, including Leopard.  Overall, I have been very happy with Leopard, but there is one thing that drives me (and plenty of other people) nuts: the automatic window switching functionality in Spaces. For the unfamiliar, a common feature of UNIX desktops is the ability to easily switch between many different desktops containing many different windows. This feature is commonly referred to as a "desktop pager" or "virtual desktop", but Apple calls it Spaces.
 

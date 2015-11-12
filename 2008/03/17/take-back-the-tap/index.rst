@@ -2,12 +2,6 @@ Take Back The Tap!
 ==================
 
 .. post:: 2008/03/17
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
-
 
 ACLARK.NET, LLC is proud to announce: `http://www.takebackthetap.org!`_
 

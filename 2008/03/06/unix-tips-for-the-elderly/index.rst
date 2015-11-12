@@ -2,11 +2,6 @@ UNIX Tips for the Elderly
 =========================
 
 .. post:: 2008/03/06
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 With apologies to the Plone community for the off-topic post, I'd like to mention this so I won't forget it again (and, in case I do some nice Plonista somewhere wil remind me ;-).
 
