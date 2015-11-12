@@ -2,11 +2,6 @@ Plone Add-On Development For Command-Line Savvy Developers
 ==========================================================
 
 .. post:: 2015/06/01
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 With Plone 5 heating up, it's time for me to go "all in" on Plone again. To that end, here's a new tutorial for "Unix Hackers"; i.e. **command-line savvy developers who may be totally unfamiliar with Python but want to learn Plone**.
 

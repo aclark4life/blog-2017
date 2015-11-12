@@ -2,11 +2,6 @@ I Reinstalled Again
 ===================
 
 .. post:: 2015/10/05
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *A while back* `I wrote about reinstalling OS X <http://blog.aclark.net/2010/10/15/i-reinstalled-recently/>`_. *This is another one of those posts.*
 

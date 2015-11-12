@@ -2,11 +2,6 @@ Packt is having a sale
 ======================
 
 .. post:: 2015/01/05
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: /images/packt-5.png
   :alt: Packt is having a sale!

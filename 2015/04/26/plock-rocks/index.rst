@@ -2,11 +2,6 @@ Plock Rocks
 ===========
 
 .. post:: 2015/04/26
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: /images/plock-meme.png
     :alt: Plock Meme

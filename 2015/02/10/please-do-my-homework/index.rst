@@ -2,11 +2,6 @@ Please do my homework
 =====================
 
 .. post:: 2015/02/10
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 Reminiscent of `this phenomenon <http://blog.aclark.net/2012/05/23/a-simple-printer-of-nested-lists/>`_, I'm slowly being driven insane by Redditors asking `/r/Python <http://www.reddit.com/r/Python>`_ to do their homework for them. E.g.
 

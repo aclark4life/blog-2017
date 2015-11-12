@@ -2,11 +2,6 @@ Pillow 2015 Report
 ==================
 
 .. post:: 2015/06/05
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 .. image:: /images/pillow-2015-report.png
     :alt: Most interesting man

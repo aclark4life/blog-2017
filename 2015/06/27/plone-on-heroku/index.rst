@@ -2,11 +2,6 @@ Plone on Heroku
 ===============
 
 .. post:: 2015/06/27
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 *Dear Plone, welcome to 2015*
 
