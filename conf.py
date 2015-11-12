@@ -109,7 +109,7 @@ blog_feed_archives = True
 
 # Specify number of recent posts to include in feeds, default is ``None``
 # for all posts.
-# blog_feed_length = None
+blog_feed_length = 1
 
 # -- Font-Awesome Options -----------------------------------------------------
 
