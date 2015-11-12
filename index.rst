@@ -6,7 +6,10 @@
 Welcome to Alex Clark's Blog
 ============================
 
-.. postlist:: 5
+Recent Posts
+------------
+
+.. postlist:: 10
    :excerpts:
 
 .. `toctree` directive, below, contains list of non-post `.rst` files.
