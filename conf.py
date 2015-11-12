@@ -400,3 +400,6 @@ html_theme_options = {
     # Values: "3" (default) or "2" (in quotes)
     'bootstrap_version': "3",
 }
+
+disqus_shortname = 'aclark-blog'
+blog_baseurl = 'http://blog.aclark.net'
