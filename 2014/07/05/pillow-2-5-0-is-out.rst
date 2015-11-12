@@ -1,8 +1,12 @@
 Pillow 2-5-0 is out!
 ====================
 
-:date: 2014-07-05 11:15
-:tags: Django, Mozilla, Plone, Python
+.. post:: 2014/07/05
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 **Pillow is the "friendly" PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors**
 

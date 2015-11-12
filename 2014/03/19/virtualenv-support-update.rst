@@ -1,8 +1,12 @@
 Virtualenv Support Update
 =========================
 
-:date: 2014-03-19 17:30
-:tags: Django, Plone, Python
+.. post:: 2014/03/19
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 .. image:: /images/virtualenv-support-update.jpg
     :alt: alternate text

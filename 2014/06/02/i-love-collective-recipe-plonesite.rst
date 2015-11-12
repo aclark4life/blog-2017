@@ -1,8 +1,12 @@
 I love collective-recipe-plonesite!
 ===================================
 
-:date: 2014-06-02 18:15
-:tags: Plone, Python
+.. post:: 2014/06/02
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 Whenever I answer tech support questions, I usually begin with a clean slate, e.g.::
 

@@ -1,8 +1,12 @@
 Bro, do you even Pillow?
 ========================
 
-:date: 2014-04-07 20:00
-:tags: Django, Plone, Python
+.. post:: 2014/04/07
+   :tags: plone, python
+   :category: python
+   :author: me
+   :location: DC
+   :language: en
 
 .. image:: /images/bro-do-you-even-pillow.jpg
     :alt: alternate text
