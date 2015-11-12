@@ -370,7 +370,7 @@ Use Diazo theme for public facing view
 
 Of course, visitors to http://aclark.net see the Diazo theme.
 
-.. image:: images/diazo-theme.png
+.. image:: /images/diazo-theme.png
     :alt: alternate text
 
 I'm hoping that the Plone team can unify the content editing experience again in Plone 5, possibly via simplifying the "old style" templates such that it's easier to map them to custom Diazo themes.
@@ -388,7 +388,7 @@ Plone 4.3a1 is remarkably stable. The TinyMCE UI is a bit rough, and the sitemap
 The ``All content`` view is awesome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/all-content.png
+.. image:: /images/all-content.png
     :alt: alternate text
 
 Contributed by Laurence Rowe for Plone 4, I use the ``All content`` view in two places:
