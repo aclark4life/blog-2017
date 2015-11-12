@@ -4,7 +4,8 @@
 About Alex Clark
 ============================
 
-.. image:: images/aclark-jobs.png
+.. image:: images/aclark-jobs.jpg
+  :align: center
 
 .. raw:: html
 
