@@ -2,11 +2,6 @@ Mailing List Etiquette
 ======================
 
 .. post:: 2012/10/20
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 I read a lot of mailing lists:
 

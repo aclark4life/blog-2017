@@ -2,11 +2,6 @@ Gittip, Misunderstood
 =====================
 
 .. post:: 2012/10/19
-   :tags: plone, python
-   :category: python
-   :author: me
-   :location: DC
-   :language: en
 
 People do not understand gittip. Or, they do not understand how I use it. Worse, they **think** they understand it [1]_. So much so, some choose to comment about it publicly.
 
