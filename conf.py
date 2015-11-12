@@ -396,8 +396,8 @@ html_theme_options = {
     # such as "amelia" or "cosmo".
     #'bootswatch_theme': "cerulean",
     #'bootswatch_theme': "cosmo",
-    #'bootswatch_theme': "cyborg",
-    'bootswatch_theme': "darkly",
+    'bootswatch_theme': "cyborg",
+    #'bootswatch_theme': "darkly",
     #'bootswatch_theme': "flatly",
     #'bootswatch_theme': "journal",
     #'bootswatch_theme': "lumen",
