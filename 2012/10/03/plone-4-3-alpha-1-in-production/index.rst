@@ -362,7 +362,7 @@ Use Sunburst theme for content editing
 If you are Diazo-savvy, you may notice I completely ignore styling the content editing interface. Instead I rely on the unthemed [2]_ site for content editing.
 
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/edit-ui.png
+.. image:: /images/edit-ui.png
     :alt: alternate text
 
 Use Diazo theme for public facing view
