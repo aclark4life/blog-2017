@@ -90,15 +90,15 @@ blog_authors = {
 # a link to a archive pages generated for each tag, category, and year.
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
-html_sidebars = {
-    '**': [ 
-            'about.html',
-            'postcard.html', 'navigation.html',
-            'recentposts.html', 'tagcloud.html',
-            'categories.html',  'archives.html',
-            'searchbox.html',
-            ],
-    }
+#html_sidebars = {
+#    '**': [ 
+#            'about.html',
+#            'postcard.html', 'navigation.html',
+#            'recentposts.html', 'tagcloud.html',
+#            'categories.html',  'archives.html',
+#            'searchbox.html',
+#            ],
+#    }
 
 # -- Blog Feed Options --------------------------------------------------------
 
@@ -247,12 +247,12 @@ html_theme = 'alabaster'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-    'github_button': False,
-}
+#html_theme_options = {
+#    'github_button': False,
+#}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [alabaster.get_path()]
+#html_theme_path = [alabaster.get_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -337,3 +337,8 @@ html_static_path = ['_static']
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'AlexClarksBlogdoc'
+
+import sphinx_bootstrap_theme
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+

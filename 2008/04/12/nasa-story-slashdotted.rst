@@ -1,7 +1,7 @@
 NASA story slashdotted!
 =======================
 
-.. post:: 2015/06/01
+.. post:: 2008/04/12
    :tags: plone, python
    :category: python
    :author: me
