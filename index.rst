@@ -6,9 +6,6 @@
 Welcome to Alex Clark's Blog
 ============================
 
-Recent Posts
-------------
-
 .. postlist::
     :excerpts:
     :list-style: circle
