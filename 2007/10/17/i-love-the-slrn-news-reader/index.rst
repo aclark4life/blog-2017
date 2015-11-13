@@ -18,6 +18,7 @@ Configuration Parameters
 ------------------------
 
 ::
+
     set confirm_actions 14
     visible_headers "From:,Subject:,Newsgroups:,Followup-To:,Reply-To:,Date:"
     set query_read_group_cutoff 0
