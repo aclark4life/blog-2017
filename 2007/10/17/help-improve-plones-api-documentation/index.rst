@@ -21,4 +21,4 @@ I plan to use either `epydoc`_ or `pudge`_, suggestions welcome.
 
 .. _Plone Doccomm Sprint: http://plone.org/events/sprints/doc-ecommerce
 .. _epydoc: http://epydoc.sourceforge.net/
-.. _pudge: http://pudge.lesscode.org/
+.. _pudge: https://pypi.python.org/pypi/pudge
