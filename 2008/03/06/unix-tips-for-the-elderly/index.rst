@@ -9,7 +9,9 @@ UNIX Tips For The Elderly
 
 .. post:: 2008/03/06
 
-I often want to do ***something*** to a bunch of files on the filesystem, e.g.
+**I often want to do something to a bunch of files on the filesystem.**
+
+E.g.
 
 .. raw:: html
 
