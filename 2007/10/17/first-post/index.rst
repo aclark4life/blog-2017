@@ -19,17 +19,23 @@ Why? Because Plone allows me to do so. But also:
 -  I want to interact with other Plonistas.
 -  I want to get my web 2.0 on.
 
-To that end, this post is about my `build tools`_ and how I love them. There are other ways to accomplish what I'm doing:
+To that end, this post is about my `build tools`_ and how I love them. Note there are other ways to accomplish this task, for example:
 
 -  `Buildout`_
 -  `Buildit`_
 -  `Instance Manager`_
 
-I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and really liked it. I have also used Chris McDonough's Buildit. That may be where I end up and there are several more to choose from, but for now I enjoy typing:
+I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and liked it. I've also used Chris McDonough's Buildit. That may be where I end up, and there are several more to choose from, but for now I enjoy typing:
 
-::
+.. raw:: html
 
-    $ newzope test-site ProductA ProductB ProductC
+    <style>
+    pre:before { content: '$ ' }
+    </style>
+
+    <pre> 
+    newzope test-site ProductA ProductB ProductC
+    </pre>
 
 and having a working instance a few seconds later with Product{A,B,C} installed. Of course this requires I have a working Zope already... and that I edit Zope's ``skel/etc/zope.conf``... but nothing is perfect and old habits die hard.
 
