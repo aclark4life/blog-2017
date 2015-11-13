@@ -37,7 +37,7 @@ I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and liked it. 
     newzope test-site ProductA ProductB ProductC
     </pre>
 
-and having a working instance a few seconds later with Product{A,B,C} installed. Of course this requires I have a working Zope already... and that I edit Zope's ``skel/etc/zope.conf``... but nothing is perfect and old habits die hard.
+and having a working instance a few seconds later with Product{A,B,C} installed. Of course this requires I have a working Zope already... and that I edit Zope's ``skel/etc/zope.conf``... but nothing is perfect... and old habits die hard. 
 
 .. _Plone: http://plone.org/
 .. _Plone blogs: http://planet.plone.org/
