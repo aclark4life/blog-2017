@@ -16,9 +16,9 @@ If we use productdistros, we end up with ZNagios installed in ``parts/productdis
 ::
 
     [buildout]
-    parts =
-        ...
-        znagios[znagios]
+    parts = znagios
+
+    [znagios]
     recipe = hexagonit.recipe.download
     url = http://svn.gocept.com/viewcvs/ZNagios/trunk.tar.gz?view=tar
     destination = products/ZNagios

@@ -1,4 +1,4 @@
-all: update build serve
+all: update build
 update:
 	yapf -i conf.py; flake8 conf.py
 	git commit -a -m "Update"; git push
