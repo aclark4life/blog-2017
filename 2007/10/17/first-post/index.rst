@@ -17,15 +17,15 @@ Why? Because Plone allows me to do so. But also:
 
 -  I have been reading a lot of Plone blogs lately and they have inspired me to write my own.
 -  I want to interact with other Plonistas.
--  I want to get my web 2.0 **ON**.
+-  I want to get my web 2.0 on.
 
-To that end, this post is about my `build tools`_ and how I love them. There are much better ways to accomplish what I'm doing here. I'm reminding myself this, as much as the reader. So why do I continue to use them? Good question. I'll save the answer for another post, but for now you should be aware of these much better alternatives:
+To that end, this post is about my `build tools`_ and how I love them. There are other ways to accomplish what I'm doing:
 
 -  `Buildout`_
 -  `Buildit`_
 -  `Instance Manager`_
 
-I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and really enjoyed it. I have also used and enjoyed Chris McDonough's Buildit. That may be where I end up and there are several more to choose from, but for now I still enjoy typing:
+I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and really liked it. I have also used Chris McDonough's Buildit. That may be where I end up and there are several more to choose from, but for now I enjoy typing:
 
 ::
 
