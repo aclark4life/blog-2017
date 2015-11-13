@@ -5,13 +5,13 @@ Buildout Recipe Tip: ``hexagonit.recipe.download``
 
 **How to handle difficult old-style products.**
 
-Sometimes an "old style" product is distributed as foo.tar.gz and extracts to foo/, but the product is actually called Bar! This can be a problem when using the **plone.recipe.productdistros** recipe because when 'Bar' is extracted to parts/productdistros/foo, it will not work.
+Sometimes an "old-style" add-on is distributed as ``foo.tar.gz`` and extracts to ``foo/``, but the product is called ``bar``. This can be a problem when using the ``plone.recipe.productdistros`` recipe because when ``bar`` is extracted to ``parts/productdistros/foo`` it will not work.
 
-Fortunately, there is **hexagonit.recipe.download**, which allows you to specify a destination. For example, **ZNagios** (an add-on product that integrates Zope with Nagios) is available as a tarball here:
+Fortunately, there is **hexagonit.recipe.download**, which allows you to specify a destination. For example, **ZNagios** (an add-on that integrates Zope with Nagios) is available as a tarball here:
 
--  `http://svn.gocept.com/viewcvs/ZNagios/trunk.tar.gz?view=tar`_
+- http://svn.gocept.com/viewcvs/ZNagios/trunk.tar.gz?view=tar
 
-If we use productdistros, we end up with ZNagios installed in parts/productdistros/trunk. No good. But if we use hexagonit.recipe.download we can control the destination. e.g.
+If we use productdistros, we end up with ZNagios installed in ``parts/productdistros/trunk``. But if we use ``hexagonit.recipe.download`` we can control the destination.
 
 ::
 
@@ -24,7 +24,7 @@ If we use productdistros, we end up with ZNagios installed in parts/productdistr
     destination = products/ZNagios
     strip-top-level-dir = True
 
-After running buildout, you should have the following in your buildout products/ directory:
+After running Buildout you should have the following in your ``products/`` directory:
 
 ::
 
@@ -38,8 +38,3 @@ After running buildout, you should have the following in your buildout products/
     /products/ZNagios/version.txt
     /products/ZNagios/zeo_munin.py
     /products/ZNagios/zope.cfg
-
-As always, there are `better ways to do this`_ but getting it done is nice too. Comments welcome! :-)
-
-.. _`http://svn.gocept.com/viewcvs/ZNagios/trunk.tar.gz?view=tar`: http://svn.gocept.com/viewcvs/ZNagios/trunk.tar.gz?view=tar
-.. _better ways to do this: http://dev.plone.org/plone/changeset/21090
