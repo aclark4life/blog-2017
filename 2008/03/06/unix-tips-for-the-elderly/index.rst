@@ -1,21 +1,28 @@
-UNIX Tips for the Elderly
+UNIX Tips For The Elderly
 =========================
 
 .. post:: 2008/03/06
 
-With apologies to the Plone community for the off-topic post, I'd like to mention this so I won't forget it again (and, in case I do some nice Plonista somewhere wil remind me ;-).
-
 I often want to do ***something*** to a bunch of files on the filesystem, e.g.
 
-::
+.. raw:: html
 
+    <style>
+    pre:before { content: '$ ' }
+    </style>
+
+    <pre>
     find Music/ | xargs -J % echo 'Do something to ' %
+    </pre>
 
 The problem is that sometimes the filenames have spaces in them which will cause:
 
-::
+.. raw:: html
 
     $ find Music/ | xargs -J % 'Do something to ' %
+
+::
+
     xargs: unterminated quote
 
 Useless. The best fix I've managed to come up with (which I couldn't recall, hence the blog post)  is to replace the beginning and end of the line with quotes to make the shell happy, e.g.
