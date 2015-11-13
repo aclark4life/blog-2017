@@ -5,6 +5,8 @@ Is This Thing On?
 
 .. post:: 2007/10/17
 
+.. image:: images/george-bush-debate.jpg
+
 ... because it is showing up on `planet`_! Sorry about the duplicates. I have recreated my blog using Just Plone™ (and I didn't realize syndication was turned on already ;-)) In any event, here it is!
 
 And while I have your attention, I've decided that I am `joining Tomster`_ and others in pledging allegiance to the Plone by joining the `10% Manifesto`_ as proposed by `Geir Bækholt at Jarn`_.
