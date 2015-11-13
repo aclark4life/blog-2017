@@ -354,6 +354,7 @@ html_theme_options = {
     # an arbitrary url.
     'navbar_links': [
         ("Feed", "/blog/atom.xml", True),
+        ("GitHub", "https://github.com/aclark4life/ablog", True),
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
