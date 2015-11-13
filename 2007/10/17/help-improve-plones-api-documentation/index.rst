@@ -17,16 +17,8 @@ and:
 - Archetypes-1.5.0
 - CMF-2.1.0
 
-I plan to use either `epydoc`_ or `pudge`_, suggestions welcome. For more information please see:
-
-- `http://plone.org/development/teams/documentation/documentation-tracker/37`_
-
-and:
-
-- `http://www.nabble.com/Turn-off-api.plone.org--tf3602743.html#a10064645`_
+I plan to use either `epydoc`_ or `pudge`_, suggestions welcome.
 
 .. _Plone Doccomm Sprint: http://plone.org/events/sprints/doc-ecommerce
 .. _epydoc: http://epydoc.sourceforge.net/
 .. _pudge: http://pudge.lesscode.org/
-.. _`http://plone.org/development/teams/documentation/documentation-tracker/37`: http://plone.org/development/teams/documentation/documentation-tracker/37
-.. _`http://www.nabble.com/Turn-off-api.plone.org--tf3602743.html#a10064645`: http://www.nabble.com/Turn-off-api.plone.org--tf3602743.html#a10064645
