@@ -13,5 +13,7 @@ For those of you using Spaces in Mac OS X I'd like to follow up my previous post
 
     <pre> 
     defaults write com.apple.dock workspaces-auto-swoosh -bool NO
+    </pre>
+    <pre> 
     sudo killall Dock
     </pre>
