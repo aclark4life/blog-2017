@@ -7,7 +7,7 @@ Buildout Recipe Tip: ``hexagonit.recipe.download``
 
 Sometimes an "old-style" add-on is distributed as ``foo.tar.gz`` and extracts to ``foo/``, but the product is called ``bar``. This can be a problem when using the ``plone.recipe.productdistros`` recipe because when ``bar`` is extracted to ``parts/productdistros/foo`` it will not work.
 
-Fortunately, there is **hexagonit.recipe.download**, which allows you to specify a destination. For example, **ZNagios** (an add-on that integrates Zope with Nagios) is available as a tarball here:
+Fortunately there is ``hexagonit.recipe.download``, which allows you to specify the destination. For example, **ZNagios** (an add-on that integrates Zope with Nagios) is available as a tarball here:
 
 - http://svn.gocept.com/viewcvs/ZNagios/trunk.tar.gz?view=tar
 
