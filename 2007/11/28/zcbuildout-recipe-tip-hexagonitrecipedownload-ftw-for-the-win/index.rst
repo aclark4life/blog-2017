@@ -3,7 +3,7 @@ Buildout Recipe Tip: ``hexagonit.recipe.download``
 
 .. post:: 2007/11/28
 
-**How to handle difficult old-style products.**
+**How to handle difficult old-style add-ons.**
 
 Sometimes an "old-style" add-on is distributed as ``foo.tar.gz`` and extracts to ``foo/``, but the product is called ``bar``. This can be a problem when using the ``plone.recipe.productdistros`` recipe because when ``bar`` is extracted to ``parts/productdistros/foo`` it will not work.
 
