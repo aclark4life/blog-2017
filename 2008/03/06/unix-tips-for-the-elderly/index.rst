@@ -8,7 +8,7 @@ I often want to do ***something*** to a bunch of files on the filesystem, e.g.
 .. raw:: html
 
     <style>
-    pre:before .prompt { content: '$ ' }
+    pre:before.prompt { content: '$ ' }
     </style>
 
     <pre class="prompt">
