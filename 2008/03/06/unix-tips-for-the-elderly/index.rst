@@ -46,7 +46,7 @@ So I can do things like:
 .. raw:: html
 
     <pre class="prompt">
-    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % ls -d %
+    find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % ls -d %
     </pre>
 
 ::
@@ -58,10 +58,9 @@ or
 .. raw:: html
 
     <pre class="prompt">
-    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % file %
+    find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % file %
     </pre>
 
 ::
 
-    Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a:
-      ISO Media, MPEG v4 system, iTunes AAC-LC
+    Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a: ISO Media, MPEG v4 system, iTunes AAC-LC
