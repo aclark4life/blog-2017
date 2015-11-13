@@ -8,10 +8,10 @@ I often want to do ***something*** to a bunch of files on the filesystem, e.g.
 .. raw:: html
 
     <style>
-    pre:before { content: '$ ' }
+    pre:before .prompt { content: '$ ' }
     </style>
 
-    <pre>
+    <pre class="prompt">
     find Music/ | xargs -J % echo 'Do something to ' %
     </pre>
 
@@ -19,11 +19,7 @@ The problem is that sometimes the filenames have spaces in them which will cause
 
 .. raw:: html
 
-    <style>
-    pre:before { content: '$ ' }
-    </style>
-
-    <pre>
+    <pre class="prompt">
     find Music/ | xargs -J % 'Do something to ' %
     </pre>
 
@@ -35,11 +31,7 @@ Useless. The best fix I've managed to come up with which I couldn't recall hence
 
 .. raw:: html
 
-    <style>
-    pre:before { content: '$ ' }
-    </style>
-
-    <pre>
+    <pre class="prompt">
     find Music/ | sed -e 's/^/"/' -e 's/$/"/'
     </pre>
 
