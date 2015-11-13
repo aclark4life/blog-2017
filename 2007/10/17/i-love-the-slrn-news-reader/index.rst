@@ -1,7 +1,9 @@
-I Love The SLRN News Reader
+I Love The slrn News Reader
 ===========================
 
 .. post:: 2007/10/17
+
+**slrn is a command line news reader.**
 
 I've been meaning to write this blog entry about ***slrn*** ever since I started using it some time last year. Finally, here it is. But this is not the blog entry I had originally intended to write. There were some grandiose ideas about where I first heard of it; the blog entry that inspired me to try it; how I was frustrated with the alternatives; none of these are present here in any detail. That is because I'm frustrated with the length of time it takes to write a "quality" blog entry, when all I want to do is get the information out. (But that is a separate blog entry :-))
 
