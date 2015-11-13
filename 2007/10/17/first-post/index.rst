@@ -5,6 +5,14 @@ First Post
 
 **I have decided to start a blog!**
 
+|
+
+.. image:: /images/balloons_clip_art_15536.jpg
+    :align: center
+    :class: img-thumbnail
+
+|
+
 Why? Because Plone allows me to do so. But also:
 
 -  I have been reading a lot of Plone blogs lately and they have inspired me to write my own.
