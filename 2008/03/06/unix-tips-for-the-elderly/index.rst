@@ -19,17 +19,32 @@ The problem is that sometimes the filenames have spaces in them which will cause
 
 .. raw:: html
 
-    $ find Music/ | xargs -J % 'Do something to ' %
+    <style>
+    pre:before { content: '$ ' }
+    </style>
+
+    <pre>
+    find Music/ | xargs -J % 'Do something to ' %
+    </pre>
 
 ::
 
     xargs: unterminated quote
 
-Useless. The best fix I've managed to come up with (which I couldn't recall, hence the blog post)  is to replace the beginning and end of the line with quotes to make the shell happy, e.g.
+Useless. The best fix I've managed to come up with which I couldn't recall hence the blog post, is to replace the beginning and end of the line with quotes to make the shell happy, e.g.
+
+.. raw:: html
+
+    <style>
+    pre:before { content: '$ ' }
+    </style>
+
+    <pre>
+    find Music/ | sed -e 's/^/"/' -e 's/$/"/'
+    </pre>
 
 ::
 
-    $ find Music/ | sed -e 's/^/"/' -e 's/$/"/'
     "Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a"
 
 So I can do things like:
