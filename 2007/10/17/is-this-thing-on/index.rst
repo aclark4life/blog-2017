@@ -5,9 +5,13 @@ Is This Thing On?
 
 .. post:: 2007/10/17
 
+|
+
 .. image:: /images/george-bush-debate.jpg
     :class: img-thumbnail
     :align: center
+
+|
 
 ... because it is showing up on `planet`_! Sorry about the duplicates. I have recreated my blog using Just Plone™ (and I didn't realize syndication was turned on already ;-)) In any event, here it is!
 
