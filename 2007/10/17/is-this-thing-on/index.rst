@@ -1,4 +1,4 @@
-Is this thing on?
+Is This Thing On?
 =================
 
 .. post:: 2007/10/17

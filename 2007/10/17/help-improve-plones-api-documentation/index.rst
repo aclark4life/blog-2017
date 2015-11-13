@@ -1,5 +1,5 @@
-Help Improve Plone API Documentation
-====================================
+Help Improve Plone's API Documentation
+======================================
 
 .. post:: 2007/10/17
 

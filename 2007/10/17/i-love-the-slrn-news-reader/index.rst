@@ -1,4 +1,4 @@
-I Love the SLRN News Reader
+I Love The SLRN News Reader
 ===========================
 
 .. post:: 2007/10/17
