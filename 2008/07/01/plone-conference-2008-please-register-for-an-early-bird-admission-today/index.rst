@@ -1,5 +1,5 @@
-Plone Conference 2008: Please register for an early bird admission today
-========================================================================
+Plone Conference 2008: Please Register
+======================================
 
 .. post:: 2008/07/01
 

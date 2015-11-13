@@ -1,9 +1,9 @@
-Supervisor rocks!
-=================
+Supervisor Rocks
+================
 
 .. post:: 2008/05/15
 
-(This is essentially a reiteration of `Carlos' previous blog entry`_. :-))
+**This is a reiteration of `Carlos' previous blog entry`_.**
 
 It just occurred to me that we should probably be using `Supervisor`_ all over the place in our buildouts. Here's why:
 

@@ -1,5 +1,5 @@
-Plone.org upgrade update!
-=========================
+Plone.org Upgrade Update
+========================
 
 .. post:: 2008/05/01
 

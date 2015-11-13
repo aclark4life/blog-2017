@@ -1,4 +1,4 @@
-The Apache modules for XDV
+The Apache Modules For XDV
 ==========================
 
 .. post:: 2010/07/12

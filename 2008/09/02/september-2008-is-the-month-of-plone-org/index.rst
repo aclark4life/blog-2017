@@ -1,4 +1,4 @@
-September 2008 is the month of Plone.org
+September 2008 Is The Month Of plone.org
 ========================================
 
 .. post:: 2008/09/02

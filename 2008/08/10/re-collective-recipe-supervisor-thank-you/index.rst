@@ -1,5 +1,5 @@
-RE: collective.recipe.supervisor: Thank you!
-============================================
+collective.recipe.supervisor Thank You
+======================================
 
 .. post:: 2008/08/10
 

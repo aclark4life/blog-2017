@@ -1,11 +1,11 @@
-No, really, you can (just) use Buildout to install Plone
-========================================================
+No, Really, You Can Use Buildout To Install Plone
+=================================================
 
 .. post:: 2010/01/07
 
-This is a follow up to my `Getting Excited about Plone as Eggs`_ post, because I can't keep updating that one forever.
+**This is a follow up to my `Getting Excited about Plone as Eggs`_ post.**
 
-Generally speaking, the recommended (and supported) way to install Plone is via the installers, e.g. the `Unified Installer`_. Obviously, if you want things to Just Work™ you should be using the latest stable release, which is why I linked to the 3.3.3 unified installer (although there is no Windows installer for 3.3.3 yet, which is why it's not released on plone.org).
+Generally speaking, the recommended and supported way to install Plone is via the installers, e.g. the `Unified Installer`_. Obviously, if you want things to Just Work™ you should be using the latest stable release, which is why I linked to the 3.3.3 unified installer (although there is no Windows installer for 3.3.3 yet, which is why it's not released on plone.org).
 
 That said, since both Plone and Zope 2 have been packaged as eggs  (Plone became an egg in version 3.2 and Zope 2 became an egg as of Zope 2.12 which is the version of Zope 2 that Plone 4 will use) it has become "mostly trivial" to write a buildout.cfg to install Plone with. That means that you don't even need paster to do it. You can just fire up an editor and type:
 

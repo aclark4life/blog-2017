@@ -1,5 +1,5 @@
-just friends (first cut).mov
-============================
+Just Friends
+============
 
 .. post:: 2010/01/12
 

@@ -1,4 +1,4 @@
-Is anyone using Plone.org's new PyPI functionality?
+Is Anyone Using plone.org's New PyPI Functionality?
 ===================================================
 
 .. post:: 2009/03/13

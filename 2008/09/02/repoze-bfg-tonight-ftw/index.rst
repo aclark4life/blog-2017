@@ -1,5 +1,5 @@
-repoze.bfg tonight FTW!
-=======================
+repoze.bfg Tonight
+==================
 
 .. post:: 2008/09/02
 

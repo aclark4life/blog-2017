@@ -1,12 +1,9 @@
-I reinstalled recently
+I Reinstalled Recently
 ======================
 
 .. post:: 2010/10/15
 
-And for whatever it is worth to anyone, here are the notes I took (for
-the first time ever, when doing a reinstall):
-
-::
+And for whatever it is worth here are the notes I took::
 
     o System Preferences -> Organize alphabeticallyo Sync bluetooth mouseo Software update * 2
      - Reboot * 2o Install XCodeo Customize Dock

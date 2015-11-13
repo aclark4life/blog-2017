@@ -1,4 +1,4 @@
-Using Buildout to deploy a Plone 2.1 site to the cloud
+Using Buildout To Deploy a Plone 2.1 Site To The Cloud
 ======================================================
 
 .. post:: 2010/03/15

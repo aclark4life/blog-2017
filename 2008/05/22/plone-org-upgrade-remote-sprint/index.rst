@@ -1,5 +1,5 @@
-Plone.org upgrade remote sprint!
-================================
+Plone.org Upgrade Remote Sprint
+===============================
 
 .. post:: 2008/05/22
 

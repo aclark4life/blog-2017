@@ -1,5 +1,5 @@
-NASA starts new science Web site, powered by Plone
-==================================================
+NASA Launches New Science Web Site Powered By Plone
+===================================================
 
 .. post:: 2008/04/10
 

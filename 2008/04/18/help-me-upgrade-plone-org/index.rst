@@ -1,4 +1,4 @@
-Help me upgrade plone.org
+Help Me Upgrade plone.org
 =========================
 
 .. post:: 2008/04/18

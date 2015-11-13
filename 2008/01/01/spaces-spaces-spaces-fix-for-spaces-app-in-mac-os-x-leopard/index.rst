@@ -1,5 +1,5 @@
-Spaces.. Spaces.. Spaces.. fix for Spaces.app in Mac OS X Leopard
-=================================================================
+Fix for Spaces in Mac OS X Leopard
+==================================
 
 .. post:: 2008/01/01
 

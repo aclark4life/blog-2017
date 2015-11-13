@@ -1,5 +1,5 @@
-Buildout Recipe Tip: ``hexagonit.recipe.download`` FTW!
-=======================================================
+Buildout Recipe Tip: hexagonit.recipe.download
+==============================================
 
 .. post:: 2007/11/28
 

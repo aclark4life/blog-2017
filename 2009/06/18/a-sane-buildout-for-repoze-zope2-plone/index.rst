@@ -1,47 +1,28 @@
-A sane buildout for repoze.zope2 + Plone?
-=========================================
+A Sane Buildout For repoze.zope2 + Plone
+========================================
 
 .. post:: 2009/06/18
 
-(This is also a follow-up of sorts to `Martin Aspeli's excellent
-introduction to repoze and Plone from last year`_.)
+**This is a follow-up to `Martin Aspeli's introduction to repoze and Plone from last year`_.**
 
 A Tale of Two Buildouts
 -----------------------
 
-There are two stories going on here, both of which `Martin Aspeli
-recently described in great detail`_ and `Chris McDonough tackled last
-year`_. For the purposes of this blog entry, I'll refer to the issue as
-the "index vs. find-links" conundrum in buildout  (find-links in
-buildout are equivalent to distribution\_links in setuptools).
+There are two stories going on here, both of which `Martin Aspeli recently described in great detail`_ and `Chris McDonough tackled last year`_. For the purposes of this blog entry, I'll refer to the issue as the "index vs. find-links" conundrum in buildout  (find-links in buildout are equivalent to distribution\_links in setuptools).
 
-For those that want strict repeatability, using the index parameter is
-the clear winner. It simply forces buildout to do the right thing now
-and forever, by limiting what packages it can select from. For those
-that want functionality and don't mind the occasional egg-out-of-whack
-(i.e. unexpected upgrade), then using the find-links parameter can
-provide a "sexy" way to get decent results quickly (but may, and
-probably will, shoot you in the foot later).
+For those that want strict repeatability, using the index parameter is the clear winner. It simply forces buildout to do the right thing now and forever, by limiting what packages it can select from. For those that want functionality and don't mind the occasional egg-out-of-whack (i.e. unexpected upgrade), then using the find-links parameter can provide a "sexy" way to get decent results quickly (but may, and probably will, shoot you in the foot later).
 
 Sexy, but Dangerous
 -------------------
 
-Let's start with the sexy, but with less repeat-ability method first.
-Using this method we are not specifying our own index. Therefore you are
-free to add any package from `PyPI`_ or `plone.org`_ as you see fit.
-This is essentially why people like this method (the counter argument is
-that it is simple to add any additional egg you may want to your index,
-but we'll get to that later).
+Let's start with the sexy, but with less repeat-ability method first.  Using this method we are not specifying our own index. Therefore you are free to add any package from `PyPI`_ or `plone.org`_ as you see fit.  This is essentially why people like this method (the counter argument is that it is simple to add any additional egg you may want to your index, but we'll get to that later).
 
-So a simple buildout using this method might look like this:
+So a simple buildout using this method might look like this::
 
-    0. virtualenv plone; cd plone
-
-    1. bin/easy\_install zc.buildout
-
-    2. bin/buildout init
-
-    3. Edit buildout.cfg:
+    virtualenv plone; cd plone
+    bin/easy\_install zc.buildout
+    bin/buildout init
+    Edit buildout.cfg:
 
 ::
 

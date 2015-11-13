@@ -1,5 +1,5 @@
-Help esteele go to Baarn!
-=========================
+Help esteele Go To Baarn
+========================
 
 .. post:: 2009/01/23
 
