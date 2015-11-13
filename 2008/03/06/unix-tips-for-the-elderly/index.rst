@@ -1,15 +1,17 @@
 UNIX Tips For The Elderly
 =========================
 
-.. post:: 2008/03/06
-
-I often want to do ***something*** to a bunch of files on the filesystem, e.g.
-
 .. raw:: html
 
     <style>
     pre.prompt:before { content: '$ ' }
     </style>
+
+.. post:: 2008/03/06
+
+I often want to do ***something*** to a bunch of files on the filesystem, e.g.
+
+.. raw:: html
 
     <pre class="prompt">
     find Music/ | xargs -J % echo 'Do something to ' %
@@ -41,25 +43,25 @@ Useless. The best fix I've managed to come up with which I couldn't recall hence
 
 So I can do things like:
 
+.. raw:: html
+
+    <pre class="prompt">
+    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % ls -d %
+    </pre>
+
 ::
 
-    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % ls -d %
     Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a
 
 or
 
+.. raw:: html
+
+    <pre class="prompt">
+    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % file %
+    </pre>
+
 ::
 
-    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % file %
     Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a:
       ISO Media, MPEG v4 system, iTunes AAC-LC
-
-... and afterwards go back to whatever I was supposed to be working on in the first place. There, I feel better now! Thanks for listening,
-
- 
-
-:-)
-
- 
-
-P.S. If anyone knows a better way to do this, please add it in the comments.
