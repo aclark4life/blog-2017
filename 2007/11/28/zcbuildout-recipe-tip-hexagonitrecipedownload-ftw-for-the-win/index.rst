@@ -1,7 +1,9 @@
-Buildout Recipe Tip: hexagonit.recipe.download
-==============================================
+Buildout Recipe Tip: ``hexagonit.recipe.download``
+==================================================
 
 .. post:: 2007/11/28
+
+**How to handle difficult old-style products.**
 
 Sometimes an "old style" product is distributed as foo.tar.gz and extracts to foo/, but the product is actually called Bar! This can be a problem when using the **plone.recipe.productdistros** recipe because when 'Bar' is extracted to parts/productdistros/foo, it will not work.
 
