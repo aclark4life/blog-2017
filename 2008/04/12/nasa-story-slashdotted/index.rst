@@ -3,7 +3,7 @@ NASA Story Slashdotted
 
 .. post:: 2008/04/12
 
-**The Slashdot effect*
+**The Slashdot effect**
 
 My submission to Slashdot was published!
 
