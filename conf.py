@@ -355,6 +355,7 @@ html_theme_options = {
     'navbar_links': [
         ("Feed", "/blog/atom.xml", True),
         ("GitHub", "https://github.com/aclark4life/ablog", True),
+        ("Twitter", "https://twitter.com/aclark4life", True),
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
