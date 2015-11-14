@@ -3,4 +3,6 @@ Nirvana Old Age Interrupted
 
 .. post:: 2009/02/07
 
-http://www.youtube.com/watch?v=ec200NlbTA4&w=420&h=315
+.. raw:: html
+
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/ec200NlbTA4" frameborder="0" allowfullscreen></iframe>
