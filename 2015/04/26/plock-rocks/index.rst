@@ -7,7 +7,7 @@ Plock Rocks
     :alt: Plock Meme
     :align: center
 
-*Plock is a Plone installer for the pip-loving crowd. Plone is the ultimate open source enterprise CMS.*
+**Pip installs Plock. Plock installs Plone.**
 
 Understanding Plock
 -------------------
