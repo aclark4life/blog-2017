@@ -4,9 +4,13 @@
 About Alex Clark
 ============================
 
+|
+
 .. image:: images/aclark-jobs.jpg
   :align: center
   :class: img-thumbnail
+
+|
 
 .. raw:: html
 
