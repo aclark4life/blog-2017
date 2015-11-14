@@ -3,9 +3,6 @@ Hello Plone Updated
 
 .. post:: 2014/01/11
 
-.. image:: images/hello-plone-updated.jpg
-    :alt: alternate text
-
 Over two years ago I wrote a blog entry called `"Hello, Plone!" <http://blog.aclark.net/2011/08/20/hello-plone/>`_. I've just updated it in order to:
 
 - Change the wording
