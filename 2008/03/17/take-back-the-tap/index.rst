@@ -3,6 +3,8 @@ Take Back The Tap
 
 .. post:: 2008/03/17
 
+**Promote tap water over bottled water**
+
 `ACLARK.NET, LLC <http://aclark.net>`_ is proud to announce http://www.takebackthetap.org.
 
 The following software was used to deploy this site:
