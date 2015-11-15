@@ -77,7 +77,7 @@ Start Supervisor in the background:
 
     bin/supervisord
 
-status:
+Get the status:
 
 ::
 
