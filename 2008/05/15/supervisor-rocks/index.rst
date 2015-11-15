@@ -10,9 +10,7 @@ You should probably be using `Supervisor`_ because:
 - Starting and stopping Zope and ZEO separately is no fun.
 - Using Supervisor is easy and fun.
 
-Here's how: 
-
-- Add a new section your ``buildout.cfg`` file:
+Add a new section your ``buildout.cfg`` file:
 
 ::
 
@@ -25,7 +23,7 @@ Here's how:
     recipe = zc.recipe.egg
     egg = supervisor
 
-- Create a configuration file:
+Create a configuration file:
 
 ::
 
