@@ -3,6 +3,8 @@ Placeful Theming
 
 .. post:: 2008/06/02
 
+For some themed location /foo/bar, you want "bar" and everything below it to look different than "foo".
+
 I had to do a bit of placeful theming lately and I thought I would share the techniques I used (thanks davisagli, jonbaldievieso, vedawms). Let's say you have a Plone 3 site, and for some location /foo/bar/baz, you want 'baz' and everything below it to look different. I made this change through the web because I was in a hurry, but the same can be done in filesystem code.
 
 The steps are:
