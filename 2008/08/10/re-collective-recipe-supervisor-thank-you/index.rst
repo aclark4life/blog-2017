@@ -3,11 +3,7 @@ collective.recipe.supervisor Thank You
 
 .. post:: 2008/08/10
 
-Since I `last wrote about supervisor`_ it's become even more easy and more fun to add it to your buildout with `collective.recipe.supervisor`_. I **really** appreciate what this recipe allows me to do (because it makes my job/life so much easier) and I want to publicly thank `Mustapha Benali, Author & Hanno Schlichting, Contributor`_.
-
-Now, it is as simple as editing your buildout.cfg like so:
-
-1. Add a part for supervisor:
+Since I `last wrote about supervisor <http://blog.aclark.net/2008/05/15/supervisor-rocks/index.html>`_ it's become easier to use thanks to `collective.recipe.supervisor`_. Now, it is as simple as editing your ``buildout.cfg``. Add a section for Supervisor:
 
 ::
 
@@ -16,7 +12,7 @@ Now, it is as simple as editing your buildout.cfg like so:
             ...
             supervisor
 
-2. Create the part:
+Create the section:
 
 ::
 
@@ -26,7 +22,7 @@ Now, it is as simple as editing your buildout.cfg like so:
         10 zeo ${zeo:location}/bin/runzeo ${zeo:location}
         20 instance ${instance:location}/bin/runzope ${instance:location} true
 
-3. Run buildout:
+Run Buildout:
 
 ::
 
@@ -47,7 +43,7 @@ Now, it is as simple as editing your buildout.cfg like so:
     Generated script '/Users/aclark/Developer/supervisor-recipe-test/bin/memmon'.
     Generated script '/Users/aclark/Developer/supervisor-recipe-test/bin/supervisorctl'.
 
-4. Start supervisor in the foreground:
+Start Supervisor in the foreground:
 
 ::
 
@@ -73,15 +69,13 @@ Now, it is as simple as editing your buildout.cfg like so:
         determining if we need to fix up any ZClasses.2008-08-27 06:41:28,452 DEBG 'instance' stdout output:
     2008-08-27 06:41:28 INFO Zope Ready to handle requests
 
-5. When everything looks ok, start supervisor 'for real':
+Start Supervisor in the background:
 
 ::
 
     bin/supervisord
 
-6. Once running, you can:
-
--  Check status:
+status:
 
 ::
 
@@ -89,7 +83,7 @@ Now, it is as simple as editing your buildout.cfg like so:
     instance                         RUNNING    pid 99889, uptime 0:00:04
     zeo                              RUNNING    pid 99888, uptime 0:00:04
 
--  Start/stop Zope/ZEO in various ways:
+Start/stop Zope/ZEO: 
 
 ::
 
@@ -102,8 +96,7 @@ Now, it is as simple as editing your buildout.cfg like so:
     instance: stopped$ bin/supervisorctl start  all
     zeo: startedinstance: started
 
-and generally go about your business, unfettered.
+Thanks `Mustapha Benali, Author & Hanno Schlichting, Contributor`_.
 
-.. _last wrote about supervisor: /Members/aclark/supervisor-rocks/
-.. _collective.recipe.supervisor: http://pypi.python.org/pypi/collective.recipe.supervisor/0.4
+.. _collective.recipe.supervisor: http://pypi.python.org/pypi/collective.recipe.supervisor
 .. _Mustapha Benali, Author & Hanno Schlichting, Contributor: http://pypi.python.org/pypi/collective.recipe.supervisor/0.4#contributors
