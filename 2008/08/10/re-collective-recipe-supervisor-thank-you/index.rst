@@ -1,7 +1,9 @@
-collective.recipe.supervisor Thank You
-======================================
+``collective.recipe.supervisor``: Thank You
+===========================================
 
 .. post:: 2008/08/10
+
+**Now even easier to use Supervisor**
 
 Since I `last wrote about supervisor <http://blog.aclark.net/2008/05/15/supervisor-rocks/index.html>`_ it's become easier to use thanks to `collective.recipe.supervisor`_. Now it's as simple as editing your ``buildout.cfg``.
 
