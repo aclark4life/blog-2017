@@ -7,7 +7,7 @@ Products.todo 0.1
 
 I needed a project to jump start my return to Plone after spending months organizing `Plone Conference 2008`_, and wanted to see an add-on's development through from start to finish including:
 
-- Generating boilerplate buildout and product code with paster.
+- Generating boilerplate Buildout and add-on code with Paster.
 - Develop some simple functionality for Plone.
 - Releasing to pypi.
 
