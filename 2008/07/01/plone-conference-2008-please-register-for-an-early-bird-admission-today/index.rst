@@ -3,6 +3,8 @@ Plone Conference 2008: Please Register
 
 .. post:: 2008/07/01
 
+**Join 300-400 of your closest friends for a 7-day party**
+
 `http://ploneconf2008.eventbrite.com/`_
 
 Organizing a `Plone Conference`_ is a lot like planning to invite 300-400 of your closest friends over for a 7-day long party, or, at least, it feels that way to me. I'm really looking forward to seeing everyone in DC in just a few short months, and I'm very excited about all the possibilities. From the pre-conference training, to the post conference sprint, to all the good food/drink/people/places to enjoy in between. This promises to be one of the biggest and best Plone Conferences ever.
