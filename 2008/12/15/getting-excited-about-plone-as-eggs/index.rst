@@ -5,7 +5,7 @@ Getting Excited About Plone as Eggs
 
 **Updated for 4.x**
 
-I'm excited about this because it simplifies the development and deployment story for `Plone`_. For example you can now create a Plone ``buildout.cfg`` file like this:
+I'm excited about this because it greatly simplifies the development and deployment story for `Plone`_. For example you can now create a Plone ``buildout.cfg`` file like this:
 
 ::
 
