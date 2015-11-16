@@ -3,11 +3,9 @@ Getting Excited About Plone as Eggs
 
 .. post:: 2008/12/15
 
-Updated for 4.x
+**Updated for 4.x**
 
-I'm really excited about this, as it greatly simplifies the development
-and deployment story for `Plone`_. For example, you can now create a
-Plone buildout.cfg file as follows:
+I'm excited about this because it simplifies the development and deployment story for `Plone`_. For example you can now create a Plone ``buildout.cfg`` file like this:
 
 ::
 
@@ -23,7 +21,6 @@ Plone buildout.cfg file as follows:
         PILwoTk
         Plone
 
-Thanks framework team and core developers for this impressive release!
+Thanks framework team and core developers for this impressive release.
 
 .. _Plone: http://plone.org
-.. _`http://svn.aclark.net/svn/public/buildout/plone/trunk/README.txt`: http://svn.aclark.net/svn/public/buildout/plone/trunk/README.txt
