@@ -10,11 +10,11 @@ I'm excited about this because it greatly simplifies the development and deploym
 ::
 
     [buildout]
-    extends =
-        http://dist.plone.org/release/4.0a1/versions.cfgversions = versions
+    extends = http://dist.plone.org/release/4.0a1/versions.cfgversions = versions
     find-links = http://dist.plone.org/thirdparty/PILwoTk-1.1.6.4.tar.gz
-    parts =
-        instance[instance]
+    parts = instance
+
+    [instance]
     recipe = plone.recipe.zope2instance
     user = admin:admin
     eggs =
