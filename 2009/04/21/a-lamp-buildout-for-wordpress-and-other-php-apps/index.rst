@@ -3,6 +3,8 @@ A LAMP Buildout for Wordpress and Other PHP Apps
 
 .. post:: 2009/04/21
 
+**Buildout all the things**
+
 A Buildout for PHP?
 -------------------
 
