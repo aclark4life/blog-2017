@@ -7,6 +7,8 @@ New Year’s Python Meme
     :width: 100%
     :alt: alternate text
 
+**Tarek's new thing**
+
 What’s the coolest Python application, framework or library you have discovered in 2009?
 ----------------------------------------------------------------------------------------
 
