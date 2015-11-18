@@ -3,6 +3,8 @@ Review of Veda Williams' Plone 3 Theming
 
 .. post:: 2009/09/22
 
+**Review all the chapters**
+
 First things first, I can't overstate enough how much I personally appreciate Veda's efforts to bring the (currently-and-unfortunately, but-not-for-long) complex world of Plone theming to the masses. It's an acquired taste, but once you get the hang of it you can use your powerful skills to create some very impressive sites – and make the world a better place like Veda and the crew at `Groundwire`_ are doing (formerly ONE/Northwest).
 
 Furthermore, If you are interested in Plone and how Plone theming works, this book is almost certainly for you. It gives you an over abundance of present day theming knowledge, and also covers aspects of the Zope 3 component architecture, where Plone has been, and where it is going to be in the not-so-distant-future.
