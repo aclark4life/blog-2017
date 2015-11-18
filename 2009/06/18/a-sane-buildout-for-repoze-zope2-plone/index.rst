@@ -3,7 +3,7 @@ A Sane Buildout For repoze.zope2 + Plone
 
 .. post:: 2009/06/18
 
-**This is a follow-up to `Martin Aspeli's introduction to repoze and Plone from last year`_.**
+**This is a follow-up to Martin Aspeli's introduction to repoze and Plone from last year**
 
 A Tale of Two Buildouts
 -----------------------
@@ -154,7 +154,6 @@ starting Zope (via paste) and adding a Plone site, nothing more! :-)
 I, however, am getting a new server next week and will be hosting this
 site on `repoze.zope2`_ very shortly ;-)
 
-.. _Martin Aspeli's excellent introduction to repoze and Plone from last year: http://www.martinaspeli.net/articles/rolling-out-repoze
 .. _Martin Aspeli recently described in great detail: http://www.martinaspeli.net/articles/scrambled-eggs
 .. _Chris McDonough tackled last year: http://plope.com/Members/chrism/distribution_links_considered_harmful
 .. _PyPI: http://pypi.python.org/simple/
