@@ -1,6 +1,8 @@
 Is Anyone Using plone.org's New PyPI Functionality?
 ===================================================
 
+**python setup.py upload -r plone.org**
+
 .. post:: 2009/03/13
 
 Lots of exciting things are happening with Plone.org!
