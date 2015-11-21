@@ -6,7 +6,7 @@ About Alex Clark
 
 |
 
-.. image:: images/aclark-jobs.jpg
+.. image:: /images/aclark-jobs.jpg
   :align: center
   :class: img-thumbnail
 
