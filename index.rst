@@ -20,3 +20,4 @@ All Posts
    :hidden:
 
    about.rst
+   now.rst
