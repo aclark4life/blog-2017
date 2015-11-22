@@ -3,6 +3,8 @@ I Reinstalled Recently
 
 .. post:: 2010/10/15
 
+**OS X Installation Notes**
+
 And for whatever it is worth here are the notes I took::
 
     o System Preferences -> Organize alphabeticallyo Sync bluetooth mouseo Software update * 2

@@ -3,6 +3,8 @@ Using Buildout To Deploy a Plone 2.1 Site To The Cloud
 
 .. post:: 2010/03/15
 
+**Plone 2.1 Buildout**
+
 Believe it or not, there are still Plone 2.1 sites in production. (And 1.0 sites too, for that matter. Just look for the tell-tale '/help' sign, e.g. `http://www.zope.org/help`_, if you suspect Plone 1).
 
 I know, because I just `deployed one`_ (a cool artist's site if you have a couple hours to kill…). But I didn't do it the "old way" with Zope 2 instances created by hand on clunky physical servers, I used `Buildout`_ and the `Cloud`_.
