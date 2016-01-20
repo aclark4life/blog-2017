@@ -172,7 +172,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Alex Clark\'s Blog'
-copyright = u'2015, Alex Clark'
+copyright = u'2016, Alex Clark'
 author = u'Alex Clark'
 
 # The version info for the project you're documenting, acts as replacement for
