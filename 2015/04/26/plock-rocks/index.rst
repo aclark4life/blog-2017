@@ -12,9 +12,9 @@ Plock Rocks
 Understanding Plock
 -------------------
 
-To understand Plock you must understand a few things:
+To understand Plock, you must understand:
 
-- The complexity of the Plone stack [1]_.
+- The undisputed complexity of the Plone stack [1]_.
 - My desire to simplify, clarify and reduce-to-bare-elements everything I touch.
 - My willingness to mask complexity when eliminating it is not possible, despite the risk of contributing to it.
 
@@ -228,7 +228,7 @@ Now open http://localhost:8080 and happy Ploning.
 Footnotes
 ---------
 
-.. [1] Whether or not dealing with that complexity is "worth it" I will not address here. Suffice it to say people still use and care about Plone and with Plone 5 coming "real soon now" there is some excitement building.
+.. [1] Whether or not dealing with the complexity is worth it, I will not address. Suffice it to say, plenty of folks still use and care about Plone and with a Plone 5 release pending, there is excitement building.
 
 .. [2] He probably made it many times, and rightfully so.
 
