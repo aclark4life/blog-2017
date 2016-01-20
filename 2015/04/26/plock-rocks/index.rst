@@ -18,7 +18,7 @@ To understand Plock, you must understand:
 - My desire to simplify, clarify and reduce-to-bare-elements everything I touch.
 - My willingness to mask complexity when eliminating it is not possible, despite the risk of contributing to it.
 
-Pyramid author Chris McDonough [2]_ once made a comment a long time ago to the effect: "Let's stop piling more crap on top of Plone" and that sentiment still resonates today. That's why even though I love small and useful tools like Plock, it pains me to know what Plock is doing "under the hood" [7]_. Nevertheless, I felt compelled to write it and make it work well because not having it is even more painful. 
+Pyramid author Chris McDonough [2]_ once made a comment a long time ago to the effect: "Let's stop piling more crap on top of Plone" and that sentiment still resonates today. That's why even though I love small and useful tools like Plock, it pains me to know what Plock is doing "under the hood" [7]_. Nevertheless, I felt compelled to write it because not having it is worse.
 
 Before I tell you what Plock is [8]_, let me briefly describe what Plone is.
 
@@ -46,7 +46,7 @@ What is the complexity I mention above? Briefly, with as few loaded statements a
 In total, if you ``pip install Plone`` over 200 Python packages are installed [5]_.
 
 What is Plock, really? 
---------------------------------
+----------------------
 
 OK now it's time to explain Plock. Plock is something:
 
