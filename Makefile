@@ -7,3 +7,5 @@ build:
 	ablog build
 serve:
 	ablog serve
+install:
+	virtualenv .; bin/pip install -r requirements.txt
