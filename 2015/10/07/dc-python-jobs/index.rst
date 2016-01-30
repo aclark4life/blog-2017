@@ -18,11 +18,9 @@ Ideally we'd have a professional job board, but that would require a lot of effo
 This has worked surprisingly well however there *are* some issues. In this post, I will explain how to use DC Python's "Job Board" according to guidelines established by our community.
 
 
-The `DC Python Job Board <http://www.meetup.com/DCPython/messages/boards/>`_ includes:
+The `DC Python Job Board <http://www.meetup.com/DCPython/messages/boards/>`_ features:
 
-- `A board for Python programmers seeking work <http://www.meetup.com/DCPython/messages/boards/forum/13783032>`_.
-- `A board for employers seeking Python programmers <http://www.meetup.com/DCPython/messages/boards/forum/617991>`_.
-- `A board for organizations & venues willing (or even excited) to host our meetups <http://www.meetup.com/DCPython/messages/boards/forum/13783122>`_.
+- `A board for employers seeking Python programmers and vice versa <http://www.meetup.com/DCPython/messages/boards/forum/617991>`_.
 
 The #1 function of the board (and biggest consumer of my time spent answering emails) is to serve employers seeking Python programmers. "Employers" *can* and often *does* include professional recruiters.
 
