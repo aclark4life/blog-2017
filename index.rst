@@ -20,4 +20,5 @@ All Posts
    :hidden:
 
    about/index.rst
+   feeds/index.rst
    now/index.rst
