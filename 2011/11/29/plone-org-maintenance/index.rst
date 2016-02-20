@@ -2,12 +2,12 @@ Plone.org maintenance
 =====================
 
 .. post:: 2011/11/29
+    :category: Plone
+
+**I am planning to do some work on the plone.org server and website by the end of the year, including:**
 
 Plans
 -----
-
-I am planning to do some work on the plone.org server and website by the
-end of the year, including:
 
 Upgrade to the latest 4.2.x series
 

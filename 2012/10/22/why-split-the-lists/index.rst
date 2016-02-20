@@ -2,6 +2,7 @@ Why Split The Lists
 ===================
 
 .. post:: 2012/10/22
+    :category: Plone
 
 Background
 ----------

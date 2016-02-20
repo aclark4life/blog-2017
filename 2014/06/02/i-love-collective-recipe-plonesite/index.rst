@@ -2,6 +2,7 @@ I love collective-recipe-plonesite!
 ===================================
 
 .. post:: 2014/06/02
+    :category: Plone
 
 Whenever I answer tech support questions, I usually begin with a clean slate, e.g.::
 

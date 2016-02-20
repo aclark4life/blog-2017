@@ -2,6 +2,7 @@ Plone on Heroku
 ===============
 
 .. post:: 2015/06/27
+    :category: Plone
 
 *Dear Plone, welcome to 2015*
 

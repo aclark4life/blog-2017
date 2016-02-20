@@ -2,8 +2,9 @@ New website for 2011!
 =====================
 
 .. post:: 2011/01/19
+    :category: Plone
 
-Edit: In addition to "cool overlays", I added a couple Plone-core todo items (that I may like to PLIP/implement)
+**Edit: In addition to "cool overlays", I added a couple Plone-core todo items (that I may like to PLIP/implement)**
 
 Purpose-driven
 --------------

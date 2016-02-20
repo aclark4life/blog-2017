@@ -2,8 +2,11 @@ Help Alex Clark help Plone
 ==========================
 
 .. post:: 2011/01/21
+    :category: Plone
 
-It's been a few years since I last attended a Plone sprint. And that is by no means for lack of desire. I fantasize about spending a year attending every Plone (and Python) related event on the planet, but I've got a ways to go before I can make that dream a reality.
+**It's been a few years since I last attended a Plone sprint.**
+
+And that is by no means for lack of desire. I fantasize about spending a year attending every Plone (and Python) related event on the planet, but I've got a ways to go before I can make that dream a reality.
 
 In the meantime, I'm excited to announce that the stars have aligned in February 2011 and I am planning to attend the `Cioppino sprint`_ AKA West Coast "Snow" Sprint (plane tickets purchased!)
 

@@ -2,6 +2,7 @@ Toronto Plone Add-ons Sprint #1 Report
 ======================================
 
 .. post:: 2010/01/01
+    :category: Plone
 
 **Via Toronto Plone Users Group**
 

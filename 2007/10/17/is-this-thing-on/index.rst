@@ -1,9 +1,10 @@
 Is This Thing On?
 =================
 
-**Sorry about the duplicate posts.**
-
 .. post:: 2007/10/17
+    :category: Plone
+
+**Sorry about the duplicate posts.**
 
 |
 

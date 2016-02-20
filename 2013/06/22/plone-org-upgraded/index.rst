@@ -2,6 +2,7 @@ Plone.org upgraded
 ==================
 
 .. post:: 2013/06/22
+    :category: Plone
 
 Recently at the behest of Liz Leddy, I `upgraded plone.org from Plone 4.2 to Plone 4.3 <https://github.com/plone/Products.PloneOrg/commit/b04105f7c9cacf3880c12effba5ffe261d4b5163>`_. It's been a while since I had the pleasure, so I thought I'd make some notes: for myself, the AI Team and anyone else interested in the process.
 

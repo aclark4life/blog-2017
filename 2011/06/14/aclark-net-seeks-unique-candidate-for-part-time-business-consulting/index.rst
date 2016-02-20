@@ -2,6 +2,7 @@ ACLARK.NET seeks unique candidate for part time business consulting
 ===================================================================
 
 .. post:: 2011/06/14
+    :category: Misc
 
 We are looking for a unique and talented (but mostly non-technical) individual that is passionate about Plone, and able to dedicate some small amount of time per month to generating new business for us[1].
 

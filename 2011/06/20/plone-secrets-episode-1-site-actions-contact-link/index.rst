@@ -2,6 +2,7 @@ Plone Secrets Episode 1 Site Actions Contact Link
 =================================================
 
 .. post:: 2011/06/20
+    :category: Plone
 
 Today I am introducing a new category of blog entry called **Plone secrets**.
 

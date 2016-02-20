@@ -2,6 +2,7 @@ In Defense of PyPI
 ==================
 
 .. post:: 2011/01/31
+    :category: Python
 
 Everyone on the *Python Planet* is probably already familiar with Peter Fein's recent article `about PyPI use (or lack thereof).`_ But in case not, particularly striking was the number of folks who joined the "PyPI bashing" in the comments. In fact, it has inspired me to write this post "in defense of PyPI". I would like to offer the Python community a summary of what I think are the general criticisms, along with my responses as a "sysadmin / developer type".
 

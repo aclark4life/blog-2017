@@ -2,6 +2,7 @@ Plone secrets: Episode 4 - Varnish in front
 ===========================================
 
 .. post:: 2011/11/09
+    :category: Plone
 
 *This just in from the production department: use Varnish. (And please forgive the heavily meme-laden approach to describing these techniques :-).)*
 

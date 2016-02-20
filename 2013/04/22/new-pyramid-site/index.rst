@@ -2,6 +2,7 @@ New Pyramid Site
 ================
 
 .. post:: 2013/04/22
+    :category: Python
 
 .. image:: https://raw.github.com/ACLARKNET/aclarknet/master/screenshot.png
     :width: 98%

@@ -2,6 +2,7 @@ Built with Plone, Powered by GitHub Pages
 =========================================
 
 .. post:: 2013/02/23
+    :category: Plone
 
 Is Plone the next great static website generator? Probably not, but it definitely could be
 

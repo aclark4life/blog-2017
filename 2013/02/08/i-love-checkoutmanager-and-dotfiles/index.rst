@@ -2,6 +2,7 @@ I love checkoutmanager and dotfiles
 ===================================
 
 .. post:: 2013/02/08
+    :category: Misc
 
 *An ode to my OS X development workstation setup* [1]_
 

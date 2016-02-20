@@ -2,6 +2,7 @@ Introducing charm; death to charm!
 ==================================
 
 .. post:: 2011/03/29
+    :category: Plone
 
 A long time ago (several years ago, or more) one of my first Plone jobs was importing content from the file system (put there by another CMS) to a client's Plone 2.5 website (see: `http://blip.tv/file/761624/`_).
 

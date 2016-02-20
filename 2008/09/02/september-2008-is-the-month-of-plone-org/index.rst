@@ -1,9 +1,10 @@
 September 2008 is the Month of Plone.org
 ========================================
 
-**Upgrade to Plone 3 before the conference**
-
 .. post:: 2008/09/02
+    :category: Plone
+
+**Upgrade to Plone 3 before the conference**
 
 `Plone Conference 2008`_ is fast approaching and to avoid embarrassment, disappointment and public outcry I'd like to declare **September 2008 The Month Of Plone.org**. I have created an OpenPlans project to help coordinate efforts:
 

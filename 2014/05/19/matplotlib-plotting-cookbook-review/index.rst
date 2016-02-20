@@ -2,6 +2,7 @@ Matplotlib Plotting Cookbook Review
 ===================================
 
 .. post:: 2014/05/19
+    :category: Python
 
 *I was given a copy of* `Matplotlib Plotting Cookbook by Alexandre Devert <http://www.packtpub.com/matplotlib-plotting-cookbook/book>`_ *and asked to review it. Thanks PACKT!* *Here is my review.*
 

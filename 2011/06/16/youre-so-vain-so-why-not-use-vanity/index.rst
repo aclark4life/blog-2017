@@ -2,6 +2,7 @@ You're so vain, so why not use Vanity?
 ======================================
 
 .. post:: 2011/06/16
+    :category: Python
 
 A few months ago I created a package called **Vanity**\ [0] that provides easy access to package download statistics from **PyPI**. You can find the source code here: `https://github.com/aclark4life/vanity`_.
 

@@ -2,6 +2,7 @@ Review of Aspeli's Professional Plone 4 Development
 ===================================================
 
 .. post:: 2012/10/20
+    :category: Plone
 
 *I owe PACKT a review of this book, so here it is.*
 

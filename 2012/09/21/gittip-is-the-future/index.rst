@@ -2,6 +2,7 @@ Gittip is the future
 ====================
 
 .. post:: 2012/09/21
+    :category: Misc
 
 Heard of Gittip? If not, you should know: it has a lot of people (including me) excited about the potential to make a living doing what they love. From the Gittip blog [1]_:
 

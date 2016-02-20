@@ -2,6 +2,7 @@ Plone Conference 2008: Please Register
 ======================================
 
 .. post:: 2008/07/01
+    :category: Plone
 
 **Join 300-400 of your closest friends for a 7-day party**
 

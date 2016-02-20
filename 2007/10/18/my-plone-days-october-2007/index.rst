@@ -2,6 +2,7 @@ My Plone Days October 2007
 ==========================
 
 .. post:: 2007/10/18
+    :category: Plone
 
 **A commitment to the 10% Plone Manifesto.**
 

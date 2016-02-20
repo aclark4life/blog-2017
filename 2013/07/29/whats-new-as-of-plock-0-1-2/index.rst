@@ -2,6 +2,7 @@ What's new as of Plock 0-1-2?
 =============================
 
 .. post:: 2013/07/29
+    :category: Plone
 
 *Plock is a Plone Installer for the Pip-Loving Crowd*
 

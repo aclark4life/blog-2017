@@ -2,6 +2,7 @@ Help Me Upgrade plone.org
 =========================
 
 .. post:: 2008/04/18
+    :category: Plone
 
 **Because plone.org should run the latest Plone**
 

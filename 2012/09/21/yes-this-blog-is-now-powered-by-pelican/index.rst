@@ -2,6 +2,7 @@ Yup, this blog is now powered by Pelican
 ========================================
 
 .. post:: 2012/09/21
+    :category: Python
 
 As an open source "Plone guy", I'm always prepared to defend and explain my choice to **not** use Plone for blogging. A couple years ago, I started using Wordpress in order to learn its feature set. I enjoyed my time with it, but after moving to wordpress.com for "trouble free" hosting, I found I couldn't control my category feeds the way I wanted; the honeymoon was over.
 

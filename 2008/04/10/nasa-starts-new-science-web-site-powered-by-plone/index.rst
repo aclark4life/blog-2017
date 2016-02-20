@@ -2,6 +2,7 @@ NASA Launches New Science Web Site Powered By Plone
 ===================================================
 
 .. post:: 2008/04/10
+    :category: Plone
 
 **Another high-profile Plone site**
 

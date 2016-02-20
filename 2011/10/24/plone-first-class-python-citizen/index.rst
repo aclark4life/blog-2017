@@ -2,6 +2,7 @@ Plone: First class Python citizen
 =================================
 
 .. post:: 2011/10/24
+    :category: Plone
 
 *The Plone community and software fit nicely within the larger Python ecosystem. Here's why.*
 

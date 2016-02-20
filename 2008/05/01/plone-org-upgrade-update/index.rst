@@ -2,6 +2,7 @@ Plone.org Upgrade Update
 ========================
 
 .. post:: 2008/05/01
+    :category: Plone
 
 **Thank You**
 

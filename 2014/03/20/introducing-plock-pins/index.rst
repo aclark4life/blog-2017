@@ -2,6 +2,7 @@ Introducing Plock Pins
 ======================
 
 .. post:: 2014/03/20
+    :category: Plone
 
 .. image:: /images/buildout-all-the-plones.jpg
     :alt: alternate text

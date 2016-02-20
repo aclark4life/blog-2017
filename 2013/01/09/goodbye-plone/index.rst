@@ -2,6 +2,7 @@ Goodbye Plone
 =============
 
 .. post:: 2013/01/09
+    :category: Plone
 
 After experiencing an unexpectedly negative reaction in #plone to my most recent post "Introducing The Plone Kitty" (which was intended to be light-hearted and fun), I have decided to leave the Plone community for good. I wish you all the best! It's been fun.
 

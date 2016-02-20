@@ -2,6 +2,7 @@ Mailing List Etiquette
 ======================
 
 .. post:: 2012/10/20
+    :category: Plone
 
 I read a lot of mailing lists:
 

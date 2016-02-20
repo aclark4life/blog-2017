@@ -2,6 +2,7 @@ First Post
 ==========
 
 .. post:: 2007/10/17
+    :category: Plone
 
 **I have decided to start a blog!**
 

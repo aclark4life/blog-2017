@@ -2,6 +2,7 @@ The Apache Modules For XDV
 ==========================
 
 .. post:: 2010/07/12
+    :category: Buildout
 
 **Apache Buildout**
 

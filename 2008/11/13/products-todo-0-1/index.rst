@@ -1,9 +1,10 @@
 Products.todo 0.1
 =================
 
-**A project to jump start my return to Plone development.**
-
 .. post:: 2008/11/13
+    :category: Plone
+
+**A project to jump start my return to Plone development.**
 
 I needed a project to jump start my return to Plone after spending months organizing `Plone Conference 2008`_, and wanted to see an add-on's development through from start to finish including:
 

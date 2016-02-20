@@ -2,6 +2,7 @@ Hostout rules
 =============
 
 .. post:: 2011/01/26
+    :category: Plone
 
 *As in "dominates", not a "list of rules" :-)*
 

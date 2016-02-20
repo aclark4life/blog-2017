@@ -2,6 +2,7 @@ Zope2 Bootstrap
 ===============
 
 .. post:: 2012/06/12
+    :category: Plone
 
 *Bootstrap all the things, including Zope2.*
 

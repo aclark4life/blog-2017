@@ -2,6 +2,7 @@ I Reinstalled Recently
 ======================
 
 .. post:: 2010/10/15
+    :category: Misc
 
 **OS X Installation Notes**
 

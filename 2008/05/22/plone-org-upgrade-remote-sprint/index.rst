@@ -2,6 +2,7 @@ Plone.org Upgrade Remote Sprint
 ===============================
 
 .. post:: 2008/05/22
+    :category: Plone
 
 **Join us on IRC**
 

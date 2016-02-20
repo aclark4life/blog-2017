@@ -2,6 +2,7 @@ Help esteele Go To Baarn
 ========================
 
 .. post:: 2009/01/23
+    :category: Plone
 
 **Because I was there once too**
 

@@ -2,6 +2,7 @@ New Year's Python Meme 2014
 ===========================
 
 .. post:: 2013/12/30
+    :category: Python
 
 **Tarek Ziadé's New Year's Python Meme**
 

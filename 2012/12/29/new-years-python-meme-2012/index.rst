@@ -2,6 +2,7 @@ New Year's Python Meme 2012
 ===========================
 
 .. post:: 2012/12/29
+    :category: Python
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/tarek-meme-reminder.png
     :alt: alternate text

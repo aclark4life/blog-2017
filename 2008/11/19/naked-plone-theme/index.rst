@@ -2,6 +2,7 @@ Naked Plone Theme
 =================
 
 .. post:: 2008/11/19
+    :category: Plone
 
 **Products.naked_plone**
 

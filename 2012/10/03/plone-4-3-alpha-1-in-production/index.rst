@@ -2,6 +2,7 @@ Plone 4-3 Alpha 1 In Production
 ===============================
 
 .. post:: 2012/10/03
+    :category: Plone
 
 I love upgrading Plone. Given the choice between an afternoon in the sun and upgrading Plone… OK I'd probably pick the sun, but it'd be close.
 

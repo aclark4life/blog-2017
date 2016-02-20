@@ -2,6 +2,7 @@
 ===============================
 
 .. post:: 2011/05/27
+    :category: Plone
 
 **Edit2:**\ Enfold/Ploud.net looking for theme developers, see Alan Runyan's comment below.
 

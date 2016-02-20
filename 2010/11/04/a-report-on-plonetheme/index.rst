@@ -2,6 +2,7 @@ A report on plonetheme.*
 ========================
 
 .. post:: 2010/11/04
+    :category: Plone
 
 **Plone theme buildout**
 

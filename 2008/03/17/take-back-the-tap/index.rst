@@ -2,6 +2,7 @@ Take Back The Tap
 =================
 
 .. post:: 2008/03/17
+    :category: Plone
 
 **Promote tap water over bottled water**
 

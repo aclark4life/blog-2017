@@ -2,6 +2,7 @@ We Pioneer
 ==========
 
 .. post:: 2014/05/03
+    :category: Plone
 
 .. image:: /images/we-pioneer.jpg
     :alt: alternate text

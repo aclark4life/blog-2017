@@ -2,6 +2,7 @@ Hello Plone Again
 =================
 
 .. post:: 2013/01/09
+    :category: Plone
 
 Regarding my recent "Goodbye Plone" post:
 

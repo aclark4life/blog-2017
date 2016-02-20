@@ -2,6 +2,7 @@ Yup, This Blog Is Now Powered By WordPress
 ==========================================
 
 .. post:: 2010/01/06
+    :category: Plone
 
 **How I learned to stop worrying and use the right tool for the job.**
 

@@ -2,6 +2,7 @@ I Need Something To Do
 ======================
 
 .. post:: 2010/03/22
+    :category: Plone
 
 **The Pitch**
 

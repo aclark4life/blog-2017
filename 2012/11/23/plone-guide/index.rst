@@ -2,6 +2,7 @@ Plone Guide
 ===========
 
 .. post:: 2012/11/23
+    :category: Plone
 
 Who
 ---

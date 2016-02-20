@@ -2,6 +2,7 @@ Looking for projects
 ====================
 
 .. post:: 2012/10/04
+    :category: Misc
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/use_python.jpg
     :alt: alternate text

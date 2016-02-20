@@ -2,6 +2,7 @@ Introducing Plock Again
 =======================
 
 .. post:: 2013/12/29
+    :category: Plone
 
 A few months ago I introduced **Plock: the Plone-installer for the Pip-loving crowd**. Then I got sidetracked with the next version of Plock lingering unreleased in master. With the holidays underway I had a chance to revisit Plock and discovered a few things:
 
