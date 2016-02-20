@@ -48,7 +48,7 @@ Add the buildout
 
 Yes, we are still married to Buildout for even the simplest deployments :-/. So in order to make this easy for myself and others, I maintain buildouts for every version of Plone under the http://pythonpackages.com umbrella. I typically start like this from within the checked out repo:
 
-.. code-block:: sh
+::
 
     $ virtualenv .
     $ bin/pip install zc.buildout
@@ -56,7 +56,7 @@ Yes, we are still married to Buildout for even the simplest deployments :-/. So 
 
 I then ``extend`` the desired base configuration (``4.3.x-dev`` in this case) and add additional customizations as needed.
 
-.. code-block::
+::
 
     [buildout]
     extends = http://pythonpackages.com/buildout/plone/4.3.x-dev
@@ -94,7 +94,7 @@ Develop the Diazo theme
 
 With Diazo, Python packaging is optional. And the ``resources`` parameter available from ``plone.recipe.zope2instance`` makes it easy to start theming without a Python package. I started with a bootstrap template:
 
-.. code-block:: html
+::
 
     <!DOCTYPE html>
     <html lang="en">
@@ -233,7 +233,7 @@ With Diazo, Python packaging is optional. And the ``resources`` parameter availa
 
 Then added some Diazo rules:
 
-.. code-block:: xml
+::
 
     <rules
         xmlns="http://namespaces.plone.org/diazo"
@@ -254,7 +254,7 @@ Then added some Diazo rules:
 
 Then styled to fit with CSS:
 
-.. code-block:: css
+::
 
     #about {
         padding-top: 9px;    
