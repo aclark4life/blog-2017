@@ -56,7 +56,7 @@ Yes, we are still married to Buildout for even the simplest deployments :-/. So 
 
 I then ``extend`` the desired base configuration (``4.3.x-dev`` in this case) and add additional customizations as needed.
 
-.. code-block:: ini
+.. code-block::
 
     [buildout]
     extends = http://pythonpackages.com/buildout/plone/4.3.x-dev
