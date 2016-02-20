@@ -1,9 +1,12 @@
-pythonpackages-com one year later
-=================================
+PythonPackages: One Year Later
+==============================
 
 .. post:: 2012/09/28
+    :category: Pyramid
 
-We are rolling up on the **one year anniversary** of pythonpackages.com (in October). This is an exciting milestone (for me at least) because I've had a tremendous amount of fun building the site, not to mention how much I learned about GitHub, PyPI, Pyramid, Stripe, Redis, Bootstrap, and more.
+**We are rolling up on the one year anniversary of pythonpackages.com (in October).**
+
+This is an exciting milestone (for me at least) because I've had a tremendous amount of fun building the site, not to mention how much I learned about GitHub, PyPI, Pyramid, Stripe, Redis, Bootstrap, and more.
 
 We are hovering around 200 signups which I'm quite proud of. But in terms of **possible-financial-success** i.e. the potential of converting some of those sign ups in to actual customers I'd feel better if we were at 2,000 or higher.
 

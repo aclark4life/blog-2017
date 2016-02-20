@@ -2,13 +2,15 @@ New Pyramid Site
 ================
 
 .. post:: 2013/04/22
-    :category: Python
+    :category: Pyramid
 
 .. image:: https://raw.github.com/ACLARKNET/aclarknet/master/screenshot.png
     :width: 98%
     :alt: alternate text
 
-For the first time in 10 years, `aclark.net <http://aclark.net>`_ is not powered by Plone. Nothing against Plone: it's still one of the greatest loves of my life (inasmuch as you can love a software and community, as I do).
+**For the first time in 10 years, `aclark.net <http://aclark.net>`_ is not powered by Plone.**
+
+Nothing against Plone: it's still one of the greatest loves of my life (inasmuch as you can love a software and community, as I do).
 
 Why
 ---

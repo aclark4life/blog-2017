@@ -1,10 +1,10 @@
-I love checkoutmanager and dotfiles
+I Love Checkoutmanager and Dotfiles
 ===================================
 
 .. post:: 2013/02/08
-    :category: Misc
+    :category: Misc, Pyramid
 
-*An ode to my OS X development workstation setup* [1]_
+**An ode to my OS X development workstation setup** [1]_
 
 I am big on setting up my development environment, and enjoying the environment I work in. And I'm very thankful to the folks who make my life easier, including the authors of:
 

@@ -2,7 +2,7 @@ New Year's Python Meme 2011
 ===========================
 
 .. post:: 2011/11/21
-    :category: Python
+    :category: Pyramid, Python
 
 **My response**
 

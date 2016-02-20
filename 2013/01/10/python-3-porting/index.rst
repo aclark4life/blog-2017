@@ -2,6 +2,7 @@ Python 3 Porting
 ================
 
 .. post:: 2013/01/10
+    :category: Pyramid
 
 *The 3 in 2013 is for Python 3*
 
