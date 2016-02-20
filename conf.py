@@ -355,7 +355,6 @@ html_theme_options = {
     # an arbitrary url.
     'navbar_links': [
         ("Home", "http://aclark.net", True),
-        ("Feed", "/blog/atom.xml", True),
         ("GitHub", "https://github.com/aclark4life/ablog", True),
         ("Twitter", "https://twitter.com/aclark4life", True),
     ],

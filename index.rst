@@ -19,6 +19,6 @@ All Posts
 .. toctree::
    :hidden:
 
+   now/index.rst
    about/index.rst
    feeds/index.rst
-   now/index.rst
