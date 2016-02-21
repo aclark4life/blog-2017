@@ -8,7 +8,7 @@ Nirvana Old Age Interrupted
 
 .. raw:: html
 
-    <div class="img-thumbnail" style="text-align: center"> 
+    <div class="center-block img-thumbnail">
         <iframe width="420" height="315" src="https://www.youtube.com/embed/ec200NlbTA4" frameborder="0" allowfullscreen></iframe>
     </div>
 
