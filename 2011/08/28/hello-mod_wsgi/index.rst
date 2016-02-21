@@ -1,4 +1,4 @@
-Hello Mod_wsgi
+Hello mod_wsgi
 ==============
 
 .. post:: 2011/08/28
