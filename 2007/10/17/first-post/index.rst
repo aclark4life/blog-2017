@@ -2,7 +2,7 @@ First Post
 ==========
 
 .. post:: 2007/10/17
-    :category: Buildout, Plone, Python
+    :category: Buildout, Plone, Python, Zope
 
 **I have decided to start a blog!**
 
