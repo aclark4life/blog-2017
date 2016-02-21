@@ -423,4 +423,3 @@ html_theme_options = {
 
 disqus_shortname = 'aclark-blog'
 blog_baseurl = 'http://blog.aclark.net'
-googleanalytics_id = 'UA-73814137-2'
