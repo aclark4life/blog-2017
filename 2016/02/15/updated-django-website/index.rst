@@ -7,6 +7,8 @@ Updated Django Website
 **One year later**
 
 .. image:: /images/aclarknet-website.png
+    :align: center
+    :class: img-thumbnail
 
 |
 

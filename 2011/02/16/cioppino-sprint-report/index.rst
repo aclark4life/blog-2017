@@ -8,6 +8,8 @@ The `Cioppino Sprint`_ was recently held in Bodega Bay, CA. It was a `beautiful 
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/bodega.jpg
     :alt: Bodega Bay
+    :align: center
+    :class: img-thumbnail
 
 The passing of Dorneles Treméa
 ------------------------------

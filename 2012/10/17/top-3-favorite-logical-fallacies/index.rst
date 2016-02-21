@@ -6,6 +6,8 @@ Top 3 Favorite Logical Fallacies
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/y-u-no-agree.jpg
     :alt: Y U NO AGREE
+    :align: center
+    :class: img-thumbnail
 
 **I love to debate issues.**
 

@@ -10,6 +10,8 @@ Since Pillow 2.0, the Pillow Team has adopted a quarterly release cycle; as such
 
 .. image:: /images/one-does-not-simply-make-a-release.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 2.3.0 (2014-01-01)
 ------------------

@@ -8,6 +8,8 @@ Please Help Me Do Open Source Work
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/open-source-work.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Open Source Work
 ----------------

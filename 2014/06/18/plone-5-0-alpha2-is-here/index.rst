@@ -40,6 +40,8 @@ The first thing you will notice is the improved "Create a Plone Site" page which
 
 .. image:: /images/plone-5-screen-0.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Barceloneta Theme
 -----------------
@@ -48,6 +50,8 @@ I selected the ``US/Eastern`` timezone and clicked ``Create Plone Site``, shortl
 
 .. image:: /images/plone-5-screen-1.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Plone Toolbar
 -------------
@@ -56,41 +60,57 @@ Here is a quick tour of the new toolbar.
 
 .. image:: /images/plone-5-screen-1.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Folder contents
 ~~~~~~~~~~~~~~~
 .. image:: /images/plone-5-screen-2.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Edit button
 ~~~~~~~~~~~
 .. image:: /images/plone-5-screen-3.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Sharing settings
 ~~~~~~~~~~~~~~~~
 .. image:: /images/plone-5-screen-4.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Workflow settings
 ~~~~~~~~~~~~~~~~~
 .. image:: /images/plone-5-screen-5.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Add content
 ~~~~~~~~~~~
 .. image:: /images/plone-5-screen-6.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Layout settings
 ~~~~~~~~~~~~~~~
 .. image:: /images/plone-5-screen-7.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 User menu
 ~~~~~~~~~
 .. image:: /images/plone-5-screen-8.png
     :alt: Plone 5
+    :align: center
+    :class: img-thumbnail
 
 Love it! Of all these, only the eye icon didn't function as expected. Not sure what it's supposed to do but I assume it's not done yet. Additionally, I wish the small Plone logo in the toolbar navigated "home" like the portal logo. Or maybe it will close the toolbar? Oh, the possibilities!
 

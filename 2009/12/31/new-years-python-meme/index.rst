@@ -7,6 +7,8 @@ New Year’s Python Meme
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/lenin_packaging.png 
     :width: 100%
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 **Tarek's new thing**
 

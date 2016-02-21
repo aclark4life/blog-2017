@@ -21,16 +21,22 @@ As of the launch of the beta site 3 months ago, there are some actually-useful f
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/manage-packages.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 - The ability to "manage organizations" (see image below)
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/manage-organizations.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 - The `ability to create packages through the web`_ (i.e. from the web browser to GitHub, whereas normally you'd run PasteScript in your Terminal).
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/create-new-package.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 And a few more logistical features that are cool:
 
@@ -38,11 +44,15 @@ And a few more logistical features that are cool:
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/pay-with-stripe.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 - The ability to oauth against PyPI:
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/pypi-oauth.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Still, we have only scratched the surface of what could potentially be provided to the Python community. Future plans include:
 

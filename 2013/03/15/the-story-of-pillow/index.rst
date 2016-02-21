@@ -23,6 +23,8 @@ About 2.0.0
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/story-of-pillow.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 This release marks the first "serious effort" I have put into Pillow. While I've always enjoyed working on it in my spare time, I knew that there was no way I could finish it in time for PyCon 2013 (as I promised) without getting some financial assistance.
 

@@ -7,6 +7,8 @@ New Pyramid Site
 .. image:: https://raw.github.com/ACLARKNET/aclarknet/master/screenshot.png
     :width: 98%
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 **For the first time in 10 years, `aclark.net <http://aclark.net>`_ is not powered by Plone.**
 

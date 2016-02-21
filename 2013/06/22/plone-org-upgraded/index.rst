@@ -86,6 +86,8 @@ Pre-Process
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/upgrade.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 #. If the upgrade succeeds, you are ready to launch. If it fails, fix the errors before proceeding.
 
@@ -100,11 +102,15 @@ We know from upgrading locally that the process will take about 45 minutes to an
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/upgrade-message.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 #. Disable logins. Since the upgrade takes a long time, we don't want content being edited during this process. I chose to use David Glick's technique of disabling PAS. I moved the ldap authentication plugin to the Active Plugin list, thus disabling PAS such that only ZODB users could login. But ideally we'd have some feature in Plone to allow site administrators to disable logins.
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/pas.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 #. Run the upgrade. I forgot to mention earlier something very important: **On plone.org, you can't access Zope from the internet.** And you can't run the upgrade without accessing Zope. Hence run the following command to access the server, then access Plone via ``http://localhost:8080``::
 
@@ -114,6 +120,8 @@ We know from upgrading locally that the process will take about 45 minutes to an
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/custom.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Even if I had remembered, I didn't want to spend the next few hours examining database customizations. Fortunately, before I realized I had forgotten to check custom, I emailed the plone-developers list — and Nathan Van Gheem to the rescue! He fixed some JavaScript in custom, then I cleared the cache(s). Ideally Plone would report on database customizations during the upgrade process: to indicate the potential for breakage and encourage the site administrator to round-trip those customizations back to the file system.
 

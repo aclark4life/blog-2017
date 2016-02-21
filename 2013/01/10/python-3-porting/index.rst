@@ -8,6 +8,8 @@ Python 3 Porting
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/python-3-port.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 I tend to like projects that everyone else **hates**, e.g.:
 

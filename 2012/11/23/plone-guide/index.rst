@@ -16,6 +16,8 @@ Recently with a tweet, I announced the start of a new personal project:
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/tweet.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 When
 ----

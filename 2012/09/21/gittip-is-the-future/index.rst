@@ -19,6 +19,8 @@ Why? If for no other reason, because it comes from a member of the Python commun
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/gittip.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 And succeed they will, with gittip. Some particularly impressive results so far: 
 

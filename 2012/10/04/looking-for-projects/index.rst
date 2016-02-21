@@ -6,6 +6,8 @@ Looking For Projects
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/use_python.jpg
     :alt: I don't always work, but when I do I prefer to use Python.
+    :align: center
+    :class: img-thumbnail
 
 **With `pythonpackages.com winding down`_, I am now actively seeking projects for Q4 2012 and beyond.**
 

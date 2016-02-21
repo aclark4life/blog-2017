@@ -6,6 +6,8 @@ New Year's Python Meme 2012
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/tarek-meme-reminder.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 *This is my entry for Tarek Ziadé's New Year's Python Meme, a tradition I have come to enjoy. Both to reflect on the current year and look back on previous years. So here it is.*
 

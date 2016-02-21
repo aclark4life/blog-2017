@@ -72,9 +72,13 @@ Chapter 5 is all about "working with file output". For reference, here are some 
 
 .. image:: http://blog.aclark.net/images/sinc1.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 .. image:: http://blog.aclark.net/images/sinc3.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Also covered in this chapter is `pdf output <http://blog.aclark.net/images/sinc.pdf>`_.
 

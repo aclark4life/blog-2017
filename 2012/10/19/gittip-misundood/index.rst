@@ -8,6 +8,8 @@ People do not understand gittip. Or, they do not understand how I use it. Worse,
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/condescend.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Remember `gittip is the future`_? Someone commented: 
 

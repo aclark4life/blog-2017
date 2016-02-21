@@ -24,6 +24,8 @@ buildout:eggs
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/buildout.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Aspeli correctly addresses one of my biggest pet peeves (concerns) about what I believe to be an **ANTI-PATTERN** in almost every Plone buildout: buildout:eggs (referring to the eggs parameter of the buildout section; it does not exist, other than as a convenient variable setting).
 
@@ -34,6 +36,8 @@ Add-ons
 
 .. image:: image://raw.github.com/ACLARKNET/blog/gh-pages/images/addons.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Did you see? You might have missed it. No mention of **Products** WHAT-SO-EVER. "Product" was a term that Zope2 used for Python libraries that enhanced the functionality of Zope2, and it stuck. Now, it should die in favor of a term everyone else in the world is familiar with (in this context): add-on. Well played, Aspeli. Well played.
 

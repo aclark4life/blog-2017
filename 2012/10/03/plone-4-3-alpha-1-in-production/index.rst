@@ -352,6 +352,8 @@ As you may have noticed above I use ``z3c.jbot`` to customize various Plone temp
 
 .. image:: /images/custom-templates.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Add content
 -----------

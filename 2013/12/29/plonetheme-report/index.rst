@@ -184,12 +184,18 @@ Not bad! That's a lot of working themes for Plone 4, many of which use Diazo.
 
 .. image:: /images/plonetheme-report-1.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 .. image:: /images/plonetheme-report-2.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 .. image:: /images/plonetheme-report-3.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 .. [1] In the ``plonetheme`` namespace.
 .. [2] Plock is a Plone installer for the pip-loving crowd: https://plock.github.com.

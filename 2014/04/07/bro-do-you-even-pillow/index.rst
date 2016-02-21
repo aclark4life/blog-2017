@@ -6,6 +6,8 @@ Bro, do you even Pillow?
 
 .. image:: /images/bro-do-you-even-pillow.jpg
     :alt: Bro, do you even Pillow?
+    :align: center
+    :class: img-thumbnail
 
 **`Pillow <https://github.com/python-imaging/Pillow>`_ is a fork of the Python Imaging Library. Here is an update on the status of the project.**
 

@@ -6,6 +6,8 @@ We Pioneer
 
 .. image:: /images/we-pioneer.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 One of the subjects I find myself thinking about a lot is: Plone (surprise!) In Plone-land, we deliver the **best Python-based CMS money can't buy on top of an aging Zope 2 "application server"** mixed with newer Zope, Python, and other technologies. In short, this is a challenge.
 

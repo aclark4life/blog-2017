@@ -6,6 +6,8 @@ Introducing Plock Pins
 
 .. image:: /images/buildout-all-the-plones.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 ::
 

@@ -43,6 +43,7 @@ One of the biggest attractions to using Plone is all the work on your new web pr
     :alt: alternate text
     :width: 95%
     :align: center
+    :class: img-thumbnail
 
 Install add-ons
 ---------------

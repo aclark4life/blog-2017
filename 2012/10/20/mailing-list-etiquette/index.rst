@@ -8,6 +8,8 @@ I read a lot of mailing lists:
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/unison.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Also, I've been subscribing to, reading, and participating in discussions on mailing lists since about the time Mailman 1.0 was released circa 1999 [1]_. And I have fond memories of interacting administratively with MajorDomo and ListServ software. And by administratively, I mean sending the software commands and getting back a response. In fact, you might say I get along better with the software and machines than I do with the humans that use them. Which is not to say that I'm not a people person: I love people. But I do struggle with striking the right balance between hacking machines and communicating with humans.
 

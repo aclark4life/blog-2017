@@ -21,6 +21,8 @@ One of the first things I do on a new system is change my shell to **Zsh** in ``
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/zsh.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Zsh
 ~~~
@@ -34,12 +36,16 @@ After I take possession of my new laptop (running **Mountain Lion**, the newest 
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/gcc.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Python
 ------
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/homebrew.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Now I need a Python interpreter [3]_. For development I use the `Collective Python Buildout <https://github.com/collective/buildout.python>`_ but I also enjoy using `Homebrew's <http://mxcl.github.com/homebrew/>`_ Python 2.7. I use Homebrew for a variety of other things too (e.g. mobile-shell AKA mosh) so here we go::
 
@@ -63,6 +69,8 @@ Which reminds me, don't forget that installing the command line utilities in Mou
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/command-line-utils.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Dotfiles
 --------

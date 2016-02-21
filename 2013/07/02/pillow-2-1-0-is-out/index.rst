@@ -9,6 +9,8 @@ Pillow 2-1-0 is out!
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/pillow-2.1.0.png
     :alt: alternate text
     :width: 75%
+    :align: center
+    :class: img-thumbnail
 
 `Pillow 2.1.0 is out! <https://pypi.python.org/pypi/Pillow/2.1.0>`_ With this release, the Pillow team has *finally* removed support for "import _imaging", thus completing the move of PIL modules into the PIL namespace [1]_. Many thanks to Eric Soroos (AKA wiredfool) who completed the majority of this work. Also a big thanks to Christopher Gohlke and `Arfrever <https://github.com/Arfrever>`_ both of whom rallied around a push to get the 2.1.0 release out on schedule. And I want to thank everyone else who reported an issue and/or sent a pull request to help make this release the best it could be.
 

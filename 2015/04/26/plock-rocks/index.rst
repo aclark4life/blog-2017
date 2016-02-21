@@ -7,6 +7,7 @@ Plock Rocks
 .. image:: /images/plock-meme.png
     :alt: Plock Meme
     :align: center
+    :class: img-thumbnail
 
 **Pip installs Plock. Plock installs Plone.**
 
@@ -93,18 +94,21 @@ Now Plock's work is done; visit the following URL: http:://localhost:8080 and yo
 .. image:: /images/plock-screen-1.png
     :alt: Plock Screen 1
     :align: center
+    :class: img-thumbnail
 
 Create a Plone site:
 
 .. image:: /images/plock-screen-2.png
     :alt: Plock Screen 2
     :align: center
+    :class: img-thumbnail
 
 Start using Plone:
 
 .. image:: /images/plock-screen-3.png
     :alt: Plock Screen 3
     :align: center
+    :class: img-thumbnail
 
 Next steps with Plock
 ---------------------
@@ -172,6 +176,8 @@ Now you should see your add-ons available in Plone:
 
 .. image:: /images/plock-screen-6.png
     :alt: Plock Screen 6
+    :align: center
+    :class: img-thumbnail
 
 Upgrading Plone
 ~~~~~~~~~~~~~~~
@@ -214,6 +220,7 @@ Enjoy the Plone 5 running man:
 .. image:: /images/plock-screen-5.png
     :alt: Plock Screen 5
     :align: center
+    :class: img-thumbnail
 
 TL;DR
 -----

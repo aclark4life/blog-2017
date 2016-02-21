@@ -10,6 +10,8 @@ This was a giant let down, because I was hoping to avoid putting any time in to 
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/pelican.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 Pelican is a static blog generator, as you may have heard. So **one big advantage** is:
 

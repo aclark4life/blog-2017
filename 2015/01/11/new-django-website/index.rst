@@ -10,6 +10,8 @@ This overview is roughly in order of development from start to finish. And since
 
 .. image:: /images/aclarknet-django.png
     :alt: Website front page
+    :align: center
+    :class: img-thumbnail
 
 Same theme, different backend
 -----------------------------
@@ -100,6 +102,8 @@ ORM I really on my own?
 .. image:: /images/aclark-tweet.png
     :alt: Tweet
     :target: https://twitter.com/aclark4life/status/552626214008274944
+    :align: center
+    :class: img-thumbnail
 
 That's right. After adding an ``ImageField`` I expected the image to be stored in the database and not the file system, and I'm not ashamed. Since that was not the case, I ended up using ``django-cumulus`` [6]_.
 

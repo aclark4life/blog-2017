@@ -8,6 +8,8 @@ Introducing The Plone Kitty
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/plone-kitty.png
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 *Plone Kitty* is the name of a theme (then called "skin") that shipped with the earliest versions of `Plone <http://plone.org>`_ (1.1 in the image above). This was a simpler time when the web was new, and everything was possible!
 

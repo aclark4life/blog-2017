@@ -6,6 +6,8 @@ Virtualenv Support Update
 
 .. image:: /images/virtualenv-support-update.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 This is you: I **use virtualenv all the time and I love it!** But I hate having to manually upgrade setuptools within my virtualenvs because the `PyPA has been so prolific with setuptools releases lately <https://pypi.python.org/pypi/setuptools#changes>`_.
 

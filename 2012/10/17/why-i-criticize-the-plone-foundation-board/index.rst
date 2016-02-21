@@ -6,6 +6,8 @@ Why I Criticize The Plone Foundation Board
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/aclark-conf.jpg
     :alt: alternate text
+    :align: center
+    :class: img-thumbnail
 
 TL;DR: Because I care.
 

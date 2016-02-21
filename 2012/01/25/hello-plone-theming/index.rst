@@ -3,6 +3,8 @@ Hello Plone theming
 
 .. post:: 2012/01/25
     :category: Plone
+    :align: center
+    :class: img-thumbnail
 
 In this post, we introduce a new tutorial aimed at bridging the gap between the **incredibly easy to use and enormously powerful Diazo theming engine for Plone**, and bootstrapping your first new theme. You do not need to have any Python skills whatsoever to perform these tasks. New Plone themes are:
 
