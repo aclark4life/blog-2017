@@ -2,6 +2,7 @@ Repoze Meetups
 ==============
 
 .. post:: 2007/10/28
+    :category: Python, Zope
 
 **Plumbing Zope into the WSGI Pipeline**
 

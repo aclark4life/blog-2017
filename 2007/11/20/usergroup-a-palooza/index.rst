@@ -2,6 +2,7 @@ Zope User Groups
 ================
 
 .. post:: 2007/11/20
+    :category: Python, Zope
 
 **Updated Zope User Group Information**
 

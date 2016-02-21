@@ -7,7 +7,7 @@ Cioppino Sprint Report
 The `Cioppino Sprint`_ was recently held in Bodega Bay, CA. It was a `beautiful location`_ for a gathering of awesome Plone folks; and much was accomplished. Unfortunately on the second morning of the sprint, we were all deeply saddened to hear about the passing of Dorneles Treméa.
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/bodega.jpg
-    :alt: alternate text
+    :alt: Bodega Bay
 
 The passing of Dorneles Treméa
 ------------------------------

@@ -2,6 +2,7 @@ I Love the ``slrn`` News Reader
 ===============================
 
 .. post:: 2007/10/17
+    :category: Misc
 
 **A command line news reader.**
 

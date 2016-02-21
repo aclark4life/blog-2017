@@ -2,7 +2,7 @@ Is Anyone Using plone.org's New PyPI Functionality?
 ===================================================
 
 .. post:: 2009/03/13
-    :category: Plone
+    :category: Plone, Python
 
 **python setup.py upload -r plone.org**
 

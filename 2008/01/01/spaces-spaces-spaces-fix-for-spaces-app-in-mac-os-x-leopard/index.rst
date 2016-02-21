@@ -2,6 +2,7 @@ Fix for Spaces in Mac OS X Leopard
 ==================================
 
 .. post:: 2008/01/01
+    :category: Misc
 
 **Spaces.. Spaces.. Spaces.. App**
 

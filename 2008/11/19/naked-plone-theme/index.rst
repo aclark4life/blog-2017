@@ -2,7 +2,7 @@ Naked Plone Theme
 =================
 
 .. post:: 2008/11/19
-    :category: Plone
+    :category: Plone, Python
 
 **Products.naked_plone**
 

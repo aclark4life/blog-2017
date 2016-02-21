@@ -2,6 +2,7 @@
 ======================
 
 .. post:: 2008/09/02
+    :category: Python, Zope
 
 **Tonight ex-Zope Corporation developer Chris McDonough unveils his BFG**
 

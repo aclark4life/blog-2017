@@ -2,7 +2,7 @@ Buildout Recipe Tip: ``hexagonit.recipe.download``
 ==================================================
 
 .. post:: 2007/11/28
-    :category: Buildout, Plone
+    :category: Buildout, Plone, Python
 
 **How to handle difficult old-style add-ons.**
 

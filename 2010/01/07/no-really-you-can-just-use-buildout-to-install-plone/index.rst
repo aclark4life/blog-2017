@@ -2,7 +2,7 @@ No, Really, You Can Just Use Buildout To Install Plone
 ======================================================
 
 .. post:: 2010/01/07
-    :category: Buildout, Plone
+    :category: Buildout, Plone, Python
 
 **This is a follow up to my `Getting Excited about Plone as Eggs`_ post.**
 

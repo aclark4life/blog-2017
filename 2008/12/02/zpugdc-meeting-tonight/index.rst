@@ -2,6 +2,7 @@ ZPUGDC Meeting Tonight
 ======================
 
 .. post:: 2008/12/02
+    :category: Python, Zope
 
 **ZPUGDC & DC Python Meetup: December Meeting**
 

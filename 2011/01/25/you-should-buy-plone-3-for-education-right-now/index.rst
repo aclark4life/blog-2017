@@ -4,7 +4,7 @@ You Should Buy Plone 3 for Education Right Now
 .. post:: 2011/01/25
     :category: Plone
 
-*With what must be the fifth or sixth round of apologies to both Erik Rose and PACKT publishing for the delay (very sorry guys), here is my review! Better late than never.*
+**With what must be the fifth or sixth round of apologies to both Erik Rose and PACKT publishing for the delay (very sorry guys), here is my review! Better late than never.**
 
 I get bored with the same ol' blog entry titles:
 

@@ -2,6 +2,7 @@ NASA Story Slashdotted
 ======================
 
 .. post:: 2008/04/12
+    :category: Plone
 
 **The Slashdot effect**
 

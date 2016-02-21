@@ -2,7 +2,7 @@ A LAMP Buildout for Wordpress and Other PHP Apps
 ================================================
 
 .. post:: 2009/04/21
-    :category: Buildout, Plone
+    :category: Buildout
 
 **Buildout all the things**
 

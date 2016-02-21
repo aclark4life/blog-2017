@@ -2,7 +2,7 @@ Placeful Theming
 ================
 
 .. post:: 2008/06/02
-    :category: Plone
+    :category: Plone, Python
 
 **For some themed location /foo/bar, you want "bar" and everything below it to look different than "foo".**
 

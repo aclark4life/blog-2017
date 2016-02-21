@@ -2,6 +2,7 @@ Spaces Fixed
 ============
 
 .. post:: 2008/03/06
+    :category: Misc
 
 **Thanks Apple!**
 

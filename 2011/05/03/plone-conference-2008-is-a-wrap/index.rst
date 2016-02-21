@@ -1,4 +1,4 @@
-Plone Conference 2008 (!) is a wrap
+Plone Conference 2008 (!) Is A Wrap
 ===================================
 
 .. post:: 2011/05/03

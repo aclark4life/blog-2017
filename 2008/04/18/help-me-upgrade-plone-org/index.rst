@@ -2,7 +2,7 @@ Help Me Upgrade plone.org
 =========================
 
 .. post:: 2008/04/18
-    :category: Buildout, Plone
+    :category: Buildout, Plone, Python
 
 **Because plone.org should run the latest Plone**
 

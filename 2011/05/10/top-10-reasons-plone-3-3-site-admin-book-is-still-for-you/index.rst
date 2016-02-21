@@ -1,4 +1,4 @@
-Top 10 reasons Plone 3.3 Site Admin book is still for you
+Top 10 Reasons Plone 3.3 Site Admin Book Is Still For You
 =========================================================
 
 .. post:: 2011/05/10

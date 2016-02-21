@@ -2,7 +2,7 @@ Supervisor Rocks
 ================
 
 .. post:: 2008/05/15
-    :category: Buildout, Misc
+    :category: Buildout, Plone
 
 **This is a reiteration of Carlos de la Guardia's recent post on the subject**.
 
