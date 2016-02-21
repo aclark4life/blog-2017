@@ -5,9 +5,11 @@ Top 3 Favorite Logical Fallacies
     :category: Misc
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/y-u-no-agree.jpg
-    :alt: alternate text
+    :alt: Y U NO AGREE
 
-I love to debate issues. The more complex, the better. I have no formal training in `debate`_, but I wish I did. It may have better prepared me to face different personality types with varying degree of communication skill. You don't have to watch the 2012 U.S. Presidential Debates to know that people will say things that are **BATSHIT CRAZY** to make their point. I've done it myself. That's why we need rules to formalize our discussions, because it's hard to stay on point.
+**I love to debate issues.**
+
+The more complex, the better. I have no formal training in `debate`_, but I wish I did. It may have better prepared me to face different personality types with varying degree of communication skill. You don't have to watch the 2012 U.S. Presidential Debates to know that people will say things that are **BATSHIT CRAZY** to make their point. I've done it myself. That's one of the reasons we need rules to formalize our discussions: because it's hard to stay on point.
 
 Fallacy
 -------
