@@ -327,7 +327,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AlexClarksBlogdoc'
+# htmlhelp_basename = 'AlexClarksBlogdoc'
 
 import sphinx_bootstrap_theme
 html_theme = 'bootstrap'
