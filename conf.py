@@ -158,7 +158,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates', ablog.get_html_templates_path()]
+templates_path = [ablog.get_html_templates_path(), '_templates']
 
 # The suffix(es) of source filenames.
 source_suffix = '.rst'
