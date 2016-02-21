@@ -2,7 +2,7 @@ Please Help Me Do Open Source Work
 ==================================
 
 .. post:: 2013/01/31
-    :category: Plone
+    :category: Misc
 
 **From my 'mid-life-crisis' series of blog entries**
 

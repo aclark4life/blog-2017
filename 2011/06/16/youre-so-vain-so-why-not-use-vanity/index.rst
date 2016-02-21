@@ -2,7 +2,7 @@ You're So Vain, So Why Not Use Vanity?
 ======================================
 
 .. post:: 2011/06/16
-    :category: Pyramid, Python
+    :category: Python
 
 A few months ago I created a package called **Vanity**\ [0] that provides easy access to package download statistics from **PyPI**. You can find the source code here: `https://github.com/aclark4life/vanity`_.
 

@@ -1,4 +1,4 @@
-Introducing pythonpackages.com
+Introducing Pythonpackages.com
 ==============================
 
 .. post:: 2011/11/29

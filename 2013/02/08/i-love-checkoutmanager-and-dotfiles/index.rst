@@ -2,7 +2,7 @@ I Love Checkoutmanager and Dotfiles
 ===================================
 
 .. post:: 2013/02/08
-    :category: Misc, Pyramid
+    :category: Python
 
 **An ode to my OS X development workstation setup** [1]_
 

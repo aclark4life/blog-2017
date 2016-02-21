@@ -1,4 +1,4 @@
-Pillow: one year later
+Pillow: One Year Later
 ======================
 
 .. post:: 2011/10/14

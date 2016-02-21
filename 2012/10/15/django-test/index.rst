@@ -2,6 +2,7 @@ Hello, Django!
 ==============
 
 .. post:: 2012/10/15
+    :category: Django
 
 Test post
 ---------
