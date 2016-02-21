@@ -2,7 +2,7 @@ Plock Rocks
 ===========
 
 .. post:: 2015/04/26
-    :category: Buildout, Plone, Pyramid
+    :category: Buildout, Plone
 
 .. image:: /images/plock-meme.png
     :alt: Plock Meme

@@ -1,4 +1,4 @@
-Plone 5 Alpha 2 is here!
+Plone 5 Alpha 2 is Here!
 ========================
 
 .. post:: 2014/06/18

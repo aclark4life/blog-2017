@@ -2,7 +2,7 @@ PythonPackages: One Year Later
 ==============================
 
 .. post:: 2012/09/28
-    :category: Pyramid
+    :category: Pyramid, Python
 
 **We are rolling up on the one year anniversary of pythonpackages.com (in October).**
 

@@ -2,7 +2,7 @@ Plone Secrets: Episode 2 - Collective Python Buildout
 =====================================================
 
 .. post:: 2011/07/06
-    :category: Buildout, Plone, Pyramid
+    :category: Buildout, Plone
 
 You know who uses the (Plone) Collective Python buildout? Me neither, because we don't have any good statistics on its use (that I know of).  If it were a Python package, we could at least `count the number of times it has been downloaded`_.
 
