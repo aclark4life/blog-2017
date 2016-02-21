@@ -2,8 +2,9 @@ Pillow 1-7-8
 ============
 
 .. post:: 2012/11/02
+    :category: Pillow, Python
 
-*Pillow is the "friendly" PIL fork. Initially just a packaging fork, now considering image code bug fixes and Python 3 support. To be friendly, we attempt to track changes against upstream tickets in PIL.*
+**Pillow is the friendly PIL fork. Initially just a packaging fork, now considering image code bug fixes and Python 3 support. To be friendly, we attempt to track changes against upstream tickets in PIL.**
 
 Pillow 1.7.8 is out! Read about it here:
 

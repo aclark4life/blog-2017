@@ -2,6 +2,7 @@ The Story of Pillow
 ===================
 
 .. post:: 2013/03/15
+    :category: Pillow, Python
 
 On March 4, 2013 I got an email from the Python Software Foundation (PSF):
 

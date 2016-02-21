@@ -2,6 +2,7 @@ Pillow Runs Itself!
 ===================
 
 .. post:: 2014/10/02
+    :category: Pillow, Python
 
 **As of Pillow 2.6.0, the Pillow project almost completely runs itself!**
 

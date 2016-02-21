@@ -2,9 +2,9 @@ Pillow: one year later
 ======================
 
 .. post:: 2011/10/14
-    :category: Python
+    :category: Pillow, Python
 
-*For anyone unfamiliar with Pillow, it is the "friendly PIL fork": a fork of PIL that aims to remain a good citizen in the PIL community through its actions.*
+**For anyone unfamiliar with Pillow, it is the friendly PIL fork: a fork of PIL that aims to remain a good citizen in the PIL community through its actions.**
 
 Warm and fluffy history
 -----------------------

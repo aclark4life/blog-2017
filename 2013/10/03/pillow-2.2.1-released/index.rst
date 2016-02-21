@@ -2,8 +2,9 @@ Pillow 2.2.1 Released
 =====================
 
 .. post:: 2013/10/03
+    :category: Pillow, Python
 
-*Pillow is the "friendly" PIL fork. PIL is the Python Imaging Library.*
+**Pillow is the "friendly" PIL fork. PIL is the Python Imaging Library.**
 
 .. Note:: An earlier version of this entry was published yesterday with the wrong date. Apologies for any annoyance or confusion.
 

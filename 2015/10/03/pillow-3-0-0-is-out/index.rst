@@ -2,6 +2,7 @@ Pillow 3-0-0 is out
 ===================
 
 .. post:: 2015/10/03
+    :category: Pillow, Python
 
 **Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.**
 

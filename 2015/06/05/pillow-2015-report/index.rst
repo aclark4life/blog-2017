@@ -2,11 +2,12 @@ Pillow 2015 Report
 ==================
 
 .. post:: 2015/06/05
+    :category: Pillow, Python
 
 .. image:: /images/pillow-2015-report.png
     :alt: Most interesting man
 
-*Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.*
+**Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.**
 
 The state of the Pillow
 -----------------------

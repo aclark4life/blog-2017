@@ -2,11 +2,12 @@ Bro, do you even Pillow?
 ========================
 
 .. post:: 2014/04/07
+    :category: Pillow, Python
 
 .. image:: /images/bro-do-you-even-pillow.jpg
-    :alt: alternate text
+    :alt: Bro, do you even Pillow?
 
-`Pillow <https://github.com/python-imaging/Pillow>`_ is a fork of the Python Imaging Library. Here is an update on the status of the project.
+**`Pillow <https://github.com/python-imaging/Pillow>`_ is a fork of the Python Imaging Library. Here is an update on the status of the project.**
 
 2.4.0 released
 --------------
