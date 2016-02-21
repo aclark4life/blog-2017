@@ -2,8 +2,9 @@ Pillow 2-5-0 is out!
 ====================
 
 .. post:: 2014/07/05
+    :category: Python
 
-**Pillow is the "friendly" PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors**
+**Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors**
 
 Since Pillow 2.0 the Pillow Team has adopted a quarterly release cycle; as such, Pillow 2.5.0 is out! Here's what's new in this release:
 
