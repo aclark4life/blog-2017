@@ -1,7 +1,7 @@
 Updated Django Website
 ======================
 
-.. post:: 2016/02/15
+.. post:: 2016/02/21
     :category: Django, Python
 
 **One year later**
