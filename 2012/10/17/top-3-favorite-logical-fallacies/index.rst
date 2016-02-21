@@ -1,5 +1,5 @@
-Top 3 "favorite" logical fallacies
-==================================
+Top 3 Favorite Logical Fallacies
+================================
 
 .. post:: 2012/10/17
     :category: Misc
