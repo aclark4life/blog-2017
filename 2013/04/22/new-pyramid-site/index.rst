@@ -10,7 +10,7 @@ New Pyramid Site
     :align: center
     :class: img-thumbnail
 
-**For the first time in 10 years, `aclark.net <http://aclark.net>`_ is not powered by Plone.**
+**For the first time in 10 years, http://aclark.net is not powered by Plone.**
 
 Nothing against Plone: it's still one of the greatest loves of my life (inasmuch as you can love a software and community, as I do).
 
