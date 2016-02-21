@@ -1,8 +1,8 @@
-Hello mod_wsgi
+Hello Mod_wsgi
 ==============
 
 .. post:: 2011/08/28
-    :category: Plone
+    :category: Buildout, Plone
 
 It seems I've inadvertently started another series of blog entry: the "hello world" series, wherein I explain how to easily get started with `various exciting Python technologies`_.
 

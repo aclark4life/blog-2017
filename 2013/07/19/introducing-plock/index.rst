@@ -2,7 +2,7 @@ Introducing Plock
 =================
 
 .. post:: 2013/07/19
-    :category: Plone
+    :category: Buildout, Plone
 
 *Plock is a Plone Installer for the Pip-Loving Crowd. Plone is a Python-based CMS.*
 

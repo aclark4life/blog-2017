@@ -1,8 +1,8 @@
-Plone secrets: Episode 3 - Collective Recaptcha installation
+Plone Secrets: Episode 3 - Collective Recaptcha Installation
 ============================================================
 
 .. post:: 2011/08/09
-    :category: Plone
+    :category: Buildout, Plone
 
 ***Another one from the: "wow, this approach is totally and completely non-obvious to beginners" department.***
 

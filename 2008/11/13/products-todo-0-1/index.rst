@@ -2,7 +2,7 @@ Products.todo 0.1
 =================
 
 .. post:: 2008/11/13
-    :category: Plone
+    :category: Buildout, Plone
 
 **A project to jump start my return to Plone development.**
 

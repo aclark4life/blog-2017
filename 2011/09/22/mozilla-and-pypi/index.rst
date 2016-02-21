@@ -2,6 +2,9 @@ Mozilla and PyPI
 ================
 
 .. post:: 2011/09/22
+    :category: Mozilla, Python
+
+**VM setup for kitsune**
 
 The `last time I wrote about PyPI`_ some folks mistook the subject to be `PyPy`_, so let me be clear: this article is about the `Python Packaging Index`_.
 

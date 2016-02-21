@@ -2,7 +2,7 @@ Getting Excited About Plone as Eggs
 ===================================
 
 .. post:: 2008/12/15
-    :category: Plone
+    :category: Buildout, Plone
 
 **Updated for 4.x**
 

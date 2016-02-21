@@ -2,7 +2,7 @@ Review of Veda Williams' Plone 3 Theming
 ========================================
 
 .. post:: 2009/09/22
-    :category: Plone
+    :category: Buildout, Plone
 
 **Review all the chapters**
 

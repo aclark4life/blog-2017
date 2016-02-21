@@ -1,5 +1,5 @@
-"New" Plone theming has arrived
-===============================
+New Plone Theming Has Arrived
+=============================
 
 .. post:: 2011/05/27
     :category: Plone

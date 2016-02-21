@@ -2,7 +2,7 @@ First Post
 ==========
 
 .. post:: 2007/10/17
-    :category: Plone
+    :category: Buildout, Plone
 
 **I have decided to start a blog!**
 

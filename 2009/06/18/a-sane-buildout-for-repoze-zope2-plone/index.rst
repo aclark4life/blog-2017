@@ -2,7 +2,7 @@ A Sane Buildout For repoze.zope2 + Plone
 ========================================
 
 .. post:: 2009/06/18
-    :category: Plone
+    :category: Buildout, Plone
 
 **This is a follow-up to Martin Aspeli's introduction to repoze and Plone from last year**
 

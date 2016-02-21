@@ -1,8 +1,8 @@
-collective.transmogrifier without Plone?
+Collective.transmogrifier Without Plone?
 ========================================
 
 .. post:: 2011/04/15
-    :category: Plone
+    :category: Buildout, Plone
 
 Yes!
 

@@ -2,6 +2,7 @@ Virtualenv Support Update
 =========================
 
 .. post:: 2014/03/19
+    :category: Buildout, Python
 
 .. image:: /images/virtualenv-support-update.jpg
     :alt: alternate text

@@ -1,8 +1,8 @@
-Hostout rules
+Hostout Rules
 =============
 
 .. post:: 2011/01/26
-    :category: Plone
+    :category: Buildout, Plone
 
 *As in "dominates", not a "list of rules" :-)*
 

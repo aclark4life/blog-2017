@@ -2,7 +2,7 @@ Plone.org maintenance
 =====================
 
 .. post:: 2011/11/29
-    :category: Plone
+    :category: Buildout, Plone
 
 **I am planning to do some work on the plone.org server and website by the end of the year, including:**
 

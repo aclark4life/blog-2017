@@ -2,7 +2,7 @@ New Django Website
 ==================
 
 .. post:: 2015/01/11
-    :category: Django, Pyramid
+    :category: Buildout, Django, Pyramid
 
 **After a series of Django gigs in 2014, I had the urge to redevelop our company website in Django; I am very happy with the results.**
 

@@ -2,6 +2,7 @@
 ===========================================
 
 .. post:: 2008/08/10
+    :category: Buildout, Plone
 
 **Now even easier to use Supervisor**
 

@@ -1,5 +1,5 @@
-You should buy "Plone 3 for Education" right now
-================================================
+You Should Buy Plone 3 for Education Right Now
+===============================================
 
 .. post:: 2011/01/25
     :category: Plone

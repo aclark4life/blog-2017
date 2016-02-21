@@ -2,7 +2,7 @@ Blood, Sweat, Tears and a New Plone Book
 ========================================
 
 .. post:: 2010/03/30
-    :category: Plone
+    :category: Buildout, Plone
 
 **Plone 3.3 Site Administration**
 

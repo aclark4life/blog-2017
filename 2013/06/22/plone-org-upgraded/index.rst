@@ -1,4 +1,4 @@
-Plone.org upgraded
+Plone.org Upgraded
 ==================
 
 .. post:: 2013/06/22
