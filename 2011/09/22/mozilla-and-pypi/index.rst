@@ -60,7 +60,7 @@ While all of this is very, very interesting to me, I am primarily a "systems and
 
     **The ``/vendor`` library is supposed to contain all packages and repositories. It enables the project to be deployed as one package onto many machines, without relying on PyPI-based installations on each target machine.**
 
-"Nooooooooooooooo", I am now saying to myself over and over. "Without relying on PyPI-based installations on each target machine." Another "noooooooooooooooo!" :-) I certainly don't fault Mozilla for taking this approach, but it makes me sad that large organizations like Mozilla are passing over PyPI in favor of alternative methods of distributing Python software.
+"Nooooooooooooooo", I am now saying to myself over and over. "Without relying on PyPI-based installations on each target machine." Another "noooooooooooooooo!" I certainly don't fault Mozilla for taking this approach, but it makes me sad that large organizations like Mozilla are passing over PyPI in favor of alternative methods of distributing Python software.
 
 Let us all now hang our heads, for a moment of pause and reflection.
 
@@ -83,7 +83,7 @@ I happen to share Mozilla's vision for an open web and open source in general. A
 Notes
 -----
 
-[1] I am actively courting Mozilla in hopes of landing a gig by the end of the year. So all you Mozillians who know me personally, please put in a good word! And all you Mozillians I have not met yet: nice to meet you! :-)
+[1] I am actively courting Mozilla in hopes of landing a gig by the end of the year. So all you Mozillians who know me personally, please put in a good word! And all you Mozillians I have not met yet: nice to meet you!
 
 [2] The problem turned out to be git-submodule failing to run because things like: grep and sed were missing from the PATH. Easily fixed by modifying the puppet configuration, but not easily discovered because git-submodule itself returned zero! Some guy on #puppet was very helpful in getting me to print out debug info.
 

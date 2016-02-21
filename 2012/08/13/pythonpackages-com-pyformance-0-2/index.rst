@@ -20,7 +20,7 @@ As such, we are celebrating the release of `pyformance`_ 0.2! According to the a
     this talk by Coda Hale about metrics: http://www.youtube.com/watch?v=czes-oa0yik
     He explains some of the math behind the package.)
 
-Done! :-) Thanks Omer for using our service. Check out pyformance on GitHub:
+Done! Thanks Omer for using our service. Check out pyformance on GitHub:
 
 -  `https://github.com/omergertel/pyformance`_
 

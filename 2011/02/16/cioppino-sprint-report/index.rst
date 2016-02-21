@@ -25,7 +25,7 @@ The funniest thing he ever said to me was when I was making the rounds asking fo
 
     "Are you aware that you're talking with a 3rd world citizen?"
 
-I'm not sure if I offended him, or what. But it struck me funny at the time (and he went on to joke about how donations usually flow in the other direction, ending with his tongue stuck out i.e. ":-p") :-). It also reminded me of one the things I love most about Plone: the opportunity (I may never get otherwise) to correspond/collaborate with cool, passionate people all over the world.
+I'm not sure if I offended him, or what. But it struck me funny at the time (and he went on to joke about how donations usually flow in the other direction, ending with his tongue stuck out i.e. ":-p"). It also reminded me of one the things I love most about Plone: the opportunity (I may never get otherwise) to correspond/collaborate with cool, passionate people all over the world.
 
 To me, Dorneles was one of the living embodiments of the *coolness* and *worldliness* of the Plone project.
 
@@ -87,7 +87,7 @@ One of the great things about a sprint is that it really focuses
 attendees on accomplishing their tasks, long after they have left the
 event. To that end:
 
--  aclark triaged the remaining tickets in the plone.org tracker, and did a final tally of closed ticket rankings: davisagli (55), aclark (32), eleddy (28), limi (7). davisagli wins! :-)
+-  aclark triaged the remaining tickets in the plone.org tracker, and did a final tally of closed ticket rankings: davisagli (55), aclark (32), eleddy (28), limi (7). davisagli wins!
 -  aclark got inspired to begin uploading the half dozen or so missing videos from various Plone Conference 2008 talks (which were finally sent to him by the video company circa last year). Look for these to `land on plone.org`_ soon.
 -  eleddy continued to develop the “two thumbs” feature.
 -  eleddy and aclark deployed the "two thumbs" feature to plone.org.  (This feature may not work as expected yet, eleddy is resolving issues.) Check it out:

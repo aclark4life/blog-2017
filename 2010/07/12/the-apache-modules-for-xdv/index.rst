@@ -221,7 +221,7 @@ Normally, I like to factor out the reusable bits first, but this buildout is pre
      --output=${buildout:directory}/etc/theme-blog.xsl
     update-command = ${:command}
 
-You can check out the rest of the buildout `here`_ (themed with XDV :-)). And if you enjoy this post, please feel free to pick up a copy of `Plone 3.3 Site Administration`_ from PACKT Publishing, due out any day now (I am expecting to review pre-finals this week some time).
+You can check out the rest of the buildout `here`_ (themed with XDV). And if you enjoy this post, please feel free to pick up a copy of `Plone 3.3 Site Administration`_ from PACKT Publishing, due out any day now (I am expecting to review pre-finals this week some time).
 
 .. _HTML-XSLT website: http://code.google.com/p/html-xslt/
 .. _XDV middleware: http://pypi.python.org/pypi/dv.xdvserver

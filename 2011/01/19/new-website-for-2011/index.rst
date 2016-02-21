@@ -117,7 +117,7 @@ A look back
 
 Also, I've been doing this long enough now that it's now very entertaining (to me at least) to look back at the various incarnations of the ACLARK.NET, LLC website over the years (these are guestimates):
 
--  Circa 2006: Plone 2.5 with a Cereblue skin I purchased for $50 :-)
+-  Circa 2006: Plone 2.5 with a Cereblue skin I purchased for $50
 -  Circa 2007: Plone 3.0 with a custom "old style" theme that I designed
    (and I'm not a designer).
 -  Circa 2008: Plone 3.3 with XDV (now Diazo) plus "open source" theme.

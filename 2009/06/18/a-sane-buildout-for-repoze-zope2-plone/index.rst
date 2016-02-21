@@ -150,7 +150,7 @@ scratch my itch!
 
 Finally, please don't rely on any of this "in production" yet unless you
 know what you are doing. I tested these techniques up to the point of
-starting Zope (via paste) and adding a Plone site, nothing more! :-)
+starting Zope (via paste) and adding a Plone site, nothing more!
 
 I, however, am getting a new server next week and will be hosting this
 site on `repoze.zope2`_ very shortly ;-)

@@ -43,7 +43,7 @@ I picture any number of scenarios with gittip. Here are some:
 
 - Do you like that I've spent years pouring my heart and soul into the Plone software and community, and perhaps, made your life better in some small way? Gittip me.
 - Did you notice I forked the Python Imaging Library so that thousands of people could have a working PIL release? Gittip me.
-- Did you also notice the new zc.buildout release that's much faster than the old release? Gittip me. (And a few others too, most especially: iElectric and zenwryly… you could also gittip Jim Fulton too, I guess :-)).
+- Did you also notice the new zc.buildout release that's much faster than the old release? Gittip me. (And a few others too, most especially: iElectric and zenwryly… you could also gittip Jim Fulton too, I guess).
 - Do you want me to handle your Python package releases on a regular basis for you, but you don't want to sign a contract with my consulting business or use pythonpackages.com? Gittip me.
 - Do you want me to handle some other task on a regular basis, but you don't want to sign a contract with my consulting business? Gittip me.
 

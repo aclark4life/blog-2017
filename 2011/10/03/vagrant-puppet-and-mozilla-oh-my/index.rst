@@ -13,7 +13,7 @@ Milestones
 
 The milestones are as follows:
 
-#. Get the VM running to the point where one can type **./manage.py** and receive the help output (and not a traceback). This sounds trivial but there is actually a lot of work involved to get to this point. Namely, figuring out how to make `Puppet`_ execute each of the required steps successfully, together. (You would expect to be able to just define the steps in order, but those with this expectation will be disappointed. I assume Puppet has their reasons, and they are probably even good ones. :-))
+#. Get the VM running to the point where one can type **./manage.py** and receive the help output (and not a traceback). This sounds trivial but there is actually a lot of work involved to get to this point. Namely, figuring out how to make `Puppet`_ execute each of the required steps successfully, together. (You would expect to be able to just define the steps in order, but those with this expectation will be disappointed. I assume Puppet has their reasons, and they are probably even good ones.)
 #. **Get the VM running to the point where one can open http://33.33.33.10:8000 from the host to see kitsune running. Once step #1 is done, this is actually easier than it sounds because I'm "cheating". Test data has been imported and a syncdb has been run, but I'm using supervisor to manage the runserver process (for now).**
 #. Get the VM running like it does in production. This will involve configuring **Apache**\ and **mod\_wsgi** as well as resolving any issues that remain with the app. I'll rely on the kitsune team to help with this, as I'm still learning the app. This is the "exciting" part for me because I get to learn something new. While Vagrant and Puppet are also new to me, I consider these technologies part of my "past life" (as a system administrator) and Django sites part of my "future life" (as a web developer).
 
@@ -92,7 +92,7 @@ Notes
 
 [3] And I hope this is only the beginning.
 
-[4] I hope to get a Mozilla gig but even if I don't, being able to do this type of work is very rewarding (which is why you will often hear people in open source say that to get paid for the type of work they do is a dream come true :-)).
+[4] I hope to get a Mozilla gig but even if I don't, being able to do this type of work is very rewarding (which is why you will often hear people in open source say that to get paid for the type of work they do is a dream come true).
 
 .. _Puppet: http://puppetlabs.com/
 .. _Vagrant: http://vagrantup.com/

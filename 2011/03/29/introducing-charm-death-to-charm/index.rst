@@ -15,7 +15,7 @@ About charm
 
 This is where *charm* comes in; formerly `mr.importer`_, formerly `parse2plone`_. Get it? The third time is a… I had the "big idea" to rewrite, then open source the code I wrote for the client.  Unfortunately, the rewrite became a horror too.
 
-First, it was not well received amongst the more reusable approaches based on `collective.transmogrifier`_, and rightfully so. While it was unpleasant to be told I was heading in the wrong direction, it was ***even more*** unpleasant to find out "they" were right. :-)
+First, it was not well received amongst the more reusable approaches based on `collective.transmogrifier`_, and rightfully so. While it was unpleasant to be told I was heading in the wrong direction, it was ***even more*** unpleasant to find out "they" were right.
 
 Second, as "they" predicted, I got to the point where I couldn't read or maintain it any more (and I ***just*** wrote it).
 

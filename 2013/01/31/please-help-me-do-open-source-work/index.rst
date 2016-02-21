@@ -4,7 +4,7 @@ Please Help Me Do Open Source Work
 .. post:: 2013/01/31
     :category: Plone
 
-*From my 'mid-life-crisis' series of blog entries :-)*
+**From my 'mid-life-crisis' series of blog entries**
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/open-source-work.png
     :alt: alternate text

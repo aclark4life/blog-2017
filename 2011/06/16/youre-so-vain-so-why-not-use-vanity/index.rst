@@ -55,7 +55,7 @@ Some of my other favorites:
 
 Another thing to consider is if hitting **PyPI** each time is really necessary. I'm told there is **PyPI** data living somewhere else, and in future versions I would like to make vanity use that data by default.
 
-So, this post is simply to announce **Vanity** to a wider audience in the event that some folks may find it useful. Otherwise, I will be happy to continue to watch **Vanity** downloads crawl ever so slowly towards 200. :-)
+So, this post is simply to announce **Vanity** to a wider audience in the event that some folks may find it useful. Otherwise, I will be happy to continue to watch **Vanity** downloads crawl ever so slowly towards 200.
 
 Notes
 -----

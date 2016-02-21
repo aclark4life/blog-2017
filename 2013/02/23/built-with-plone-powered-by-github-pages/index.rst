@@ -32,7 +32,7 @@ This process if far from perfect [1], but in a pinch it can work. And it recentl
     https://github.com/ACLARKNET/aclarknet.github.com
 
 These links are my website, and GitHub Pages repository respectively. The website was created with Plone (https://github.com/ACLARKNET/new_style) then exported via httrack, then uploaded to GitHub Pages (to the gh-pages branch of any repo except <{org,user}>>.github.com repos).
-[1] httrack got "stuck" on my @@search links, and I've got a lot of duplicate content now. Fortunately I don't mind editing lots and lots of text files :-).
+[1] httrack got "stuck" on my @@search links, and I've got a lot of duplicate content now. Fortunately I don't mind editing lots and lots of text files.
 Conclusion
 
 In doing this, I was able to turn off my $11/month "website and IRC server" which makes the CFO happy. And in a year or so with Plone 5, hopefully I'll be able to return to the cloud and edit content "live" again.

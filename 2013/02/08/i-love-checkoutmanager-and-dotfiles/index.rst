@@ -299,6 +299,6 @@ That's it! I hope you will check out dotfiles and checkoutmanager for all your d
 .. [2] I know about Kenneth Reitz's XCode Command line Tools only, but if I recall correctly there is some "gotcha" that has bitten me more than once if I use that instead of the full XCode. I wish I could remember what it was now, but it's not coming to me. If it works for you though, great!
 .. [3] I know about the system Python, and for small things like checkoutmanager and dotfiles I don't mind using it. But there is merit in avoiding it because Apple treats it like "their" Python and makes decisions for you that you may prefer to make yourself. E.g. I believe they use a crippled version of the readline library.
 .. [4] Distribute is a more actively maintained fork of the venerable setuptools library (which itself is built on top of the Python standard library's distutils). Are we having fun yet?
-.. [5] I also alias checkoutmanager to cm :-)
+.. [5] I also alias checkoutmanager to cm
 .. [6] I force because I want to replace the newly created .ssh dir with the one I keep in my Dotfiles repository.
 .. [7] Well, 2.4 through 3.3 at last count.

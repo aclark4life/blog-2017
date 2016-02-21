@@ -218,6 +218,6 @@ Do you like this post, and/or appreciate my open source work? Help build the com
 
 .. [1] It's getting harder to define what "old style" theming is. For this blog entry, old style theming is some form of customizing the main_template in Plone (I'm ignoring the fact that macros called by main_template are customizable, for now). If we could (consistently, in a core supported way) get newer ways to do that (e.g. browser views instead of CMF skin layers) then "old style" would become "newer style". It wouldn't become "new style" because Diazo technology is "newer" than browser view technology. Get it? I think my point is this: in addition to seeing Diazo help with isolating the complexity of the stack, I'd like to see the underlying technology modernized. Give me something that looks and feels like "old style" theming (i.e. putting templates in CMF skin layers) but that is built on modern technology (i.e. the ZCA).
 
-.. [2] <rant> Have I mentioned today yet that I hate the term "product"? when it's used to refer to a Plone add-on? It's 2012 people. Zope 2 products died last decade. :-p :-) </rant>
+.. [2] <rant> Have I mentioned today yet that I hate the term "product"? when it's used to refer to a Plone add-on? It's 2012 people. Zope 2 products died last decade. :-p</rant>
 
 
