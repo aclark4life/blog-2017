@@ -3,7 +3,7 @@ I Reinstalled Again
 
 .. post:: 2015/10/05
 
-*A while back* `I wrote about reinstalling OS X <http://blog.aclark.net/2010/10/15/i-reinstalled-recently/>`_. *This is another one of those posts.*
+**A while back I wrote about reinstalling OS X: http://blog.aclark.net/2010/10/15/i-reinstalled-recently. This is another one of those posts.**
 
 I like to reinstall OS X, a lot. So much so, you'd think I'd find some way to automate the process. There must be something *soothing* about it, though, because I keep doing it.
 
