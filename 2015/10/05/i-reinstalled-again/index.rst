@@ -2,6 +2,7 @@ I Reinstalled Again
 ===================
 
 .. post:: 2015/10/05
+    :category: Misc
 
 **A while back I wrote about reinstalling OS X: http://blog.aclark.net/2010/10/15/i-reinstalled-recently. This is another one of those posts.**
 
