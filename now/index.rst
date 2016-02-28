@@ -5,6 +5,7 @@ What I'm doing now
 
 I'm in Bethesda, MD, staying quite focused, avoiding distractions. I spend all my time on these things: (in order of time spent)
 
+- **Husband** to Amy
 - **Systems Administrator** at NIH
 - **Partner, Python Web Developer** at ACLARK.NET
 - **President & Executive Director** at DC Python
