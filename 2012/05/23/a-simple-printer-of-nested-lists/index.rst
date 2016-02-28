@@ -1,4 +1,4 @@
-A simple printer of nested lists
+A Simple Printer of Nested Lists
 ================================
 
 .. post:: 2012/05/23

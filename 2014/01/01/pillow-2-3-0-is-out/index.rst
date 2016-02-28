@@ -1,5 +1,5 @@
-Pillow 2-3-0 is out!
-====================
+Pillow 2-3-0 is Out
+===================
 
 .. post:: 2014/01/01
     :category: Pillow, Python

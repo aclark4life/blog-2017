@@ -1,4 +1,4 @@
-Diazo themes revisited
+Diazo Themes Revisited
 ======================
 
 .. post:: 2012/09/24

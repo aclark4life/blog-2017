@@ -1,4 +1,4 @@
-Pillow 3-0-0 is out
+Pillow 3-0-0 is Out
 ===================
 
 .. post:: 2015/10/03

@@ -1,5 +1,5 @@
-Vagrant, Puppet and Mozilla, oh my!
-===================================
+Vagrant, Puppet and Mozilla, Oh my
+==================================
 
 .. post:: 2011/10/03
     :category: Mozilla, Python

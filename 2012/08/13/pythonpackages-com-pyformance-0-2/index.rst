@@ -6,7 +6,7 @@ pythonpackages.com: pyformance 0.2
 *pythonpackages.com helps Python programmers package and release their software with just a few clicks.*
 
 pyformance 0.2
---------------------------------------------------------------------------------
+--------------
 
 pythonpackages.com recently processed it's first official release via the `new GitHub Service`_.
 

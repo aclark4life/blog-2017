@@ -1,4 +1,4 @@
-pythonpackages.com: New GitHub Service "push to release"
+Pythonpackages.com: New GitHub Service - Push to Release
 ========================================================
 
 .. post:: 2012/08/10

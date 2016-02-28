@@ -1,5 +1,5 @@
-Introducing charm; death to charm!
-==================================
+Introducing Charm; Death to Charm
+=================================
 
 .. post:: 2011/03/29
     :category: Plone

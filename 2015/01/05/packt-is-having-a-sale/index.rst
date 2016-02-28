@@ -1,4 +1,4 @@
-Packt is having a sale
+Packt is Having a Sale
 ======================
 
 .. post:: 2015/01/05

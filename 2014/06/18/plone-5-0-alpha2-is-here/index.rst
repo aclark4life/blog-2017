@@ -1,5 +1,5 @@
-Plone 5 Alpha 2 is Here!
-========================
+Plone 5 Alpha 2 is Here
+=======================
 
 .. post:: 2014/06/18
     :category: Plone, Pyramid

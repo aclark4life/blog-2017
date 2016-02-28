@@ -1,10 +1,10 @@
-Plone Conference 2008 (!) Is A Wrap
-===================================
+Plone Conference 2008 is Finally a Wrap
+=======================================
 
 .. post:: 2011/05/03
     :category: Plone
 
-Embarrassingly, I have yet to finish my obligations to the life-changing `Plone Conference 2008`_ until NOW: approximately 2 years, 6 months, and 23 days after the end of the post-conference sprint.
+I have yet to finish my obligations to `Plone Conference 2008`_ until NOW: approximately 2 years, 6 months, and 23 days after the end of the post-conference sprint.
 
 The story
 ---------

@@ -1,4 +1,4 @@
-Building Windows Installers In The Cloud
+Building Windows Installers in the Cloud
 ========================================
 
 .. post:: 2012/08/01

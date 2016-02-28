@@ -1,4 +1,4 @@
-Gittip Is The Future
+Gittip is the Future
 ====================
 
 .. post:: 2012/09/21

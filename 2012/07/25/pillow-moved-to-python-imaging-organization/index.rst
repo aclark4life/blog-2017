@@ -1,4 +1,4 @@
-Pillow moved to python-imaging organization
+Pillow Moved to python-imaging Organization
 ===========================================
 
 .. post:: 2012/07/25

@@ -1,5 +1,5 @@
-Pillow Runs Itself!
-===================
+Pillow Runs Itself
+==================
 
 .. post:: 2014/10/02
     :category: Pillow, Python
