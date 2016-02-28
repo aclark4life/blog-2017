@@ -9,7 +9,7 @@ I'm in Bethesda, MD, USA staying quite focused, avoiding distractions. I spend a
 - **Systems Administrator** at NIH
 - **Partner, Python Web Developer** at ACLARK.NET
 - **Owner** of Pets
-- **President & Executive Director** at DC Python
+- **President & Executive Director** of DC Python
 - **Webmaster & Executive Committee Member** at Parkwood Residents Association
 - **Musician** at Headstraight
 
