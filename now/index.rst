@@ -10,8 +10,8 @@ I'm in Bethesda, MD, USA staying quite focused, avoiding distractions. I spend a
 - **Partner, Python Web Developer** at ACLARK.NET
 - **Owner** of Pets
 - **President & Executive Director** of DC Python
-- **Webmaster & Executive Committee Member** at Parkwood Residents Association
 - **Musician** at Headstraight
+- **Webmaster & Executive Committee Member** at Parkwood Residents Association
 
 If my activities or priorities change, I'll update this page. Last update was February 2016.
 
