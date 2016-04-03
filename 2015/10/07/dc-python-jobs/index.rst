@@ -2,8 +2,7 @@ DC Python Jobs
 ==============
 
 .. post:: 2015/10/07
-
-.. category:: Misc
+    :category: Misc
 
 **This information may eventually live within the DC Python corpus, but for now I prefer to post-it-now-move-it-later.**
 

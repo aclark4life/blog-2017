@@ -2,8 +2,7 @@ Please Do My Homework
 =====================
 
 .. post:: 2015/02/10
-
-.. category:: Misc
+    :category: Misc
 
 **Reminiscent of A Simple Printer of Nested Lists.**
 

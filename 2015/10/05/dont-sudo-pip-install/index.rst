@@ -2,8 +2,7 @@ Don't sudo pip install
 ======================
 
 .. post:: 2015/10/05
-
-.. category:: Misc
+    :category: Misc
 
 **How many times have you seen this?**
 
