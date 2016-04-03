@@ -4,7 +4,7 @@ Hello Plone Updated
 .. post:: 2014/01/11
     :category: Buildout, Plone
 
-**Over two years ago I wrote a blog entry called `"Hello, Plone!"** 
+**Over two years ago I wrote a blog entry called "Hello, Plone!"**
 
 Over two years ago I wrote a blog entry called `"Hello, Plone!" <http://blog.aclark.net/2011/08/20/hello-plone/>`_.
 
