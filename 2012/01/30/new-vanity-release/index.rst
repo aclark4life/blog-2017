@@ -4,6 +4,8 @@ New Vanity Release
 .. post:: 2012/01/30
     :category: Django, Plone, Pyramid, Python
 
+**This release features the ability to display per package download statistics.** 
+
 With all the Python `stats`_ `goodness`_ going on recently, I got inspired to make a new `vanity`_ release. This release features the ability to display per package download statistics via the \`-v\` or \`--verbose\` command line argument.
 
 Here are some of my favorite results.
