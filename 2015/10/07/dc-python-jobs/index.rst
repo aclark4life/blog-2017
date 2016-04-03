@@ -3,7 +3,7 @@ DC Python Jobs
 
 .. post:: 2015/10/07
 
-*This information may eventually live within the DC Python corpus, but for now I prefer to post-it-now-move-it-later.*
+**This information may eventually live within the DC Python corpus, but for now I prefer to post-it-now-move-it-later.**
 
 DC Python, for those not familiar, is: 
 
