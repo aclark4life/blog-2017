@@ -4,12 +4,12 @@ New Year's Python Meme 2012
 .. post:: 2012/12/29
     :category: Python
 
+**This is my entry for Tarek Ziadé's New Year's Python Meme, a tradition I have come to enjoy. Both to reflect on the current year and look back on previous years. So here it is.**
+
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/tarek-meme-reminder.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
-
-*This is my entry for Tarek Ziadé's New Year's Python Meme, a tradition I have come to enjoy. Both to reflect on the current year and look back on previous years. So here it is.*
 
 I did this in `2009 <http://blog.aclark.net/2009/12/31/new-years-python-meme/>`_ & `2011 <http://blog.aclark.net/2011/12/21/new-years-python-meme-2011/>`_. Let's try it again.
 
