@@ -2,10 +2,13 @@ Python Packages Open Sourced
 ============================
 
 .. post:: 2013/10/13
+    :category: Python
 
-Today I am open sourcing the code that ran pythonpackages.com from late 2011 to late 2012. You can find it here:
+**Today I am open sourcing the code that ran pythonpackages.com from late 2011 to late 2012.**
 
-    https://github.com/pythonpackages/vanity_app
+You can find it here:
+
+- https://github.com/pythonpackages/vanity_app
 
 Why I Waited
 ------------
