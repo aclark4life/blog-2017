@@ -3,7 +3,7 @@ pythonpackages.com: pyformance 0.2
 
 .. post:: 2012/08/13
 
-*pythonpackages.com helps Python programmers package and release their software with just a few clicks.*
+**pythonpackages.com helps Python programmers package and release their software with just a few clicks.**
 
 pyformance 0.2
 --------------
