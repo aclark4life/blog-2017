@@ -2,9 +2,9 @@ Introducing pythonpackages.com
 ==============================
 
 .. post:: 2011/11/29
+    :category: Python
 
-The website for Python egoists™
--------------------------------
+**The website for Python egoists™**
 
 I have this overwhelming desire to know how many times my favorite Python packages have been downloaded. Don't you? If so, look no further than `pythonpackages.com`_.
 
