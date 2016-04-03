@@ -4,7 +4,7 @@ Python 3 Porting
 .. post:: 2013/01/10
     :category: Python
 
-*The 3 in 2013 is for Python 3*
+**The 3 in 2013 is for Python 3**
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/python-3-port.jpg
     :alt: alternate text
