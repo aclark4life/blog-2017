@@ -4,6 +4,8 @@ Sorry for the blog spam
 .. post:: 2012/09/22
     :category: Python
 
+**Just learning Pelican**
+
 As I'm just learning `Pelican`_, `Dirkjan Ochtman pointed out`_ that I can have "fancy" URLs via the `ARTICLE_PERMALINK_STRUCTURE` setting. So the blog spam you are seeing is a result of my publishing the same two articles with two different URLs (fancy and non-fancy). My apologies for the noise.
 
 publishconf.py
