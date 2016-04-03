@@ -3,8 +3,6 @@ Hello Plone theming
 
 .. post:: 2012/01/25
     :category: Plone
-    :align: center
-    :class: img-thumbnail
 
 **In this post, we introduce a new tutorial.** 
 
