@@ -4,6 +4,8 @@ Gittip is the Future
 .. post:: 2012/09/21
     :category: Misc, Pillow
 
+**Heard of Gittip? If not, you should know about it.**
+
 Heard of Gittip? If not, you should know: it has a lot of people (including me) excited about the potential to make a living doing what they love. From the Gittip blog [1]_:
 
     Gittip is a system for funding people who build free culture. The core is small weekly gifts. The idea is that if 1,000 people give $1 a week to a great programmer, musician, scientist, teacher, etc., then that frees them up to pursue their vision even further for making the world better.
