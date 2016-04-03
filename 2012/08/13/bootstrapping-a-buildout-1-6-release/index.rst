@@ -4,7 +4,7 @@ Bootstrapping a Buildout 1-6 release
 .. post:: 2012/08/13
     :category: Buildout
 
-A lot of work has been done on Buildout lately, most notably:
+**A lot of work has been done on Buildout lately, most notably:**
 
 -  Jim Fulton is `working on Buildout 2`_.
 -  Ross Patterson has greatly `improved Buildout performance`_.

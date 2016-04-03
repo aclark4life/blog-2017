@@ -4,7 +4,9 @@ I Love collective-recipe-plonesite
 .. post:: 2014/06/02
     :category: Buildout, Plone
 
-Whenever I answer tech support questions, I usually begin with a clean slate, e.g.::
+**Whenever I answer tech support questions, I usually begin with a clean slate**
+
+E.g.::
 
     $ pip install tmp virtualenv
     $ cd `tmp` 

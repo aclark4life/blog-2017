@@ -4,7 +4,7 @@ Plone Secrets: Episode 3 - Collective Recaptcha Installation
 .. post:: 2011/08/09
     :category: Buildout, Plone
 
-***Another one from the: "wow, this approach is totally and completely non-obvious to beginners" department.***
+**Another one from the: "wow, this approach is totally and completely non-obvious to beginners" department.**
 
 My kingdom for a (custom) contact form (with captcha)
 --------------------------------------------------------------------------------

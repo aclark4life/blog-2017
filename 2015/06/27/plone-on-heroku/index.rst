@@ -4,7 +4,7 @@ Plone on Heroku
 .. post:: 2015/06/27
     :category: Buildout, Plone
 
-*Dear Plone, welcome to 2015*
+**Dear Plone, welcome to 2015**
 
 Picture it. The year was 2014. I was incredibly moved and inspired by this blog entry: 
 
