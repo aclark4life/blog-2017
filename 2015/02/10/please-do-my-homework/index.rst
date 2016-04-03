@@ -3,6 +3,10 @@ Please Do My Homework
 
 .. post:: 2015/02/10
 
+.. category:: Misc
+
+**Reminiscent of A Simple Printer of Nested Lists.**
+
 Reminiscent of `this phenomenon <http://blog.aclark.net/2012/05/23/a-simple-printer-of-nested-lists/>`_, I'm slowly being driven insane by Redditors asking `/r/Python <http://www.reddit.com/r/Python>`_ to do their homework for them. E.g.
 
 .. image:: /images/homework1.png
