@@ -3,10 +3,10 @@ pythonpackages.com beta launch
 
 .. post:: 2012/07/04
 
-After 9 months of development, pythonpackages.com has grand-ceremoniously flipped the switch from alpha to beta. Here is an overview of the beta release features.
+**After 9 months of development, pythonpackages.com has grand-ceremoniously flipped the switch from alpha to beta. Here is an overview of the beta release features.**
 
-**Killer GitHub integration**
------------------------------
+Killer GitHub integration
+-------------------------
 
 The workflow you may now enjoy is:
 
