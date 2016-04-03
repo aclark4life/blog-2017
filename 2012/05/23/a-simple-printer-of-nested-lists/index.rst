@@ -2,8 +2,9 @@ A Simple Printer of Nested Lists
 ================================
 
 .. post:: 2012/05/23
+    :category: Python
 
-*A rant*
+**A rant**
 
 Do you ever get the urge to kill? How many of us cringe whenever we see these words? Lately I've been spending a lot of time developing `pythonpackages.com`_, (now running on heroku!) during which time I see a lot of these kinds of packages being released.
 
