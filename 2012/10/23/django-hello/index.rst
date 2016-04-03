@@ -4,7 +4,9 @@ Django Hello
 .. post:: 2012/10/23
     :category: Django, Python
 
-Django doesn't really need a hello world style introduction, its documentation speaks for itself. But this is what **Hello World** in Django looks like to me. I hate boilerplate and I love reducing software down to its core components; just enough to start the server.
+**Django doesn't really need a hello world style introduction, its documentation speaks for itself.**
+
+But this is what "Hello, world!" in Django looks like to me. I hate boilerplate and I love reducing software down to its core components; just enough to start the server.
 
 setup.py::
 
