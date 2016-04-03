@@ -4,7 +4,7 @@ Mailing List Etiquette
 .. post:: 2012/10/20
     :category: Plone
 
-I read a lot of mailing lists:
+**I read a lot of mailing lists.**
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/unison.png
     :alt: alternate text

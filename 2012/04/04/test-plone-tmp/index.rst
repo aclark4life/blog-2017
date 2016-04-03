@@ -4,7 +4,9 @@ Test-plone `tmp`
 .. post:: 2012/04/04
     :category: Plone, Python
 
-Since Day 1 with Plone circa 2004, I've always taken pride in and greatly enjoyed refining my development environment. It's been stable for a while now (> 1 year or so) so I thought I'd share.
+**Since Day 1 with Plone circa 2004, I've always taken pride in and greatly enjoyed refining my development environment.**
+
+It's been stable for a while now (> 1 year or so) so I thought I'd share.
 
 Operating system
 --------------------------------------------------------------------------------

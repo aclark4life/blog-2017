@@ -9,7 +9,7 @@ Why I Criticize The Plone Foundation Board
     :align: center
     :class: img-thumbnail
 
-TL;DR: Because I care.
+**TL;DR: Because I care.**
 
 As some of you can probably relate to, I've had my fair share of disagreements with the Plone Foundation Board over the years. The good news is, for the most part, it (just like the community) is staffed with **very reasonable people** who if you push them on an issue, will acknowledge that there are always competing viewpoints to any issue you can think of.
 

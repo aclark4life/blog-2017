@@ -4,7 +4,7 @@ Plone: First Class Python Citizen
 .. post:: 2011/10/24
     :category: Plone, Python
 
-*The Plone community and software fit nicely within the larger Python ecosystem. Here's why.*
+**The Plone community and software fit nicely within the larger Python ecosystem. Here's why.**
 
 For almost as long as I have been involved in the `Plone`_ project, I've been interested in Plone's role in the Python ecosystem. Today as I look across the current landscape, I'm proud to announce a new milestone the Plone community can take pride in. But the change didn't happen overnight, so first let's take a quick look back.
 

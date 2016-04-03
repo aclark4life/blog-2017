@@ -4,7 +4,7 @@ Review of Aspeli's Professional Plone 4 Development
 .. post:: 2012/10/20
     :category: Plone
 
-*I owe PACKT a review of this book, so here it is.*
+**I owe PACKT a review of this book, so here it is.**
 
 First: I liked it. Second: I appreciate Aspeli writing it. Third: Like many others, I couldn't wait for it to come out. Fourth: I know that it was a **TON OF WORK** and **PROBABLY NOT WORTH THE MONEY** to write it. So why write a Plone book? A few reasons (other than money):
 

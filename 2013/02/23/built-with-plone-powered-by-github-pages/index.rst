@@ -4,7 +4,7 @@ Built with Plone, Powered by GitHub Pages
 .. post:: 2013/02/23
     :category: Plone
 
-Is Plone the next great static website generator? Probably not, but it definitely could be
+**Is Plone the next great static website generator? Probably not, but it definitely could be.**
 
 I am always looking for ways to improve, streamline and otherwise hack my e-life. And this post is about all of the above.
 https://raw.github.com/ACLARKNET/blog/gh-pages/images/httrack.png

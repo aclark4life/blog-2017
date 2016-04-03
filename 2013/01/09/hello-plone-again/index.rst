@@ -4,6 +4,8 @@ Hello Plone Again
 .. post:: 2013/01/09
     :category: Plone
 
+**I'm back!**
+
 Regarding my recent "Goodbye Plone" post:
 
 - It's come to my attention that the style of my departure post, and associated actions, may be perceived poorly. I'm sorry. This was not my intention, and I apologize if I've upset anyone. The Plone Community deserves the best, so let me see what I can do to address this.

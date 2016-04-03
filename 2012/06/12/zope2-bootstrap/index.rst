@@ -4,7 +4,7 @@ Zope2 Bootstrap
 .. post:: 2012/06/12
     :category: Plone
 
-*Bootstrap all the things, including Zope2.*
+**Bootstrap all the things, including Zope2.**
 
 `zope2\_bootstrap`_ is a new Python package that `monkey patches`_ Zope2 in order to:
 

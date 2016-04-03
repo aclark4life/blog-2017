@@ -4,6 +4,8 @@ We Pioneer
 .. post:: 2014/05/03
     :category: Plone
 
+**One of the subjects I find myself thinking about a lot is: Plone (surprise!)**
+
 .. image:: /images/we-pioneer.jpg
     :alt: alternate text
     :align: center

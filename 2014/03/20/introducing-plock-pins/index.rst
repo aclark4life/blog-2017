@@ -4,12 +4,12 @@ Introducing Plock Pins
 .. post:: 2014/03/20
     :category: Buildout, Plone
 
+**"Plock Pins are the greatest thing to happen to Plone since Buildout" — Alex Clark**
+
 .. image:: /images/buildout-all-the-plones.jpg
     :alt: alternate text
     :align: center
     :class: img-thumbnail
-
-**"Plock Pins are the greatest thing to happen to Plone since Buildout" — Alex Clark**
 
 Plock Pins are the final incarnation of a collection of Plone Buildouts I've been developing since 2010. They attempt to make it easy to install Plone with only Python installed [1]_. Installing Plone with Plock Pins looks like this::
 

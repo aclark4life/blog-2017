@@ -4,7 +4,7 @@ Introducing The Plone Kitty
 .. post:: 2013/01/09
     :category: Plone
 
-*Actually: re-introducing the Plone Kitty from Plone 1!*
+**Actually: re-introducing the Plone Kitty from Plone 1!**
 
 .. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/plone-kitty.png
     :alt: alternate text

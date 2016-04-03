@@ -4,6 +4,8 @@ Plone Conference 2008 is Finally a Wrap
 .. post:: 2011/05/03
     :category: Plone
 
+**I have yet to finish my obligations to Plone Conference 2008 until NOW.**
+
 I have yet to finish my obligations to `Plone Conference 2008`_ until NOW: approximately 2 years, 6 months, and 23 days after the end of the post-conference sprint.
 
 The story

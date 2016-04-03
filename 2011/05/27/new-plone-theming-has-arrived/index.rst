@@ -4,6 +4,8 @@ New Plone Theming Has Arrived
 .. post:: 2011/05/27
     :category: Plone
 
+**Due to the new Diazo theming features now available, I am very excited about the recent release of Plone 4.1rc2**
+
 **Edit2:**\ Enfold/Ploud.net looking for theme developers, see Alan Runyan's comment below.
 
 **Edit**: Laurence Rowe made new Diazo and plone.app.theming releases so the `zip file`_\ now works! Thanks Laurence.

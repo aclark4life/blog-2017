@@ -4,7 +4,7 @@ What's new as of Plock 0-1-2?
 .. post:: 2013/07/29
     :category: Plone
 
-*Plock is a Plone Installer for the Pip-Loving Crowd*
+**Plock is a Plone Installer for the Pip-Loving Crowd.**
 
 I blogged about Plock after 0.0.1 was released and a lot of progress has been made since then, so I thought I'd give an update. But rather than a traditional list-the-changelog-style-blog-entry, I thought I'd walk you through what you can do with Plock as of version 0.1.2.
 

@@ -4,7 +4,9 @@ About My Work
 .. post:: 2013/01/10
     :category: Plone
 
-Regarding some of the criticism or objection to some of the content of my blog entries, etc., here are my thoughts:
+**Regarding some of the criticism or objection to some of the content of my blog entries, etc.,**
+
+Here are my thoughts:
 
 I hear you
 ----------

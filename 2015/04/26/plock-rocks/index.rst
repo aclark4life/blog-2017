@@ -4,12 +4,12 @@ Plock Rocks
 .. post:: 2015/04/26
     :category: Buildout, Plone
 
+**Pip installs Plock. Plock installs Plone.**
+
 .. image:: /images/plock-meme.png
     :alt: Plock Meme
     :align: center
     :class: img-thumbnail
-
-**Pip installs Plock. Plock installs Plone.**
 
 Understanding Plock
 -------------------
