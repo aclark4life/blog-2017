@@ -4,7 +4,9 @@ Plone.org maintenance
 .. post:: 2011/11/29
     :category: Buildout, Plone
 
-**I am planning to do some work on the plone.org server and website by the end of the year, including:**
+**I am planning to do some work on the plone.org server and website by the end of the year.**
+
+Including:
 
 Plans
 -----

@@ -4,7 +4,9 @@ No, Really, You Can Just Use Buildout To Install Plone
 .. post:: 2010/01/07
     :category: Buildout, Plone, Python
 
-**This is a follow up to my `Getting Excited about Plone as Eggs`_ post.**
+**This is a follow up to my 'Getting Excited about Plone as Eggs' post.**
+
+This is a follow up to my `Getting Excited about Plone as Eggs`_ post.
 
 Generally speaking, the recommended and supported way to install Plone is via the installers, e.g. the `Unified Installer`_. Obviously, if you want things to Just Work™ you should be using the latest stable release, which is why I linked to the 3.3.3 unified installer (although there is no Windows installer for 3.3.3 yet, which is why it's not released on plone.org).
 

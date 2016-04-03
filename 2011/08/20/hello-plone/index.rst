@@ -4,7 +4,9 @@ Hello Plone
 .. post:: 2011/08/20
     :category: Buildout, Plone
 
-**This is a Plone "Hello, World!" style tutorial/application for Python programmers. See https://github.com/aclark4life/hello_plone for more.**
+**This is a Plone "Hello, World!" style tutorial/application for Python programmers.**
+
+This is a Plone "Hello, World!" style tutorial/application for Python programmers. See https://github.com/aclark4life/hello_plone for more.
 
 .. Note:: This post has been edited post-publication to improve the wording.
 
