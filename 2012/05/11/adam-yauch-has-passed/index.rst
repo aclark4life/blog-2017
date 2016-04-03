@@ -2,8 +2,9 @@ Adam Yauch has passed
 =====================
 
 .. post:: 2012/05/11
+    :category: Misc
 
-*And why it matters to tech people, like me*
+**And why it matters to tech people like me.**
 
 (I hope my tech colleagues will indulge my thoughts on the recent passing of Beastie Boy Adam Yauch.)
 
