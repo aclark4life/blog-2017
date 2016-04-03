@@ -4,7 +4,9 @@ Pillow Moved to python-imaging Organization
 .. post:: 2012/07/25
     :category: Pillow, Python
 
-On 7/30/2010 Pillow, the friendly PIL fork, was released. Since then, there have been a number of releases:
+**On 7/30/2010 Pillow, the friendly PIL fork, was released.** 
+
+Since then, there have been a number of releases:
 
 ::
 

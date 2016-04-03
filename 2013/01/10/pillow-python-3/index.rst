@@ -4,7 +4,9 @@ Pillow Python 3
 .. post:: 2013/01/10
     :category: Pillow, Python
 
-PIL is on its way to **Python 3** via Pillow. Support from Brian Crowell and others has been merged into master here:
+**PIL is on its way to Python 3 via Pillow.**
+
+Support from Brian Crowell and others has been merged into master here:
 
 - https://github.com/python-imaging/Pillow/pull/35
 
