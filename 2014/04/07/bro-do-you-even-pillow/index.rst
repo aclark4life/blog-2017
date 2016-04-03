@@ -9,7 +9,7 @@ Bro, do you even Pillow?
     :align: center
     :class: img-thumbnail
 
-**`Pillow <https://github.com/python-imaging/Pillow>`_ is a fork of the Python Imaging Library. Here is an update on the status of the project.**
+**Pillow is a fork of the Python Imaging Library. Here is an update on the status of the project.**
 
 2.4.0 released
 --------------
