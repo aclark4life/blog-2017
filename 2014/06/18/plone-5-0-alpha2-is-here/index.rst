@@ -4,7 +4,9 @@ Plone 5 Alpha 2 is Here
 .. post:: 2014/06/18
     :category: Plone, Pyramid
 
-*This post is long overdue since Plone 5 alpha 2 was released on 2014-04-20! It is also too short. I may do a followup blog entry to review more features, depending on how well this one is received. I also want to talk more about Plock.*
+**This post is long overdue since Plone 5 alpha 2 was released on 2014-04-20!**
+
+It is also too short. I may do a followup blog entry to review more features, depending on how well this one is received. I also want to talk more about Plock.
 
 When Plone 4 alpha 1 was released, I was so excited I immediately `ran it in production <http://blog.aclark.net/2012/10/03/plone-4-3-alpha-1-in-production/>`_. Now-a-days I use `Pyramid for aclark.net <http://blog.aclark.net/2013/04/22/new-pyramid-site/>`_ but I still get excited about new Plone releases.
 
