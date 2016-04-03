@@ -4,7 +4,9 @@ In Defense of PyPI
 .. post:: 2011/01/31
     :category: Python
 
-Everyone on the *Python Planet* is probably already familiar with Peter Fein's recent article `about PyPI use (or lack thereof).`_ But in case not, particularly striking was the number of folks who joined the "PyPI bashing" in the comments. In fact, it has inspired me to write this post "in defense of PyPI". I would like to offer the Python community a summary of what I think are the general criticisms, along with my responses as a "sysadmin / developer type".
+**Everyone on the Python Planet is probably already familiar with Peter Fein's recent article about PyPI.**
+
+Everyone on the Python Planet is probably already familiar with Peter Fein's recent article `about PyPI use (or lack thereof).`_ But in case not, particularly striking was the number of folks who joined the "PyPI bashing" in the comments. In fact, it has inspired me to write this post "in defense of PyPI". I would like to offer the Python community a summary of what I think are the general criticisms, along with my responses as a "sysadmin / developer type".
 
 First let me say this: I love PyPI! And I agree with Peter, if your package isn't on PyPI it  "doesn't exist". I wouldn't put it quite like that; but I would say it's fairly important if you are publishing open source Python code, to consider uploading it to the Python Package Index.
 
