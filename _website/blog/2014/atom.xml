@@ -190,44 +190,44 @@ $ bin/plone fg
 &lt;div class=&quot;section&quot; id=&quot;create-plone-site&quot;&gt;
 &lt;h2&gt;Create Plone Site&lt;/h2&gt;
 &lt;p&gt;The first thing you will notice is the improved &amp;#8220;Create a Plone Site&amp;#8221; page which now includes a timezone configuration option:&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-0.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-0.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;barceloneta-theme&quot;&gt;
 &lt;h2&gt;Barceloneta Theme&lt;/h2&gt;
 &lt;p&gt;I selected the &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;US/Eastern&lt;/span&gt;&lt;/code&gt; timezone and clicked &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;Create&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Plone&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Site&lt;/span&gt;&lt;/code&gt;, shortly after which I was greeted with a beautiful new Plone 5 site in all its open source glory. Immediately you will notice a new theme and toolbar:&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-1.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;plone-toolbar&quot;&gt;
 &lt;h2&gt;Plone Toolbar&lt;/h2&gt;
 &lt;p&gt;Here is a quick tour of the new toolbar.&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-1.png&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;folder-contents&quot;&gt;
 &lt;h3&gt;Folder contents&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-2.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-2.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;edit-button&quot;&gt;
 &lt;h3&gt;Edit button&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-3.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-3.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;sharing-settings&quot;&gt;
 &lt;h3&gt;Sharing settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-4.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-4.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;workflow-settings&quot;&gt;
 &lt;h3&gt;Workflow settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-5.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-5.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;add-content&quot;&gt;
 &lt;h3&gt;Add content&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-6.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;layout-settings&quot;&gt;
 &lt;h3&gt;Layout settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-7.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-7.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;user-menu&quot;&gt;
 &lt;h3&gt;User menu&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plone-5-screen-8.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-8.png&quot; /&gt;
 &lt;p&gt;Love it! Of all these, only the eye icon didn&amp;#8217;t function as expected. Not sure what it&amp;#8217;s supposed to do but I assume it&amp;#8217;s not done yet. Additionally, I wish the small Plone logo in the toolbar navigated &amp;#8220;home&amp;#8221; like the portal logo. Or maybe it will close the toolbar? Oh, the possibilities!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -839,7 +839,7 @@ app.Plone.hasObject(                                            app.Plone.zope_q
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;we-pioneer&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;One of the subjects I find myself thinking about a lot is: Plone (surprise!)&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/we-pioneer.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/we-pioneer.jpg&quot; /&gt;
 &lt;p&gt;One of the subjects I find myself thinking about a lot is: Plone (surprise!) In Plone-land, we deliver the &lt;strong&gt;best Python-based CMS money can&amp;#8217;t buy on top of an aging Zope 2 &amp;#8220;application server&amp;#8221;&lt;/strong&gt; mixed with newer Zope, Python, and other technologies. In short, this is a challenge.&lt;/p&gt;
 &lt;div class=&quot;section&quot; id=&quot;diazo&quot;&gt;
 &lt;h2&gt;Diazo&lt;/h2&gt;
@@ -896,7 +896,7 @@ app.Plone.hasObject(                                            app.Plone.zope_q
     </author>
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;bro-do-you-even-pillow&quot;&gt;
 
-&lt;img alt=&quot;Bro, do you even Pillow?&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/bro-do-you-even-pillow.jpg&quot; /&gt;
+&lt;img alt=&quot;Bro, do you even Pillow?&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/bro-do-you-even-pillow.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -974,7 +974,7 @@ app.Plone.hasObject(                                            app.Plone.zope_q
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;introducing-plock-pins&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;&amp;#8220;Plock Pins are the greatest thing to happen to Plone since Buildout&amp;#8221; — Alex Clark&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/buildout-all-the-plones.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/buildout-all-the-plones.jpg&quot; /&gt;
 &lt;p&gt;Plock Pins are the final incarnation of a collection of Plone Buildouts I&amp;#8217;ve been developing since 2010. They attempt to make it easy to install Plone with only Python installed &lt;a class=&quot;footnote-reference&quot; href=&quot;#id3&quot; id=&quot;id1&quot;&gt;[1]&lt;/a&gt;. Installing Plone with Plock Pins looks like this:&lt;/p&gt;
 &lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ virtualenv-2.7 .
 $ bin/pip install zc.buildout
@@ -1038,7 +1038,7 @@ extends = https://raw.github.com/plock/pins/master/plone-4-3
     </author>
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;virtualenv-support-update&quot;&gt;
 
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/virtualenv-support-update.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/virtualenv-support-update.jpg&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;This is you: I use virtualenv all the time and I love it!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is you: &amp;#8220;I use virtualenv all the time and I love it! But I hate having to manually upgrade setuptools within my virtualenvs because the &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/setuptools#changes&quot;&gt;PyPA has been so prolific with setuptools releases lately&lt;/a&gt;&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;Actually this is me, but it may be you too. If this is you, you may be familiar with the following process. If not, you may want to be.&lt;/p&gt;
@@ -1131,7 +1131,7 @@ $ touch my.app/my/app/configure.zcml
 
 &lt;p&gt;&lt;strong&gt;Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Since Pillow 2.0, the Pillow Team has adopted a quarterly release cycle; as such, Pillow 2.3.0 has just been released. Here&amp;#8217;s what&amp;#8217;s new in this release:&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/one-does-not-simply-make-a-release.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/one-does-not-simply-make-a-release.jpg&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;id1&quot;&gt;
 &lt;h2&gt;2.3.0 (2014-01-01)&lt;/h2&gt;
 &lt;ul class=&quot;simple&quot;&gt;

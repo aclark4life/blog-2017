@@ -82,7 +82,7 @@ web: buildout -c heroku.cfg; plone console
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;plock-rocks&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;Pip installs Plock. Plock installs Plone.&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;Plock Meme&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-meme.png&quot; /&gt;
+&lt;img alt=&quot;Plock Meme&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-meme.png&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;understanding-plock&quot;&gt;
 &lt;h2&gt;Understanding Plock&lt;/h2&gt;
 &lt;p&gt;To understand Plock, you must understand:&lt;/p&gt;
@@ -156,11 +156,11 @@ Done, now run:
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Now Plock&amp;#8217;s work is done; visit the following URL: &lt;a class=&quot;reference external&quot; href=&quot;http:://localhost:8080&quot;&gt;http:://localhost:8080&lt;/a&gt; and you should see:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 1&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 1&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-1.png&quot; /&gt;
 &lt;p&gt;Create a Plone site:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 2&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-2.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 2&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-2.png&quot; /&gt;
 &lt;p&gt;Start using Plone:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 3&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-3.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 3&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-3.png&quot; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;next-steps-with-plock&quot;&gt;
@@ -222,7 +222,7 @@ Done, now run:
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Now you should see your add-ons available in Plone:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 6&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-6.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 6&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;upgrading-plone&quot;&gt;
@@ -257,7 +257,7 @@ $ bin/plone fg
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Enjoy the Plone 5 running man:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-5.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-5.png&quot; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -851,7 +851,7 @@ app.Plone.hasObject(                                            app.Plone.zope_q
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;introducing-plock-pins&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;&amp;#8220;Plock Pins are the greatest thing to happen to Plone since Buildout&amp;#8221; — Alex Clark&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/buildout-all-the-plones.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/buildout-all-the-plones.jpg&quot; /&gt;
 &lt;p&gt;Plock Pins are the final incarnation of a collection of Plone Buildouts I&amp;#8217;ve been developing since 2010. They attempt to make it easy to install Plone with only Python installed &lt;a class=&quot;footnote-reference&quot; href=&quot;#id3&quot; id=&quot;id1&quot;&gt;[1]&lt;/a&gt;. Installing Plone with Plock Pins looks like this:&lt;/p&gt;
 &lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ virtualenv-2.7 .
 $ bin/pip install zc.buildout
@@ -915,7 +915,7 @@ extends = https://raw.github.com/plock/pins/master/plone-4-3
     </author>
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;virtualenv-support-update&quot;&gt;
 
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/virtualenv-support-update.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/virtualenv-support-update.jpg&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;This is you: I use virtualenv all the time and I love it!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This is you: &amp;#8220;I use virtualenv all the time and I love it! But I hate having to manually upgrade setuptools within my virtualenvs because the &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/setuptools#changes&quot;&gt;PyPA has been so prolific with setuptools releases lately&lt;/a&gt;&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;Actually this is me, but it may be you too. If this is you, you may be familiar with the following process. If not, you may want to be.&lt;/p&gt;
@@ -1180,9 +1180,9 @@ eggs =
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Not bad! That&amp;#8217;s a lot of working themes for Plone 4, many of which use Diazo.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plonetheme-report-1.png&quot; /&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plonetheme-report-2.png&quot; /&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plonetheme-report-3.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-1.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-2.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-3.png&quot; /&gt;
 &lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id3&quot; rules=&quot;none&quot;&gt;
 &lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign=&quot;top&quot;&gt;
@@ -3558,7 +3558,7 @@ strip-top-level-dir = True
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;img alt=&quot;../../../_images/balloons_clip_art_15536.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/balloons_clip_art_15536.jpg&quot; /&gt;
+&lt;img alt=&quot;images/balloons_clip_art_15536.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/balloons_clip_art_15536.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
