@@ -4,6 +4,8 @@ Project Makefile Open for Business
 .. post:: 2016/10/26
     :category: Python
 
+**Makefile for Python Web Development & Related Projects**
+
 A while back I was asked to speak to the Configuration Management Working Group of DC:
 
 .. image:: /images/project-makefile-tweet.png
