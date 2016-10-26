@@ -5,7 +5,7 @@
   <updated>2007-11-28T00:00:00Z</updated>
   <link href="http://blog.aclark.net" />
   <link href="http://blog.aclark.net/blog/2007/atom.xml" rel="self" />
-  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <generator uri="http://ablog.readthedocs.org" version="0.8.3">ABlog</generator>
   <entry xml:base="http://blog.aclark.net/blog/2007/atom.xml">
     <title type="text">Buildout Recipe Tip: hexagonit.recipe.download</title>
     <id>http://blog.aclark.net/2007/11/28/zcbuildout-recipe-tip-hexagonitrecipedownload-ftw-for-the-win/</id>
@@ -113,7 +113,7 @@ strip-top-level-dir = True
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;img alt=&quot;images/george-bush-debate.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/george-bush-debate.jpg&quot; /&gt;
+&lt;img alt=&quot;../../_images/george-bush-debate.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/george-bush-debate.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -198,7 +198,7 @@ set netiquette_warnings 0
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;img alt=&quot;images/balloons_clip_art_15536.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/balloons_clip_art_15536.jpg&quot; /&gt;
+&lt;img alt=&quot;../../_images/balloons_clip_art_15536.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/balloons_clip_art_15536.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;

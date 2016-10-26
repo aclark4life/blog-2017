@@ -19,7 +19,7 @@ blog_title = u'Alex Clark\'s Blog'
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
-blog_baseurl = u'True'
+blog_baseurl = "http://blog.aclark.net"
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.

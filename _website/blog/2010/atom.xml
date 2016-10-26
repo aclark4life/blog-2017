@@ -5,7 +5,7 @@
   <updated>2010-11-04T00:00:00Z</updated>
   <link href="http://blog.aclark.net" />
   <link href="http://blog.aclark.net/blog/2010/atom.xml" rel="self" />
-  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <generator uri="http://ablog.readthedocs.org" version="0.8.3">ABlog</generator>
   <entry xml:base="http://blog.aclark.net/blog/2010/atom.xml">
     <title type="text">A Report On Plonetheme.*</title>
     <id>http://blog.aclark.net/2010/11/04/a-report-on-plonetheme/</id>

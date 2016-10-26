@@ -5,7 +5,7 @@
   <updated>2011-10-03T00:00:00Z</updated>
   <link href="http://blog.aclark.net" />
   <link href="http://blog.aclark.net/blog/category/mozilla/atom.xml" rel="self" />
-  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <generator uri="http://ablog.readthedocs.org" version="0.8.3">ABlog</generator>
   <entry xml:base="http://blog.aclark.net/blog/category/mozilla/atom.xml">
     <title type="text">Vagrant, Puppet and Mozilla, Oh my</title>
     <id>http://blog.aclark.net/2011/10/03/vagrant-puppet-and-mozilla-oh-my/</id>

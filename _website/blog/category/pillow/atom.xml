@@ -5,7 +5,7 @@
   <updated>2015-10-03T00:00:00Z</updated>
   <link href="http://blog.aclark.net" />
   <link href="http://blog.aclark.net/blog/category/pillow/atom.xml" rel="self" />
-  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <generator uri="http://ablog.readthedocs.org" version="0.8.3">ABlog</generator>
   <entry xml:base="http://blog.aclark.net/blog/category/pillow/atom.xml">
     <title type="text">Pillow 3-0-0 is Out</title>
     <id>http://blog.aclark.net/2015/10/03/pillow-3-0-0-is-out/</id>
@@ -82,7 +82,7 @@ Pillow has been downloaded 9,906,841 times!
     </author>
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;pillow-2015-report&quot;&gt;
 
-&lt;img alt=&quot;Most interesting man&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/pillow-2015-report.png&quot; /&gt;
+&lt;img alt=&quot;Most interesting man&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/pillow-2015-report.png&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;section&quot; id=&quot;the-state-of-the-pillow&quot;&gt;
 &lt;h2&gt;The state of the Pillow&lt;/h2&gt;
@@ -314,7 +314,7 @@ Pillow has been downloaded 9,906,841 times!
     </author>
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;bro-do-you-even-pillow&quot;&gt;
 
-&lt;img alt=&quot;Bro, do you even Pillow?&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/bro-do-you-even-pillow.jpg&quot; /&gt;
+&lt;img alt=&quot;Bro, do you even Pillow?&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/bro-do-you-even-pillow.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -393,7 +393,7 @@ Pillow has been downloaded 9,906,841 times!
 
 &lt;p&gt;&lt;strong&gt;Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Since Pillow 2.0, the Pillow Team has adopted a quarterly release cycle; as such, Pillow 2.3.0 has just been released. Here&amp;#8217;s what&amp;#8217;s new in this release:&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/one-does-not-simply-make-a-release.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/one-does-not-simply-make-a-release.jpg&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;id1&quot;&gt;
 &lt;h2&gt;2.3.0 (2014-01-01)&lt;/h2&gt;
 &lt;ul class=&quot;simple&quot;&gt;

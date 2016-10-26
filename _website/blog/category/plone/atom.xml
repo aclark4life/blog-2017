@@ -5,7 +5,7 @@
   <updated>2015-10-10T00:00:00Z</updated>
   <link href="http://blog.aclark.net" />
   <link href="http://blog.aclark.net/blog/category/plone/atom.xml" rel="self" />
-  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <generator uri="http://ablog.readthedocs.org" version="0.8.3">ABlog</generator>
   <entry xml:base="http://blog.aclark.net/blog/category/plone/atom.xml">
     <title type="text">Plock 0-5-0 is out</title>
     <id>http://blog.aclark.net/2015/10/10/plock-0-5-0-is-out/</id>
@@ -27,7 +27,7 @@ plone/bin/plone fg
 &lt;/div&gt;
 &lt;p&gt;Then open &lt;a class=&quot;reference external&quot; href=&quot;http://localhost:8080&quot;&gt;localhost&lt;/a&gt;:&lt;/p&gt;
 &lt;img alt=&quot;Welcome to Plone&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;http://blog.aclark.net/images/plock-0-5-0.png&quot; /&gt;
-&lt;img alt=&quot;Welcome to Plone&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-0-5-0.png&quot; /&gt;
+&lt;img alt=&quot;Welcome to Plone&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-0-5-0.png&quot; /&gt;
 &lt;p&gt;Report issues &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plock/plock/issues&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </content>
@@ -125,7 +125,7 @@ web: buildout -c heroku.cfg; plone console
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;plock-rocks&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;Pip installs Plock. Plock installs Plone.&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;Plock Meme&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-meme.png&quot; /&gt;
+&lt;img alt=&quot;Plock Meme&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-meme.png&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;understanding-plock&quot;&gt;
 &lt;h2&gt;Understanding Plock&lt;/h2&gt;
 &lt;p&gt;To understand Plock, you must understand:&lt;/p&gt;
@@ -199,11 +199,11 @@ Done, now run:
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Now Plock&amp;#8217;s work is done; visit the following URL: &lt;a class=&quot;reference external&quot; href=&quot;http:://localhost:8080&quot;&gt;http:://localhost:8080&lt;/a&gt; and you should see:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 1&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 1&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-1.png&quot; /&gt;
 &lt;p&gt;Create a Plone site:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 2&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-2.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 2&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-2.png&quot; /&gt;
 &lt;p&gt;Start using Plone:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 3&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-3.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 3&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-3.png&quot; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;next-steps-with-plock&quot;&gt;
@@ -265,7 +265,7 @@ Done, now run:
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Now you should see your add-ons available in Plone:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 6&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-6.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 6&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;upgrading-plone&quot;&gt;
@@ -300,7 +300,7 @@ $ bin/plone fg
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Enjoy the Plone 5 running man:&lt;/p&gt;
-&lt;img alt=&quot;Plock Screen 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-5.png&quot; /&gt;
+&lt;img alt=&quot;Plock Screen 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-screen-5.png&quot; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -413,44 +413,44 @@ $ bin/plone fg
 &lt;div class=&quot;section&quot; id=&quot;create-plone-site&quot;&gt;
 &lt;h2&gt;Create Plone Site&lt;/h2&gt;
 &lt;p&gt;The first thing you will notice is the improved &amp;#8220;Create a Plone Site&amp;#8221; page which now includes a timezone configuration option:&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-0.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-0.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;barceloneta-theme&quot;&gt;
 &lt;h2&gt;Barceloneta Theme&lt;/h2&gt;
 &lt;p&gt;I selected the &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;US/Eastern&lt;/span&gt;&lt;/code&gt; timezone and clicked &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;Create&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Plone&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Site&lt;/span&gt;&lt;/code&gt;, shortly after which I was greeted with a beautiful new Plone 5 site in all its open source glory. Immediately you will notice a new theme and toolbar:&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-1.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;plone-toolbar&quot;&gt;
 &lt;h2&gt;Plone Toolbar&lt;/h2&gt;
 &lt;p&gt;Here is a quick tour of the new toolbar.&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-1.png&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;folder-contents&quot;&gt;
 &lt;h3&gt;Folder contents&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-2.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-2.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;edit-button&quot;&gt;
 &lt;h3&gt;Edit button&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-3.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-3.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;sharing-settings&quot;&gt;
 &lt;h3&gt;Sharing settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-4.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-4.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;workflow-settings&quot;&gt;
 &lt;h3&gt;Workflow settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-5.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-5.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;add-content&quot;&gt;
 &lt;h3&gt;Add content&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-6.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;layout-settings&quot;&gt;
 &lt;h3&gt;Layout settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-7.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-7.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;user-menu&quot;&gt;
 &lt;h3&gt;User menu&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-8.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-8.png&quot; /&gt;
 &lt;p&gt;Love it! Of all these, only the eye icon didn&amp;#8217;t function as expected. Not sure what it&amp;#8217;s supposed to do but I assume it&amp;#8217;s not done yet. Additionally, I wish the small Plone logo in the toolbar navigated &amp;#8220;home&amp;#8221; like the portal logo. Or maybe it will close the toolbar? Oh, the possibilities!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -988,7 +988,7 @@ app.Plone.hasObject(                                            app.Plone.zope_q
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;we-pioneer&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;One of the subjects I find myself thinking about a lot is: Plone (surprise!)&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/we-pioneer.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/we-pioneer.jpg&quot; /&gt;
 &lt;p&gt;One of the subjects I find myself thinking about a lot is: Plone (surprise!) In Plone-land, we deliver the &lt;strong&gt;best Python-based CMS money can&amp;#8217;t buy on top of an aging Zope 2 &amp;#8220;application server&amp;#8221;&lt;/strong&gt; mixed with newer Zope, Python, and other technologies. In short, this is a challenge.&lt;/p&gt;
 &lt;div class=&quot;section&quot; id=&quot;diazo&quot;&gt;
 &lt;h2&gt;Diazo&lt;/h2&gt;
@@ -1046,7 +1046,7 @@ app.Plone.hasObject(                                            app.Plone.zope_q
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;introducing-plock-pins&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;&amp;#8220;Plock Pins are the greatest thing to happen to Plone since Buildout&amp;#8221; — Alex Clark&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/buildout-all-the-plones.jpg&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/buildout-all-the-plones.jpg&quot; /&gt;
 &lt;p&gt;Plock Pins are the final incarnation of a collection of Plone Buildouts I&amp;#8217;ve been developing since 2010. They attempt to make it easy to install Plone with only Python installed &lt;a class=&quot;footnote-reference&quot; href=&quot;#id3&quot; id=&quot;id1&quot;&gt;[1]&lt;/a&gt;. Installing Plone with Plock Pins looks like this:&lt;/p&gt;
 &lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ virtualenv-2.7 .
 $ bin/pip install zc.buildout
@@ -1330,9 +1330,9 @@ eggs =
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Not bad! That&amp;#8217;s a lot of working themes for Plone 4, many of which use Diazo.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-1.png&quot; /&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-2.png&quot; /&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-3.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plonetheme-report-1.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plonetheme-report-2.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plonetheme-report-3.png&quot; /&gt;
 &lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id3&quot; rules=&quot;none&quot;&gt;
 &lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign=&quot;top&quot;&gt;
@@ -1525,7 +1525,7 @@ Installing Plone. This may take a while.......(3)....(4)....(4)....(4)....(5)...
 &lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ plock -l
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-list-addons.png&quot; style=&quot;width: 95%;&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plock-list-addons.png&quot; style=&quot;width: 95%;&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;install-add-ons&quot;&gt;
 &lt;h2&gt;Install add-ons&lt;/h2&gt;
@@ -2639,7 +2639,7 @@ hr {
 &lt;div class=&quot;section&quot; id=&quot;customize-templates&quot;&gt;
 &lt;h2&gt;Customize templates&lt;/h2&gt;
 &lt;p&gt;As you may have noticed above I use &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;z3c.jbot&lt;/span&gt;&lt;/code&gt; to customize various Plone templates.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/custom-templates.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/custom-templates.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;add-content&quot;&gt;
 &lt;h2&gt;Add content&lt;/h2&gt;
@@ -2651,12 +2651,12 @@ hr {
 &lt;div class=&quot;section&quot; id=&quot;use-sunburst-theme-for-content-editing&quot;&gt;
 &lt;h3&gt;Use Sunburst theme for content editing&lt;/h3&gt;
 &lt;p&gt;If you are Diazo-savvy, you may notice I completely ignore styling the content editing interface. Instead I rely on the unthemed &lt;a class=&quot;footnote-reference&quot; href=&quot;#id5&quot; id=&quot;id2&quot;&gt;[2]&lt;/a&gt; site for content editing.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; src=&quot;images/edit-ui.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; src=&quot;../../../_images/edit-ui.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;use-diazo-theme-for-public-facing-view&quot;&gt;
 &lt;h3&gt;Use Diazo theme for public facing view&lt;/h3&gt;
 &lt;p&gt;Of course, visitors to &lt;a class=&quot;reference external&quot; href=&quot;http://aclark.net&quot;&gt;http://aclark.net&lt;/a&gt; see the Diazo theme.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; src=&quot;images/diazo-theme.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; src=&quot;../../../_images/diazo-theme.png&quot; /&gt;
 &lt;p&gt;I&amp;#8217;m hoping that the Plone team can unify the content editing experience again in Plone 5, possibly via simplifying the &amp;#8220;old style&amp;#8221; templates such that it&amp;#8217;s easier to map them to custom Diazo themes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2669,7 +2669,7 @@ hr {
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;the-all-content-view-is-awesome&quot;&gt;
 &lt;h3&gt;The &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;All&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;content&lt;/span&gt;&lt;/code&gt; view is awesome&lt;/h3&gt;
-&lt;img alt=&quot;alternate text&quot; src=&quot;images/all-content.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; src=&quot;../../../_images/all-content.png&quot; /&gt;
 &lt;p&gt;Contributed by Laurence Rowe for Plone 4, I use the &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;All&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;content&lt;/span&gt;&lt;/code&gt; view in two places:&lt;/p&gt;
 &lt;ul class=&quot;simple&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://aclark.net/services&quot;&gt;http://aclark.net/services&lt;/a&gt;&lt;/li&gt;
@@ -6217,7 +6217,7 @@ strip-top-level-dir = True
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;img alt=&quot;images/george-bush-debate.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/george-bush-debate.jpg&quot; /&gt;
+&lt;img alt=&quot;../../../_images/george-bush-debate.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/george-bush-debate.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -6268,7 +6268,7 @@ strip-top-level-dir = True
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;img alt=&quot;images/balloons_clip_art_15536.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/balloons_clip_art_15536.jpg&quot; /&gt;
+&lt;img alt=&quot;../../../_images/balloons_clip_art_15536.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/balloons_clip_art_15536.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;

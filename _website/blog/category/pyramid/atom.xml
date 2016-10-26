@@ -5,7 +5,7 @@
   <updated>2015-01-11T00:00:00Z</updated>
   <link href="http://blog.aclark.net" />
   <link href="http://blog.aclark.net/blog/category/pyramid/atom.xml" rel="self" />
-  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <generator uri="http://ablog.readthedocs.org" version="0.8.3">ABlog</generator>
   <entry xml:base="http://blog.aclark.net/blog/category/pyramid/atom.xml">
     <title type="text">New Django Website</title>
     <id>http://blog.aclark.net/2015/01/11/new-django-website/</id>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;&lt;strong&gt;After a series of Django gigs in 2014, I had the urge to redevelop our company website in Django; I am very happy with the results.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This overview is roughly in order of development from start to finish. And since I am a &amp;#8220;packaging guy&amp;#8221;, I will take this opportunity to comment on miscellaneous packaging issues too*.&lt;/p&gt;
-&lt;img alt=&quot;Website front page&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/aclarknet-django.png&quot; /&gt;
+&lt;img alt=&quot;Website front page&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/aclarknet-django.png&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;same-theme-different-backend&quot;&gt;
 &lt;h2&gt;Same theme, different backend&lt;/h2&gt;
 &lt;p&gt;The Pyramid version of aclark.net was almost two years old and needed an overhaul. Django appeared attractive because:&lt;/p&gt;
@@ -96,7 +96,7 @@ psycopg2
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;orm-i-really-on-my-own&quot;&gt;
 &lt;h2&gt;ORM I really on my own?&lt;/h2&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://twitter.com/aclark4life/status/552626214008274944&quot;&gt;&lt;img alt=&quot;Tweet&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/aclark-tweet.png&quot; /&gt;&lt;/a&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://twitter.com/aclark4life/status/552626214008274944&quot;&gt;&lt;img alt=&quot;Tweet&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/aclark-tweet.png&quot; /&gt;&lt;/a&gt;
 &lt;p&gt;That&amp;#8217;s right. After adding an &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ImageField&lt;/span&gt;&lt;/code&gt; I expected the image to be stored in the database and not the file system, and I&amp;#8217;m not ashamed. Since that was not the case, I ended up using &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;django-cumulus&lt;/span&gt;&lt;/code&gt; &lt;a class=&quot;footnote-reference&quot; href=&quot;#id12&quot; id=&quot;id6&quot;&gt;[6]&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;overall&quot;&gt;
@@ -182,44 +182,44 @@ $ bin/plone fg
 &lt;div class=&quot;section&quot; id=&quot;create-plone-site&quot;&gt;
 &lt;h2&gt;Create Plone Site&lt;/h2&gt;
 &lt;p&gt;The first thing you will notice is the improved &amp;#8220;Create a Plone Site&amp;#8221; page which now includes a timezone configuration option:&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-0.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-0.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;barceloneta-theme&quot;&gt;
 &lt;h2&gt;Barceloneta Theme&lt;/h2&gt;
 &lt;p&gt;I selected the &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;US/Eastern&lt;/span&gt;&lt;/code&gt; timezone and clicked &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;Create&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Plone&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Site&lt;/span&gt;&lt;/code&gt;, shortly after which I was greeted with a beautiful new Plone 5 site in all its open source glory. Immediately you will notice a new theme and toolbar:&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-1.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;plone-toolbar&quot;&gt;
 &lt;h2&gt;Plone Toolbar&lt;/h2&gt;
 &lt;p&gt;Here is a quick tour of the new toolbar.&lt;/p&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-1.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-1.png&quot; /&gt;
 &lt;div class=&quot;section&quot; id=&quot;folder-contents&quot;&gt;
 &lt;h3&gt;Folder contents&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-2.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-2.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;edit-button&quot;&gt;
 &lt;h3&gt;Edit button&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-3.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-3.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;sharing-settings&quot;&gt;
 &lt;h3&gt;Sharing settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-4.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-4.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;workflow-settings&quot;&gt;
 &lt;h3&gt;Workflow settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-5.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-5.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;add-content&quot;&gt;
 &lt;h3&gt;Add content&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-6.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-6.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;layout-settings&quot;&gt;
 &lt;h3&gt;Layout settings&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-7.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-7.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;user-menu&quot;&gt;
 &lt;h3&gt;User menu&lt;/h3&gt;
-&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plone-5-screen-8.png&quot; /&gt;
+&lt;img alt=&quot;Plone 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../../_images/plone-5-screen-8.png&quot; /&gt;
 &lt;p&gt;Love it! Of all these, only the eye icon didn&amp;#8217;t function as expected. Not sure what it&amp;#8217;s supposed to do but I assume it&amp;#8217;s not done yet. Additionally, I wish the small Plone logo in the toolbar navigated &amp;#8220;home&amp;#8221; like the portal logo. Or maybe it will close the toolbar? Oh, the possibilities!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
