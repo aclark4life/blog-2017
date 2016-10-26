@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Review of Aspeli’s Professional Plone 4 Development &mdash; Alex Clark&#39;s Blog</title>
+    
+    <link rel="stylesheet" href="../../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/bootswatch-3.3.4/readable/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../../../_static/favicon.ico"/>
+    <link rel="top" title="Alex Clark&#39;s Blog" href="../../../../" />
+  
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../../../blog/atom.xml" title="Alex Clark's Blog">
+  
+  
+  <link href="True" rel="stylesheet">
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../../">
+          Alex Clark&#39;s Blog</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="http://aclark.net">Home</a></li>
+                <li><a href="https://www.facebook.com/aclark4life">Facebook</a></li>
+                <li><a href="https://github.com/aclark4life">GitHub</a></li>
+                <li><a href="https://gratipay.com/aclark4life">Gratipay</a></li>
+                <li><a href="https://www.linkedin.com/in/aclark4life">LinkedIn</a></li>
+                <li><a href="https://twitter.com/aclark4life">Twitter</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../../">Pages <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../now/">What I&#8217;m doing now</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../feeds/">Feeds</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary">
+  
+  
+  <h2>
+  
+  <i class="fa fa-calendar"></i>
+    Oct 20, 2012
+  
+  </h2>
+
+  <ul>
+    
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="../../../../blog/category/plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  
+  <li>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'aclark-blog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    <i class="fa-fw fa fa-comments"></i>
+    <a href="#disqus_thread" data-disqus-identifier="/2012/10/20/review-of-aspeli-plone-4-development/index/"> </a>
+  </li>
+  
+  </ul>
+
+
+
+  <h3><a href="../../../../blog/">Recent Posts</a></h3>
+  <ul>
+    
+    
+      <li><a href="../../../../2016/04/03/yup-this-blog-is-now-powered-by-ablog/">Apr 03 - Yup, this blog is now powered by ABlog</a></li>
+    
+      <li><a href="../../../../2016/02/21/updated-django-website/">Feb 21 - Updated Django Website</a></li>
+    
+      <li><a href="../../../../2015/10/10/plock-0-5-0-is-out/">Oct 10 - Plock 0-5-0 is out</a></li>
+    
+      <li><a href="../../../../2015/10/07/dc-python-jobs/">Oct 07 - DC Python Jobs</a></li>
+    
+      <li><a href="../../../../2015/10/05/i-reinstalled-again/">Oct 05 - I Reinstalled Again</a></li>
+    
+  </ul>
+
+  <h3><a href="../../../../blog/category/">Categories</a></h3>
+  <ul>
+  
+    
+    <li><a href="../../../../blog/category/buildout/">Buildout (33)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/django/">Django (5)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/misc/">Misc (22)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/mozilla/">Mozilla (2)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/music/">Music (1)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/pillow/">Pillow (16)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/plone/">Plone (79)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/pyramid/">Pyramid (6)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/python/">Python (61)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/zope/">Zope (6)</a></li>
+    
+  
+  </ul>
+
+  <h3><a href="../../../../blog/archive/">Archives</a></h3>
+  <ul>
+  
+    
+    <li><a href="../../../../blog/2016/">2016 (2)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2015/">2015 (13)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2014/">2014 (11)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2013/">2013 (21)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2012/">2012 (35)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2011/">2011 (26)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2010/">2010 (9)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2009/">2009 (7)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2008/">2008 (19)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2007/">2007 (8)</a></li>
+    
+  
+  </ul>
+
+<form action="../../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="review-of-aspeli-s-professional-plone-4-development">
+<h1>Review of Aspeli&#8217;s Professional Plone 4 Development<a class="headerlink" href="#review-of-aspeli-s-professional-plone-4-development" title="Permalink to this headline">¶</a></h1>
+<p><strong>I owe PACKT a review of this book, so here it is.</strong></p>
+<p>First: I liked it. Second: I appreciate Aspeli writing it. Third: Like many others, I couldn&#8217;t wait for it to come out. Fourth: I know that it was a <strong>TON OF WORK</strong> and <strong>PROBABLY NOT WORTH THE MONEY</strong> to write it. So why write a Plone book? A few reasons (other than money):</p>
+<ul class="simple">
+<li>It&#8217;s good for you</li>
+<li>It&#8217;s good for the community</li>
+<li>It&#8217;s good for Plone</li>
+</ul>
+<p>So if you care about Plone: please go buy both an electronic and paper version of this book <strong>RIGHT NOW</strong> <a class="footnote-reference" href="#id5" id="id1">[0]</a>. While you are at it, please pick up a copy of <strong>Plone 3.3 Site Administration</strong>. It&#8217;s quite good, and I hear the author is a <strong>swell guy</strong> who would appreciate your generosity <a class="footnote-reference" href="#id6" id="id2">[1]</a> <a class="footnote-reference" href="#id7" id="id3">[2]</a>.</p>
+<div class="section" id="what-i-like">
+<h2>What I like<a class="headerlink" href="#what-i-like" title="Permalink to this headline">¶</a></h2>
+<p>First let me cover what I <strong>ABSOLUTELY LOVE</strong> about this book.</p>
+<div class="section" id="buildout-eggs">
+<h3>buildout:eggs<a class="headerlink" href="#buildout-eggs" title="Permalink to this headline">¶</a></h3>
+<img alt="alternate text" class="img-thumbnail align-center" src="https://raw.github.com/ACLARKNET/blog/gh-pages/images/buildout.png" />
+<p>Aspeli correctly addresses one of my biggest pet peeves (concerns) about what I believe to be an <strong>ANTI-PATTERN</strong> in almost every Plone buildout: buildout:eggs (referring to the eggs parameter of the buildout section; it does not exist, other than as a convenient variable setting).</p>
+<p>If you know me, you know I&#8217;ve spoken about this before and whilst I&#8217;ve moved on from harping on it I will say this: with most software that uses ini-style configuration files when you set a parameter you expect something to happen. But since Buildout is more complicated than the average software that uses ini-style configuration, that expectation is not always met.</p>
+</div>
+<div class="section" id="add-ons">
+<h3>Add-ons<a class="headerlink" href="#add-ons" title="Permalink to this headline">¶</a></h3>
+<img alt="alternate text" class="img-thumbnail align-center" src="image://raw.github.com/ACLARKNET/blog/gh-pages/images/addons.png" />
+<p>Did you see? You might have missed it. No mention of <strong>Products</strong> WHAT-SO-EVER. &#8220;Product&#8221; was a term that Zope2 used for Python libraries that enhanced the functionality of Zope2, and it stuck. Now, it should die in favor of a term everyone else in the world is familiar with (in this context): add-on. Well played, Aspeli. Well played.</p>
+</div>
+</div>
+<div class="section" id="the-review">
+<h2>The Review<a class="headerlink" href="#the-review" title="Permalink to this headline">¶</a></h2>
+<p>I will now talk about each chapter briefly. This will be TL;DR-style, but I hope you&#8217;ll get a nice idea for why this book is so great. Every imaginable detail for each section is covered in the book in painstaking detail by Aspeli. If you have any questions, please don&#8217;t hesitate to ask them in the comments.</p>
+<div class="section" id="chapter-1-plone-in-context">
+<h3>Chapter 1: Plone in Context<a class="headerlink" href="#chapter-1-plone-in-context" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn what, why &amp; when Plone is, plus a bit more. My favorite sub-section is: Plone-the-application and Plone-the-framework, in which Aspeli describes the phenomenon of Plone the application being used by some folks as a generic Python web framework. Plone&#8217;s strengh and indeed its raison d&#8217;etre (reason to exist) is to provide a fully-featured CMS web application suitable for immediate use, or use immediately after a few simple customizations. So if you try to use it as a web framework, you may not get exactly what you expect (because it was not designed to be used that way).</p>
+</div>
+<div class="section" id="chapter-2-introduction-to-the-case-study">
+<h3>Chapter 2: Introduction to the Case Study<a class="headerlink" href="#chapter-2-introduction-to-the-case-study" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn how a professional may execute a typical website project with Plone. This is a nice little chapter with some great details about the fictional project that will be executed throughout the remainder of the book: requirements, mockups, and information architecture are the highlights here; as well as the necessary CMS details like users, groups, and content types.</p>
+</div>
+<div class="section" id="chapter-3-the-development-environment">
+<h3>Chapter 3: The Development Environment<a class="headerlink" href="#chapter-3-the-development-environment" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about how to setup an environment in which you can customize Plone to suit your needs. TL;DR: fairly typical Python development environment <a class="footnote-reference" href="#id8" id="id4">[3]</a> with additional Plone details covered: Buildout recipes, development libraries, and more.</p>
+</div>
+<div class="section" id="chapter-4-basics-of-customization">
+<h3>Chapter 4: Basics of Customization<a class="headerlink" href="#chapter-4-basics-of-customization" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about the technical architecture of Plone: ZODB, GenericSetup, Zope2 CMF, Zope Component Architecture, and more (!). And the best way to implement your requirements within that architecture.</p>
+</div>
+<div class="section" id="chapter-5-developing-a-site-strategy">
+<h3>Chapter 5: Developing a Site Strategy<a class="headerlink" href="#chapter-5-developing-a-site-strategy" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about how to bundle your customizations into a Python package for general use.</p>
+</div>
+<div class="section" id="chapter-6-security-and-workflow">
+<h3>Chapter 6: Security and Workflow<a class="headerlink" href="#chapter-6-security-and-workflow" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about how Plone implements generic web application features and how you can customize that implementation.</p>
+</div>
+<div class="section" id="chapter-7-using-add-ons">
+<h3>Chapter 7: Using Add-ons<a class="headerlink" href="#chapter-7-using-add-ons" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about how to add additional Python libraries to Plone to provide additional features.</p>
+</div>
+<div class="section" id="chapter-8-creating-a-custom-theme">
+<h3>Chapter 8: Creating a Custom Theme<a class="headerlink" href="#chapter-8-creating-a-custom-theme" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about Plone&#8217;s new theming engine: Diazo.</p>
+</div>
+<div class="section" id="chapter-9-nine-core-concepts-of-zope-programming">
+<h3>Chapter 9: Nine Core Concepts of Zope Programming<a class="headerlink" href="#chapter-9-nine-core-concepts-of-zope-programming" title="Permalink to this headline">¶</a></h3>
+<p>In which learn a bit more about the technical architecture of Plone. If you love this chapter (as many do), you might also enjoy: <a class="reference external" href="http://developer.plone.org/reference_manuals/old/zope_secrets/index.html">http://developer.plone.org/reference_manuals/old/zope_secrets/index.html</a>.</p>
+</div>
+<div class="section" id="chapter-10-custom-content-types">
+<h3>Chapter 10: Custom Content Types<a class="headerlink" href="#chapter-10-custom-content-types" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about Plone&#8217;s new content type framework: Dexterity.</p>
+</div>
+<div class="section" id="chapter-11-standalone-views-and-forms">
+<h3>Chapter 11: Standalone Views and Forms<a class="headerlink" href="#chapter-11-standalone-views-and-forms" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about a topic that would be first, if Plone were a generic website framework: how to build forms.</p>
+</div>
+<div class="section" id="chapter-12-relational-databases">
+<h3>Chapter 12: Relational Databases<a class="headerlink" href="#chapter-12-relational-databases" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about how to integrate a relational database into your CMS application. Since Plone relies heavily on the ZODB, none is included by default.</p>
+</div>
+<div class="section" id="chapter-13-users-and-their-permissions">
+<h3>Chapter 13: Users and their Permissions<a class="headerlink" href="#chapter-13-users-and-their-permissions" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about another topic that would be covered first if Plone were a generic website framework: authentication and authorization.</p>
+</div>
+<div class="section" id="chapter-14-dynamic-user-interfaces-with-jquery">
+<h3>Chapter 14: Dynamic User Interfaces with jQuery<a class="headerlink" href="#chapter-14-dynamic-user-interfaces-with-jquery" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about using jQuery in Plone.</p>
+</div>
+<div class="section" id="chapter-15-summary-and-potential-enhancements">
+<h3>Chapter 15: Summary and Potential Enhancements<a class="headerlink" href="#chapter-15-summary-and-potential-enhancements" title="Permalink to this headline">¶</a></h3>
+<p>In which we learn about next steps. You&#8217;ve just built and delivered a CMS application for your client. What will they ask you for next? And how will you implement it.</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
+<p>I hope you have enjoyed this review; and I hope you&#8217;ll consider purchasing a copy of Aspeli&#8217;s book for your next Plone project.</p>
+<p><em>Like this article? Consider a</em> <a class="reference external" href="http://gittip.com/aclark4life">gittip</a>. <em>You may also want to follow me on</em> <a class="reference external" href="http://twitter.com/aclark4life">twitter</a>.</p>
+<table class="docutils footnote" frame="void" id="id5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[0]</a></td><td>Disclaimer: I was given a copy of both versions in exchange for this review.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[1]</a></td><td>Seriously though, whilst PACKT literally forces you to include a software version number in your title, <strong>Plone 3.3 Site Administration</strong> is still relevant to today&#8217;s Plone. I expect it will be relevant through at least Plone 5.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id7" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[2]</a></td><td>The financial details of (at least) my contract for writing a book with PACKT <strong>CLEARLY FAVORED PACKT</strong>. That said, I think they are a great organization and I am proud to be a PACKT author. But according to my statements, I still need to earn about $1K more in royalties before I have paid back my advance. Notice what I just said there: <strong>earn in royalties</strong> i.e. I have to sell enough books in order to get PACKT to pay out enough money to meet the terms of the contract. I won&#8217;t pretend to have any idea why PACKT does what it does with its contracts, except to say that I assume they expect to make money. I&#8217;ll also assume everything is on the up and up. But unfortunately sometimes the &#8220;up and up&#8221; can look like this: <a class="reference external" href="http://www.techdirt.com/articles/20121018/01054720744/hollywood-accounting-how-19-million-movie-makes-150-million-still-isnt-profitable.shtml">http://www.techdirt.com/articles/20121018/01054720744/hollywood-accounting-how-19-million-movie-makes-150-million-still-isnt-profitable.shtml</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id8" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[3]</a></td><td><code class="docutils literal"><span class="pre">$</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">Plone</span></code> support may be available soon which may blow the lid off the Python popularity shack (raise the level of interest from generic Python developers interested in Python CMS applications).</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+  <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  
+  <a href="../mailing-list-etiquette/">
+    <i class="fa fa-arrow-circle-left"></i>
+    Mailing List Etiquette
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  
+  <a href="../../22/why-split-the-lists/">
+    Why Split The Lists
+    <i class="fa fa-arrow-circle-right"></i>
+  </a>
+  </span>
+  
+</div>
+
+  
+  
+    <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'aclark-blog';
+        var disqus_identifier = '/2012/10/20/review-of-aspeli-plone-4-development/';
+        var disqus_title = 'Review of Aspeli&amp;#8217;s Professional Plone 4 Development';
+        var disqus_url = 'http://blog.aclark.net/2012/10/20/review-of-aspeli-plone-4-development/';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  
+  </div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Alex Clark.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Alex Clark's Blog - Posted in 2015</title>
+  <id>http://blog.aclark.net/blog/2015/atom.xml</id>
+  <updated>2015-10-10T00:00:00Z</updated>
+  <link href="http://blog.aclark.net" />
+  <link href="http://blog.aclark.net/blog/2015/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Plock 0-5-0 is out</title>
+    <id>http://blog.aclark.net/2015/10/10/plock-0-5-0-is-out/</id>
+    <updated>2015-10-10T00:00:00Z</updated>
+    <published>2015-10-10T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/10/10/plock-0-5-0-is-out/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;plock-0-5-0-is-out&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Pip installs Plock. Plock installs Plone.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Plock installer for Plone has been &lt;strong&gt;updated to support Plone 5&lt;/strong&gt;. To try Plone 5, just cut &amp;amp; paste:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install plock
+mkdir plone
+plock plone
+plone/bin/plone fg
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Then open &lt;a class=&quot;reference external&quot; href=&quot;http://localhost:8080&quot;&gt;localhost&lt;/a&gt;:&lt;/p&gt;
+&lt;img alt=&quot;Welcome to Plone&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;http://blog.aclark.net/images/plock-0-5-0.png&quot; /&gt;
+&lt;img alt=&quot;Welcome to Plone&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-0-5-0.png&quot; /&gt;
+&lt;p&gt;Report issues &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plock/plock/issues&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">DC Python Jobs</title>
+    <id>http://blog.aclark.net/2015/10/07/dc-python-jobs/</id>
+    <updated>2015-10-07T00:00:00Z</updated>
+    <published>2015-10-07T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/10/07/dc-python-jobs/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;dc-python-jobs&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;This information may eventually live within the DC Python corpus, but for now I prefer to post-it-now-move-it-later.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;DC Python, for those not familiar, is:&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;A thriving community full of awesome Python programmers in Washington, DC, USA (DC, MD, VA).&lt;/li&gt;
+&lt;li&gt;The name of a Meetup group with over 3,000 members.&lt;/li&gt;
+&lt;li&gt;A name commonly used to refer to our 501(c)(3) organization whose legal name is &amp;#8220;ZPUGDC, Inc&amp;#8221;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As the President &amp;amp; Executive Director of DC Python (see: #3), I try to be as helpful as possible with all aspects of Python activity in DC (along with many volunteers). &lt;strong&gt;That includes helping Python programmers find jobs and employers find Python programmers.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ideally we&amp;#8217;d have a professional job board, but that would require a lot of effort from a lot of volunteers. In the meantime, ever since it was suggested by Gloria W from the NYC Python Meetup, we&amp;#8217;ve been using Meetup&amp;#8217;s message boards to perform a similar function.&lt;/p&gt;
+&lt;p&gt;This has worked surprisingly well however there &lt;em&gt;are&lt;/em&gt; some issues. In this post, I will explain how to use DC Python&amp;#8217;s &amp;#8220;Job Board&amp;#8221; according to guidelines established by our community.&lt;/p&gt;
+&lt;p&gt;The &lt;a class=&quot;reference external&quot; href=&quot;http://www.meetup.com/DCPython/messages/boards/&quot;&gt;DC Python Job Board&lt;/a&gt; features:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://www.meetup.com/DCPython/messages/boards/forum/617991&quot;&gt;A board for employers seeking Python programmers and vice versa&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The #1 function of the board (and biggest consumer of my time spent answering emails) is to serve employers seeking Python programmers. &amp;#8220;Employers&amp;#8221; &lt;em&gt;can&lt;/em&gt; and often &lt;em&gt;does&lt;/em&gt; include professional recruiters.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve always found it awkward to explain the procedure, but have gone several years without documenting it properly (there is an early version of it &lt;a class=&quot;reference external&quot; href=&quot;https://www.dcpython.org/resources/&quot;&gt;here&lt;/a&gt;). No more!&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;instructions&quot;&gt;
+&lt;h2&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Please follow these rules to post to the DC Python Job Board&lt;/strong&gt;.&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;Join the DC Python Meetup: &lt;a class=&quot;reference external&quot; href=&quot;http://www.meetup.com/DCPython/join/&quot;&gt;http://www.meetup.com/DCPython/join/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Create a job posting: &lt;a class=&quot;reference external&quot; href=&quot;http://www.meetup.com/DCPython/messages/boards/forum/617991&quot;&gt;http://www.meetup.com/DCPython/messages/boards/forum/617991&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Send a link to your post to the DC Python mailing list: &lt;a class=&quot;reference external&quot; href=&quot;mailto:DCPython-list&amp;#37;&amp;#52;&amp;#48;meetup&amp;#46;com&quot;&gt;DCPython-list&lt;span&gt;&amp;#64;&lt;/span&gt;meetup&lt;span&gt;&amp;#46;&lt;/span&gt;com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Include [JOB] in the subject line, some brief introductory text, a link to your post &amp;amp; nothing else. E.g.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Wed Oct  7 16:45:52 EDT 2015
+From: aclark@aclark.net
+To: DCPython-list@meetup.com
+Subject: [JOB] ACLARK.NET, LLC seeking Python Web Developer
+
+Hi DC Python,
+
+My name is Alex Clark and I am the President of ACLARK.NET, LLC: the most awesome Python shop in Washington, DC, USA.
+I am interested in hiring a Python web developer to fill an awesome position working directly for me:
+
+    - http://www.meetup.com/DCPython/messages/boards/thread/41146492
+
+I hope to hear from you soon!
+
+Alex
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;In your email to the list please do not include:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;strong&gt;The full text of the job listing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Links to external job postings&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also please send mail to the list with the &lt;strong&gt;same email address&lt;/strong&gt; you used to join Meetup, else &lt;strong&gt;Meetup won&amp;#8217;t accept it&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Good luck!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">I Reinstalled Again</title>
+    <id>http://blog.aclark.net/2015/10/05/i-reinstalled-again/</id>
+    <updated>2015-10-05T00:00:00Z</updated>
+    <published>2015-10-05T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/10/05/i-reinstalled-again/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;i-reinstalled-again&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;A while back I wrote about reinstalling OS X.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A while back I wrote about reinstalling OS X: &lt;a class=&quot;reference external&quot; href=&quot;http://blog.aclark.net/2010/10/15/i-reinstalled-recently&quot;&gt;http://blog.aclark.net/2010/10/15/i-reinstalled-recently&lt;/a&gt;. This is another one of those posts.&lt;/p&gt;
+&lt;p&gt;I like to reinstall OS X, a lot. So much so, you&amp;#8217;d think I&amp;#8217;d find some way to automate the process. There must be something &lt;em&gt;soothing&lt;/em&gt; about it, though, because I keep doing it.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m writing this post now because since my last post, I&amp;#8217;ve begun storing a snippets on &lt;a class=&quot;reference external&quot; href=&quot;https://gist.github.com/aclark4life/starred&quot;&gt;gist.github.com&lt;/a&gt; to help automate the process. This way, I get &amp;#8220;the best of both worlds&amp;#8221;:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Automation of the tedious parts, &amp;amp;&lt;/li&gt;
+&lt;li&gt;Interaction with the fun parts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Specifically, with El Capitan I&amp;#8217;ve settled on these 4 snippets:&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;preferences&quot;&gt;
+&lt;h2&gt;Preferences&lt;/h2&gt;
+&lt;script src=&quot;https://gist.github.com/aclark4life/3efb00b88dcacc9e0c2c.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;homebrew&quot;&gt;
+&lt;h2&gt;Homebrew&lt;/h2&gt;
+&lt;script src=&quot;https://gist.github.com/aclark4life/11f3505fa87681581fa1.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;python&quot;&gt;
+&lt;h2&gt;Python&lt;/h2&gt;
+&lt;script src=&quot;https://gist.github.com/aclark4life/69cb7c9363d79db9b3dd.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;misc&quot;&gt;
+&lt;h2&gt;Misc&lt;/h2&gt;
+&lt;script src=&quot;https://gist.github.com/aclark4life/594fb26860fece756a2d.js&quot;&gt;&lt;/script&gt;&lt;p&gt;Next, I perform various additional steps manually &lt;em&gt;either&lt;/em&gt; because I&amp;#8217;ve not figured out how to automate them &lt;em&gt;or&lt;/em&gt; the automation prospects are not attractive:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Security &amp;amp; Privacy → Allow apps downloaded from &lt;strong&gt;Anywhere&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Drag &lt;strong&gt;/opt&lt;/strong&gt; to &lt;strong&gt;Finder Favorites&lt;/strong&gt; for easy access to Homebrew Casks, then:&lt;ul&gt;
+&lt;li&gt;Users &amp;amp; Groups → Login items → &lt;strong&gt;Jumpcut&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Keyboard → Shortcuts → Mission Control → &lt;strong&gt;Move left a space → ⌘ ←&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Keyboard → Shortcuts → Mission Control → &lt;strong&gt;Move right a space → ⌘ →&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Dock → Terminal → &lt;strong&gt;Keep in Dock&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Dock → Firefox → &lt;strong&gt;Keep in Dock&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still, I&amp;#8217;d trade all these steps for full automation if I could find an approach that&amp;#8217;s not more tedious than cut &amp;amp; pasting the above.&lt;/p&gt;
+&lt;p&gt;Lastly, I hope this helps someone. Please add a comment below if you have a better approach.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Don't sudo pip install</title>
+    <id>http://blog.aclark.net/2015/10/05/dont-sudo-pip-install/</id>
+    <updated>2015-10-05T00:00:00Z</updated>
+    <published>2015-10-05T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/10/05/dont-sudo-pip-install/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;don-t-sudo-pip-install&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;How many times have you seen this?&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&quot;Reddit thread&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/dont-sudo-pip-install.png&quot; /&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Pillow 3-0-0 is Out</title>
+    <id>http://blog.aclark.net/2015/10/03/pillow-3-0-0-is-out/</id>
+    <updated>2015-10-03T00:00:00Z</updated>
+    <published>2015-10-03T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/10/03/pillow-3-0-0-is-out/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;pillow-3-0-0-is-out&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/graphs/contributors&quot;&gt;Pillow Team&lt;/a&gt;  is excited to announce the release of Pillow 3.0.0. While &amp;#8220;3 is just a number after 2&amp;#8221;, there are some &lt;strong&gt;significant changes in this release all users should be aware of&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://pillow.readthedocs.org/en/3.0.x/releasenotes/3.0.0.html#libjpeg-and-zlib-are-required-by-default&quot;&gt;LibJpeg and Zlib are Required by Default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://pillow.readthedocs.org/en/3.0.x/releasenotes/3.0.0.html#deprecated-methods&quot;&gt;Deprecated Methods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;#8217;m particularly happy to see libjpeg &amp;amp; zlib required; this will avoid many-a-broken-installation in the future. &lt;strong&gt;PIL is of little practical value when installed without JPEG support&lt;/strong&gt;, yet this has been the default for over 20 years. No more! Thanks to wiredfool for &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/issues/1412&quot;&gt;spearheading this change&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more goodness, please see the release notes &amp;amp; changelog:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://pillow.readthedocs.org/en/3.0.x/releasenotes/3.0.0.html&quot;&gt;http://pillow.readthedocs.org/en/3.0.x/releasenotes/3.0.0.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/blob/3.0.x/CHANGES.rst#300-2015-10-01&quot;&gt;https://github.com/python-pillow/Pillow/blob/3.0.x/CHANGES.rst#300-2015-10-01&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lastly, we&amp;#8217;re approaching 10 million downloads:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ vanity -q pillow
+Pillow has been downloaded 9,906,841 times!
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;An exciting milestone!&lt;/p&gt;
+&lt;p&gt;Thanks to all the developers &amp;amp; users of PIL &amp;amp; Pillow. Enjoy the 3.0.0 release, and as always &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/issues&quot;&gt;report&amp;#8217;em if you got&amp;#8217;em and we&amp;#8217;ll fix&amp;#8217;em&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&quot;https://gratipay.com/pillow/&quot;&gt;
+  &lt;img alt=&quot;Support via Gratipay&quot; src=&quot;https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png&quot;/&gt;
+&lt;/a&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Pillow 2-9-0 Is Almost Out</title>
+    <id>http://blog.aclark.net/2015/06/28/pillow-2-9-0-is-almost-out/</id>
+    <updated>2015-06-28T00:00:00Z</updated>
+    <published>2015-06-28T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/06/28/pillow-2-9-0-is-almost-out/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;pillow-2-9-0-is-almost-out&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Pillow 2.9.0 will be released on July 1, 2015.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;pre-release&quot;&gt;
+&lt;h2&gt;Pre-release&lt;/h2&gt;
+&lt;p&gt;Please help the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/graphs/contributors&quot;&gt;Pillow Fighters&lt;/a&gt;  prepare for the Pillow &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;2.9.0&lt;/span&gt;&lt;/code&gt; release by downloading and testing this pre-release:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/archive/2.9.0.dev2.zip&quot;&gt;https://github.com/python-pillow/Pillow/archive/2.9.0.dev2.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;report-issues&quot;&gt;
+&lt;h2&gt;Report issues&lt;/h2&gt;
+&lt;p&gt;As you might expect, we&amp;#8217;d like to avoid the creation of a &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;2.9.1&lt;/span&gt;&lt;/code&gt; release within 24-48 hours of &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;2.9.0&lt;/span&gt;&lt;/code&gt; due to any unforeseen circumstances. If you suspect such an issue to exist in &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;2.9.0.dev2&lt;/span&gt;&lt;/code&gt;, please let us know:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/issues&quot;&gt;https://github.com/python-pillow/Pillow/issues&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Plone on Heroku</title>
+    <id>http://blog.aclark.net/2015/06/27/plone-on-heroku/</id>
+    <updated>2015-06-27T00:00:00Z</updated>
+    <published>2015-06-27T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/06/27/plone-on-heroku/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;plone-on-heroku&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Dear Plone, welcome to 2015&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Picture it. The year was 2014. I was incredibly moved and inspired by this blog entry:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://www.niteoweb.com/blog/dear-plone-welcome-to-2014&quot;&gt;http://www.niteoweb.com/blog/dear-plone-welcome-to-2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Someone had finally done it. (&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/zupo&quot;&gt;zupo&lt;/a&gt; in this case, kudos!) Someone had finally beat me to implementing the dream of &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;heroku&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;plone&lt;/span&gt;&lt;/code&gt;. And I could not have been happier.&lt;/p&gt;
+&lt;p&gt;But something nagging would not let go: I still &lt;strong&gt;didn&amp;#8217;t fully understand how the buildpack worked&lt;/strong&gt;. Today I&amp;#8217;m happy to say: that nag is gone and I now fully understand how Heroku buildpacks work… thanks to…&amp;nbsp;wait for it… a &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plock/buildpack/blob/master/bin/compile&quot;&gt;Buildpack for Plock&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;plock-buildpack&quot;&gt;
+&lt;h2&gt;Plock Buildpack&lt;/h2&gt;
+&lt;p&gt;There&amp;#8217;s a lot of the same things going on in both the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plone/heroku-buildpack-plone&quot;&gt;Plone Buildpack&lt;/a&gt; and the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plock/buildpack/blob/master/bin/compile&quot;&gt;Plock Buildpack&lt;/a&gt;, with some exceptions.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;experimental&quot;&gt;
+&lt;h3&gt;Experimental&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;Plock buildpack is highly experimental, still in development and possibly innovative&lt;/strong&gt;. Here&amp;#8217;s what it currently does:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Configures Python user site directory in Heroku cache&lt;/li&gt;
+&lt;li&gt;Installs setuptools in user site&lt;/li&gt;
+&lt;li&gt;Installs pip in user site&lt;/li&gt;
+&lt;li&gt;Installs Buildout in user site&lt;/li&gt;
+&lt;li&gt;Installs Plone in cache&lt;/li&gt;
+&lt;li&gt;Copies cache to build directory&lt;/li&gt;
+&lt;li&gt;Installs a portion of &amp;#8220;user Plone&amp;#8221; (the Heroku app&amp;#8217;s buildout.cfg) in the build directory (not the cache)&lt;/li&gt;
+&lt;li&gt;Relies on the app to install the remainder (the Heroku app&amp;#8217;s heroku.cfg). &lt;strong&gt;Most importantly the app runs Buildout which finishes quickly thanks to the cache &amp;amp; configures the port which is only available to the app (not the buildpack.)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&amp;#8217;s &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/ACLARKNET/plone-demo&quot;&gt;an example&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# buildout.cfg
+[buildout]
+extends = https://raw.github.com/plock/pins/master/plone-4-3
+
+[user]
+packages = collective.loremipsum
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# heroku.cfg
+[buildout]
+extends = buildout.cfg
+
+[plone]
+http-address = ${env:PORT}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# Procfile
+web: buildout -c heroku.cfg; plone console
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;opinionated&quot;&gt;
+&lt;h3&gt;Opinionated&lt;/h3&gt;
+&lt;p&gt;The Plock Buildpack is built on Plock, an &amp;#8220;opinionated&amp;#8221; installer for Plone. It may eventually use &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/plock/0.4.0&quot;&gt;Plock&lt;/a&gt; itself, but currently only uses &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plock/pins&quot;&gt;Plock Pins&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Pillow 2015 Report</title>
+    <id>http://blog.aclark.net/2015/06/05/pillow-2015-report/</id>
+    <updated>2015-06-05T00:00:00Z</updated>
+    <published>2015-06-05T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/06/05/pillow-2015-report/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;pillow-2015-report&quot;&gt;
+
+&lt;img alt=&quot;Most interesting man&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/pillow-2015-report.png&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-state-of-the-pillow&quot;&gt;
+&lt;h2&gt;The state of the Pillow&lt;/h2&gt;
+&lt;p&gt;Pillow Fighter #2 Eric Soroos had some time constraints recently so I managed the Pillow 2.8 release. While preparing the release I also reviewed and updated the entire project, including:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Issues&lt;/li&gt;
+&lt;li&gt;Pull Requests&lt;/li&gt;
+&lt;li&gt;Documentation&lt;/li&gt;
+&lt;li&gt;Website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;July of 2015 will mark Pillow&amp;#8217;s 5th anniversary and as of 2015, PIL is 20 years old. In early 2015, the state of the Pillow is good. Here are some statistics:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Over &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/vanity&quot;&gt;5.5 million PyPI downloads&lt;/a&gt;.&lt;ul&gt;
+&lt;li&gt;About &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/Pillow/2.8.1#downloads&quot;&gt;36 distributions&lt;/a&gt; uploaded with each release, including Windows Eggs/Exes/Wheels, OS X Wheels and source distributions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 core contributors AKA Pillow Fighters, including the recently added Alexander Karpinsky (AKA &amp;#8216;homm&amp;#8217;).&lt;/li&gt;
+&lt;li&gt;Over &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/graphs/contributors&quot;&gt;130 total contributors&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;66 open issues (431 closed).&lt;/li&gt;
+&lt;li&gt;12 open pull requests (672 closed).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;issues&quot;&gt;
+&lt;h2&gt;Issues&lt;/h2&gt;
+&lt;p&gt;All issues were pruned, including:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Applying labels and milestones&lt;/li&gt;
+&lt;li&gt;Changing state when appropriate&lt;/li&gt;
+&lt;li&gt;Asking for status updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At this time, most if not all issues have at least one label e.g. &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/labels/Bug&quot;&gt;&amp;#8220;bug&amp;#8221;&lt;/a&gt; and many have milestones configured e.g. &amp;#8220;2.9.0&amp;#8221;. The most meaningful milestones designate either &amp;#8220;this release&amp;#8221; or &amp;#8220;next release&amp;#8221; or &amp;#8220;future&amp;#8221;. The most meaningful labels designate &amp;#8220;needs code review or tests&amp;#8221; or &amp;#8220;bug or enhancement&amp;#8221; or &amp;#8220;question&amp;#8221;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;pull-requests&quot;&gt;
+&lt;h2&gt;Pull Requests&lt;/h2&gt;
+&lt;p&gt;All mergable pull requests were merged just prior to the 2.8.0 release. Of the remaining open pull requests, most &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/labels/Needs%20Code%20Review&quot;&gt;need code review&lt;/a&gt; and the rest are experimental or in progress.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;documentation&quot;&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+&lt;p&gt;Pillow&amp;#8217;s documentation is now sizeable, a large part of which was forked from the PIL handbook and some of which is created automatically by Sphinx. The remainder is new and was the focus of recent updates &lt;a class=&quot;footnote-reference&quot; href=&quot;#id4&quot; id=&quot;id1&quot;&gt;[1]&lt;/a&gt;, &lt;a class=&quot;footnote-reference&quot; href=&quot;#id5&quot; id=&quot;id2&quot;&gt;[2]&lt;/a&gt;, &lt;a class=&quot;footnote-reference&quot; href=&quot;#id6&quot; id=&quot;id3&quot;&gt;[3]&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/blob/master/README.rst&quot;&gt;https://github.com/python-pillow/Pillow/blob/master/README.rst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/blob/master/CONTRIBUTING.md&quot;&gt;https://github.com/python-pillow/Pillow/blob/master/CONTRIBUTING.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/blob/master/RELEASING.md&quot;&gt;https://github.com/python-pillow/Pillow/blob/master/RELEASING.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://pillow.readthedocs.org/installation.html&quot;&gt;http://pillow.readthedocs.org/installation.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;website&quot;&gt;
+&lt;h2&gt;Website&lt;/h2&gt;
+&lt;p&gt;Finally, the website received some much needed attention. We&amp;#8217;re currently using a theme provided by GitHub Pages, and minimal effort is invested to maintain it, but we may be &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/issues/1180&quot;&gt;interested in building a new one&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;notes&quot;&gt;
+&lt;h2&gt;Notes&lt;/h2&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id4&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id1&quot;&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/pull/1175&quot;&gt;https://github.com/python-pillow/Pillow/pull/1175&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id5&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id2&quot;&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/pull/1179&quot;&gt;https://github.com/python-pillow/Pillow/pull/1179&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id6&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id3&quot;&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/python-pillow/Pillow/pull/1181&quot;&gt;https://github.com/python-pillow/Pillow/pull/1181&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;script data-gratipay-username=&quot;aclark4life&quot; src=&quot;//grtp.co/v1.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Plone Add-On Development For Command-Line Savvy Developers</title>
+    <id>http://blog.aclark.net/2015/06/01/plone-add-on-development-for-command-line-savvy-developers/</id>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <published>2015-06-01T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/06/01/plone-add-on-development-for-command-line-savvy-developers/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;plone-add-on-development-for-command-line-savvy-developers&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;With Plone 5 heating up, it&amp;#8217;s time for me to go all-in again on Plone.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With Plone 5 heating up, it&amp;#8217;s time for me to go all-in again on Plone. To that end, here&amp;#8217;s a new tutorial for &lt;strong&gt;command-line savvy developers who may be totally unfamiliar with Python but want to learn Plone&lt;/strong&gt;. This time, in the form of an embedded Gist:&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/aclark4life/ffcea3a79b6339591c24.js&quot;&gt;&lt;/script&gt;&lt;p&gt;Check out the results here: &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/aclark4life/Plone-Add-On-Development-For-Command-Line-Savvy-Developers&quot;&gt;https://github.com/aclark4life/Plone-Add-On-Development-For-Command-Line-Savvy-Developers&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Plock Rocks</title>
+    <id>http://blog.aclark.net/2015/04/26/plock-rocks/</id>
+    <updated>2015-04-26T00:00:00Z</updated>
+    <published>2015-04-26T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/04/26/plock-rocks/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;plock-rocks&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Pip installs Plock. Plock installs Plone.&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&quot;Plock Meme&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-meme.png&quot; /&gt;
+&lt;div class=&quot;section&quot; id=&quot;understanding-plock&quot;&gt;
+&lt;h2&gt;Understanding Plock&lt;/h2&gt;
+&lt;p&gt;To understand Plock, you must understand:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;The undisputed complexity of the Plone stack &lt;a class=&quot;footnote-reference&quot; href=&quot;#id15&quot; id=&quot;id1&quot;&gt;[1]&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My desire to simplify, clarify and reduce-to-bare-elements everything I touch.&lt;/li&gt;
+&lt;li&gt;My willingness to mask complexity when eliminating it is not possible, despite the risk of contributing to it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pyramid author Chris McDonough &lt;a class=&quot;footnote-reference&quot; href=&quot;#id16&quot; id=&quot;id2&quot;&gt;[2]&lt;/a&gt; once made a comment a long time ago to the effect: &amp;#8220;Let&amp;#8217;s stop piling more crap on top of Plone&amp;#8221; and that sentiment still resonates today. That&amp;#8217;s why even though I love small and useful tools like Plock, it pains me to know what Plock is doing &amp;#8220;under the hood&amp;#8221; &lt;a class=&quot;footnote-reference&quot; href=&quot;#id20&quot; id=&quot;id3&quot;&gt;[7]&lt;/a&gt;. Nevertheless, I felt compelled to write it because not having it is worse.&lt;/p&gt;
+&lt;p&gt;Before I tell you what Plock is &lt;a class=&quot;footnote-reference&quot; href=&quot;#id21&quot; id=&quot;id4&quot;&gt;[8]&lt;/a&gt;, let me briefly describe what Plone is.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-is-plone-really&quot;&gt;
+&lt;h2&gt;What is Plone, really?&lt;/h2&gt;
+&lt;p&gt;What is the complexity I mention above? Briefly, with as few loaded statements as possible:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;&lt;strong&gt;Zope2&lt;/strong&gt; &amp;#8220;application server&amp;#8221;. This is something you can &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt;&lt;/code&gt; but the results will not be usable &lt;a class=&quot;footnote-reference&quot; href=&quot;#id17&quot; id=&quot;id5&quot;&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;&lt;strong&gt;Zope2 add-ons&lt;/strong&gt; AKA &amp;#8220;products&amp;#8221;, most notably the Zope2 Content Management Framework (CMF). This is something you install on top of Zope2 (conceptually but not literally, &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Products.CMFCore&lt;/span&gt;&lt;/code&gt;) that provides typical content management features e.g. personalization, workflow, cataloging, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;&lt;strong&gt;Zope3&lt;/strong&gt; technologies e.g. the Zope Component Architecture (ZCA). These are things that are included-or-integrated with Zope2 and Plone. &lt;a class=&quot;footnote-reference&quot; href=&quot;#id18&quot; id=&quot;id6&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;&lt;strong&gt;Buildout&lt;/strong&gt; technologies e.g. setuptools, console scripts, recipes, extensions, etc. You can&amp;#8217;t easily build Plone without them, so we may as well declare them as dependencies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;&lt;strong&gt;Plone&lt;/strong&gt; technologies. Plone was originally known as a &amp;#8220;skin for CMF&amp;#8221; but has become much more than that.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Archetypes&lt;/strong&gt; Legacy content type framework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dexterity&lt;/strong&gt; Modern content type framework based on modern Zope concepts e.g. &amp;#8220;Reuse over reinvention&amp;#8221;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diazo&lt;/strong&gt; Modern theming engine based on XSLT that &amp;#8220;maps Plone content to generic website themes.&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In total, if you &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;Plone&lt;/span&gt;&lt;/code&gt; over 200 Python packages are installed &lt;a class=&quot;footnote-reference&quot; href=&quot;#id19&quot; id=&quot;id7&quot;&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-is-plock-really&quot;&gt;
+&lt;h2&gt;What is Plock, really?&lt;/h2&gt;
+&lt;p&gt;OK now it&amp;#8217;s time to explain Plock. Plock is something:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;you &lt;strong&gt;install from PyPI&lt;/strong&gt; via &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;plock&lt;/span&gt;&lt;/code&gt;. &amp;#8220;Pip installs packages. Plock installs Plone.&amp;#8221;&lt;/li&gt;
+&lt;li&gt;you use to &lt;strong&gt;install Plone&lt;/strong&gt; without having to know about tarballs or Buildout.&lt;/li&gt;
+&lt;li&gt;you use to &lt;strong&gt;install Plone add-ons&lt;/strong&gt; without having to know about Buildout.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In one sentence: Plock runs Buildout so you don&amp;#8217;t have to, at least initially.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;first-steps-with-plock&quot;&gt;
+&lt;h2&gt;First steps with Plock&lt;/h2&gt;
+&lt;div class=&quot;section&quot; id=&quot;step-1&quot;&gt;
+&lt;h3&gt;Step #1&lt;/h3&gt;
+&lt;p&gt;The first step with Plock &lt;a class=&quot;footnote-reference&quot; href=&quot;#id22&quot; id=&quot;id8&quot;&gt;[9]&lt;/a&gt; is that light bulb moment when you say to yourself: &amp;#8220;I&amp;#8217;ve heard that Plone is the ultimate open source enterprise CMS and I&amp;#8217;d love to try it!&amp;#8221; But you aren&amp;#8217;t willing to download a compressed archive and run the installer nor are you willing to &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;zc.buildout&lt;/span&gt;&lt;/code&gt; and figure the rest out for yourself. Enter Plock.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;step-2&quot;&gt;
+&lt;h3&gt;Step #2&lt;/h3&gt;
+&lt;p&gt;The second step with Plock is knowing that it exists you can install it with: &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;plock&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;step-3&quot;&gt;
+&lt;h3&gt;Step #3&lt;/h3&gt;
+&lt;p&gt;The third step with Plock is using it to install Plone:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ plock plone
+Creating virtualenv... (plone)
+Installing buildout...
+Downloading installer (https://launchpad.net/plone/4.3/4.3.4/+download/Plone-4.3.4-r1-UnifiedInstaller.tgz)
+Unpacking installer...
+Unpacking cache...
+Installing eggs...
+Installing cmmi &amp;amp; dist...
+Configuring cache...
+Running buildout...
+Done, now run:
+  plone/bin/plone fg
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now Plock&amp;#8217;s work is done; visit the following URL: &lt;a class=&quot;reference external&quot; href=&quot;http:://localhost:8080&quot;&gt;http:://localhost:8080&lt;/a&gt; and you should see:&lt;/p&gt;
+&lt;img alt=&quot;Plock Screen 1&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-1.png&quot; /&gt;
+&lt;p&gt;Create a Plone site:&lt;/p&gt;
+&lt;img alt=&quot;Plock Screen 2&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-2.png&quot; /&gt;
+&lt;p&gt;Start using Plone:&lt;/p&gt;
+&lt;img alt=&quot;Plock Screen 3&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-3.png&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;next-steps-with-plock&quot;&gt;
+&lt;h2&gt;Next steps with Plock&lt;/h2&gt;
+&lt;p&gt;Plock is more than just a way to install the latest stable version of Plone quickly and easily. It&amp;#8217;s also a way to find and install Plone add-ons quickly and easily, and a way to install almost any version of Plone including the upcoming Plone 5 release.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;installing-add-ons&quot;&gt;
+&lt;h3&gt;Installing Add-ons&lt;/h3&gt;
+&lt;div class=&quot;section&quot; id=&quot;id9&quot;&gt;
+&lt;h4&gt;Step #1&lt;/h4&gt;
+&lt;p&gt;List all Plone-related packages on PyPI:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ plock -l
+1) 73.unlockItems                           - A small tool for unlocking web_dav locked item in a plone portal.
+2) actionbar.panel                          - Provides a (old) facebook style action panel at the bottom of your  Plone site
+3) adi.init                                 - Deletes Plone&amp;#39;s default contents
+4) adi.samplecontent                        - Deletes Plone&amp;#39;s default content and adds some sample content
+5) adi.slickstyle                           - A slick style for Plone portals, easily extendable for your own styles.
+6) affinitic.simplecookiecuttr              - Basic integration of jquery.cookiecuttr.js for Plone 3
+7) anthill.querytool                        - GUI for AdvancedQuery with some extensions - searching the easy way for Plone
+8) anthill.skinner                          - Skinning for plone made easy
+9) anz.dashboard                            - Plone netvibes like dashboard implementation
+10) anz.ijabbar                              - Integrate iJab(an open source XMPP web chat client recommended by xmpp.org) to your plone site.
+…
+1,352) zopeskel.diazotheme                      - Paster templates for Plone Diazo theme package
+1,353) zopeskel.niteoweb                        - Paster templates for standard NiteoWeb Plone projects
+1,354) zopyx.ecardsng                           - An ECard implementation for Plone
+1,355) zopyx.existdb                            - Plone-ExistDB integration
+1,356) zopyx.ipsumplone                         - Lorem ipsum text and image demo content for Plone
+1,357) zopyx.multieventcalendar                 - A multi-event calendar for Plone 3.X
+1,358) zopyx.plone.cassandra                    - Show all assigned local roles within a subtree for any Plone 4 site
+1,359) zopyx.plone.migration                    - Export/import scripts for migration Plone 2+3 to Plone 4
+1,360) zopyx.smartprintng.plone                 - Produce &amp;amp; Publisher server integration with Plone
+1,361) zopyx.together                           - Plone integration with together.js
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;id10&quot;&gt;
+&lt;h4&gt;Step #2&lt;/h4&gt;
+&lt;div class=&quot;admonition note&quot;&gt;
+&lt;p class=&quot;first admonition-title&quot;&gt;Note&lt;/p&gt;
+&lt;p class=&quot;last&quot;&gt;Plock currently only supports the initial creation of &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;buildout.cfg&lt;/span&gt;&lt;/code&gt;, so if you have already run &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;plock&lt;/span&gt;&lt;/code&gt; once and you want to install add-ons you&amp;#8217;ll have to use &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;-f&lt;/span&gt;&lt;/code&gt; to overwrite &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;buildout.cfg&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Pick a few interesting things and install them:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ plock plone -i &amp;quot;Products.PloneFormGen collective.plonetruegallery eea.facetednavigation&amp;quot;
+Creating virtualenv... (plone)
+Installing buildout...
+Downloading installer (https://launchpad.net/plone/4.3/4.3.4/+download/Plone-4.3.4-r1-UnifiedInstaller.tgz)
+Unpacking installer...
+Unpacking cache...
+Installing eggs...
+Installing cmmi &amp;amp; dist...
+Configuring cache...
+Installing addons...
+- https://pypi.python.org/pypi/Products.PloneFormGen
+- https://pypi.python.org/pypi/collective.plonetruegallery
+- https://pypi.python.org/pypi/eea.facetednavigation
+Running buildout...
+Done, now run:
+  plone/bin/plone fg
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now you should see your add-ons available in Plone:&lt;/p&gt;
+&lt;img alt=&quot;Plock Screen 6&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-6.png&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;upgrading-plone&quot;&gt;
+&lt;h3&gt;Upgrading Plone&lt;/h3&gt;
+&lt;div class=&quot;section&quot; id=&quot;id11&quot;&gt;
+&lt;h4&gt;Step #1&lt;/h4&gt;
+&lt;p&gt;Realize Plock has created a &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;buildout.cfg&lt;/span&gt;&lt;/code&gt; file you can edit with a text editor.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;id12&quot;&gt;
+&lt;h4&gt;Step #2&lt;/h4&gt;
+&lt;p&gt;Also realize Plock hosts &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plock/pins&quot;&gt;Buildout configuration files called Pins&lt;/a&gt; you can &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;extend&lt;/span&gt;&lt;/code&gt; from your local &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;buildout.cfg&lt;/span&gt;&lt;/code&gt; file &lt;a class=&quot;footnote-reference&quot; href=&quot;#id23&quot; id=&quot;id13&quot;&gt;[10]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;id14&quot;&gt;
+&lt;h4&gt;Step #3&lt;/h4&gt;
+&lt;p&gt;Edit your &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;buildout.cfg&lt;/span&gt;&lt;/code&gt; file. Change the first &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;extends&lt;/span&gt;&lt;/code&gt; URL from:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[buildout]
+extends =
+    https://raw.github.com/plock/pins/master/plone-4-3
+#    https://raw.github.com/plock/pins/master/dev
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;To:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[buildout]
+extends =
+    https://raw.github.com/plock/pins/master/plone-5-0
+#    https://raw.github.com/plock/pins/master/dev
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Run Buildout and start Plone:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ bin/buildout
+$ bin/plone fg
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Enjoy the Plone 5 running man:&lt;/p&gt;
+&lt;img alt=&quot;Plock Screen 5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-screen-5.png&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;tl-dr&quot;&gt;
+&lt;h2&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;Cut and paste this into a terminal:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install plock; plock plone; plone/bin/plone fg
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now open &lt;a class=&quot;reference external&quot; href=&quot;http://localhost:8080&quot;&gt;http://localhost:8080&lt;/a&gt; and happy Ploning.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Plock 0.3.0 is out! Install with&lt;/em&gt; &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;plock&lt;/span&gt;&lt;/code&gt; &lt;em&gt;and report issues here:&lt;/em&gt; &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/plock/plock/issues&quot;&gt;https://github.com/plock/plock/issues&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;footnotes&quot;&gt;
+&lt;h2&gt;Footnotes&lt;/h2&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id15&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id1&quot;&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Whether or not dealing with the complexity is worth it, I will not address. Suffice it to say, plenty of folks still use and care about Plone and with a Plone 5 release pending, there is excitement building.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id16&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id2&quot;&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;He probably made it many times, and rightfully so.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id17&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id5&quot;&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;You can create an &amp;#8220;instance&amp;#8221; after &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;zope2&lt;/span&gt;&lt;/code&gt; with &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;bin/mkzopeinstance&lt;/span&gt;&lt;/code&gt; but &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;$INSTANCE/bin/runzope&lt;/span&gt;&lt;/code&gt; fails with &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ImportError:&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;cannot&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;_error_start&lt;/span&gt;&lt;/code&gt; probably due to mismanaged package versions. Maybe we can fix this with version specs included in a dummy package&amp;#8217;s &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;setup.py&lt;/span&gt;&lt;/code&gt;?&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id18&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id6&quot;&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The integration is &lt;em&gt;not&lt;/em&gt; seemless, an undisputed fact as far as I know.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id19&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id7&quot;&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;235&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id20&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id3&quot;&gt;[7]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Creating and executing a &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;buildout.cfg&lt;/span&gt;&lt;/code&gt; file for the end user. Buildout configuration files are written in INI-style text. Ideally the end user sees this file and says &amp;#8220;Ah, now I understand how this works.&amp;#8221;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id21&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id4&quot;&gt;[8]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;I&amp;#8217;ve also &lt;a class=&quot;reference external&quot; href=&quot;http://blog.aclark.net/2013/07/19/introducing-plock/&quot;&gt;covered&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://blog.aclark.net/2013/07/29/whats-new-as-of-plock-0-1-2/&quot;&gt;Plock&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://blog.aclark.net/2013/12/29/introducing-plock-again/&quot;&gt;before&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://blog.aclark.net/2014/03/20/introducing-plock-pins/&quot;&gt;here&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id22&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id8&quot;&gt;[9]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;As someone familiar with Python and a UNIX shell already, because that is the market I like to serve.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id23&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id13&quot;&gt;[10]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Yes, there is a security and/or reliability issue with doing this; you are clearly trading security and reliability for convenience.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;script data-gratipay-username=&quot;aclark4life&quot; src=&quot;//grtp.co/v1.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Please Do My Homework</title>
+    <id>http://blog.aclark.net/2015/02/10/please-do-my-homework/</id>
+    <updated>2015-02-10T00:00:00Z</updated>
+    <published>2015-02-10T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/02/10/please-do-my-homework/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;please-do-my-homework&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Reminiscent of A Simple Printer of Nested Lists.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reminiscent of &lt;a class=&quot;reference external&quot; href=&quot;http://blog.aclark.net/2012/05/23/a-simple-printer-of-nested-lists/&quot;&gt;this phenomenon&lt;/a&gt;, I&amp;#8217;m slowly being driven insane by Redditors asking &lt;a class=&quot;reference external&quot; href=&quot;http://www.reddit.com/r/Python&quot;&gt;/r/Python&lt;/a&gt; to do their homework for them. E.g.&lt;/p&gt;
+&lt;img alt=&quot;Question #1&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/homework1.png&quot; /&gt;
+&lt;p&gt;In principle, and putting aside &lt;a class=&quot;reference external&quot; href=&quot;http://www.reddit.com/r/learnpython&quot;&gt;/r/learnpython&lt;/a&gt;, I have no problem with Redditors asking questions on /r/Python that are better suited to /r/learnpython. E.g.&lt;/p&gt;
+&lt;img alt=&quot;Question #2&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/homework2.png&quot; /&gt;
+&lt;p&gt;But there is something about the current proliferation of homework questions on /r/Python that I find offensive.&lt;/p&gt;
+&lt;img alt=&quot;Question #3&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/homework3.png&quot; /&gt;
+&lt;p&gt;Perhaps it is due to:&lt;/p&gt;
+&lt;p&gt;1.) Less meaningful content. I read &lt;a class=&quot;reference external&quot; href=&quot;http://www.reddit.com/r/Python&quot;&gt;/r/Python&lt;/a&gt; for Hacker News-like stories about Python. The more poorly written homework questions, the less meaningful content.&lt;/p&gt;
+&lt;img alt=&quot;Question #4&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/homework4.png&quot; /&gt;
+&lt;p&gt;2.) No prior meaningful attempt to resolve the issue. E.g. &amp;#8220;Ive tried looking online, but to no avail [sic].&amp;#8221; What did you try? How did that attempt fail?&lt;/p&gt;
+&lt;img alt=&quot;Question #5&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/homework5.png&quot; /&gt;
+&lt;p&gt;So now I feel compelled to try and discourage such posts and &lt;strong&gt;encourage more meaningful posts&lt;/strong&gt;. If you learn nothing else in school, you should &lt;strong&gt;learn how to learn&lt;/strong&gt;. It&amp;#8217;s not the answer to the question that matters, it&amp;#8217;s &lt;strong&gt;how you get there&lt;/strong&gt;. No other aspect of you answering a question or completing an assignment is as important as you &lt;strong&gt;thinking for yourself about how to do it&lt;/strong&gt;. This is almost the entire point of higher education: to learn &lt;strong&gt;how to function in the real world&lt;/strong&gt;.&lt;/p&gt;
+&lt;img alt=&quot;Question #6&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/homework6.png&quot; /&gt;
+&lt;p&gt;In the real world, you cannot say to your friends and/or coworkers:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;My boss is such a jerk. If you could just give me a working example of how to do my job, that would be awesome! Lolz.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;So please, /r/Python, let&amp;#8217;s &lt;strong&gt;start asking more meaningful questions&lt;/strong&gt;. And if there is anything I can do to help, please let me know.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">New Django Website</title>
+    <id>http://blog.aclark.net/2015/01/11/new-django-website/</id>
+    <updated>2015-01-11T00:00:00Z</updated>
+    <published>2015-01-11T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/01/11/new-django-website/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;new-django-website&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;After a series of Django gigs in 2014, I had the urge to redevelop our company website in Django; I am very happy with the results.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This overview is roughly in order of development from start to finish. And since I am a &amp;#8220;packaging guy&amp;#8221;, I will take this opportunity to comment on miscellaneous packaging issues too*.&lt;/p&gt;
+&lt;img alt=&quot;Website front page&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/aclarknet-django.png&quot; /&gt;
+&lt;div class=&quot;section&quot; id=&quot;same-theme-different-backend&quot;&gt;
+&lt;h2&gt;Same theme, different backend&lt;/h2&gt;
+&lt;p&gt;The Pyramid version of aclark.net was almost two years old and needed an overhaul. Django appeared attractive because:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;I know Django, but I don&amp;#8217;t know enough Django. Like with Pyramid and Plone before, I learned a lot of Django while developing this site over the last few weeks.&lt;/li&gt;
+&lt;li&gt;There was no &amp;#8220;content&amp;#8221; with the previous (Pyramid) site. The idea of putting my &amp;#8220;content&amp;#8221; in Django models was appealing to me.&lt;/li&gt;
+&lt;li&gt;The new &lt;a class=&quot;reference external&quot; href=&quot;https://djangoproject.com&quot;&gt;Django project&lt;/a&gt; website is awesome! An awesome website makes me want to build another awesome website with an awesome web framework. Awesome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;i-hate-code-generators&quot;&gt;
+&lt;h2&gt;I hate code generators&lt;/h2&gt;
+&lt;p&gt;I typically hate using code generators, full stop. But somehow Django&amp;#8217;s &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;startproject&lt;/span&gt;&lt;/code&gt; and &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;startapp&lt;/span&gt;&lt;/code&gt; don&amp;#8217;t make me want to vomit. So I used them in an organic &lt;a class=&quot;footnote-reference&quot; href=&quot;#id7&quot; id=&quot;id1&quot;&gt;[1]&lt;/a&gt; way, to make some &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/ACLARKNET/aclarknet-django/tree/master/aclarknet/aclarknet/aclarknet&quot;&gt;obnoxiously long package names&lt;/a&gt;, and I &lt;em&gt;miraculously&lt;/em&gt; don&amp;#8217;t hate the results! This can only mean:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;I am more tolerant of boilerplate code when learning a new framework, and/or:&lt;/li&gt;
+&lt;li&gt;The process of creating the boilerplate code and the resulting boilerplate are so elegant/minimalistic that my insatiable desire for elegance/minimalism is at least partially satisified.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;no-postgres-no-problem&quot;&gt;
+&lt;h2&gt;No Postgres? No problem&lt;/h2&gt;
+&lt;p&gt;The idea of having to develop locally with Postgresql (or some other &amp;#8220;real&amp;#8221; database) feels &amp;#8220;heavy&amp;#8221; to me. With sqlite, I don&amp;#8217;t have to worry about database setup until I&amp;#8217;m ready to worry about database setup &lt;a class=&quot;footnote-reference&quot; href=&quot;#id8&quot; id=&quot;id2&quot;&gt;[2]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I even pushed to Heroku with the sqlite database checked in, until I was ready to deploy Postgres. And I still use sqlite locally.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;bootstrap-all-the-things&quot;&gt;
+&lt;h2&gt;Bootstrap all the things&lt;/h2&gt;
+&lt;p&gt;Sure Bootstrap is ubiquitious now, but it remains attractive nonetheless. One of the first tasks I performed was add &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;django-admin-bootstrapped&lt;/span&gt;&lt;/code&gt; to my &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;INSTALLED_APPS&lt;/span&gt;&lt;/code&gt; &lt;a class=&quot;footnote-reference&quot; href=&quot;#id9&quot; id=&quot;id3&quot;&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And because it&amp;#8217;s 2015, I Bower-installed Bootstrap and Fontawesome for my theme development.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;make-like-a-tree-and-file&quot;&gt;
+&lt;h2&gt;Make like a tree and file&lt;/h2&gt;
+&lt;p&gt;Lately I&amp;#8217;ve gotten into the habit of using good-ol&amp;#8217; Make to automate various tasks &lt;a class=&quot;footnote-reference&quot; href=&quot;#id10&quot; id=&quot;id4&quot;&gt;[4]&lt;/a&gt;. This project was no exception:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;dump:
+    curl -o latest.dump `heroku pgbackups:url`
+push:
+    git push
+    git push heroku master
+sync:
+    heroku run python aclarknet/manage.py syncdb
+publish:
+    git commit -a -m &amp;quot;Update&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;add-ons-apps-eggs-distributions-packages-products-wheels&quot;&gt;
+&lt;h2&gt;Add-ons, Apps, Eggs, Distributions, Packages, Products, Wheels&lt;/h2&gt;
+&lt;p&gt;I am &lt;em&gt;literally&lt;/em&gt; annoyed by the &lt;em&gt;figurative&lt;/em&gt; abomination that is Python packaging terminology. The proliferation of terms is understandable though because of the many layers of &lt;em&gt;technology&lt;/em&gt;, each with its own &lt;em&gt;terminology&lt;/em&gt;, that may or may not overlap:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;The Python language&lt;/li&gt;
+&lt;li&gt;Various packaging frameworks&lt;/li&gt;
+&lt;li&gt;Software written in Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And all of that was just so I could tell you I pip-installed the following:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Django
+Pillow
+django-admin-bootstrapped
+django-cumulus
+dj-database-url
+dj-static
+gunicorn
+psycopg2
+-e aclarknet
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;buildout-conda-easy-install-pip&quot;&gt;
+&lt;h2&gt;Buildout, Conda, easy_install, pip&lt;/h2&gt;
+&lt;p&gt;On a related subject, why do I have a &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/ACLARKNET/aclarknet-django/blob/master/aclarknet/setup.py&quot;&gt;setup.py&lt;/a&gt;? I get the feeling that Django projects in the wild sometimes have one and sometimes don&amp;#8217;t. And the Django documentation &lt;a class=&quot;reference external&quot; href=&quot;https://docs.djangoproject.com/search/?q=setup+py&amp;amp;release=11&quot;&gt;has only a few mentions of setup.py&lt;/a&gt;. So why do I have one?&lt;/p&gt;
+&lt;p&gt;In short, because I want my code in &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;sys.path&lt;/span&gt;&lt;/code&gt;. I have another feeling that when Django projects/apps/etc don&amp;#8217;t have setup.py files, they are somehow manipulating sys.path manually to include themselves. There is &lt;a class=&quot;reference external&quot; href=&quot;https://docs.djangoproject.com/search/?q=sys+path&amp;amp;release=11&quot;&gt;slightly more mentioning of sys.path&lt;/a&gt; in Django&amp;#8217;s documentation, at least.&lt;/p&gt;
+&lt;p&gt;Anyway, I use setup.py because I&amp;#8217;m familiar with setuptools.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;contact-form&quot;&gt;
+&lt;h2&gt;Contact Form&lt;/h2&gt;
+&lt;p&gt;Enough packaging rants, back to the rest of the Django story.&lt;/p&gt;
+&lt;p&gt;Every business website needs a contact form, right? And contact forms are tedious and boring to create, right? Yes and yes. That&amp;#8217;s why I thought using &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;django-contact-form&lt;/span&gt;&lt;/code&gt; would be a good idea. Unfortunately I ran into an issue I couldn&amp;#8217;t easily work around, so I gave up and &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/ACLARKNET/aclarknet-django/blob/master/aclarknet/aclarknet/aclarknet/views.py#L32&quot;&gt;made my own&lt;/a&gt; &lt;a class=&quot;footnote-reference&quot; href=&quot;#id11&quot; id=&quot;id5&quot;&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;orm-i-really-on-my-own&quot;&gt;
+&lt;h2&gt;ORM I really on my own?&lt;/h2&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://twitter.com/aclark4life/status/552626214008274944&quot;&gt;&lt;img alt=&quot;Tweet&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/aclark-tweet.png&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;That&amp;#8217;s right. After adding an &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ImageField&lt;/span&gt;&lt;/code&gt; I expected the image to be stored in the database and not the file system, and I&amp;#8217;m not ashamed. Since that was not the case, I ended up using &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;django-cumulus&lt;/span&gt;&lt;/code&gt; &lt;a class=&quot;footnote-reference&quot; href=&quot;#id12&quot; id=&quot;id6&quot;&gt;[6]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;overall&quot;&gt;
+&lt;h2&gt;Overall&lt;/h2&gt;
+&lt;p&gt;Overall, this was a great experience. As such, I&amp;#8217;m now considering another &lt;a class=&quot;reference external&quot; href=&quot;http://pythonpackages.com&quot;&gt;pythonpackages.com&lt;/a&gt; reboot with Django; to further exercise my Django chops and fullfill the packaging-automation-vision I&amp;#8217;ve had since late 2011.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Please let me know your reaction to my experiences in the comments.&lt;/em&gt;&lt;/p&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id7&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id1&quot;&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;django-admin&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;startproject&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;aclarknet;&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;aclarknet/aclarknet;&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;django-admin&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;startapp&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;aclarknet&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id8&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id2&quot;&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Granted, the perceived heaviness is much worse than the &lt;em&gt;actual&lt;/em&gt; burden of &amp;#8220;real&amp;#8221; database setup which is admittedly fairly trivial: &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;postgres&lt;/span&gt;&lt;/code&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id9&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id3&quot;&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The Django admin without Bootstrap reminds me of the ZMI without Bootstrap, which &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/zope2_bootstrap&quot;&gt;I also don&amp;#8217;t like&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id10&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id4&quot;&gt;[4]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Embarrassingly, I create the tabs with &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;s/&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;span class=&quot;pre&quot;&gt;/\t/&lt;/span&gt;&lt;/code&gt; because my tabstop is set to 4 spaces. Maybe I should be change my tabstop setting each time?&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id11&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id5&quot;&gt;[5]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Something to do with Sendgrid integration, certainly not django-contact-form&amp;#8217;s fault!&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id12&quot; rules=&quot;none&quot;&gt;
+&lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;label&quot;&gt;&lt;a class=&quot;fn-backref&quot; href=&quot;#id6&quot;&gt;[6]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Which is another story. First I tried &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;django-storages&lt;/span&gt;&lt;/code&gt; only to discover Rackspace Cloud Files support moved to cumulus (or started in cumulus and moved back?) Then &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;django-cumulus&lt;/span&gt;&lt;/code&gt; &lt;em&gt;almost&lt;/em&gt; worked but not quite. Rackspace Cloud Files returned a URL but upload failed. So I manually uploaded all the files to Rackspace Cloud Files as a workaround.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2015/atom.xml">
+    <title type="text">Packt is Having a Sale</title>
+    <id>http://blog.aclark.net/2015/01/05/packt-is-having-a-sale/</id>
+    <updated>2015-01-05T00:00:00Z</updated>
+    <published>2015-01-05T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2015/01/05/packt-is-having-a-sale/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;packt-is-having-a-sale&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Happy new year!&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&quot;Packt is having a sale!&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/packt-5.png&quot; /&gt;
+&lt;p&gt;For those who haven&amp;#8217;t heard, PACKT is having a $5 &amp;#8220;bonanza&amp;#8221;. &lt;a class=&quot;reference external&quot; href=&quot;https://www.packtpub.com/packt5dollar/?utm_source=rochelld&amp;amp;utm_medium=referral&amp;amp;utm_campaign=5D2014&quot;&gt;Pick up some $5 Python books&lt;/a&gt; while you can! E.g.:&lt;/p&gt;
+&lt;img alt=&quot;Popular Python titles&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/packt-pop.png&quot; /&gt;
+&lt;p&gt;Sale ends tomorrow, &lt;a class=&quot;reference external&quot; href=&quot;https://www.packtpub.com/packt5dollar/?utm_source=rochelld&amp;amp;utm_medium=referral&amp;amp;utm_campaign=5D2014&quot;&gt;check it out&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

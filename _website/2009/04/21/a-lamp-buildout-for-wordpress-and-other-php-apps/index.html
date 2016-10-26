@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>A LAMP Buildout for Wordpress and Other PHP Apps &mdash; Alex Clark&#39;s Blog</title>
+    
+    <link rel="stylesheet" href="../../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/bootswatch-3.3.4/readable/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../../../_static/favicon.ico"/>
+    <link rel="top" title="Alex Clark&#39;s Blog" href="../../../../" />
+  
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../../../blog/atom.xml" title="Alex Clark's Blog">
+  
+  
+  <link href="True" rel="stylesheet">
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../../">
+          Alex Clark&#39;s Blog</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="http://aclark.net">Home</a></li>
+                <li><a href="https://www.facebook.com/aclark4life">Facebook</a></li>
+                <li><a href="https://github.com/aclark4life">GitHub</a></li>
+                <li><a href="https://gratipay.com/aclark4life">Gratipay</a></li>
+                <li><a href="https://www.linkedin.com/in/aclark4life">LinkedIn</a></li>
+                <li><a href="https://twitter.com/aclark4life">Twitter</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../../">Pages <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../now/">What I&#8217;m doing now</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../feeds/">Feeds</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary">
+  
+  
+  <h2>
+  
+  <i class="fa fa-calendar"></i>
+    Apr 21, 2009
+  
+  </h2>
+
+  <ul>
+    
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="../../../../blog/category/buildout/">Buildout</a>
+      
+    </li>
+  
+
+  
+  
+  <li>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'aclark-blog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    <i class="fa-fw fa fa-comments"></i>
+    <a href="#disqus_thread" data-disqus-identifier="/2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/index/"> </a>
+  </li>
+  
+  </ul>
+
+
+
+  <h3><a href="../../../../blog/">Recent Posts</a></h3>
+  <ul>
+    
+    
+      <li><a href="../../../../2016/04/03/yup-this-blog-is-now-powered-by-ablog/">Apr 03 - Yup, this blog is now powered by ABlog</a></li>
+    
+      <li><a href="../../../../2016/02/21/updated-django-website/">Feb 21 - Updated Django Website</a></li>
+    
+      <li><a href="../../../../2015/10/10/plock-0-5-0-is-out/">Oct 10 - Plock 0-5-0 is out</a></li>
+    
+      <li><a href="../../../../2015/10/07/dc-python-jobs/">Oct 07 - DC Python Jobs</a></li>
+    
+      <li><a href="../../../../2015/10/05/i-reinstalled-again/">Oct 05 - I Reinstalled Again</a></li>
+    
+  </ul>
+
+  <h3><a href="../../../../blog/category/">Categories</a></h3>
+  <ul>
+  
+    
+    <li><a href="../../../../blog/category/buildout/">Buildout (33)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/django/">Django (5)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/misc/">Misc (22)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/mozilla/">Mozilla (2)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/music/">Music (1)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/pillow/">Pillow (16)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/plone/">Plone (79)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/pyramid/">Pyramid (6)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/python/">Python (61)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/zope/">Zope (6)</a></li>
+    
+  
+  </ul>
+
+  <h3><a href="../../../../blog/archive/">Archives</a></h3>
+  <ul>
+  
+    
+    <li><a href="../../../../blog/2016/">2016 (2)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2015/">2015 (13)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2014/">2014 (11)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2013/">2013 (21)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2012/">2012 (35)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2011/">2011 (26)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2010/">2010 (9)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2009/">2009 (7)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2008/">2008 (19)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2007/">2007 (8)</a></li>
+    
+  
+  </ul>
+
+<form action="../../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="a-lamp-buildout-for-wordpress-and-other-php-apps">
+<h1>A LAMP Buildout for Wordpress and Other PHP Apps<a class="headerlink" href="#a-lamp-buildout-for-wordpress-and-other-php-apps" title="Permalink to this headline">¶</a></h1>
+<p><strong>Buildout all the things</strong></p>
+<div class="section" id="a-buildout-for-php">
+<h2>A Buildout for PHP?<a class="headerlink" href="#a-buildout-for-php" title="Permalink to this headline">¶</a></h2>
+<p>Having been a Plone Consultant for many years now, I find it very painful to deal with non-Python-based technologies and I often will go to great lengths to avoid it. I recently had to deploy a new PHP application on an older Linux server (RHEL3) and could not bring myself to compile the packages, search for RPMs, or do any of the mundane, boring tasks required; so I began to look for an alternative. Enter: the <a class="reference external" href="http://svn.aclark.net/svn/public/buildout/lamp/trunk/">LAMP buildout</a>. I created and used this to deploy my client&#8217;s PHP application. I hope others find it useful, both as an alternative way to deploy PHP apps, and as an example of the wide variety of things
+buildout can be used to do.</p>
+</div>
+<div class="section" id="it-s-just-that-simple">
+<h2>It&#8217;s Just That Simple?<a class="headerlink" href="#it-s-just-that-simple" title="Permalink to this headline">¶</a></h2>
+<p>Unfortunately, this was not the blissful experience I had hoped for.  There were some non-obvious configuration parameters that had to be dealt with. This was tedious and sometimes painful, but achieving the end result was a uniquely rewarding experience I can assure you! In fact, most of the problems had to do with the individual software components and not buildout itself, which was a pleasure to work with and one of the main reasons I am writing this blog entry. In a Plone buildout for example, in most cases, the tedious parts are handled for you and you just need to <a class="reference external" href="getting-excited-about-plone-3-2">add the Plone egg, run buildout, and start your site</a>.</p>
+</div>
+<div class="section" id="break-it-down">
+<h2>Break It Down<a class="headerlink" href="#break-it-down" title="Permalink to this headline">¶</a></h2>
+<p>Now, on to the Buildout. It was developed and tested on Mac OS X 10.5 then deployed to RHEL3. I had a small problem on RHEL3 with the GD imaging library so I removed it (and installed it by hand in /usr/local). Other than that, things went smoothly and I deployed several PHP apps with it just for kicks, including:</p>
+<ul class="simple">
+<li>Phorum</li>
+<li>SugarCRM</li>
+<li>WordPress</li>
+<li>phpMyAdmin</li>
+</ul>
+<p>It builds Apache, PHP, MySQL, GD, and Supervisor. Let&#8217;s take a look.</p>
+<p>First, we define the parts. For each of these, we&#8217;ll do something useful
+to contribute to the end result.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>[buildout]
+parts =
+# Aspeli-style line-spacing to emphasize the functionality of each part or group of parts ;-)
+    env
+    grp    mysql
+    apache
+    gd
+    php    ports
+    mycnf
+    mysql-bin
+    mysql-admin
+    mysql_install_db
+    apache-conf
+    php-conf# Uncomment only one of these at a time
+#    phpmyadmin
+#    sugarcrm
+#    phorum
+    wordpress    supervisor
+</pre></div>
+</div>
+<p>Now that the parts are listed, the rest of the buildout must define those parts. First, we add some utilities required by this buildout.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">env</span><span class="p">]</span>
+<span class="n">recipe</span> <span class="o">=</span> <span class="n">gocept</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">env</span><span class="p">[</span><span class="n">grp</span><span class="p">]</span>
+<span class="n">recipe</span> <span class="o">=</span> <span class="n">collective</span><span class="o">.</span><span class="n">recipe</span><span class="o">.</span><span class="n">grp</span>
+</pre></div>
+</div>
+<p>Next, we build the core components.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>[mysql]
+recipe = hexagonit.recipe.cmmi
+url = http://mysql.mirrors.hoobly.com/Downloads/MySQL-5.1/mysql-5.1.33.tar.gz
+keep-compile-dir = true[apache]
+recipe = hexagonit.recipe.cmmi
+url = http://www.trieuvan.com/apache/httpd/httpd-2.2.11.tar.gz
+configure-options = --enable-so
+keep-compile-dir = true[gd]
+recipe = hexagonit.recipe.cmmi
+url = http://www.libgd.org/releases/gd-2.0.35.tar.gz
+keep-compile-dir = true[php]
+recipe = zc.recipe.cmmi
+environment =
+    PATH=${mysql:location}/bin:${env:PATH}
+url = http://us2.php.net/get/php-5.2.9.tar.gz/from/this/mirror
+# Beware, the new line below (i.e. &#39;&#39;) may need to be undone.
+extra_options =
+  --prefix=${buildout:directory}/parts/apache/php
+  --with-config-file-path=${buildout:directory}/etc/php.ini
+  --with-gd=${buildout:directory}/parts/gd
+  --with-apxs2=${buildout:directory}/parts/apache/bin/apxs
+  --with-mysql=${mysql:location}
+  --enable-mbstring
+</pre></div>
+</div>
+<p>After that, some configuration. Read the comments below for more information.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span># Make it easy to change the various port settings[ports]
+recipe = plone.recipe.command
+command =
+    echo These ports are used to configure this LAMP:
+    echo Supervisor: ${ports:supervisor}
+    echo Apache: ${ports:apache}
+    echo MySQL: ${ports:mysql}
+supervisor = 9001
+apache = 8080
+mysql = 3306# All the mysql compile options[mycnf]
+recipe = plone.recipe.command
+command =
+    echo
+    echo These options are passed to mysqld_safe: ${mycnf:opt}
+    echo
+basedir=${mysql:location}
+datadir=${buildout:directory}/var
+pid=${mycnf:datadir}/mysql.pid
+err = ${mycnf:datadir}/log/mysql.err
+sock = ${mycnf:datadir}/mysql.sock
+# Beware, the new line below (i.e. &#39;&#39;) may need to be undone.
+opt = --port=${ports:mysql} --pid-file=${mycnf:pid} --log-error=${mycnf:err}
+--basedir=${mycnf:basedir} --datadir=${mycnf:datadir} --socket=${mycnf:sock}# Setup the mysql databases.[mysql_install_db]
+recipe = plone.recipe.command
+command =
+    ${mysql:location}/bin/mysql_install_db --datadir=${mycnf:datadir}
+    echo
+    echo After starting supervisord, you may want to run:
+    echo ${buildout:directory}/parts/mysql/bin/mysqladmin -u root password &#39;new-password&#39;
+    echo
+update-command = ${mysql_install_db:command}# Generate Config files for Apache and PHP[apache-conf]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/httpd.conf.in
+output = ${buildout:directory}/etc/httpd.conf[php-conf]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/php.ini.in
+output = ${buildout:directory}/etc/php.ini# Make it easy to run mysql and mysqladmin[mysql-bin]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/mysql.in
+output = ${buildout:directory}/bin/mysql[mysql-admin]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/mysqladmin.in
+output = ${buildout:directory}/bin/mysqladmin
+</pre></div>
+</div>
+<p>Now, the parts that download the various PHP apps.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>[wordpress]
+recipe = hexagonit.recipe.download
+url = http://wordpress.org/latest.tar.gz
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true[phpmyadmin]
+recipe = hexagonit.recipe.download
+url = http://prdownloads.sourceforge.net/phpmyadmin/phpMyAdmin-3.1.3.2-english.tar.bz2
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true[sugarcrm]
+recipe = hexagonit.recipe.download
+url = http://www.sugarforge.org/frs/download.php/5252/SugarCE-5.2.0c.zip
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true[phorum]
+recipe = hexagonit.recipe.download
+url = http://www.phorum.org/downloads/phorum-5.2.10.tar.gz
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true
+</pre></div>
+</div>
+<p>And the supervisor that will control everything.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>[supervisor]
+recipe = collective.recipe.supervisor
+port = ${ports:supervisor}
+serverurl = http://127.0.0.1:${ports:supervisor}
+pp = ${buildout:directory}/eggs/supervisor-3.0a6-py2.4.egg/supervisor/pidproxy.py
+# Beware, the new line below (i.e. &#39;&#39;) may need to be undone.
+programs =
+    10 mysql ${supervisor:pp} [ ${mycnf:pid} ${mysql:location}/bin/mysqld_safe ${mycnf:opt} ]
+    20 apache ${apache:location}/bin/httpd [ -c &quot;ErrorLog /dev/stdout&quot; -DFOREGROUND
+                                             -f ${buildout:directory}/etc/httpd.conf ]
+</pre></div>
+</div>
+<p>If you are interested in trying this yourself, please see: <a class="reference external" href="http://svn.aclark.net/svn/public/buildout/lamp/trunk/">http://svn.aclark.net/svn/public/buildout/lamp/trunk/</a> and let me know how it goes.</p>
+</div>
+</div>
+
+  <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  
+  <a href="../../../03/13/is-anyone-using-plone-orgs-new-pypi-functionality/">
+    <i class="fa fa-arrow-circle-left"></i>
+    Is Anyone Using plone.org's New PyPI Functionality?
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  
+  <a href="../../../06/18/a-sane-buildout-for-repoze-zope2-plone/">
+    A Sane Buildout For repoze.zope2 + Plone
+    <i class="fa fa-arrow-circle-right"></i>
+  </a>
+  </span>
+  
+</div>
+
+  
+  
+    <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'aclark-blog';
+        var disqus_identifier = '/2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/';
+        var disqus_title = 'A LAMP Buildout for Wordpress and Other PHP Apps';
+        var disqus_url = 'http://blog.aclark.net/2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  
+  </div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Alex Clark.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Posts in Buildout &mdash; Alex Clark&#39;s Blog</title>
+    
+    <link rel="stylesheet" href="../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/bootswatch-3.3.4/readable/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
+    <link rel="top" title="Alex Clark&#39;s Blog" href="../../../" />
+  
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  
+  <link rel="alternate" type="application/atom+xml"  href="../buildout/atom.xml" title="Posts in Buildout">
+  
+  
+  <link href="True" rel="stylesheet">
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../">
+          Alex Clark&#39;s Blog</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="http://aclark.net">Home</a></li>
+                <li><a href="https://www.facebook.com/aclark4life">Facebook</a></li>
+                <li><a href="https://github.com/aclark4life">GitHub</a></li>
+                <li><a href="https://gratipay.com/aclark4life">Gratipay</a></li>
+                <li><a href="https://www.linkedin.com/in/aclark4life">LinkedIn</a></li>
+                <li><a href="https://twitter.com/aclark4life">Twitter</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../">Pages <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../now/">What I&#8217;m doing now</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../feeds/">Feeds</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary">
+
+
+  <h3><a href="../../">Recent Posts</a></h3>
+  <ul>
+    
+    
+      <li><a href="../../../2016/10/26/project-makefile-open-business/">Oct 26 - Project Makefile Open for Business</a></li>
+    
+      <li><a href="../../../2016/04/03/yup-this-blog-is-now-powered-by-ablog/">Apr 03 - Yup, this blog is now powered by ABlog</a></li>
+    
+      <li><a href="../../../2016/02/21/updated-django-website/">Feb 21 - Updated Django Website</a></li>
+    
+      <li><a href="../../../2015/10/10/plock-0-5-0-is-out/">Oct 10 - Plock 0-5-0 is out</a></li>
+    
+      <li><a href="../../../2015/10/07/dc-python-jobs/">Oct 07 - DC Python Jobs</a></li>
+    
+  </ul>
+
+  <h3><a href="../">Categories</a></h3>
+  <ul>
+  
+    
+    <li><a href="#">Buildout (33)</a></li>
+    
+  
+    
+    <li><a href="../django/">Django (5)</a></li>
+    
+  
+    
+    <li><a href="../misc/">Misc (22)</a></li>
+    
+  
+    
+    <li><a href="../mozilla/">Mozilla (2)</a></li>
+    
+  
+    
+    <li><a href="../music/">Music (1)</a></li>
+    
+  
+    
+    <li><a href="../pillow/">Pillow (16)</a></li>
+    
+  
+    
+    <li><a href="../plone/">Plone (79)</a></li>
+    
+  
+    
+    <li><a href="../pyramid/">Pyramid (6)</a></li>
+    
+  
+    
+    <li><a href="../python/">Python (62)</a></li>
+    
+  
+    
+    <li><a href="../zope/">Zope (6)</a></li>
+    
+  
+  </ul>
+
+  <h3><a href="../../archive/">Archives</a></h3>
+  <ul>
+  
+    
+    <li><a href="../../2016/">2016 (3)</a></li>
+    
+  
+    
+    <li><a href="../../2015/">2015 (13)</a></li>
+    
+  
+    
+    <li><a href="../../2014/">2014 (11)</a></li>
+    
+  
+    
+    <li><a href="../../2013/">2013 (21)</a></li>
+    
+  
+    
+    <li><a href="../../2012/">2012 (35)</a></li>
+    
+  
+    
+    <li><a href="../../2011/">2011 (26)</a></li>
+    
+  
+    
+    <li><a href="../../2010/">2010 (9)</a></li>
+    
+  
+    
+    <li><a href="../../2009/">2009 (7)</a></li>
+    
+  
+    
+    <li><a href="../../2008/">2008 (19)</a></li>
+    
+  
+    
+    <li><a href="../../2007/">2007 (8)</a></li>
+    
+  
+  </ul>
+
+<form action="../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section">
+
+    <h1>
+      
+      <a href="../buildout/atom.xml"><i class="fa fa-rss fa-rotate-270"></i></a>
+      Posts in
+      
+      Buildout
+      
+    </h1>
+    
+    
+
+    <div class="section">
+      <h2><a href="../../../2015/06/27/plone-on-heroku/">Plone on Heroku</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jun 27, 2015
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Dear Plone, welcome to 2015</strong></p>
+
+      <p><a href="../../../2015/06/27/plone-on-heroku/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2015/04/26/plock-rocks/">Plock Rocks</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Apr 26, 2015
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Pip installs Plock. Plock installs Plone.</strong></p>
+
+      <p><a href="../../../2015/04/26/plock-rocks/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2014/06/02/i-love-collective-recipe-plonesite/">I Love collective-recipe-plonesite</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jun 02, 2014
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Whenever I answer tech support questions, I usually begin with a clean slate</strong></p>
+
+      <p><a href="../../../2014/06/02/i-love-collective-recipe-plonesite/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2014/03/20/introducing-plock-pins/">Introducing Plock Pins</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Mar 20, 2014
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>&#8220;Plock Pins are the greatest thing to happen to Plone since Buildout&#8221; — Alex Clark</strong></p>
+
+      <p><a href="../../../2014/03/20/introducing-plock-pins/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2014/03/19/virtualenv-support-update/">Virtualenv Support Update</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Mar 19, 2014
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../python/">Python</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>This is you: I use virtualenv all the time and I love it!</strong></p>
+
+      <p><a href="../../../2014/03/19/virtualenv-support-update/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2014/01/11/hello-plone-updated/">Hello Plone Updated</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jan 11, 2014
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Over two years ago I wrote a blog entry called &#8220;Hello, Plone!&#8221;</strong></p>
+
+      <p><a href="../../../2014/01/11/hello-plone-updated/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2013/12/29/plonetheme-report/">Plonetheme Report</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Dec 29, 2013
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Here is another report on Plone themes.</strong></p>
+
+      <p><a href="../../../2013/12/29/plonetheme-report/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2013/07/19/introducing-plock/">Introducing Plock</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jul 19, 2013
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Plock is a Plone Installer for the Pip-Loving Crowd. Plone is a Python-based CMS.</strong></p>
+
+      <p><a href="../../../2013/07/19/introducing-plock/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2012/08/13/bootstrapping-a-buildout-1-6-release/">Bootstrapping a Buildout 1-6 release</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Aug 13, 2012
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>A lot of work has been done on Buildout lately.</strong></p>
+
+      <p><a href="../../../2012/08/13/bootstrapping-a-buildout-1-6-release/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2012/07/12/the-plones-templer/">The Plones Templer</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jul 12, 2012
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>(c.f. Knights Templar)</strong></p>
+
+      <p><a href="../../../2012/07/12/the-plones-templer/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/11/29/plone-org-maintenance/">Plone.org maintenance</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Nov 29, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>I am planning to do some work on the plone.org server and website by the end of the year.</strong></p>
+
+      <p><a href="../../../2011/11/29/plone-org-maintenance/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/08/28/hello-mod_wsgi/">Hello mod_wsgi</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Aug 28, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>It seems I&#8217;ve inadvertently started another series of blog entry</strong></p>
+
+      <p><a href="../../../2011/08/28/hello-mod_wsgi/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/08/20/hello-plone/">Hello Plone</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Aug 20, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>This is a Plone &#8220;Hello, World!&#8221; style tutorial/application for Python programmers.</strong></p>
+
+      <p><a href="../../../2011/08/20/hello-plone/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/08/09/plone-secrets-episode-3-collective-recaptcha-installation/">Plone Secrets: Episode 3 - Collective Recaptcha Installation</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Aug 09, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Another one from the: &#8220;wow, this approach is totally and completely non-obvious to beginners&#8221; department.</strong></p>
+
+      <p><a href="../../../2011/08/09/plone-secrets-episode-3-collective-recaptcha-installation/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/07/06/plone-secrets-episode-2-collective-python-buildout/">Plone Secrets: Episode 2 - Collective Python Buildout</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jul 06, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>You know who uses the (Plone) Collective Python buildout?</strong></p>
+
+      <p><a href="../../../2011/07/06/plone-secrets-episode-2-collective-python-buildout/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/05/10/top-10-reasons-plone-3-3-site-admin-book-is-still-for-you/">Top 10 Reasons Plone 3.3 Site Admin Book is Still for You</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        May 10, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>About a year ago, I was frantically trying to finish &#8216;Plone 3.3 Site Administration&#8217; …</strong></p>
+
+      <p><a href="../../../2011/05/10/top-10-reasons-plone-3-3-site-admin-book-is-still-for-you/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/04/15/collective-transmogrifier-without-plone/">Collective.transmogrifier Without Plone?</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Apr 15, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Yes!</strong></p>
+
+      <p><a href="../../../2011/04/15/collective-transmogrifier-without-plone/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2011/01/26/hostout-rules/">Hostout Rules</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jan 26, 2011
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>As in &#8220;dominates&#8221;, not a &#8220;list of rules&#8221;</strong></p>
+
+      <p><a href="../../../2011/01/26/hostout-rules/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2010/11/04/a-report-on-plonetheme/">A Report On Plonetheme.*</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Nov 04, 2010
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Plone Theme Buildout</strong></p>
+
+      <p><a href="../../../2010/11/04/a-report-on-plonetheme/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2010/07/12/the-apache-modules-for-xdv/">The Apache Modules For XDV</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jul 12, 2010
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Apache Buildout</strong></p>
+
+      <p><a href="../../../2010/07/12/the-apache-modules-for-xdv/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2010/03/30/blood-sweat-tears-and-a-new-plone-book/">Blood, Sweat, Tears and a New Plone Book</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Mar 30, 2010
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Plone 3.3 Site Administration</strong></p>
+
+      <p><a href="../../../2010/03/30/blood-sweat-tears-and-a-new-plone-book/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2010/03/15/using-buildout-to-deploy-a-plone-2-1-site-to-the-cloud/">Using Buildout To Deploy a Plone 2.1 Site To The Cloud</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Mar 15, 2010
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Plone 2.1 Buildout</strong></p>
+
+      <p><a href="../../../2010/03/15/using-buildout-to-deploy-a-plone-2-1-site-to-the-cloud/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2010/01/07/no-really-you-can-just-use-buildout-to-install-plone/">No, Really, You Can Just Use Buildout To Install Plone</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jan 07, 2010
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>,
+      
+    
+      
+      <a href="../python/">Python</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>This is a follow up to my &#8216;Getting Excited about Plone as Eggs&#8217; post.</strong></p>
+
+      <p><a href="../../../2010/01/07/no-really-you-can-just-use-buildout-to-install-plone/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2010/01/01/toronto-plone-add-ons-sprint-1-report/">Toronto Plone Add-ons Sprint #1 Report</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jan 01, 2010
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Via Toronto Plone Users Group</strong></p>
+
+      <p><a href="../../../2010/01/01/toronto-plone-add-ons-sprint-1-report/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2009/09/22/review-of-veda-williams-plone-3-theming/">Review of Veda Williams' Plone 3 Theming</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Sep 22, 2009
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Review all the chapters</strong></p>
+
+      <p><a href="../../../2009/09/22/review-of-veda-williams-plone-3-theming/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2009/06/18/a-sane-buildout-for-repoze-zope2-plone/">A Sane Buildout For repoze.zope2 + Plone</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Jun 18, 2009
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>,
+      
+    
+      
+      <a href="../python/">Python</a>,
+      
+    
+      
+      <a href="../zope/">Zope</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>This is a follow-up to Martin Aspeli&#8217;s introduction to repoze and Plone from last year</strong></p>
+
+      <p><a href="../../../2009/06/18/a-sane-buildout-for-repoze-zope2-plone/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/">A LAMP Buildout for Wordpress and Other PHP Apps</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Apr 21, 2009
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Buildout all the things</strong></p>
+
+      <p><a href="../../../2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2008/12/15/getting-excited-about-plone-as-eggs/">Getting Excited About Plone as Eggs</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Dec 15, 2008
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>,
+      
+    
+      
+      <a href="../python/">Python</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Updated for 4.x</strong></p>
+
+      <p><a href="../../../2008/12/15/getting-excited-about-plone-as-eggs/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2008/08/10/re-collective-recipe-supervisor-thank-you/">collective.recipe.supervisor: Thank You</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Aug 10, 2008
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Now even easier to use Supervisor</strong></p>
+
+      <p><a href="../../../2008/08/10/re-collective-recipe-supervisor-thank-you/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2008/05/15/supervisor-rocks/">Supervisor Rocks</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        May 15, 2008
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>This is a reiteration of Carlos de la Guardia&#8217;s recent post on the subject</strong>.</p>
+
+      <p><a href="../../../2008/05/15/supervisor-rocks/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2008/04/18/help-me-upgrade-plone-org/">Help Me Upgrade plone.org</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Apr 18, 2008
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>,
+      
+    
+      
+      <a href="../python/">Python</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>Because plone.org should run the latest Plone</strong></p>
+
+      <p><a href="../../../2008/04/18/help-me-upgrade-plone-org/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2007/11/28/zcbuildout-recipe-tip-hexagonitrecipedownload-ftw-for-the-win/">Buildout Recipe Tip: hexagonit.recipe.download</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Nov 28, 2007
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>,
+      
+    
+      
+      <a href="../python/">Python</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>How to handle difficult old-style add-ons.</strong></p>
+
+      <p><a href="../../../2007/11/28/zcbuildout-recipe-tip-hexagonitrecipedownload-ftw-for-the-win/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+
+    <div class="section">
+      <h2><a href="../../../2007/10/17/first-post/">First Post</a></h2>
+
+      <ul class="ablog-archive">
+      <li>
+      <i class="fa fa-calendar"></i>
+        Oct 17, 2007
+      
+      </li>
+        
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="#">Buildout</a>,
+      
+    
+      
+      <a href="../plone/">Plone</a>,
+      
+    
+      
+      <a href="../python/">Python</a>,
+      
+    
+      
+      <a href="../zope/">Zope</a>
+      
+    </li>
+  
+
+  
+  </ul>
+      <p><strong>I have decided to start a blog!</strong></p>
+
+      <p><a href="../../../2007/10/17/first-post/">Read more ...</a></p>
+      <hr>
+    </div>
+    
+    
+  </div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Alex Clark.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

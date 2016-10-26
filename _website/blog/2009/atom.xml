@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Alex Clark's Blog - Posted in 2009</title>
+  <id>http://blog.aclark.net/blog/2009/atom.xml</id>
+  <updated>2009-12-31T00:00:00Z</updated>
+  <link href="http://blog.aclark.net" />
+  <link href="http://blog.aclark.net/blog/2009/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <entry xml:base="http://blog.aclark.net/blog/2009/atom.xml">
+    <title type="text">New Year’s Python Meme</title>
+    <id>http://blog.aclark.net/2009/12/31/new-years-python-meme/</id>
+    <updated>2009-12-31T00:00:00Z</updated>
+    <published>2009-12-31T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/12/31/new-years-python-meme/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;new-years-python-meme&quot;&gt;
+
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;https://raw.github.com/ACLARKNET/blog/gh-pages/images/lenin_packaging.png&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Tarek&amp;#8217;s new thing&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;whats-the-coolest-python-application-framework-or-library-you-have-discovered-in-2009&quot;&gt;
+&lt;h2&gt;What’s the coolest Python application, framework or library you have discovered in 2009?&lt;/h2&gt;
+&lt;p&gt;That would be &lt;a class=&quot;reference external&quot; href=&quot;http://zenoss.org&quot;&gt;Zenoss&lt;/a&gt;. I&amp;#8217;m very impressed with the application as well as the community, which is awesome. They remind me a lot of the Plone community; I think the two can learn a lot from each other.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-new-programming-technique-did-you-learn-in-2009&quot;&gt;
+&lt;h2&gt;What new programming technique did you learn in 2009?&lt;/h2&gt;
+&lt;p&gt;Generally speaking, I&amp;#8217;m happy with my progress as a Plone integrator, plowing through the tremendous Plone code stack, on my way to complete mastery. I may never get there, but I&amp;#8217;m having fun trying. In other words, I know a lot more about how far the Zope2/CMF/Five rabbit hole goes. If I had to pick, I&amp;#8217;d choose Grok in Plone, mostly as it relates to Dexterity: &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products/dexterity/documentation/manual/five.grok&quot;&gt;http://plone.org/products/dexterity/documentation/manual/five.grok&lt;/a&gt;. I created &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products/collective-project&quot;&gt;http://plone.org/products/collective-project&lt;/a&gt; as a result, or rather, I converted the package to use Dexterity types so I could learn Dexterity, in part ;-). At first I was angry at being &amp;#8220;forced&amp;#8221; to use Grok techniques in Plone, but then it grew on me.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;whats-the-name-of-the-open-source-project-you-contributed-the-most-in-2009-what-did-you-do&quot;&gt;
+&lt;h2&gt;What’s the name of the open source project you contributed the most in 2009? What did you do?&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://plone.org&quot;&gt;Plone&lt;/a&gt;.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;I dug out from &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/events/conferences/2008-washington-dc&quot;&gt;Plone Conference 2008&lt;/a&gt;, which included publishing the &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/events/conferences/2008-washington-dc/agenda&quot;&gt;videos and slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I helped move plone.org to &lt;a class=&quot;reference external&quot; href=&quot;http://sixfeetup.com&quot;&gt;Six Feet Up&lt;/a&gt;, and have been looking after &lt;a class=&quot;reference external&quot; href=&quot;http://dev.plone.org/plone/browser/Products.PloneOrg/trunk&quot;&gt;it&lt;/a&gt; as well as &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/news/plone-domain-dns-changes&quot;&gt;other infrastructure issues&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I worked on a book called &amp;#8216;Plone Site Admin&amp;#8217;, which will most likely come out in early 2010 (via &lt;a class=&quot;reference external&quot; href=&quot;http://packtpub.com&quot;&gt;Packt&lt;/a&gt;). I hope the community will find it useful.&lt;/li&gt;
+&lt;li&gt;I contributed a &lt;a class=&quot;reference external&quot; href=&quot;http://dev.plone.org/plone/ticket/9330&quot;&gt;new feature&lt;/a&gt; to Plone 4.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-was-the-python-blog-or-website-you-read-the-most-in-2009&quot;&gt;
+&lt;h2&gt;What was the Python blog or website you read the most in 2009?&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://planet.plone.org&quot;&gt;Planet Plone&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-are-the-three-top-things-you-want-to-learn-in-2010&quot;&gt;
+&lt;h2&gt;What are the three top things you want to learn in 2010?&lt;/h2&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://zenoss.org&quot;&gt;Zenoss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://wsgi.org/wsgi/&quot;&gt;WSGI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://dev.plone.org/plone/browser/buildouts/plone-coredev/branches/4.0&quot;&gt;Plone 4 core development&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Happy (Python) New Year everyone!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2009/atom.xml">
+    <title type="text">Review of Veda Williams' Plone 3 Theming</title>
+    <id>http://blog.aclark.net/2009/09/22/review-of-veda-williams-plone-3-theming/</id>
+    <updated>2009-09-22T00:00:00Z</updated>
+    <published>2009-09-22T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/09/22/review-of-veda-williams-plone-3-theming/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;review-of-veda-williams-plone-3-theming&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Review all the chapters&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;First things first, I can&amp;#8217;t overstate enough how much I personally appreciate Veda&amp;#8217;s efforts to bring the (currently-and-unfortunately, but-not-for-long) complex world of Plone theming to the masses. It&amp;#8217;s an acquired taste, but once you get the hang of it you can use your powerful skills to create some very impressive sites – and make the world a better place like Veda and the crew at &lt;a class=&quot;reference external&quot; href=&quot;http://groundwire.org&quot;&gt;Groundwire&lt;/a&gt; are doing (formerly ONE/Northwest).&lt;/p&gt;
+&lt;p&gt;Furthermore, If you are interested in Plone and how Plone theming works, this book is almost certainly for you. It gives you an over abundance of present day theming knowledge, and also covers aspects of the Zope 3 component architecture, where Plone has been, and where it is going to be in the not-so-distant-future.&lt;/p&gt;
+&lt;p&gt;Since &lt;a class=&quot;reference external&quot; href=&quot;http://packtpub.com&quot;&gt;PACKT&lt;/a&gt; are well known for giving back to the communities that produce the software that is the subject of their books, purchasing a copy of this book will directly benefit Plone, so I encourage you to do so.&lt;/p&gt;
+&lt;p&gt;With all that out of the way, I&amp;#8217;d like to focus on a chapter by chapter review (&lt;a class=&quot;reference external&quot; href=&quot;http://vincentfretin.ecreall.com/articles/review-plone-3-theming&quot;&gt;like&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://seeknuance.com/2009/08/25/a-review-of-plone-3-theming/&quot;&gt;everyone&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://www.littled.net/new/2009/09/27/review-of-plone-3-theming-by-veda-williams/&quot;&gt;else&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://reinout.vanrees.org/weblog/2009/10/25/plone-3-theming.html&quot;&gt;does&lt;/a&gt;) of Plone 3 Theming. Like I said, I really liked this book so please don&amp;#8217;t take any of my (hopefully constructive) criticism negatively. I hope my comments will help the readers of this book, as well as Veda, if she dares to attempt a 2nd edition one day!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;STANDARD DISCLAIMERS APPLY&lt;/strong&gt;: I&amp;#8217;m a &amp;#8220;paid&amp;#8221; reviewer (in that I received a free copy of the book) and also, I know Veda personally.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-1&quot;&gt;
+&lt;h2&gt;Chapter 1&lt;/h2&gt;
+&lt;p&gt;This chapter gives an overview of Plone, which as a total-Plone-fanboy, I very much appreciated. I particularly enjoyed the &amp;#8220;community lore&amp;#8221;.  &amp;#8220;what is Plone&amp;#8221;, and &amp;#8220;books about Plone&amp;#8221; sections. The author also includes a &amp;#8220;Plone vs. Drupal&amp;#8221; comparison and an &amp;#8220;evolution&amp;#8221; section that covers Plone theming-framework changes version by version, which I didn&amp;#8217;t care for as much [1].&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-2&quot;&gt;
+&lt;h2&gt;Chapter 2&lt;/h2&gt;
+&lt;p&gt;This chapter lists many tools for graphic design, web browsing, web development (with browser add-ons), and text editing. All useful information. I particularly enjoyed the recommendation for the browser add-on &lt;a class=&quot;reference external&quot; href=&quot;http://developer.yahoo.com/yslow/&quot;&gt;YSlow&lt;/a&gt; which I&amp;#8217;d heard of, but don&amp;#8217;t use regularly.  Recommendations for the traditional UNIX® text editors vi and emacs were missing, but folks that use these editor already know which one they prefer (*wink* – vi), and those that don&amp;#8217;t aren&amp;#8217;t likely to start using them now.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-3&quot;&gt;
+&lt;h2&gt;Chapter 3&lt;/h2&gt;
+&lt;p&gt;Here we get into the now-venerable &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/zc.buildout/1.4.1&quot;&gt;zc.buildout&lt;/a&gt; and how it is used by Plone. I think many folks will appreciate the terminology section, featuring definitions of Zope, Python, and various Python package terminology. I would have liked to have seen the &lt;a class=&quot;reference external&quot; href=&quot;is-anyone-using-plone.orgs-new-pypi-functionality&quot;&gt;PyPI features of plone.org mentioned&lt;/a&gt;, but I&amp;#8217;ll settle for a shameless plug of it here.  Similarly, no mention of git or mercurial in a section about version control (Subversion only), but I suppose (again) those familiar with these technologies already know which one they prefer.&lt;/p&gt;
+&lt;p&gt;Lastly, I liked the variety of approaches described in the &amp;#8220;download Plone&amp;#8221; section, from using platform installers to using the unified installer to satisfying all the Plone dependencies by hand. All good information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-4&quot;&gt;
+&lt;h2&gt;Chapter 4&lt;/h2&gt;
+&lt;p&gt;Using &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/ZopeSkel/2.13&quot;&gt;ZopeSkel&lt;/a&gt; to create a theme package, then adding that package to your buildout as a &amp;#8220;develop egg&amp;#8221; are the main topics covered here. (A side note: I&amp;#8217;m very much looking forward to the upcoming release of ZopeSkel 2.14!  &lt;a class=&quot;reference external&quot; href=&quot;http://www.coactivate.org/projects/zopeskel-bbq-sprint/blog/2009/10/13/zopeskel-bbq-sprint-days-two-three-and-four/&quot;&gt;http://www.coactivate.org/projects/zopeskel-bbq-sprint/blog/2009/10/13/zopeskel-bbq-sprint-days-two-three-and-four/&lt;/a&gt; )&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-5&quot;&gt;
+&lt;h2&gt;Chapter 5&lt;/h2&gt;
+&lt;p&gt;I like this chapter because it covers a variety of the TTW (through the web) changes that we are consistently reminded we are not supposed to make, but we all know that everyone makes them. The truth is, there is absolutely nothing wrong with TTW changes if you take them for what they are worth. It&amp;#8217;s fine to turn a knob or two TTW, just be aware that at some point you may be turning that knob again TTW, if you don&amp;#8217;t turn a similar knob on the file system ;-)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-6-7&quot;&gt;
+&lt;h2&gt;Chapter 6-7&lt;/h2&gt;
+&lt;p&gt;Here we get into various Zope 3 concepts: ZCML, browser layers, resources, viewlets and more! If there is such a thing, this would be the &amp;#8220;unfortunate&amp;#8221; part of the modern Plone theming story. Plone themers, for better or worse, must be familiar these concepts in order to be successful. One pet peave I have, that I will mention here because it seems appropriate, is the bundling of GenericSetup in a discussion about Zope 3 concepts. While GenericSetup may use Zope 3 technology under the hood (I assume it does, like most modern Zope 2 code) as a concept it has absolutely nothing to do with Zope 3 (in other words it is not part of the &amp;#8220;component architecture&amp;#8221;) It just happened to be introduced to Plone around the same time various other Zope 3 technology was introduced (via Five), hence people tend to include it in the &amp;#8220;things they hate about Zope 3 in Plone&amp;#8221; category. Perhaps GenericSetup should have been added either before or after the Zope 3 stuff to make it more palatable, but that train has sailed and now we must deal with the consequences.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-8&quot;&gt;
+&lt;h2&gt;Chapter 8&lt;/h2&gt;
+&lt;p&gt;This chapter about TAL (template attribute language) is great stuff. TAL is one of those beautiful technologies that pays for itself once you learn it (unlike various web form frameworks, for example ;-). If like me you can&amp;#8217;t get enough of TAL from Veda&amp;#8217;s book, check out the section on it in the Zope 2 book: &lt;a class=&quot;reference external&quot; href=&quot;http://docs.zope.org/zope2/zope2book/ZPT.html&quot;&gt;http://docs.zope.org/zope2/zope2book/ZPT.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-9-11&quot;&gt;
+&lt;h2&gt;Chapter 9-11&lt;/h2&gt;
+&lt;p&gt;Here we get to watch Veda design, build, and deploy a theme. This is the focal point of the book, and is worth the price of admission alone. I almost wish the entire book was about this theme, with the other relevant bits sprinkled in as needed. But in any event, these three chapters are what most readers will be most interested in.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-12&quot;&gt;
+&lt;h2&gt;Chapter 12&lt;/h2&gt;
+&lt;p&gt;This is a great little chapter about various add-ons that themers may find interesting. My favorite add-on mentioned in this chapter is Products.FSDump. Very, very useful tool for getting various bits out of your ZODB and on to your file system (e.g. the contents of the portal_skins/custom folder). I&amp;#8217;m really hoping that a 1.0 release will see the light of day one of these days. I notice Veda didn&amp;#8217;t mention it, but there is now an egg-based version of this popular add-on: &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/Products.FSDump/FSDump-0.9.4&quot;&gt;http://pypi.python.org/pypi/Products.FSDump/FSDump-0.9.4&lt;/a&gt; Just add Products.FSDump to your instance section&amp;#8217;s eggs= parameter and off you go.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-13&quot;&gt;
+&lt;h2&gt;Chapter 13&lt;/h2&gt;
+&lt;p&gt;Here, a gratuitous chapter on multimedia wherein various useful multi-media add-ons are mentioned. I say gratuitous because I think there is a misperception that you need these add-ons to accomplish what you want. Plone should do a much better job convincing people that while it is a complex application, a Plone site is also just a website. So if you know how to do it elsewhere (e.g. on a &amp;#8220;regular&amp;#8221; website) it should be easy to do it in Plone (we are not quite there yet). Anyway, some great add-ons are mentioned here of course, but one noticeable absence: &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products/collective-fancyzoomview&quot;&gt;http://plone.org/products/collective-fancyzoomview&lt;/a&gt; (which is used by PloneSoftwareCenter on plone.org).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-14&quot;&gt;
+&lt;h2&gt;Chapter 14&lt;/h2&gt;
+&lt;p&gt;An &amp;#8216;Amen!&amp;#8217; for this chapter that covers deploying and contributing themes, especially on the contributing part. As I mentioned earlier, I would have liked to have seen the &lt;a class=&quot;reference external&quot; href=&quot;is-anyone-using-plone.orgs-new-pypi-functionality&quot;&gt;PyPI features of plone.org mentioned&lt;/a&gt; in this book, and in this chapter in particular. While it is arguably still hard to create Plone themes, it is encouragingly not hard to share them! Also, an incredibly useful tool for releasing themes (and any package) to both plone.org/products and pypi.python.org at the same time (i.e in a single command) is &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/jarn.mkrelease/2.0.2&quot;&gt;http://pypi.python.org/pypi/jarn.mkrelease/2.0.2.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;chapter-15&quot;&gt;
+&lt;h2&gt;Chapter 15&lt;/h2&gt;
+&lt;p&gt;This chapter (by Alexander Limi) introduces people to &amp;#8220;new style&amp;#8221; theming with xdv. While I enjoy this subject tremendously, I think it&amp;#8217;s going to take a while before it is fully digested by integrators.  Hopefully, Alex&amp;#8217;s chapter will help. I&amp;#8217;m also told that Laurence Rowe has been making some improvements to collective.xdv recently, and I see there is a new version here: &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/collective.xdv&quot;&gt;http://pypi.python.org/pypi/collective.xdv&lt;/a&gt; (I think this version handles 404s).&lt;/p&gt;
+&lt;p&gt;Bottom line: this is great stuff but potentially confusing in that you have an add-on, collective.xdv, that applies an XSLT transform &amp;#8220;on the fly&amp;#8221; (in memory) to your Plone site, but the recommended deployment strategy is to use NGINX or Apache with Laurence&amp;#8217;s patches applied. I&amp;#8217;ve spent some time doing this (I expect to re-launch this site with xdv soon, and of course plone.org uses it) and it is non-trivial to say the least. What we have now is a situation where folks are starting to use collective.xdv and thinking that *it* is the new way to theme, when in fact it is only part of the story.&lt;/p&gt;
+&lt;p&gt;One last pet peeve I will mention is that both &amp;#8220;theming&amp;#8221; and &amp;#8220;skinning&amp;#8221; were used to describe the subject of the book.&amp;nbsp; I would have preferred just &amp;#8220;theming&amp;#8221; (since that is what we are calling it now ;-).&lt;/p&gt;
+&lt;p&gt;In conclusion, great job Veda! Thank you very much for your efforts. I look forward to reviewing a second edition. To every one else, I invite you to purchase your copy of this book and get your Plone 3 theming ON: &lt;a class=&quot;reference external&quot; href=&quot;http://www.packtpub.com/plone-3-theming-create-flexible-powerful-professional-templates/mid/220709943ki3?utm_source=aclark.net&amp;amp;utm_medium=affiliate&amp;amp;utm_content=blog&amp;amp;utm_campaign=mdb_001376&quot;&gt;http://www.packtpub.com/plone-3-theming-create-flexible-powerful-professional-templates&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[1] Quite frankly, I think Plone is in a category all its own (as the most successful Python-based CMS of all time), and while there are certainly comparisons to be made, and lessons to be learned from the competition, I think we should let the readers decide for themselves how Plone stacks up to the competition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2009/atom.xml">
+    <title type="text">A Sane Buildout For repoze.zope2 + Plone</title>
+    <id>http://blog.aclark.net/2009/06/18/a-sane-buildout-for-repoze-zope2-plone/</id>
+    <updated>2009-06-18T00:00:00Z</updated>
+    <published>2009-06-18T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/06/18/a-sane-buildout-for-repoze-zope2-plone/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;a-sane-buildout-for-repoze-zope2-plone&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;This is a follow-up to Martin Aspeli&amp;#8217;s introduction to repoze and Plone from last year&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-tale-of-two-buildouts&quot;&gt;
+&lt;h2&gt;A Tale of Two Buildouts&lt;/h2&gt;
+&lt;p&gt;There are two stories going on here, both of which &lt;a class=&quot;reference external&quot; href=&quot;http://www.martinaspeli.net/articles/scrambled-eggs&quot;&gt;Martin Aspeli recently described in great detail&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://plope.com/Members/chrism/distribution_links_considered_harmful&quot;&gt;Chris McDonough tackled last year&lt;/a&gt;. For the purposes of this blog entry, I&amp;#8217;ll refer to the issue as the &amp;#8220;index vs. find-links&amp;#8221; conundrum in buildout&amp;nbsp; (find-links in buildout are equivalent to distribution_links in setuptools).&lt;/p&gt;
+&lt;p&gt;For those that want strict repeatability, using the index parameter is the clear winner. It simply forces buildout to do the right thing now and forever, by limiting what packages it can select from. For those that want functionality and don&amp;#8217;t mind the occasional egg-out-of-whack (i.e. unexpected upgrade), then using the find-links parameter can provide a &amp;#8220;sexy&amp;#8221; way to get decent results quickly (but may, and probably will, shoot you in the foot later).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;sexy-but-dangerous&quot;&gt;
+&lt;h2&gt;Sexy, but Dangerous&lt;/h2&gt;
+&lt;p&gt;Let&amp;#8217;s start with the sexy, but with less repeat-ability method first.  Using this method we are not specifying our own index. Therefore you are free to add any package from &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/simple/&quot;&gt;PyPI&lt;/a&gt; or &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products/simple&quot;&gt;plone.org&lt;/a&gt; as you see fit.  This is essentially why people like this method (the counter argument is that it is simple to add any additional egg you may want to your index, but we&amp;#8217;ll get to that later).&lt;/p&gt;
+&lt;p&gt;So a simple buildout using this method might look like this:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;virtualenv plone; cd plone
+bin/easy\_install zc.buildout
+bin/buildout init
+Edit buildout.cfg:
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[buildout]
+extends =
+# Using Martin Aspeli&amp;#39;s good-py, thanks!
+    http://good-py.appspot.com/release/repoze.zope2/1.0
+    http://dist.plone.org/release/3.3rc3/versions.cfg
+versions = versions
+find-links =
+    http://dist.repoze.org/zope2/latest
+    http://dist.repoze.org/zope2/dev/
+    http://dist.plone.org/release/3.3rc3
+parts = instance[instance]
+recipe = zc.recipe.egg
+dependent-scripts = true
+eggs =
+    repoze.zope2
+    Plone
+    PIL
+
+4. bin/buildout
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A few more steps are required, which we could certainly automate in
+buildout, but for now I&amp;#8217;ll just list them here:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ol class=&quot;arabic simple&quot; start=&quot;5&quot;&gt;
+&lt;li&gt;bin/mkzopeinstance&lt;/li&gt;
+&lt;li&gt;bin/addzope2user admin admin&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;Now, the moment we&amp;#8217;ve all been waiting for… the fun part!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ol class=&quot;arabic simple&quot; start=&quot;7&quot;&gt;
+&lt;li&gt;bin/paster serve etc/zope2.ini&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;You should see something like:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[aclark@alex-clarks-macbook-pro]~/Developer/plone% bin/paster serve etc/zope2.ini
+2009-06-18 22:52:24 INFO Marshall libxml2-python not available. Unable to register libxml2 based marshallers.
+2009-06-18 22:52:27 WARNING ZODB.FileStorage Ignoring index for
+/Users/aclark/Developer/p3-repoze-2/var/Data.fsDeprecationWarning: zope.app.annotation has moved to
+zope.annotation. Import of zope.app.annotation will become
+unsupported in Zope 3.5
+/Users/aclark/Developer/plone/eggs/zopelib-2.10.7.0-py2.4-macosx-10.5-i386.egg/zope/configuration/xmlconfig.py:323:
+  __import__(arguments[0])
+------
+2009-06-18T22:52:24 INFO Marshall libxml2-python not available. Unable to register libxml2 based marshallers.
+------
+2009-06-18T22:52:27 WARNING ZODB.FileStorage Ignoring index for /Users/aclark/Developer/plone/var/Data.fs
+Starting server in PID 26900.
+zserver on port 8080
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;At this point, you should be able to login to
+&lt;a class=&quot;reference external&quot; href=&quot;http://localhost:8080/manage&quot;&gt;http://localhost:8080/manage&lt;/a&gt; and create a Plone site.&lt;/p&gt;
+&lt;p&gt;Of course, we did a sloppy job here, creating the Zope2 instance in the
+root of the buildout, etc. It is possible that
+&lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/plone.recipe.zope2instance/3.2&quot;&gt;plone.recipe.zope2install&lt;/a&gt; may help us in the future by supporting
+repoze.zope2 instances (or maybe it does already, I didn&amp;#8217;t try).&lt;/p&gt;
+&lt;p&gt;Next up?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;boring-but-repeatable&quot;&gt;
+&lt;h2&gt;Boring, but Repeatable&lt;/h2&gt;
+&lt;p&gt;I kid, but this is actually a very serious concern for many people, and
+rightfully so. The notion that your buildout will work the same today as
+it does in one year from now may be a strict requirement for your
+project. If it is, we can accommodate you (I hope) with the &amp;#8220;index&amp;#8221;
+buildout that follows. The downside is that *you* can&amp;#8217;t control what I
+put in the index. However, you can certainly create your own index using
+this technique.&lt;/p&gt;
+&lt;p&gt;An arguably even simpler buildout using this technique might look like
+this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ol class=&quot;arabic simple&quot; start=&quot;0&quot;&gt;
+&lt;li&gt;virtualenv plone; cd plone&lt;/li&gt;
+&lt;li&gt;bin/easy_install zc.buildout&lt;/li&gt;
+&lt;li&gt;bin/buildout init&lt;/li&gt;
+&lt;li&gt;Edit buildout.cfg:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[buildout]
+index = http://dist.plone.org/experimental/release/3.3rc3/simple/
+parts = instance[instance]
+recipe = zc.recipe.egg
+dependent-scripts = true
+eggs =
+    repoze.zope2
+    Plone
+    PIL
+
+4. bin/buildout
+
+5. bin/mkzopeinstance
+
+6. bin/addzope2user admin admin
+
+7. bin/paster serve etc/zope2.ini
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;in-conclusion&quot;&gt;
+&lt;h2&gt;In Conclusion&lt;/h2&gt;
+&lt;p&gt;Depending on what my needs are, I might choose either of these
+techniques. We can also hold out for &lt;a class=&quot;reference external&quot; href=&quot;http://bugs.python.org/setuptools/issue32&quot;&gt;multi-index support in
+setuptools&lt;/a&gt;. That would seemingly make everyone happy. In the meantime,
+I can tell you I&amp;#8217;d definitely reach for a buildout sans custom index
+first, then ask questions later (i.e. wait for bleeding toes) but that
+is just me. If people find the &amp;#8220;index&amp;#8221; technique generally useful, I&amp;#8217;d
+be willing to support package sheperding and &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/basketweaver/0.1.2-r6&quot;&gt;index generating with
+basketweaver&lt;/a&gt;. Just let me know. If it really catches on, we could
+rename &lt;a class=&quot;reference external&quot; href=&quot;http://dist.plone.org/experimental/release/3.3rc3/&quot;&gt;http://dist.plone.org/experimental/release/3.3rc3/&lt;/a&gt; to
+&lt;a class=&quot;reference external&quot; href=&quot;http://dist.plone.org/repoze/release/3.3rc3/&quot;&gt;http://dist.plone.org/repoze/release/3.3rc3/&lt;/a&gt;. Of course, if anyone
+objects to this or finds it confusing, I can just as easily remove it
+(from dist.plone.org).&lt;/p&gt;
+&lt;p&gt;Special thanks to &lt;a class=&quot;reference external&quot; href=&quot;http://plope.com/&quot;&gt;Chris McDonough&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://www.martinaspeli.net/&quot;&gt;Martin Aspeli&lt;/a&gt; for helping me
+scratch my itch!&lt;/p&gt;
+&lt;p&gt;Finally, please don&amp;#8217;t rely on any of this &amp;#8220;in production&amp;#8221; yet unless you
+know what you are doing. I tested these techniques up to the point of
+starting Zope (via paste) and adding a Plone site, nothing more!&lt;/p&gt;
+&lt;p&gt;I, however, am getting a new server next week and will be hosting this
+site on &lt;a class=&quot;reference external&quot; href=&quot;http://repoze.org/quickstart.html#repoze.zope2&quot;&gt;repoze.zope2&lt;/a&gt; very shortly ;-)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2009/atom.xml">
+    <title type="text">A LAMP Buildout for Wordpress and Other PHP Apps</title>
+    <id>http://blog.aclark.net/2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/</id>
+    <updated>2009-04-21T00:00:00Z</updated>
+    <published>2009-04-21T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/04/21/a-lamp-buildout-for-wordpress-and-other-php-apps/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;a-lamp-buildout-for-wordpress-and-other-php-apps&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Buildout all the things&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-buildout-for-php&quot;&gt;
+&lt;h2&gt;A Buildout for PHP?&lt;/h2&gt;
+&lt;p&gt;Having been a Plone Consultant for many years now, I find it very painful to deal with non-Python-based technologies and I often will go to great lengths to avoid it. I recently had to deploy a new PHP application on an older Linux server (RHEL3) and could not bring myself to compile the packages, search for RPMs, or do any of the mundane, boring tasks required; so I began to look for an alternative. Enter: the &lt;a class=&quot;reference external&quot; href=&quot;http://svn.aclark.net/svn/public/buildout/lamp/trunk/&quot;&gt;LAMP buildout&lt;/a&gt;. I created and used this to deploy my client&amp;#8217;s PHP application. I hope others find it useful, both as an alternative way to deploy PHP apps, and as an example of the wide variety of things
+buildout can be used to do.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;it-s-just-that-simple&quot;&gt;
+&lt;h2&gt;It&amp;#8217;s Just That Simple?&lt;/h2&gt;
+&lt;p&gt;Unfortunately, this was not the blissful experience I had hoped for.  There were some non-obvious configuration parameters that had to be dealt with. This was tedious and sometimes painful, but achieving the end result was a uniquely rewarding experience I can assure you! In fact, most of the problems had to do with the individual software components and not buildout itself, which was a pleasure to work with and one of the main reasons I am writing this blog entry. In a Plone buildout for example, in most cases, the tedious parts are handled for you and you just need to &lt;a class=&quot;reference external&quot; href=&quot;getting-excited-about-plone-3-2&quot;&gt;add the Plone egg, run buildout, and start your site&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;break-it-down&quot;&gt;
+&lt;h2&gt;Break It Down&lt;/h2&gt;
+&lt;p&gt;Now, on to the Buildout. It was developed and tested on Mac OS X 10.5 then deployed to RHEL3. I had a small problem on RHEL3 with the GD imaging library so I removed it (and installed it by hand in /usr/local). Other than that, things went smoothly and I deployed several PHP apps with it just for kicks, including:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Phorum&lt;/li&gt;
+&lt;li&gt;SugarCRM&lt;/li&gt;
+&lt;li&gt;WordPress&lt;/li&gt;
+&lt;li&gt;phpMyAdmin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It builds Apache, PHP, MySQL, GD, and Supervisor. Let&amp;#8217;s take a look.&lt;/p&gt;
+&lt;p&gt;First, we define the parts. For each of these, we&amp;#8217;ll do something useful
+to contribute to the end result.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[buildout]
+parts =
+# Aspeli-style line-spacing to emphasize the functionality of each part or group of parts ;-)
+    env
+    grp    mysql
+    apache
+    gd
+    php    ports
+    mycnf
+    mysql-bin
+    mysql-admin
+    mysql_install_db
+    apache-conf
+    php-conf# Uncomment only one of these at a time
+#    phpmyadmin
+#    sugarcrm
+#    phorum
+    wordpress    supervisor
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now that the parts are listed, the rest of the buildout must define those parts. First, we add some utilities required by this buildout.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;recipe&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gocept&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recipe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;recipe&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collective&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recipe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grp&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Next, we build the core components.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[mysql]
+recipe = hexagonit.recipe.cmmi
+url = http://mysql.mirrors.hoobly.com/Downloads/MySQL-5.1/mysql-5.1.33.tar.gz
+keep-compile-dir = true[apache]
+recipe = hexagonit.recipe.cmmi
+url = http://www.trieuvan.com/apache/httpd/httpd-2.2.11.tar.gz
+configure-options = --enable-so
+keep-compile-dir = true[gd]
+recipe = hexagonit.recipe.cmmi
+url = http://www.libgd.org/releases/gd-2.0.35.tar.gz
+keep-compile-dir = true[php]
+recipe = zc.recipe.cmmi
+environment =
+    PATH=${mysql:location}/bin:${env:PATH}
+url = http://us2.php.net/get/php-5.2.9.tar.gz/from/this/mirror
+# Beware, the new line below (i.e. &amp;#39;&amp;#39;) may need to be undone.
+extra_options =
+  --prefix=${buildout:directory}/parts/apache/php
+  --with-config-file-path=${buildout:directory}/etc/php.ini
+  --with-gd=${buildout:directory}/parts/gd
+  --with-apxs2=${buildout:directory}/parts/apache/bin/apxs
+  --with-mysql=${mysql:location}
+  --enable-mbstring
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;After that, some configuration. Read the comments below for more information.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# Make it easy to change the various port settings[ports]
+recipe = plone.recipe.command
+command =
+    echo These ports are used to configure this LAMP:
+    echo Supervisor: ${ports:supervisor}
+    echo Apache: ${ports:apache}
+    echo MySQL: ${ports:mysql}
+supervisor = 9001
+apache = 8080
+mysql = 3306# All the mysql compile options[mycnf]
+recipe = plone.recipe.command
+command =
+    echo
+    echo These options are passed to mysqld_safe: ${mycnf:opt}
+    echo
+basedir=${mysql:location}
+datadir=${buildout:directory}/var
+pid=${mycnf:datadir}/mysql.pid
+err = ${mycnf:datadir}/log/mysql.err
+sock = ${mycnf:datadir}/mysql.sock
+# Beware, the new line below (i.e. &amp;#39;&amp;#39;) may need to be undone.
+opt = --port=${ports:mysql} --pid-file=${mycnf:pid} --log-error=${mycnf:err}
+--basedir=${mycnf:basedir} --datadir=${mycnf:datadir} --socket=${mycnf:sock}# Setup the mysql databases.[mysql_install_db]
+recipe = plone.recipe.command
+command =
+    ${mysql:location}/bin/mysql_install_db --datadir=${mycnf:datadir}
+    echo
+    echo After starting supervisord, you may want to run:
+    echo ${buildout:directory}/parts/mysql/bin/mysqladmin -u root password &amp;#39;new-password&amp;#39;
+    echo
+update-command = ${mysql_install_db:command}# Generate Config files for Apache and PHP[apache-conf]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/httpd.conf.in
+output = ${buildout:directory}/etc/httpd.conf[php-conf]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/php.ini.in
+output = ${buildout:directory}/etc/php.ini# Make it easy to run mysql and mysqladmin[mysql-bin]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/mysql.in
+output = ${buildout:directory}/bin/mysql[mysql-admin]
+recipe = collective.recipe.template
+input = ${buildout:directory}/templates/mysqladmin.in
+output = ${buildout:directory}/bin/mysqladmin
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now, the parts that download the various PHP apps.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[wordpress]
+recipe = hexagonit.recipe.download
+url = http://wordpress.org/latest.tar.gz
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true[phpmyadmin]
+recipe = hexagonit.recipe.download
+url = http://prdownloads.sourceforge.net/phpmyadmin/phpMyAdmin-3.1.3.2-english.tar.bz2
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true[sugarcrm]
+recipe = hexagonit.recipe.download
+url = http://www.sugarforge.org/frs/download.php/5252/SugarCE-5.2.0c.zip
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true[phorum]
+recipe = hexagonit.recipe.download
+url = http://www.phorum.org/downloads/phorum-5.2.10.tar.gz
+destination = ${buildout:directory}/htdocs
+strip-top-level-dir = true
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;And the supervisor that will control everything.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[supervisor]
+recipe = collective.recipe.supervisor
+port = ${ports:supervisor}
+serverurl = http://127.0.0.1:${ports:supervisor}
+pp = ${buildout:directory}/eggs/supervisor-3.0a6-py2.4.egg/supervisor/pidproxy.py
+# Beware, the new line below (i.e. &amp;#39;&amp;#39;) may need to be undone.
+programs =
+    10 mysql ${supervisor:pp} [ ${mycnf:pid} ${mysql:location}/bin/mysqld_safe ${mycnf:opt} ]
+    20 apache ${apache:location}/bin/httpd [ -c &amp;quot;ErrorLog /dev/stdout&amp;quot; -DFOREGROUND
+                                             -f ${buildout:directory}/etc/httpd.conf ]
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you are interested in trying this yourself, please see: &lt;a class=&quot;reference external&quot; href=&quot;http://svn.aclark.net/svn/public/buildout/lamp/trunk/&quot;&gt;http://svn.aclark.net/svn/public/buildout/lamp/trunk/&lt;/a&gt; and let me know how it goes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2009/atom.xml">
+    <title type="text">Is Anyone Using plone.org's New PyPI Functionality?</title>
+    <id>http://blog.aclark.net/2009/03/13/is-anyone-using-plone-orgs-new-pypi-functionality/</id>
+    <updated>2009-03-13T00:00:00Z</updated>
+    <published>2009-03-13T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/03/13/is-anyone-using-plone-orgs-new-pypi-functionality/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;is-anyone-using-plone-org-s-new-pypi-functionality&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;python setup.py upload -r plone.org&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lots of exciting things are happening with Plone.org!&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://twitter.com/calvinhp&quot;&gt;Calvin Hendryx-Parker&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://sixfeetup.com&quot;&gt;Six Feet Up&lt;/a&gt; are working on moving *.plone.org to one of their powerful new servers (with some exceptions, most notably {svn,dev}.plone.org will remain in place, as I understand it)!&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://limi.net&quot;&gt;Alex Limi&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/team/WebsiteTeam&quot;&gt;company&lt;/a&gt; are working on deploying a new look and feel using a new-fangled technology called xdv (a variant of Deliverance).&lt;/li&gt;
+&lt;li&gt;I am removing &lt;a class=&quot;reference external&quot; href=&quot;https://dev.plone.org/plone.org/ticket/1080&quot;&gt;kinks&lt;/a&gt; that have been lingering after the recent upgrade (in theory ;-).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This blog entry is both a &amp;#8220;call to arms&amp;#8221; to everyone involved in helping, and a message to everyone waiting patiently that we haven&amp;#8217;t forgotten about you! :-D&lt;/p&gt;
+&lt;p&gt;In particular, I&amp;#8217;d like to hear from any early adopters of the new &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products&quot;&gt;http://plone.org/products&lt;/a&gt;section. You can read about how to use the new PyPI functionality here, if you haven&amp;#8217;t already: &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/collective.dist/0.2.2&quot;&gt;http://pypi.python.org/pypi/collective.dist/0.2.2&lt;/a&gt;. In my little &amp;#8220;test&amp;#8221; product, I found it quite useful: &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products/Products.todo/&quot;&gt;http://plone.org/products/Products.todo/.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So if you are using it, I&amp;#8217;d definitely like to hear your experiences. Or if not, please give it a try!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2009/atom.xml">
+    <title type="text">Nirvana Old Age Interrupted</title>
+    <id>http://blog.aclark.net/2009/02/07/nirvana-old-age-interrupted/</id>
+    <updated>2009-02-07T00:00:00Z</updated>
+    <published>2009-02-07T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/02/07/nirvana-old-age-interrupted/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;nirvana-old-age-interrupted&quot;&gt;
+
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;
+    &lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ec200NlbTA4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/2009/atom.xml">
+    <title type="text">Help Eric Steele Go To Baarn</title>
+    <id>http://blog.aclark.net/2009/01/23/help-esteele-go-to-baarn/</id>
+    <updated>2009-01-23T00:00:00Z</updated>
+    <published>2009-01-23T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/01/23/help-esteele-go-to-baarn/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;help-eric-steele-go-to-baarn&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Because I was there once too&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A few years back, I was &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/events/sprints/past-sprints/baarn-ui-sprint-2007/&quot;&gt;invited to the Baarn UI Sprint 2007.&lt;/a&gt; This was a huge turning point for me and Plone. Having just attended the &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/events/conferences/seattle-2006&quot;&gt;annual conference in Seattle&lt;/a&gt;, I was raring to contribute. And in getting invited, I felt like a Catholic getting invited to the Vatican to hang out with the Pope (well 1/2 the Pope at least, aka &lt;a class=&quot;reference external&quot; href=&quot;http://limi.net&quot;&gt;Limi&lt;/a&gt; ;-)). You cannot beat the awesomeness of the Plone community and the fact that if you give something to it, you will get it back ten-fold in:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Knowledge and skills (You can acquire a ton of technical skill by learning the Plone).&lt;/li&gt;
+&lt;li&gt;Kindness from strangers (People will help you do things, like attend a development sprint in another country, amazing).&lt;/li&gt;
+&lt;li&gt;Employment for life (There is more Plone work than there are Plone developers, and I don&amp;#8217;t see this changing anytime soon).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Which brings me to the subject at hand. One of our own, Eric Steele (author of the amazing development tool &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products/gloworm/&quot;&gt;Gloworm&lt;/a&gt;, and member of the extremely Plone friendly web group called &lt;a class=&quot;reference external&quot; href=&quot;http://weblion.psu.edu/&quot;&gt;WebLion&lt;/a&gt;) needs your help!  Last I spoke with Eric he had reached 60% of his desired goal, so let&amp;#8217;s help him get to the finish line (by Wednesday).&lt;/p&gt;
+&lt;p&gt;You can (and probably should, if you can afford it ;-) donate a little something here: &lt;a class=&quot;reference external&quot; href=&quot;http://www.theartofbeingstill.com/help-me-get-to-baarn&quot;&gt;http://www.theartofbeingstill.com/help-me-get-to-baarn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I can imagine only good things to come for Plone as a result of Eric attending this event (in fact, Weblion is funding the trip, donations are for food and incidentals if I recall correctly).&lt;/p&gt;
+&lt;p&gt;So please help! :-D&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

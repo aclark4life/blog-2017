@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Hello mod_wsgi &mdash; Alex Clark&#39;s Blog</title>
+    
+    <link rel="stylesheet" href="../../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/bootswatch-3.3.4/readable/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../../../_static/favicon.ico"/>
+    <link rel="top" title="Alex Clark&#39;s Blog" href="../../../../" />
+  
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../../../blog/atom.xml" title="Alex Clark's Blog">
+  
+  
+  <link href="True" rel="stylesheet">
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../../">
+          Alex Clark&#39;s Blog</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="http://aclark.net">Home</a></li>
+                <li><a href="https://www.facebook.com/aclark4life">Facebook</a></li>
+                <li><a href="https://github.com/aclark4life">GitHub</a></li>
+                <li><a href="https://gratipay.com/aclark4life">Gratipay</a></li>
+                <li><a href="https://www.linkedin.com/in/aclark4life">LinkedIn</a></li>
+                <li><a href="https://twitter.com/aclark4life">Twitter</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../../">Pages <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../now/">What I&#8217;m doing now</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../feeds/">Feeds</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary">
+  
+  
+  <h2>
+  
+  <i class="fa fa-calendar"></i>
+    Aug 28, 2011
+  
+  </h2>
+
+  <ul>
+    
+
+  
+
+  
+
+  
+
+  
+  <li><i class="fa-fw fa fa-folder-open"></i>
+    
+      
+      <a href="../../../../blog/category/buildout/">Buildout</a>,
+      
+    
+      
+      <a href="../../../../blog/category/plone/">Plone</a>
+      
+    </li>
+  
+
+  
+  
+  <li>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'aclark-blog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    <i class="fa-fw fa fa-comments"></i>
+    <a href="#disqus_thread" data-disqus-identifier="/2011/08/28/hello-mod_wsgi/index/"> </a>
+  </li>
+  
+  </ul>
+
+
+
+  <h3><a href="../../../../blog/">Recent Posts</a></h3>
+  <ul>
+    
+    
+      <li><a href="../../../../2016/04/03/yup-this-blog-is-now-powered-by-ablog/">Apr 03 - Yup, this blog is now powered by ABlog</a></li>
+    
+      <li><a href="../../../../2016/02/21/updated-django-website/">Feb 21 - Updated Django Website</a></li>
+    
+      <li><a href="../../../../2015/10/10/plock-0-5-0-is-out/">Oct 10 - Plock 0-5-0 is out</a></li>
+    
+      <li><a href="../../../../2015/10/07/dc-python-jobs/">Oct 07 - DC Python Jobs</a></li>
+    
+      <li><a href="../../../../2015/10/05/i-reinstalled-again/">Oct 05 - I Reinstalled Again</a></li>
+    
+  </ul>
+
+  <h3><a href="../../../../blog/category/">Categories</a></h3>
+  <ul>
+  
+    
+    <li><a href="../../../../blog/category/buildout/">Buildout (33)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/django/">Django (5)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/misc/">Misc (22)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/mozilla/">Mozilla (2)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/music/">Music (1)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/pillow/">Pillow (16)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/plone/">Plone (79)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/pyramid/">Pyramid (6)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/python/">Python (61)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/category/zope/">Zope (6)</a></li>
+    
+  
+  </ul>
+
+  <h3><a href="../../../../blog/archive/">Archives</a></h3>
+  <ul>
+  
+    
+    <li><a href="../../../../blog/2016/">2016 (2)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2015/">2015 (13)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2014/">2014 (11)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2013/">2013 (21)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2012/">2012 (35)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2011/">2011 (26)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2010/">2010 (9)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2009/">2009 (7)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2008/">2008 (19)</a></li>
+    
+  
+    
+    <li><a href="../../../../blog/2007/">2007 (8)</a></li>
+    
+  
+  </ul>
+
+<form action="../../../../search/" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="hello-mod-wsgi">
+<h1>Hello mod_wsgi<a class="headerlink" href="#hello-mod-wsgi" title="Permalink to this headline">¶</a></h1>
+<p><strong>It seems I&#8217;ve inadvertently started another series of blog entry</strong></p>
+<p>It seems I&#8217;ve inadvertently started another series of blog entry:&nbsp;the &#8220;hello world&#8221; series, wherein I explain how to easily get started with <a class="reference external" href="http://blog.aclark.net/2011/08/20/hello-plone/">various exciting Python technologies</a>.</p>
+<p>This time, in order to familiarize myself with <a class="reference external" href="http://code.google.com/p/modwsgi/">mod_wsgi</a>, I&#8217;ve created a buildout to automate some of the processes explained in:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://code.google.com/p/modwsgi/wiki/QuickInstallationGuide">http://code.google.com/p/modwsgi/wiki/QuickInstallationGuide</a></li>
+</ul>
+<p>(This series also helps me to subtly introduce the zc.buildout &#8220;extendables&#8221; I have been working on. More on those in a future post.)</p>
+<div class="section" id="the-extendables">
+<h2>The extendables<a class="headerlink" href="#the-extendables" title="Permalink to this headline">¶</a></h2>
+<p>The extendables make it easy to bootstrap a development environment with complex software requirements, via <a class="reference external" href="http://pypi.python.org/pypi/zc.buildout/1.5.2">zc.buildout</a>. In this case, I want to be able to type:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>$ test-apache test-dir
+</pre></div>
+</div>
+<p>And get a working, <em>disposable</em> Apache instance minutes later. I also want that Apache to come with a mod_wsgi app installed and working.</p>
+</div>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<p>First we use the <a class="reference external" href="https://raw.github.com/pythonpackages/buildout-apache-modwsgi/master/2.2.x">aforementioned extendable</a>, like so:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>$ virtualenv test-dir
+$ cd test-dir
+$ bin/pip install zc.buildout
+$ bin/buildout init
+</pre></div>
+</div>
+<p>Edit the buildout.cfg to look like this:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>[buildout]
+extends = https://raw.github.com/pythonpackages/buildout-apache-modwsgi/master/2.2.x
+</pre></div>
+</div>
+<p>Run buildout:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>$ bin/buildout
+</pre></div>
+</div>
+<p>Assuming successful completion, you should be able to run Apache in the foreground via:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>$ bin/supervisord -e debug -n
+</pre></div>
+</div>
+<p>Now check <a class="reference external" href="http://localhost:8080">http://localhost:8080</a>.</p>
+<p>This works because the <a class="reference external" href="https://raw.github.com/pythonpackages/buildout-apache-modwsgi/master/2.2.x">&#8220;extendable&#8221; (buildout configuration file)</a> contains:</p>
+<ul class="simple">
+<li>The <a class="reference external" href="https://raw.github.com/pythonpackages/buildout-apache-modwsgi/master/conf/app.wsgi.in">little WSGI app</a> from the QuickInstallationGuide, templatized via <a class="reference external" href="http://pypi.python.org/pypi/collective.recipe.template/1.9">collective.recipe.template</a>.</li>
+<li>A <a class="reference external" href="https://github.com/ACLARKNET/build/blob/master/apache/2.2.x/httpd.conf.in">templatized httpd.conf file</a>.</li>
+</ul>
+<p>I like to automate the process even further with the <a class="reference external" href="https://github.com/ACLARKNET/binfiles/blob/master/test-apache">following script</a>:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>#!/bin/shmkdir $1
+virtualenv-2.6 $1
+cd $1
+bin/easy_install zc.buildout
+bin/buildout init
+cat &lt;&lt; EOF &gt; buildout.cfg
+[buildout]
+extends = https://raw.github.com/pythonpackages/buildout-apache-modwsgi/master/2.2.x
+EOF
+bin/buildout
+bin/supervisord -e debug -n
+</pre></div>
+</div>
+<p>Thus closing the loop on this blog entry, and making the following possible:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span>$ test-apache test-dir
+</pre></div>
+</div>
+<p>I&#8217;ve been using my <a class="reference external" href="https://github.com/ACLARKNET/binfiles/blob/master/test-plone">test-plone</a> script for years now, and I&#8217;m hoping that the test-apache script proves just as useful (especially as Plone moves closer to a WSGI-supporting stack via <a class="reference external" href="http://pypi.python.org/pypi/Zope2/2.13.9">Zope 2.13</a>).</p>
+</div>
+</div>
+
+  <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  
+  <a href="../../20/hello-plone/">
+    <i class="fa fa-arrow-circle-left"></i>
+    Hello Plone
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  
+  <a href="../../../09/22/mozilla-and-pypi/">
+    Mozilla and PyPI
+    <i class="fa fa-arrow-circle-right"></i>
+  </a>
+  </span>
+  
+</div>
+
+  
+  
+    <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'aclark-blog';
+        var disqus_identifier = '/2011/08/28/hello-mod_wsgi/';
+        var disqus_title = 'Hello mod_wsgi';
+        var disqus_url = 'http://blog.aclark.net/2011/08/28/hello-mod_wsgi/';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  
+  </div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Alex Clark.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

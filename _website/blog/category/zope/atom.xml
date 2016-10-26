@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Alex Clark's Blog - Posts in Zope</title>
+  <id>http://blog.aclark.net/blog/category/zope/atom.xml</id>
+  <updated>2009-06-18T00:00:00Z</updated>
+  <link href="http://blog.aclark.net" />
+  <link href="http://blog.aclark.net/blog/category/zope/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.2">ABlog</generator>
+  <entry xml:base="http://blog.aclark.net/blog/category/zope/atom.xml">
+    <title type="text">A Sane Buildout For repoze.zope2 + Plone</title>
+    <id>http://blog.aclark.net/2009/06/18/a-sane-buildout-for-repoze-zope2-plone/</id>
+    <updated>2009-06-18T00:00:00Z</updated>
+    <published>2009-06-18T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2009/06/18/a-sane-buildout-for-repoze-zope2-plone/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;a-sane-buildout-for-repoze-zope2-plone&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;This is a follow-up to Martin Aspeli&amp;#8217;s introduction to repoze and Plone from last year&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-tale-of-two-buildouts&quot;&gt;
+&lt;h2&gt;A Tale of Two Buildouts&lt;/h2&gt;
+&lt;p&gt;There are two stories going on here, both of which &lt;a class=&quot;reference external&quot; href=&quot;http://www.martinaspeli.net/articles/scrambled-eggs&quot;&gt;Martin Aspeli recently described in great detail&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://plope.com/Members/chrism/distribution_links_considered_harmful&quot;&gt;Chris McDonough tackled last year&lt;/a&gt;. For the purposes of this blog entry, I&amp;#8217;ll refer to the issue as the &amp;#8220;index vs. find-links&amp;#8221; conundrum in buildout&amp;nbsp; (find-links in buildout are equivalent to distribution_links in setuptools).&lt;/p&gt;
+&lt;p&gt;For those that want strict repeatability, using the index parameter is the clear winner. It simply forces buildout to do the right thing now and forever, by limiting what packages it can select from. For those that want functionality and don&amp;#8217;t mind the occasional egg-out-of-whack (i.e. unexpected upgrade), then using the find-links parameter can provide a &amp;#8220;sexy&amp;#8221; way to get decent results quickly (but may, and probably will, shoot you in the foot later).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;sexy-but-dangerous&quot;&gt;
+&lt;h2&gt;Sexy, but Dangerous&lt;/h2&gt;
+&lt;p&gt;Let&amp;#8217;s start with the sexy, but with less repeat-ability method first.  Using this method we are not specifying our own index. Therefore you are free to add any package from &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/simple/&quot;&gt;PyPI&lt;/a&gt; or &lt;a class=&quot;reference external&quot; href=&quot;http://plone.org/products/simple&quot;&gt;plone.org&lt;/a&gt; as you see fit.  This is essentially why people like this method (the counter argument is that it is simple to add any additional egg you may want to your index, but we&amp;#8217;ll get to that later).&lt;/p&gt;
+&lt;p&gt;So a simple buildout using this method might look like this:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;virtualenv plone; cd plone
+bin/easy\_install zc.buildout
+bin/buildout init
+Edit buildout.cfg:
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[buildout]
+extends =
+# Using Martin Aspeli&amp;#39;s good-py, thanks!
+    http://good-py.appspot.com/release/repoze.zope2/1.0
+    http://dist.plone.org/release/3.3rc3/versions.cfg
+versions = versions
+find-links =
+    http://dist.repoze.org/zope2/latest
+    http://dist.repoze.org/zope2/dev/
+    http://dist.plone.org/release/3.3rc3
+parts = instance[instance]
+recipe = zc.recipe.egg
+dependent-scripts = true
+eggs =
+    repoze.zope2
+    Plone
+    PIL
+
+4. bin/buildout
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;A few more steps are required, which we could certainly automate in
+buildout, but for now I&amp;#8217;ll just list them here:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ol class=&quot;arabic simple&quot; start=&quot;5&quot;&gt;
+&lt;li&gt;bin/mkzopeinstance&lt;/li&gt;
+&lt;li&gt;bin/addzope2user admin admin&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;Now, the moment we&amp;#8217;ve all been waiting for… the fun part!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ol class=&quot;arabic simple&quot; start=&quot;7&quot;&gt;
+&lt;li&gt;bin/paster serve etc/zope2.ini&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;You should see something like:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[aclark@alex-clarks-macbook-pro]~/Developer/plone% bin/paster serve etc/zope2.ini
+2009-06-18 22:52:24 INFO Marshall libxml2-python not available. Unable to register libxml2 based marshallers.
+2009-06-18 22:52:27 WARNING ZODB.FileStorage Ignoring index for
+/Users/aclark/Developer/p3-repoze-2/var/Data.fsDeprecationWarning: zope.app.annotation has moved to
+zope.annotation. Import of zope.app.annotation will become
+unsupported in Zope 3.5
+/Users/aclark/Developer/plone/eggs/zopelib-2.10.7.0-py2.4-macosx-10.5-i386.egg/zope/configuration/xmlconfig.py:323:
+  __import__(arguments[0])
+------
+2009-06-18T22:52:24 INFO Marshall libxml2-python not available. Unable to register libxml2 based marshallers.
+------
+2009-06-18T22:52:27 WARNING ZODB.FileStorage Ignoring index for /Users/aclark/Developer/plone/var/Data.fs
+Starting server in PID 26900.
+zserver on port 8080
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;At this point, you should be able to login to
+&lt;a class=&quot;reference external&quot; href=&quot;http://localhost:8080/manage&quot;&gt;http://localhost:8080/manage&lt;/a&gt; and create a Plone site.&lt;/p&gt;
+&lt;p&gt;Of course, we did a sloppy job here, creating the Zope2 instance in the
+root of the buildout, etc. It is possible that
+&lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/plone.recipe.zope2instance/3.2&quot;&gt;plone.recipe.zope2install&lt;/a&gt; may help us in the future by supporting
+repoze.zope2 instances (or maybe it does already, I didn&amp;#8217;t try).&lt;/p&gt;
+&lt;p&gt;Next up?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;boring-but-repeatable&quot;&gt;
+&lt;h2&gt;Boring, but Repeatable&lt;/h2&gt;
+&lt;p&gt;I kid, but this is actually a very serious concern for many people, and
+rightfully so. The notion that your buildout will work the same today as
+it does in one year from now may be a strict requirement for your
+project. If it is, we can accommodate you (I hope) with the &amp;#8220;index&amp;#8221;
+buildout that follows. The downside is that *you* can&amp;#8217;t control what I
+put in the index. However, you can certainly create your own index using
+this technique.&lt;/p&gt;
+&lt;p&gt;An arguably even simpler buildout using this technique might look like
+this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ol class=&quot;arabic simple&quot; start=&quot;0&quot;&gt;
+&lt;li&gt;virtualenv plone; cd plone&lt;/li&gt;
+&lt;li&gt;bin/easy_install zc.buildout&lt;/li&gt;
+&lt;li&gt;bin/buildout init&lt;/li&gt;
+&lt;li&gt;Edit buildout.cfg:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[buildout]
+index = http://dist.plone.org/experimental/release/3.3rc3/simple/
+parts = instance[instance]
+recipe = zc.recipe.egg
+dependent-scripts = true
+eggs =
+    repoze.zope2
+    Plone
+    PIL
+
+4. bin/buildout
+
+5. bin/mkzopeinstance
+
+6. bin/addzope2user admin admin
+
+7. bin/paster serve etc/zope2.ini
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;in-conclusion&quot;&gt;
+&lt;h2&gt;In Conclusion&lt;/h2&gt;
+&lt;p&gt;Depending on what my needs are, I might choose either of these
+techniques. We can also hold out for &lt;a class=&quot;reference external&quot; href=&quot;http://bugs.python.org/setuptools/issue32&quot;&gt;multi-index support in
+setuptools&lt;/a&gt;. That would seemingly make everyone happy. In the meantime,
+I can tell you I&amp;#8217;d definitely reach for a buildout sans custom index
+first, then ask questions later (i.e. wait for bleeding toes) but that
+is just me. If people find the &amp;#8220;index&amp;#8221; technique generally useful, I&amp;#8217;d
+be willing to support package sheperding and &lt;a class=&quot;reference external&quot; href=&quot;http://pypi.python.org/pypi/basketweaver/0.1.2-r6&quot;&gt;index generating with
+basketweaver&lt;/a&gt;. Just let me know. If it really catches on, we could
+rename &lt;a class=&quot;reference external&quot; href=&quot;http://dist.plone.org/experimental/release/3.3rc3/&quot;&gt;http://dist.plone.org/experimental/release/3.3rc3/&lt;/a&gt; to
+&lt;a class=&quot;reference external&quot; href=&quot;http://dist.plone.org/repoze/release/3.3rc3/&quot;&gt;http://dist.plone.org/repoze/release/3.3rc3/&lt;/a&gt;. Of course, if anyone
+objects to this or finds it confusing, I can just as easily remove it
+(from dist.plone.org).&lt;/p&gt;
+&lt;p&gt;Special thanks to &lt;a class=&quot;reference external&quot; href=&quot;http://plope.com/&quot;&gt;Chris McDonough&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://www.martinaspeli.net/&quot;&gt;Martin Aspeli&lt;/a&gt; for helping me
+scratch my itch!&lt;/p&gt;
+&lt;p&gt;Finally, please don&amp;#8217;t rely on any of this &amp;#8220;in production&amp;#8221; yet unless you
+know what you are doing. I tested these techniques up to the point of
+starting Zope (via paste) and adding a Plone site, nothing more!&lt;/p&gt;
+&lt;p&gt;I, however, am getting a new server next week and will be hosting this
+site on &lt;a class=&quot;reference external&quot; href=&quot;http://repoze.org/quickstart.html#repoze.zope2&quot;&gt;repoze.zope2&lt;/a&gt; very shortly ;-)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/category/zope/atom.xml">
+    <title type="text">ZPUGDC Meeting Tonight</title>
+    <id>http://blog.aclark.net/2008/12/02/zpugdc-meeting-tonight/</id>
+    <updated>2008-12-02T00:00:00Z</updated>
+    <published>2008-12-02T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2008/12/02/zpugdc-meeting-tonight/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;zpugdc-meeting-tonight&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;ZPUGDC &amp;amp; DC Python Meetup: December Meeting&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://python-groups.blogspot.com/2008/12/zpugdc-dc-python-meetup-december.html&quot;&gt;http://python-groups.blogspot.com/2008/12/zpugdc-dc-python-meetup-december.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/category/zope/atom.xml">
+    <title type="text">repoze.bfg Tonight</title>
+    <id>http://blog.aclark.net/2008/09/02/repoze-bfg-tonight-ftw/</id>
+    <updated>2008-09-02T00:00:00Z</updated>
+    <published>2008-09-02T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2008/09/02/repoze-bfg-tonight-ftw/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;repoze-bfg-tonight&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Tonight ex-Zope Corporation developer Chris McDonough unveils his BFG&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;From the &lt;a class=&quot;reference external&quot; href=&quot;http://static.repoze.org/bfgdocs/&quot;&gt;docs&lt;/a&gt;, BFG is:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;is a &lt;strong&gt;Python web application framework&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;is inspired by Zope’s publisher, though it is less ambitious in scope.&lt;/li&gt;
+&lt;li&gt;relies heavily on Zope libraries and WSGI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Familiarity&lt;/strong&gt;: As web developers, we’ve become accustomed to working in very particular ways (primarily using Zope 2) over the years.&amp;nbsp;This framework is a canonization of practices that “fit our&amp;nbsp;brains”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/category/zope/atom.xml">
+    <title type="text">Zope User Groups</title>
+    <id>http://blog.aclark.net/2007/11/20/usergroup-a-palooza/</id>
+    <updated>2007-11-20T00:00:00Z</updated>
+    <published>2007-11-20T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2007/11/20/usergroup-a-palooza/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;zope-user-groups&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Updated Zope User Group Information&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Today I updated &lt;a class=&quot;reference external&quot; href=&quot;http://www.zope.org/Resources/UserGroups&quot;&gt;http://www.zope.org/Resources/UserGroups&lt;/a&gt;. Most of the information came from &lt;a class=&quot;reference external&quot; href=&quot;http://trizpug.org&quot;&gt;Chris Calloway&lt;/a&gt;. Now it&amp;#8217;s &lt;a class=&quot;reference external&quot; href=&quot;http://www.zope.org/Resources/UserGroups/index_html_old&quot;&gt;better than the old one&lt;/a&gt; and should be easier to maintain.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/category/zope/atom.xml">
+    <title type="text">Repoze Meetups</title>
+    <id>http://blog.aclark.net/2007/10/28/repoze-meetups/</id>
+    <updated>2007-10-28T00:00:00Z</updated>
+    <published>2007-10-28T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2007/10/28/repoze-meetups/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;repoze-meetups&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Plumbing Zope into the WSGI Pipeline&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As Paul Everitt &lt;a class=&quot;reference external&quot; href=&quot;http://radio.weblogs.com/0116506/2007/10/26.html#a440&quot;&gt;recently&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://radio.weblogs.com/0116506/2007/10/26.html#a441&quot;&gt;mentioned&lt;/a&gt;, the &lt;a class=&quot;reference external&quot; href=&quot;http://agendaless.com&quot;&gt;dudes&lt;/a&gt; are back. Three self-described graybeards doing what they love: Zope. But this is not your father&amp;#8217;s Zope. This is Repoze, which integrates Zope technologies with WSGI and reusable Python middleware. &lt;a class=&quot;reference external&quot; href=&quot;http://plope.com&quot;&gt;One of the dudes&lt;/a&gt; will be delivering the first of a two part presentation on &lt;a class=&quot;reference external&quot; href=&quot;http://repoze.org&quot;&gt;Repoze&lt;/a&gt; tonight in DC. Next month, he&amp;#8217;ll be joined by &lt;a class=&quot;reference external&quot; href=&quot;http://palladion.com&quot;&gt;the other dude&lt;/a&gt; and possibly Paul Everitt himself.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://blog.aclark.net/blog/category/zope/atom.xml">
+    <title type="text">First Post</title>
+    <id>http://blog.aclark.net/2007/10/17/first-post/</id>
+    <updated>2007-10-17T00:00:00Z</updated>
+    <published>2007-10-17T00:00:00Z</published>
+    <link href="http://blog.aclark.net/2007/10/17/first-post/" />
+    <author>
+      <name></name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;first-post&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;I have decided to start a blog!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;img alt=&quot;images/balloons_clip_art_15536.jpg&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/balloons_clip_art_15536.jpg&quot; /&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Why? Because Plone allows me to do so. But also:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;I have been reading a lot of Plone blogs lately and they have inspired me to write my own.&lt;/li&gt;
+&lt;li&gt;I want to interact with other Plonistas.&lt;/li&gt;
+&lt;li&gt;I want to get my web 2.0 on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To that end, this post is about my &lt;a class=&quot;reference external&quot; href=&quot;http://svn.plone.org/svn/collective/newzope&quot;&gt;build tools&lt;/a&gt; and how I love them. Note there are other ways to accomplish this task, for example:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://www.buildout.org&quot;&gt;Buildout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://agendaless.com/Members/chrism/software/buildit&quot;&gt;Buildit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://plone.org/products/instance-manager&quot;&gt;Instance Manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used Buildout for the first time at the &lt;a class=&quot;reference external&quot; href=&quot;https://plone.org/events/sprints/past-sprints/baarn-ui-sprint-2007&quot;&gt;Baarn UI Sprint 2007&lt;/a&gt; and liked it. I&amp;#8217;ve also used Chris McDonough&amp;#8217;s Buildit. That may be where I end up, and there are several more to choose from, but for now I enjoy typing:&lt;/p&gt;
+&lt;style&gt;
+pre:before { content: '$ ' }
+&lt;/style&gt;
+
+&lt;pre&gt;
+newzope test-site ProductA ProductB ProductC
+&lt;/pre&gt;&lt;p&gt;and having a working instance a few seconds later with Product{A,B,C} installed. Of course this requires I have a working Zope already... and that I edit Zope&amp;#8217;s &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;skel/etc/zope.conf&lt;/span&gt;&lt;/code&gt;... but nothing is perfect... and old habits die hard.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
