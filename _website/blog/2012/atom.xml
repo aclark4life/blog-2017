@@ -1145,7 +1145,7 @@ hr {
 &lt;div class=&quot;section&quot; id=&quot;customize-templates&quot;&gt;
 &lt;h2&gt;Customize templates&lt;/h2&gt;
 &lt;p&gt;As you may have noticed above I use &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;z3c.jbot&lt;/span&gt;&lt;/code&gt; to customize various Plone templates.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/custom-templates.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/custom-templates.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;add-content&quot;&gt;
 &lt;h2&gt;Add content&lt;/h2&gt;
@@ -1157,12 +1157,12 @@ hr {
 &lt;div class=&quot;section&quot; id=&quot;use-sunburst-theme-for-content-editing&quot;&gt;
 &lt;h3&gt;Use Sunburst theme for content editing&lt;/h3&gt;
 &lt;p&gt;If you are Diazo-savvy, you may notice I completely ignore styling the content editing interface. Instead I rely on the unthemed &lt;a class=&quot;footnote-reference&quot; href=&quot;#id5&quot; id=&quot;id2&quot;&gt;[2]&lt;/a&gt; site for content editing.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; src=&quot;images/edit-ui.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; src=&quot;../../_images/edit-ui.png&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;use-diazo-theme-for-public-facing-view&quot;&gt;
 &lt;h3&gt;Use Diazo theme for public facing view&lt;/h3&gt;
 &lt;p&gt;Of course, visitors to &lt;a class=&quot;reference external&quot; href=&quot;http://aclark.net&quot;&gt;http://aclark.net&lt;/a&gt; see the Diazo theme.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; src=&quot;images/diazo-theme.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; src=&quot;../../_images/diazo-theme.png&quot; /&gt;
 &lt;p&gt;I&amp;#8217;m hoping that the Plone team can unify the content editing experience again in Plone 5, possibly via simplifying the &amp;#8220;old style&amp;#8221; templates such that it&amp;#8217;s easier to map them to custom Diazo themes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1175,7 +1175,7 @@ hr {
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;the-all-content-view-is-awesome&quot;&gt;
 &lt;h3&gt;The &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;All&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;content&lt;/span&gt;&lt;/code&gt; view is awesome&lt;/h3&gt;
-&lt;img alt=&quot;alternate text&quot; src=&quot;images/all-content.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; src=&quot;../../_images/all-content.png&quot; /&gt;
 &lt;p&gt;Contributed by Laurence Rowe for Plone 4, I use the &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;All&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;content&lt;/span&gt;&lt;/code&gt; view in two places:&lt;/p&gt;
 &lt;ul class=&quot;simple&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://aclark.net/services&quot;&gt;http://aclark.net/services&lt;/a&gt;&lt;/li&gt;
