@@ -2,7 +2,7 @@ Project Makefile Open for Business
 ==================================
 
 .. post:: 2016/11/23
-    :category: Python
+    :category: Plone, Python
 
 **Makefile for Python Web Development & Related Projects**
 

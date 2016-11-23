@@ -277,9 +277,9 @@ eggs =
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Not bad! That&amp;#8217;s a lot of working themes for Plone 4, many of which use Diazo.&lt;/p&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plonetheme-report-1.png&quot; /&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plonetheme-report-2.png&quot; /&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plonetheme-report-3.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-1.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-2.png&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plonetheme-report-3.png&quot; /&gt;
 &lt;table class=&quot;docutils footnote&quot; frame=&quot;void&quot; id=&quot;id3&quot; rules=&quot;none&quot;&gt;
 &lt;colgroup&gt;&lt;col class=&quot;label&quot; /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign=&quot;top&quot;&gt;
@@ -577,7 +577,7 @@ Installing Plone. This may take a while.......(3)....(4)....(4)....(4)....(5)...
 &lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ plock -l
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/plock-list-addons.png&quot; style=&quot;width: 95%;&quot; /&gt;
+&lt;img alt=&quot;alternate text&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/plock-list-addons.png&quot; style=&quot;width: 95%;&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;section&quot; id=&quot;install-add-ons&quot;&gt;
 &lt;h2&gt;Install add-ons&lt;/h2&gt;
