@@ -180,7 +180,7 @@ Usage
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;yup-this-blog-is-now-powered-by-ablog&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;Blog functionality for Sphinx&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;images/ablog-for-sphinx.jpg&quot; class=&quot;img-thumbnail&quot; src=&quot;images/ablog-for-sphinx.jpg&quot; /&gt;
+&lt;img alt=&quot;../../_images/ablog-for-sphinx.jpg&quot; class=&quot;img-thumbnail&quot; src=&quot;../../_images/ablog-for-sphinx.jpg&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -204,7 +204,7 @@ Usage
     <content type="html">&lt;div class=&quot;section&quot; id=&quot;updated-django-website&quot;&gt;
 
 &lt;p&gt;&lt;strong&gt;One year later&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt=&quot;images/aclarknet-website.png&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;images/aclarknet-website.png&quot; /&gt;
+&lt;img alt=&quot;../../_images/aclarknet-website.png&quot; class=&quot;img-thumbnail align-center&quot; src=&quot;../../_images/aclarknet-website.png&quot; /&gt;
 &lt;div class=&quot;line-block&quot;&gt;
 &lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;

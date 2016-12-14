@@ -7,6 +7,8 @@
 
     <link href="http://blog.aclark.net/blog/atom.xml" rel="alternate" type="application/rss+xml" title="Alex Clark's Blog" />
 
+|
+
 .. image:: images/aclark-jobs.jpg
     :align: center
     :class: img-thumbnail
