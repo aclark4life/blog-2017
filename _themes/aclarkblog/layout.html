@@ -18,9 +18,6 @@
 
     <!-- Custom styles for this template -->
     <style>
-      body {
-        padding-top: 5rem;
-      }
       .starter-template {
         padding: 3rem 1.5rem;
       }
@@ -32,7 +29,7 @@
 
   <body>
 
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-light" style="border-bottom: 1px solid lightgray">
       <div class="clearfix">
         <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"></button>
       </div>
@@ -56,11 +53,16 @@
     </nav>
 
     <div class="container">
-
       <div class="starter-template">
-        {% block body %}
-          {{ super() }}
-        {% endblock %}
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9">
+            {% block body %}
+              {{ super() }}
+            {% endblock %}
+          </div>
+        </div>
       </div>
 
     </div><!-- /.container -->
