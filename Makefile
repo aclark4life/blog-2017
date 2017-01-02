@@ -35,7 +35,7 @@
 # of the default goal from within your makefile using the .DEFAULT_GOAL variable
 # (see Other Special Variables). 
 
-.DEFAULT_GOAL=ablog-build
+.DEFAULT_GOAL=git-commit-auto-push
 
 # Variables
 
@@ -68,8 +68,8 @@ UNAME:=$(shell uname)
 # only exists to define a shorter name for its prerequisite.)
 
 # ABlog
-ablog: ablog-clean ablog-install ablog-init ablog-build ablog-serve  # Chain
-ablog-clean:
+ablog: ablog-wipe ablog-install ablog-init ablog-build ablog-serve  # Chain
+ablog-wipe:
 	-rm conf.py index.rst
 ablog-init:
 	bin/ablog start
@@ -83,20 +83,26 @@ ablog-serve:
 	bin/ablog serve
 
 # Django
-django: django-clean django-install django-init django-migrate django-su django-serve  # Chain
-django-clean:
-	-rm -rf $(PROJECT)
-	-rm manage.py
-	-dropdb $(PROJECT)-$(APP)
-	-createdb $(PROJECT)-$(APP)
+db: django-db-wipe django-db-wipe
+django: django-dp-wipe django-proj-wipe django-install django-init django-migrate django-su django-serve  # Chain
+django-db-wipe: django-sql-wipe  # Alias
+django-init: django-db-init django-proj-init  # Chain
+django-db-init: django-sql-init  # Alias
+django-pg-wipe:  # PostgreSQL
+	-dropdb $(PROJECT)
+django-proj-wipe:
+	@-rm -rvf $(PROJECT)
+	@-rm -v manage.py
+django-sql-wipe:  # SQLite
 	-rm db.sqlite3
-django-clean-migrations:
-	rm -rf $(PROJECT)/$(APP)/migrations
-	$(MAKE) django-migrations
-django-init:
+django-pg-init:  # PostgreSQL
+	-createdb $(PROJECT)
+django-proj-init:
 	-mkdir -p $(PROJECT)/$(APP)
 	-django-admin startproject $(PROJECT) .
 	-django-admin startapp $(APP) $(PROJECT)/$(APP)
+django-sql-init:  # SQLite
+	-touch db.sqlite3
 django-install:
 	@echo "Django\n" > requirements.txt
 	@$(MAKE) python-virtualenv
@@ -165,7 +171,7 @@ help:
 	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F:\
         '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}'\
         | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$' | xargs | tr ' ' '\n' | awk\
-        '{print "    - "$$0}'  # http://stackoverflow.com/a/26339924
+        '{print "    - "$$0}' | less  # http://stackoverflow.com/a/26339924
 	@echo "\n"
 
 # Heroku
@@ -176,6 +182,10 @@ heroku-debug-off:
 	heroku config:unset DEBUG
 heroku-init:
 	heroku apps:create $(PROJECT)-$(APP)	
+heroku-maint-on:
+	heroku maintenance:on
+heroku-maint-off:
+	heroku maintenance:off
 heroku-push:
 	git push heroku
 heroku-remote:
@@ -199,6 +209,12 @@ npm-init:
 npm-install:
 	npm install
 
+# Pip
+freeze: pip-freeze
+pip-freeze:
+	bin/pip freeze | sort > $(TMP)/requirements.txt
+	mv -f $(TMP)/requirements.txt .
+
 # Plone
 plone: plone-install plone-init plone-serve  # Chain
 plone-heroku:
@@ -219,19 +235,16 @@ plone-serve:
 	@bin/plone fg
 
 # Python
-install: python-install  # Alias
+install: python-virtualenv python-install  # Alias
 lint: python-lint  # Alias
 serve: python-serve  # Alias
 test: python-test  # Alias
-python-clean:
+python-wipe:
 	find . -name \*.pyc | xargs rm -v
 python-flake:
 	-flake8 *.py
 	-flake8 $(PROJECT)/*.py
 	-flake8 $(PROJECT)/$(APP)/*.py
-python-freeze:
-	bin/pip freeze | sort > $(TMP)/requirements.txt
-	mv -f $(TMP)/requirements.txt .
 python-install:
 	bin/pip install -r requirements.txt
 python-lint: python-flake python-yapf python-wc  # Chain
@@ -282,8 +295,8 @@ else
 endif
 
 # Sphinx
-sphinx: sphinx-clean sphinx-install sphinx-init sphinx-build sphinx-serve  # Chain
-sphinx-clean:
+sphinx: sphinx-wipe sphinx-install sphinx-init sphinx-build sphinx-serve  # Chain
+sphinx-wipe:
 	@rm -rvf $(PROJECT)
 sphinx-build:
 	bin/sphinx-build -b html -d $(PROJECT)/_build/doctrees $(PROJECT) $(PROJECT)/_build/html
@@ -299,9 +312,9 @@ sphinx-serve:
 	popd
 
 # Vagrant
-vagrant: vagrant-clean vagrant-init vagrant-up  # Chain
+vagrant: vagrant-wipe vagrant-init vagrant-up  # Chain
 vm: vagrant  # Alias
-vagrant-clean:
+vagrant-wipe:
 	-rm Vagrantfile
 	-vagrant destroy
 vagrant-down:
