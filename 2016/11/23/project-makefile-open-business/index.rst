@@ -9,6 +9,7 @@ Project Makefile Open for Business
 A while back I was asked to speak to the Configuration Management Working Group of DC:
 
 .. image:: /images/project-makefile-tweet.png
+    :align: center
     :class: img-thumbnail
     :target: https://twitter.com/CMWorkingGrp/status/773228143939293185
 
