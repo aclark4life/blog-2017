@@ -8,6 +8,7 @@ A Shout Out to Shout IRC
 
 .. image:: /images/shout-irc2.png
     :class: img-thumbnail
+    :width: 50%
 
 Backlog
 -------
@@ -26,6 +27,7 @@ I had gotten annoyed with having to login each time, so I stopped using Shout fo
 
 .. image:: /images/shout-irc1.png
     :class: img-thumbnail
+    :width: 50%
 
 AWS
 ~~~
