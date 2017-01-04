@@ -7,11 +7,9 @@
     :align: center
     :class: img-thumbnail
 
-|
-
 .. raw:: html
 
-    <div class="col-md-12" style="text-align: center">
+    <div class="col-md-12" style="text-align: center; margin-top: 1em">
         <strong>Alex Clark, Python Web Developer</strong>
     </div>
 
