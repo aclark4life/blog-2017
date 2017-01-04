@@ -7,7 +7,11 @@
     :align: center
     :class: img-thumbnail
 
-**Alex Clark, Python Web Developer**
+.. raw:: html
+
+    <div class="col-md-9" style="text-align: center">
+        <strong>Alex Clark, Python Web Developer</strong>
+    </div>
 
 All Posts
 ---------
