@@ -13,6 +13,8 @@
         <strong>Alex Clark, Python Web Developer</strong>
     </div>
 
+|
+
 All Posts
 ---------
 
