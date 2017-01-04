@@ -3,7 +3,7 @@ What I'm doing now
 
 (Inspired by http://sivers.org/now)
 
-I'm in Bethesda, MD, USA; I spend all my time on the following (in order of time spent):
+I'm in Bethesda, MD, USA; I spend all my time on the following activities (in order of time spent and priority):
 
 - **Husband** to Amy
 - **Owner** of pets Mina (cat) & Quincey (dog)
