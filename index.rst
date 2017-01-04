@@ -7,6 +7,8 @@
     :align: center
     :class: img-thumbnail
 
+|
+
 .. raw:: html
 
     <div class="col-md-12" style="text-align: center">
