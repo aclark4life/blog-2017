@@ -28,15 +28,8 @@ To that end, this post is about my `build tools`_ and how I love them. Note ther
 
 I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and liked it. I've also used Chris McDonough's Buildit. That may be where I end up, and there are several more to choose from, but for now I enjoy typing:
 
-.. raw:: html
-
-    <style>
-      pre:before { content: '$ ' }
-    </style>
-
-    <pre> 
-      newzope test-site ProductA ProductB ProductC
-    </pre>
+::
+    newzope test-site ProductA ProductB ProductC
 
 and having a working instance a few seconds later with Product{A,B,C} installed. Of course this requires I have a working Zope already... and that I edit Zope's ``skel/etc/zope.conf``... but nothing is perfect... and old habits die hard. 
 
