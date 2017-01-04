@@ -9,9 +9,9 @@ I'm in Bethesda, MD, USA; I spend all my time on the following activities (in or
 - **Owner** of pets Mina (cat) & Quincey (dog)
 - **Systems Administrator** at NIH
 - **Partner, Python Web Developer** at ACLARK.NET
+- **Musician** at Headstraight
 - **President & Executive Director** at DC Python
 - **Webmaster & Executive Committee Member** at Parkwood Residents Association
-- **Musician** at Headstraight
 
 If my activities or priorities change, I'll update this page. Last update was January 2017.
 
