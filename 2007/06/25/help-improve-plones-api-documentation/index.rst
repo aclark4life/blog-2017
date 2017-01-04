@@ -1,7 +1,7 @@
 Help Improve Plone's API Documentation
 ======================================
 
-.. post:: 2007/10/17
+.. post:: 2007/06/25
     :category: Plone, Python
 
 **Sponsor my trip to the Plone "DocComm" Sprint in California**
