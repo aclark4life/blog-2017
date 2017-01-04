@@ -9,7 +9,7 @@
 
 .. raw:: html
 
-    <div class="col-md-9" style="text-align: center">
+    <div class="col-md-12" style="text-align: center">
         <strong>Alex Clark, Python Web Developer</strong>
     </div>
 
