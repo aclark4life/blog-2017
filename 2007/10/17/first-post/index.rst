@@ -8,34 +8,34 @@ First Post
 
 |
 
-.. image:: /images/balloons_clip_art_15536.jpg
+.. image:: /images/look-at-me.jpg
     :align: center
     :class: img-thumbnail
 
 |
 
-Why? Because Plone allows me to do so. But also:
+Why? Because Plone_ allows me to do so. But also:
 
--  I have been reading a lot of Plone blogs lately and they have inspired me to write my own.
--  I want to interact with other Plonistas.
--  I want to get my web 2.0 on.
+- I have been reading a lot of `Plone blogs`_ lately and they have inspired me to write my own.
+- I want to interact with other Plonistas.
+- I want to get my web 2.0 on.
 
 To that end, this post is about my `build tools`_ and how I love them. Note there are other ways to accomplish this task, for example:
 
--  `Buildout`_
--  `Buildit`_
--  `Instance Manager`_
+- `Buildout`_
+- `Buildit`_
+- `Instance Manager`_
 
 I used Buildout for the first time at the `Baarn UI Sprint 2007`_ and liked it. I've also used Chris McDonough's Buildit. That may be where I end up, and there are several more to choose from, but for now I enjoy typing:
 
 .. raw:: html
 
     <style>
-    pre:before { content: '$ ' }
+      pre:before { content: '$ ' }
     </style>
 
     <pre> 
-    newzope test-site ProductA ProductB ProductC
+      newzope test-site ProductA ProductB ProductC
     </pre>
 
 and having a working instance a few seconds later with Product{A,B,C} installed. Of course this requires I have a working Zope already... and that I edit Zope's ``skel/etc/zope.conf``... but nothing is perfect... and old habits die hard. 
