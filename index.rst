@@ -10,7 +10,7 @@
 .. raw:: html
 
     <div class="col-md-12" style="text-align: center; margin-top: 1em">
-        <strong>Alex Clark, Python Web Developer</strong>
+        <h1>Alex Clark, Python Web Developer</h1>
     </div>
 
 |
