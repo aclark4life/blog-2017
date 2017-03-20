@@ -325,3 +325,9 @@ vagrant-up:
 	vagrant up --provider virtualbox
 vagrant-update:
 	vagrant box update
+
+# aclark-blog
+.DEFAULT_GOAL=deploy
+deploy:
+	@$(MAKE) git-commit-auto-push
+	ssh db "cd /srv/blog; git pull; bin/ablog build"
