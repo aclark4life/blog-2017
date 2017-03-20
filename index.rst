@@ -18,6 +18,8 @@
 All Posts
 ---------
 
+|
+
 .. postlist::
    :date: %Y/%m/%d
 
