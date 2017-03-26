@@ -4,7 +4,7 @@ Top 3 Favorite Logical Fallacies
 .. post:: 2012/10/17
     :category: Misc
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/y-u-no-agree.jpg
+.. image:: /images/y-u-no-agree.jpg
     :alt: Y U NO AGREE
     :align: center
     :class: img-thumbnail

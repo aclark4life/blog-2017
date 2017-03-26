@@ -15,7 +15,7 @@ The Plock installer for Plone has been **updated to support Plone 5**. To try Pl
 
 Then open `localhost <http://localhost:8080>`_:
 
-.. image:: http://blog.aclark.net/images/plock-0-5-0.png
+.. image:: /images/plock-0-5-0.png
     :alt: Welcome to Plone
     :align: center
     :class: img-thumbnail

@@ -23,7 +23,7 @@ That release is now done! And I have had an absolute blast working on Pillow ful
 About 2.0.0
 -----------
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/story-of-pillow.png
+.. image:: /images/story-of-pillow.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail

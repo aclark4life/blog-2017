@@ -4,7 +4,7 @@ Looking For Projects
 .. post:: 2012/10/04
     :category: Misc, Python
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/use_python.jpg
+.. image:: /images/use_python.jpg
     :alt: I don't always work, but when I do I prefer to use Python.
     :align: center
     :class: img-thumbnail

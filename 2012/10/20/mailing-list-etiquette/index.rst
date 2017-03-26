@@ -6,7 +6,7 @@ Mailing List Etiquette
 
 **I read a lot of mailing lists.**
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/unison.png
+.. image:: /images/unison.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail

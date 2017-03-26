@@ -8,7 +8,7 @@ Gittip, Misunderstood
 
 Worse, they **think** they understand it [1]_. So much so, some choose to comment about it publicly.
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/condescend.jpg
+.. image:: /images/condescend.jpg
     :alt: alternate text
     :align: center
     :class: img-thumbnail

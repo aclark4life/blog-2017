@@ -6,7 +6,7 @@ Introducing The Plone Kitty
 
 **Actually: re-introducing the Plone Kitty from Plone 1!**
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/plone-kitty.png
+.. image:: /images/plone-kitty.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail

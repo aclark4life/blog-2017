@@ -4,7 +4,7 @@ New Pyramid Site
 .. post:: 2013/04/22
     :category: Pyramid, Python
 
-.. image:: https://raw.github.com/ACLARKNET/aclarknet/master/screenshot.png
+.. image:: /images/screenshot.png
     :width: 98%
     :alt: alternate text
     :align: center

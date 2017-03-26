@@ -72,12 +72,12 @@ Chapter 5
 
 Chapter 5 is all about "working with file output". For reference, here are some of the images produced by the examples in this chapter (I wrote ``jpg`` files instead of ``png`` files due to a problem with my libpng: `RuntimeError: Could not create write struct <https://www.google.com/#q=RuntimeError%3A+Could+not+create+write+struct&safe=off>`_.)
 
-.. image:: http://blog.aclark.net/images/sinc1.jpg
+.. image:: /images/sinc1.jpg
     :alt: alternate text
     :align: center
     :class: img-thumbnail
 
-.. image:: http://blog.aclark.net/images/sinc3.jpg
+.. image:: /images/sinc3.jpg
     :alt: alternate text
     :align: center
     :class: img-thumbnail

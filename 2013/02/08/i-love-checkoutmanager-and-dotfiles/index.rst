@@ -19,7 +19,7 @@ Shell
 
 One of the first things I do on a new system is change my shell to **Zsh** in ``System Preferences -> Users & Groups -> Current User -> Right Click -> Advanced Options...``. Don't forget to ``Click the lock to make changes`` first.
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/zsh.png
+.. image:: /images/zsh.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
@@ -34,7 +34,7 @@ XCode
 
 After I take possession of my new laptop (running **Mountain Lion**, the newest OS X at the time of this writing), I head to the App Store to download XCode. [2]_ Among many other things, XCode gives me the GNU C Compiler and allows me to type "gcc" in my ``Applications -> Utilities -> Terminal``.
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/gcc.png
+.. image:: /images/gcc.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
@@ -42,7 +42,7 @@ After I take possession of my new laptop (running **Mountain Lion**, the newest 
 Python
 ------
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/homebrew.png
+.. image:: /images/homebrew.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
@@ -67,7 +67,7 @@ I think OS X (or XCode) includes git, but just in case::
 
 Which reminds me, don't forget that installing the command line utilities in Mountain Lion's XCode requires an additional step in ``Preferences -> Downloads -> Command Line Tools -> Install``:
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/command-line-utils.png
+.. image:: /images/command-line-utils.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail

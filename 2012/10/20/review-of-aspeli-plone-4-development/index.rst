@@ -22,7 +22,7 @@ First let me cover what I **ABSOLUTELY LOVE** about this book.
 buildout:eggs
 ~~~~~~~~~~~~~
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/buildout.png
+.. image:: /images/buildout.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
@@ -34,7 +34,7 @@ If you know me, you know I've spoken about this before and whilst I've moved on 
 Add-ons
 ~~~~~~~
 
-.. image:: image://raw.github.com/ACLARKNET/blog/gh-pages/images/addons.png
+.. image:: /images/addons.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail

@@ -4,7 +4,7 @@ Why I Criticize The Plone Foundation Board
 .. post:: 2012/10/17
     :category: Plone
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/aclark-conf.jpg
+.. image:: /images/aclark-conf.jpg
     :alt: alternate text
     :align: center
     :class: img-thumbnail

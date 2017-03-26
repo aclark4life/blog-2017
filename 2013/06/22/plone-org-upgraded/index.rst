@@ -86,7 +86,7 @@ Pre-Process
 
 #. Run the upgrade locally. With plone.org data this takes about 45 minutes to an hour [1]_.
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/upgrade.png
+.. image:: /images/upgrade.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
@@ -102,14 +102,14 @@ We know from upgrading locally that the process will take about 45 minutes to an
 
 #. Add a status message to plone.org to indicate a maintenance window is in progress. I chose to customize the ``main_template`` to accomplish this, but ideally we'd have some functionality in Plone that allowed site administrators to easily configure status messages.
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/upgrade-message.png
+.. image:: /images/upgrade-message.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
 
 #. Disable logins. Since the upgrade takes a long time, we don't want content being edited during this process. I chose to use David Glick's technique of disabling PAS. I moved the ldap authentication plugin to the Active Plugin list, thus disabling PAS such that only ZODB users could login. But ideally we'd have some feature in Plone to allow site administrators to disable logins.
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/pas.png
+.. image:: /images/pas.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
@@ -120,7 +120,7 @@ We know from upgrading locally that the process will take about 45 minutes to an
 
 #. After the upgrade finishes, click around to make sure you didn't break anything. In my case, I broke something — I normally move ``portal_skins/custom`` out of the way before upgrading, but this time I forgot. And when I experienced minor JavaScript issues, I forgot to examine custom; which currently looks like this:
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/custom.png
+.. image:: /images/custom.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail

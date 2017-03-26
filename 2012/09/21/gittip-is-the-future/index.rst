@@ -19,7 +19,7 @@ I love this idea! In particular, because it speaks to me more than other similar
 
 Why? If for no other reason, because it comes from a member of the Python community: Chad Whitacre of http://aspen.io fame. And the Python community has become near and dear to me, second only to my-one-true-open-source-love: Plone. So I want to see open source developers, particularly Python developers, succeed.
 
-.. image:: https://raw.github.com/ACLARKNET/blog/gh-pages/images/gittip.png
+.. image:: /images/gittip.png
     :alt: alternate text
     :align: center
     :class: img-thumbnail
