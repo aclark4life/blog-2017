@@ -4,6 +4,8 @@ UNIX Tips For The Elderly
 .. post:: 2008/03/06
     :category: Misc
 
+.. image:: /images/huh.png
+
 .. raw:: html
 
     <style>

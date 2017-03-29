@@ -3,7 +3,7 @@ Ten Years Blogged
 
 |
 
-.. post:: 2017/03/20
+.. post:: 2017/03/26
     :category: Python
 
 **In March 2007, I published my first blog post.**
@@ -12,7 +12,7 @@ Ten Years Blogged
 
 Unimaginatively, it was titled `First Post <https://blog.aclark.net/2007/03/16/first-post/>`_.
 
-Since then, a lot has changed. To celebrate this milestone, allow me to recap some significant personal and professional changes.
+Since then, a lot has changed. To celebrate this milestone, allow me to recap some significant personal and professional events for you.
 
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | **Then**                                                                    | **Now**                                                                      |
@@ -22,9 +22,11 @@ Since then, a lot has changed. To celebrate this milestone, allow me to recap so
 | Conference-hosting virgin.                                                  | Proud veteran and organizer of                                               |
 |                                                                             | `Plone Conference 2008 <http://old.plone.org/2008>`_.                        |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| Three years before my                                                       | `Pillow <http://python-pillow.org>`_                                         |
+| Three years before Pillow, my                                               | `Pillow <http://python-pillow.org>`_                                         |
 | `Python Imaging Library <http://www.pythonware.com/products/pil/>`_         | included in major Linux distributions and downloaded over 15 million         |
-| fork was born.                                                              | times.                                                                       |
+| fork, was born.                                                             | times.                                                                       |
++-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
+| Not vain; four years before vanity was born.                                | I'm so vain I use `vanity <https://pypi.python.org/pypi/vanity>`_.           |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 
 |
