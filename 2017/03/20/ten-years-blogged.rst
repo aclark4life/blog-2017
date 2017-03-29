@@ -26,7 +26,7 @@ Since then, a lot has changed. To celebrate this milestone, allow me to recap so
 | `Python Imaging Library <http://www.pythonware.com/products/pil/>`_         | included in major Linux distributions and downloaded over 15 million         |
 | fork, was born.                                                             | times.                                                                       |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| Not vain; four years before vanity was born.                                | I'm so vain I use `vanity <https://pypi.python.org/pypi/vanity>`_.           |
+| Four years before vanity was born.                                          | I'm so vain… I use `vanity <https://pypi.python.org/pypi/vanity>`_.          |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 
 |
