@@ -12,10 +12,13 @@ Ten Years Blogged
 
 Unimaginatively, it was titled `First Post <https://blog.aclark.net/2007/03/16/first-post/>`_.
 
-Since then, a lot has changed. To celebrate this milestone, allow me to recap some significant personal and professional events for you.
+Since then, a lot has changed. To celebrate this milestone, allow me to recap some significant personal and professional events, then and now. 
 
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| **Then**                                                                    | **Now**                                                                      |
+| **Then (2007)**                                                             | **Now (2017)**                                                               |
++-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
+| Blogging with Plone (via add-ons or core)                                   | Blogging with Sphinx (via `ablog <http://ablog.readthedocs.io/>`_).          |
+|                                                                             | In between: Wordpress, pelican.                                              |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | Engaged but not married.                                                    | About to celebrate 10 years of marriage in November 2017.                    |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -24,9 +27,14 @@ Since then, a lot has changed. To celebrate this milestone, allow me to recap so
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | Three years before Pillow, my                                               | `Pillow <http://python-pillow.org>`_                                         |
 | `Python Imaging Library <http://www.pythonware.com/products/pil/>`_         | included in major Linux distributions and downloaded over 15 million         |
-| fork, was born.                                                             | times.                                                                       |
+| fork, was born (2010).                                                      | times.                                                                       |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| Four years before vanity was born.                                          | I'm so vain… I use `vanity <https://pypi.python.org/pypi/vanity>`_.          |
+| Four years before vanity, my download statistics tool, was born (2011).     |                                                                              |
+|                                                                             | Vanity `waiting for Warehouse                                                |
+|                                                                             | <https://github.com/aclark4life/vanity/issues/22>`_.                         |
++-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
+| Five years after my first blog post, my busiest blogging year ever          | Averaging 15 posts `per year                                                 |
+| (35 posts in 2012).                                                         | <https://blog.aclark.net/blog/archive/>`_.                                   |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 
 |
