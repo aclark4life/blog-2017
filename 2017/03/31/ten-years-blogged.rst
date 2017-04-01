@@ -38,7 +38,7 @@ Since then, a lot has changed. To celebrate this milestone, allow me to recap so
 | Five years before my busiest blogging year ever,                            | Averaging 15 posts `per year                                                 |
 | 35 posts in 2012.                                                           | <https://blog.aclark.net/blog/archive/>`_.                                   |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| Six years before plock made noise in 2013.                                  | Pip install plock. `Plock <http://plock.github.io/>`_ installs Plone.        |
+| Six years before plock made noise in 2013.                                  | Pip installs plock. `Plock <http://plock.github.io/>`_ installs Plone.       |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 
 |
