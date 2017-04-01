@@ -28,7 +28,7 @@ Since then, a lot has changed. To celebrate this milestone, allow me to recap so
 |                                                                             | `Plone Conference 2008 <http://old.plone.org/2008>`_.                        |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | Three years before Pillow, my                                               | `Pillow <http://python-pillow.org>`_                                         |
-| `Python Imaging Library <http://www.pythonware.com/products/pil/>`_         | included in major Linux distributions and downloaded over 15 million         |
+| Python Imaging Library                                                      | included in major Linux distributions and downloaded over 15 million         |
 | fork, was born in 2010.                                                     | times.                                                                       |
 +-----------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | Four years before vanity, my download statistics tool, was born in 2011.    |                                                                              |
