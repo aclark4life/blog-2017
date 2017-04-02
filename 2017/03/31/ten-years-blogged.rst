@@ -10,6 +10,7 @@ Ten Years Blogged
 
 .. image:: /images/so-doge-good-nostalgia-such-time-many-posts.jpeg
     :class: img-thumbnail
+    :align: center
 
 |
 
