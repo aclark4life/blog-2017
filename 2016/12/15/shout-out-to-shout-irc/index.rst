@@ -9,7 +9,6 @@ A Shout Out to Shout IRC
 .. image:: /images/shout-irc2.png
     :align: center
     :class: img-thumbnail
-    :width: 50%
 
 Backlog
 -------
