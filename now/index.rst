@@ -15,4 +15,4 @@ I'm in Bethesda, MD, USA; I spend all my time on the following activities (in or
 
 If my activities or priorities change, I'll update this page. Last update was January 2017.
 
-(More here: http://nownownow.com/p/Qp3L)
+More here: http://about.aclark.net.
