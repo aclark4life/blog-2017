@@ -29,10 +29,13 @@ Configuration
 
 I had gotten annoyed with having to login each time, so I stopped using Shout for a while. I heard good things about Kiwi, but was disappointed to see `no npm release <https://www.npmjs.com/package/kiwiirc>`_. This led me back to Shout, which `does have an npm release <https://www.npmjs.com/package/shout>`_. What follows are configuration details for `irc.aclark.net <https://irc.aclark.net>`_, for posterity. (I added `Let's Encrypt <https://letsencrypt.org>`_ at the last minute for good measure.)
 
+|
+
 .. image:: /images/shout-irc1.png
     :align: center
     :class: img-thumbnail
-    :width: 50%
+
+|
 
 AWS
 ~~~
