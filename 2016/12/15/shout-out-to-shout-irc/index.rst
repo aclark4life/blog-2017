@@ -6,9 +6,13 @@ A Shout Out to Shout IRC
 
 **I'm back on IRC for the foreseeable future, and loving it. Thank you Shout IRC.**
 
+|
+
 .. image:: /images/shout-irc2.png
     :align: center
     :class: img-thumbnail
+
+|
 
 Backlog
 -------
