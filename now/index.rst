@@ -1,7 +1,7 @@
 What I'm doing now
 ==================
 
-(Based on http://sivers.org/now)
+(This is a `now page <https://nownownow.com>`_.)
 
 I'm in Bethesda, MD, USA; I spend all my time on the following activities (in order of time spent and priority):
 
@@ -14,5 +14,3 @@ I'm in Bethesda, MD, USA; I spend all my time on the following activities (in or
 - **Webmaster & Executive Committee Member** at `Parkwood Residents Association <http://parkwoodresidents.org>`_
 
 If my activities or priorities change, I'll update this page. Last update was June 2017.
-
-(More here: http://about.aclark.net)
