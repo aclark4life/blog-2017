@@ -1,7 +1,7 @@
 What I'm doing now
 ==================
 
-(Inspired by http://sivers.org/now)
+(Based on http://sivers.org/now)
 
 I'm in Bethesda, MD, USA; I spend all my time on the following activities (in order of time spent and priority):
 
@@ -15,4 +15,4 @@ I'm in Bethesda, MD, USA; I spend all my time on the following activities (in or
 
 If my activities or priorities change, I'll update this page. Last update was June 2017.
 
-More here: http://about.aclark.net.
+(More here: http://about.aclark.net)
