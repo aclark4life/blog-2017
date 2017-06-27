@@ -4,7 +4,7 @@ SAML: 1, Alex Clark: 0
 .. post:: 2017/06/26
     :category: Django, Python
 
-*Update: OOPS looks like this one got away from me (got published prematurely). I meant to write about Django & SAML about a month ago. Here is that post finally.*
+**Update: OOPS looks like this one got away from me (got published prematurely). I meant to write about Django & SAML about a month ago. Here is that post finally.**
 
 |
 
