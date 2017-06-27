@@ -13,6 +13,8 @@ SAML: 1, Alex Clark: 0
 .. image:: /images/saml-failure-complete.jpg
     :alt: Courtesy of quickmeme
 
+*Courtesy of quickmeme*
+
 |
 
 Intro
