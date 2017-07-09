@@ -1,0 +1,33 @@
+server {
+        listen 443 ssl;
+        listen [::]:443 ssl;
+
+        root /srv/blog/_website;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name blog.aclark.net;
+
+        ssl    on;
+        ssl_certificate    /etc/letsencrypt/live/blog.aclark.net/fullchain.pem;
+        ssl_certificate_key    /etc/letsencrypt/live/blog.aclark.net/privkey.pem;
+
+        location / {
+            try_files $uri $uri/ =404;
+        }
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name blog.aclark.net;
+
+    root /var/www/example.com;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    return 301 https://$host$request_uri;
+}
