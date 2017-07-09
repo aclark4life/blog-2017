@@ -7,4 +7,4 @@ Nginx
 ::
 
     cd /etc/nginx/sites-enabled
-    sudo ln -s /srv/aclarknet-database/nginx/db
+    sudo ln -s /srv/blog/nginx/blog
