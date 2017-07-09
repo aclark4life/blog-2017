@@ -1,7 +1,6 @@
 Alex Clark's Blog
 =================
 
-
 Nginx
 -----
 
