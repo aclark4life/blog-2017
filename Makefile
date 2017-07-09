@@ -331,4 +331,4 @@ vagrant-update:
 
 # aclark-blog
 aclark-blog-update:
-	ssh db2 "cd /srv/blog; git pull; bin/ablog build"	
+	ssh db "cd /srv/blog; git pull; bin/ablog build"	
