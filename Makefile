@@ -379,3 +379,7 @@ webpack-init:
 	echo "module.exports = { entry: './entry.js', output: { filename: 'bundle.js' } }" > webpack.config.js
 webpack:
 	webpack
+
+# aclark-blog
+aclark-blog:
+	ssh db "cd /srv/blog; git pull; bin/ablog build"	
