@@ -381,5 +381,5 @@ webpack:
 	webpack
 
 # aclark-blog
-aclark-blog:
+aclark-ablog-build:
 	ssh db "cd /srv/blog; git pull; bin/ablog build"	
