@@ -73,16 +73,6 @@
             {%- include "searchbox.html" %}
             {%- endblock %}
           {%- endif %}
-          <div id="feeds">
-            <ul>
-              <li><a href="http://blog.aclark.net/blog/atom.xml">All Posts</a></li>
-              <li><a href="http://blog.aclark.net/blog/category/django/atom.xml">Django</a></li>
-              <li><a href="http://blog.aclark.net/blog/category/mozilla/atom.xml">Mozilla</a></li>
-              <li><a href="http://blog.aclark.net/blog/category/plone/atom.xml">Plone</a></li>
-              <li><a href="http://blog.aclark.net/blog/category/python/atom.xml">Python</a></li>
-              <li><a href="http://blog.aclark.net/blog/category/pyramid/atom.xml">Pyramid</a></li>
-            </ul>
-          </div>
         </div>
       </div>
       {%- endif %}
@@ -214,6 +204,16 @@
             {%- for sidebartemplate in sidebars %}
               {%- include sidebartemplate %}
             {%- endfor %}
+            <div id="feeds">
+              <ul>
+                <li><a href="http://blog.aclark.net/blog/atom.xml">All Posts</a></li>
+                <li><a href="http://blog.aclark.net/blog/category/django/atom.xml">Django</a></li>
+                <li><a href="http://blog.aclark.net/blog/category/mozilla/atom.xml">Mozilla</a></li>
+                <li><a href="http://blog.aclark.net/blog/category/plone/atom.xml">Plone</a></li>
+                <li><a href="http://blog.aclark.net/blog/category/python/atom.xml">Python</a></li>
+                <li><a href="http://blog.aclark.net/blog/category/pyramid/atom.xml">Pyramid</a></li>
+              </ul>
+            </div>
           </div>
           <div class="col-md-9">
             {% block body %}
