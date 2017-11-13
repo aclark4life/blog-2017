@@ -33,5 +33,4 @@ All Posts
 .. toctree::
    :hidden:
 
-   now/index.rst
    feeds/index.rst
