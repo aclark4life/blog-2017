@@ -110,10 +110,10 @@ django-init:
 	@$(MAKE) git-commit-auto-push
 django-install:
 	@echo "Django\ndj-database-url\npsycopg2\n" > requirements.txt
-	git add requirements.txt
 	@$(MAKE) python-install
 	@$(MAKE) freeze
-	@$(MAKE) git-commit-auto-push
+	-git add requirements.txt
+	-@$(MAKE) git-commit-auto-push
 django-lint: django-yapf  # Alias
 django-migrate:
 	bin/python manage.py migrate
@@ -125,6 +125,7 @@ django-serve:
 django-test:
 	bin/python manage.py test
 django-settings:
+	echo "STATIC_ROOT = 'static'" >> $(PROJECT)/settings.py
 	echo "ALLOWED_HOSTS = ['*']" >> $(PROJECT)/settings.py
 	echo "AUTH_PASSWORD_VALIDATORS = [{'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator', }, { 'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator', },]" >> $(PROJECT)/settings.py
 	echo "import dj_database_url; DATABASES = { 'default': dj_database_url.config(default=os.environ.get( 'DATABASE_URL', 'postgres://%s:%s@%s:%s/%s' % (os.environ.get('DB_USER', ''), os.environ.get('DB_PASS', ''), os.environ.get('DB_HOST', 'localhost'), os.environ.get('DB_PORT', '5432'), os.environ.get('DB_NAME', 'project_app'))))}" >> $(PROJECT)/settings.py
@@ -143,6 +144,12 @@ migrate: django-migrate  # Alias
 migrations: django-migrations  # Alias
 static: django-static  # Alias
 su: django-su  # Alias
+
+# Elastic Beanstalk
+eb-init: 
+	eb init -i
+eb-create:
+	eb create
 
 # Git
 MESSAGE="Update"
@@ -281,9 +288,9 @@ python-serve:
 	bin/python -m SimpleHTTPServer
 package-test:
 	bin/python setup.py test
-python-virtualenv:
+python-virtualenv-2-7:
 	virtualenv --python=python2.7 .
-python-virtualenv-3:
+python-virtualenv-3-6:
 	virtualenv --python=python3.6 .
 python-yapf:
 	-yapf -i *.py
@@ -293,8 +300,8 @@ python-wc:
 	-wc -l *.py
 	-wc -l $(PROJECT)/*.py
 	-wc -l $(PROJECT)/$(APP)/*.py
-virtualenv: python-virtualenv  # Alias
-virtualenv-3: python-virtualenv-3  # Alias
+virtualenv: python-virtualenv-3-6  # Alias
+virtualenv-2: python-virtualenv-2-7  # Alias
 
 # Python Package
 package: package-init  # Alias
@@ -334,7 +341,7 @@ readme:
 # Review
 review:
 ifeq ($(UNAME), Darwin)
-	@open -a $(CODE_REVIEW_EDITOR) `find $(PROJECT) -name \*.py | grep -v __init__.py | grep -v migrations`\
+	@open -a $(EDITOR) `find $(PROJECT) -name \*.py | grep -v __init__.py | grep -v migrations`\
 		`find $(PROJECT) -name \*.html`
 else
 	@echo "Unsupported"
@@ -342,9 +349,9 @@ endif
 
 # Sphinx
 sphinx-build:
-	bin/sphinx-build -b html -d $(DOC)/_build/doctrees $(DOC) $(DOC)/_build/html
+	sphinx-build -b html -d $(DOC)/_build/doctrees $(DOC) $(DOC)/_build/html
 sphinx-init:
-	bin/sphinx-quickstart -q -p $(PROJECT)-$(APP) -a $(NAME) -v 0.0.1 $(DOC)
+	sphinx-quickstart -q -p $(PROJECT)-$(APP) -a $(NAME) -v 0.0.1 $(DOC)
 sphinx-install:
 	@echo "Sphinx\n" > requirements.txt
 	@$(MAKE) python-install
@@ -379,7 +386,4 @@ webpack-init:
 	echo "module.exports = { entry: './entry.js', output: { filename: 'bundle.js' } }" > webpack.config.js
 webpack:
 	webpack
-
-# aclark-blog
-aclark-ablog-build:
-	ssh db "cd /srv/blog; git pull; bin/ablog build"	
+pack: webpack  # Alias
