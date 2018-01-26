@@ -387,3 +387,7 @@ webpack-init:
 webpack:
 	webpack
 pack: webpack  # Alias
+
+# aclark-blog
+ablog-deploy:
+	aws s3 cp --recursive _website s3://blog.aclark.net
