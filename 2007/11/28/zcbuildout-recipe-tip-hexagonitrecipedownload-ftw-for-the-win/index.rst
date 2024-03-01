@@ -1,18 +1,19 @@
-Buildout Recipe Tip: ``hexagonit.recipe.download``
+Buildout Recipe Tip
 ==================================================
 
 .. post:: 2007/11/28
     :category: Buildout, Plone, Python
 
-**How to handle difficult old-style add-ons.**
+hexagonit.recipe.download
+-------------------------
 
-Sometimes an "old-style" add-on is distributed as ``foo.tar.gz`` and extracts to ``foo/``, but the package is called ``bar``. This can be a problem when using the ``plone.recipe.productdistros`` recipe because when ``bar`` is extracted to ``parts/productdistros/foo`` it will not work.
+Sometimes a Plone add-on is distributed as a compressed archive and is extracted to foo/ but the Python package is called bar. This can be a problem when using the plone.recipe.distros recipe because when bar is extracted to parts/productdistros/foo the Plone add-on will not be installed by Zope.
 
-Fortunately there is ``hexagonit.recipe.download``, which allows you to specify the destination. For example, `ZNagios <https://pypi.python.org/pypi/Products.ZNagios>`_ (an add-on that integrates Zope with Nagios) is available as a tarball here:
+Fortunately there is hexagonit.recipe.download which allows you to specify the destination. For example, `ZNagios <https://pypi.python.org/pypi/Products.ZNagios>`_, an add-on that integrates Zope with Nagios.
 
-- http://svn.gocept.com/viewcvs/ZNagios/trunk.tar.gz?view=tar
+If we use plone.recipe.distros we end up with ZNagios installed in parts/productdistros/trunk. But if we use hexagonit.recipe.download we end up with the contents of the compressed archive in products/ZNagios.
 
-If we use productdistros, we end up with ZNagios installed in ``parts/productdistros/trunk``. But if we use ``hexagonit.recipe.download`` we can control the destination.
+E.g.
 
 ::
 
@@ -25,7 +26,7 @@ If we use productdistros, we end up with ZNagios installed in ``parts/productdis
     destination = products/ZNagios
     strip-top-level-dir = True
 
-After running Buildout you should have the following in your ``products/`` directory:
+After running Buildout you should have the following in your products/ directory:
 
 ::
 
@@ -39,3 +40,5 @@ After running Buildout you should have the following in your ``products/`` direc
     /products/ZNagios/version.txt
     /products/ZNagios/zeo_munin.py
     /products/ZNagios/zope.cfg
+
+Awesome!
