@@ -1,7 +1,7 @@
 hexagonit.recipe.download
 ==================================================
 
-Sometimes a Plone add-on is distributed as a compressed archive and is extracted to the ``foo/`` directory but the Python package name is ``bar``. This can be a problem when using `plone.recipe.distros <https://pypi.org/project/plone.recipe.distros/>`_ because when ``bar`` is extracted to ``parts/productdistros/foo`` the Plone add-on will not be loaded by Zope.
+Sometimes a Plone add-on is distributed as a compressed archive and is extracted to the ``foo/`` directory but the Python package is named ``bar``. This can be a problem when using `plone.recipe.distros <https://pypi.org/project/plone.recipe.distros/>`_ because when ``bar`` is extracted to ``parts/productdistros/foo`` the Plone add-on will not be loaded by Zope.
 
 Fortunately there is `hexagonit.recipe.download <https://pypi.org/project/hexagonit.recipe.download/>`_ which allows you to specify the destination. For example, `ZNagios <https://pypi.python.org/pypi/Products.ZNagios>`_, an add-on that integrates Zope with Nagios.
 
@@ -20,7 +20,7 @@ E.g.
     destination = products/ZNagios
     strip-top-level-dir = True
 
-After running Buildout you should see the following files in your ``products/`` directory.
+After running Buildout you should have the following files in your ``products/`` directory.
 
 ::
 
