@@ -2,7 +2,7 @@ Babel==2.5.3
 Jinja2==2.10
 MarkupSafe==1.0
 PyYAML==3.12
-Pygments==2.2.0
+Pygments==2.15.0
 Sphinx==1.6.6
 Werkzeug==0.14.1
 ablog==0.8.4
