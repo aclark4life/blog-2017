@@ -1,0 +1,45 @@
+# Plone Conference 2008: Please Register
+
+::: {.post category="Plone"}
+2008/07/01
+:::
+
+**Join 300-400 of your closest friends for a 7-day party**
+
+<http://ploneconf2008.eventbrite.com/>
+
+Organizing a [Plone
+Conference](http://plone.org/events/conference/2008-washington-dc) is a
+lot like planning to invite 300-400 of your closest friends over for a
+7-day long party, or, at least, it feels that way to me. I\'m really
+looking forward to seeing everyone in DC in just a few short months, and
+I\'m very excited about all the possibilities. From the pre-conference
+training, to the post conference sprint, to all the good
+food/drink/people/places to enjoy in between. This promises to be one of
+the biggest and best Plone Conferences ever.
+
+To that end, I\'d like to invite everyone to participate in the early
+bird registration now open at: <http://ploneconf2008.eventbrite.com> and
+I encourage everyone to register right now. We need the support of
+everyone in the Plone community to make this conference a success.
+
+From spreading the word, to purchasing tickets, to sponsoring the
+conference itself, if you are reading this, you can help. Securing early
+bird registrations is a key part of the planning process; it allows us
+to move forward to the next phase.
+
+And finally, a huge thanks to everyone for your support. I continue to
+be amazed by the spirit of the community, and I really appreciate the
+opportunity to work on things like [Plone Conference
+2008](http://plone.org/events/conferences/2008-washington-dc) and
+upgrading plone.org (which I will have more information about soon, but
+until then, please poke around on: <http://new.plone.org/> or check out
+[Tarek\'s most recent blog
+entry](http://tarekziade.wordpress.com/2008/07/01/ploneorg-migration/)
+or Jens\' most recent mail to the website list:
+<http://www.nabble.com/plone.org-buildout-refactored-to18266816s6747.html>.
+We have scheduled July 19th as the tentative \"go live\" date.)
+
+So without further ado, please head over to
+<http://ploneconf2008.eventbrite.com> to secure your place at the
+conference, and help the planning team move forward. See you all in DC!
