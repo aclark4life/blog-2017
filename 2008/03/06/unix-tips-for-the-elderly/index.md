@@ -1,60 +1,32 @@
 # UNIX Tips For The Elderly
 
-::: {.post category="Misc"}
-2008/03/06
-:::
+I often want to do something to a bunch of files on the filesystem. For
+example:
 
-![image](/images/huh.png)
+    $ find Music/ | xargs -J % echo 'Do something to ' %
 
-```{=html}
-<style>
-pre.prompt:before { content: '$ ' }
-</style>
-```
-**I often want to do something to a bunch of files on the filesystem.**
-
-E.g.
-
-```{=html}
-<pre class="prompt">
-find Music/ | xargs -J % echo 'Do something to ' %
-</pre>
-```
 The problem is that sometimes the filenames have spaces in them which
 will cause:
 
-```{=html}
-<pre class="prompt">
-find Music/ | xargs -J % 'Do something to ' %
-</pre>
-```
+    $ find Music/ | xargs -J % 'Do something to ' %
     xargs: unterminated quote
 
 Useless. The best fix I\'ve managed to come up with which I couldn\'t
 recall hence the blog post, is to replace the beginning and end of the
-line with quotes to make the shell happy, e.g.
+line with quotes to make the shell happy:
 
-```{=html}
-<pre class="prompt">
-find Music/ | sed -e 's/^/"/' -e 's/$/"/'
-</pre>
-```
+    $ find Music/ | sed -e 's/^/"/' -e 's/$/"/'
     "Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a"
 
-So I can do things like:
+So I can do things like this:
 
-```{=html}
-<pre class="prompt">
-find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % ls -d %
-</pre>
-```
+    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % ls -d %
     Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a
 
-or
+Or this:
 
-```{=html}
-<pre class="prompt">
-find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % file %
-</pre>
-```
-    Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a: ISO Media, MPEG v4 system, iTunes AAC-LC
+    $ find Music/ | sed 's/^/"/' | sed 's/$/"/' | xargs -J % file %
+    Music//iTunes/iTunes Music/Yael Naïm/Yael Naïm/03 New Soul.m4a:
+        ISO Media, MPEG v4 system, iTunes AAC-LC
+
+Awesome!
